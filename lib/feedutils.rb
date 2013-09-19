@@ -1,6 +1,20 @@
+# core and stdlibs
 
+require 'rss'
+require 'pp'
+
+# 3rd party gems/libs
+
+require 'logutils'
+
+# our own code
 
 require 'feedutils/version'  # let it always go first
+
+require 'feedutils/builder/atom'
+require 'feedutils/builder/rss'
+
+require 'feedutils/utils'
 
 
 module FeedUtils
