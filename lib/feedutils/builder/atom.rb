@@ -1,7 +1,23 @@
 
 module FeedUtils
 
-  def build_feed_from_atom( atom_feed )
+class AtomFeedBuilder
+
+  def initialize( atom_feed )
+    @feed = build_feed( atom_feed )
+  end
+
+  def to_feed
+    @feed
+  end
+
+  def self.build( atom_feed )
+    feed = self.new( atom_feed )
+    feed.to_feed
+  end
+
+
+  def build_feed( atom_feed )
     feed = Feed.new
     feed.object = atom_feed
     feed.title  = atom_feed.title.content
@@ -9,14 +25,14 @@ module FeedUtils
 
     items = []
     atom_feed.items.each do |atom_item|
-      items << build_feed_item_from_atom( atom_item )
+      items << build_feed_item( atom_item )
     end
     feed.items = items
 
     feed # return new feed
   end # method build_feed_from_atom
 
-  def build_feed_item_from_atom( atom_item )
+  def build_feed_item( atom_item )
     item = Item.new   # Item.new
     item.object = atom_item
 
@@ -59,7 +75,7 @@ module FeedUtils
     # pp item
 
     item
-  end # method build_feed_item_from_atom
+  end # method build_feed_item
 
-
+end # AtomFeedBuilder
 end # FeedUtils

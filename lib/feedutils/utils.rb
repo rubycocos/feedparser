@@ -52,11 +52,11 @@ module FeedUtils
       puts "  feed.class=#{feed_wild.class.name}"
 
       if feed_wild.is_a?( RSS::Atom::Feed )
-        feed = build_feed_from_atom( feed_wild )
+        feed = AtomFeedBuilder.build( feed_wild )
       else  # -- assume RSS::Rss::Feed
-        feed = build_feed_from_rss( feed_wild )
+        feed = RssFeedBuilder.build( feed_wild )
       end
-        
+
       puts "== #{feed.format} / #{feed.title} =="
       feed # return new (normalized) feed
     end
