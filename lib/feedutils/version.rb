@@ -1,0 +1,4 @@
+
+module FeedUtils
+   VERSION = '0.0.1'
+end

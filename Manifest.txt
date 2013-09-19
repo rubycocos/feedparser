@@ -1,0 +1,6 @@
+History.md
+Manifest.txt
+README.md
+Rakefile
+lib/feedutils.rb
+lib/feedutils/version.rb
