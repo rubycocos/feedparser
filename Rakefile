@@ -20,6 +20,8 @@ Hoe.spec 'feedutils' do
   self.extra_deps = [
     ['logutils', '>= 0.5']
   ]
+  
+  ###  todo: add fetcher dep for testing (e.g. development only)
 
   self.licenses = ['Public Domain']
 

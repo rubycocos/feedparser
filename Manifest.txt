@@ -7,3 +7,6 @@ lib/feedutils/builder/atom.rb
 lib/feedutils/builder/rss.rb
 lib/feedutils/utils.rb
 lib/feedutils/version.rb
+test/helper.rb
+test/test_atom.rb
+test/test_rss.rb
