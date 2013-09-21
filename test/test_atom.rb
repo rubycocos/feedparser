@@ -13,4 +13,14 @@ class TestAtom < MiniTest::Unit::TestCase
     assert( feed.format == 'atom' )
   end
 
+  def test_railstutorial
+    feed = parse_feed( 'http://feeds.feedburner.com/railstutorial?format=xml' )
+    assert( feed.format == 'atom' )
+  end
+
+  def test_googlegroup
+    feed = parse_feed( 'https://groups.google.com/forum/feed/beerdb/topics/atom.xml?num=15' )
+    assert( feed.format == 'atom' )
+  end
+
 end

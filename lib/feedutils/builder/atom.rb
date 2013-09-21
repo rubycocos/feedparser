@@ -22,8 +22,27 @@ class AtomFeedBuilder
   def build_feed( atom_feed )
     feed = Feed.new
     feed.object = atom_feed
-    feed.title  = atom_feed.title.content
     feed.format = 'atom'
+
+    feed.title  = atom_feed.title.content
+
+    if atom_feed.updated
+      # NOTE: empty updated.content e.g.  used by google groups feed
+      #   will return nil : NilClass
+      feed.updated =  atom_feed.updated.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
+      logger.debug "  atom | updated.content  >#{atom_feed.updated.content}< : #{atom_feed.updated.content.class.name}"
+    end
+
+    if atom_feed.generator
+      feed.generator =  atom_feed.generator.content
+      logger.debug "  atom | generator.content  >#{atom_feed.generator.content}< : #{atom_feed.generator.content.class.name}"
+    end
+
+    if atom_feed.subtitle
+      feed.title2 =  atom_feed.subtitle.content
+      logger.debug "  atom | subtitle.content  >#{atom_feed.subtitle.content}< : #{atom_feed.subtitle.content.class.name}"
+    end
+
 
     items = []
     atom_feed.items.each do |atom_item|
@@ -45,15 +64,18 @@ class AtomFeedBuilder
     logger.debug "  atom | item.link.href: >#{atom_item.link.href}< : #{atom_item.link.href.class.name}"
 
 
-    ## todo: check if updated or published present
-    #    set 
-    item.updated    =  atom_item.updated.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
+    if atom_item.updated
+      item.updated    =  atom_item.updated.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
 
+      ## change time to utc if present? why? why not?
 
-    ## change time to utc if present? why? why not?
-
-    ### todo: use/try published first? why? why not?
-    logger.debug "  atom | item.updated  >#{atom_item.updated.content}< : #{atom_item.updated.content.class.name}"
+      logger.debug "  atom | item.updated.content  >#{atom_item.updated.content}< : #{atom_item.updated.content.class.name}"
+    end
+    
+    if atom_item.published
+      item.published   =  atom_item.published.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
+      logger.debug "  atom | item.published.content  >#{atom_item.published.content}< : #{atom_item.published.content.class.name}"
+    end
 
     # - todo/check: does it exist in atom format?
     # item.published  =  item.updated  # fix: check if publshed set
@@ -69,11 +91,15 @@ class AtomFeedBuilder
     ## fix/todo:
     #  also save/include full content in content
 
+    if atom_item.content
+      item.content = atom_item.content.content
+    end
+
     if atom_item.summary
       item.summary = atom_item.summary.content
     else
       if atom_item.content
-        text  = atom_item.content.content.dup
+        text  = atom_item.content.content
         ## strip all html tags
         text = text.gsub( /<[^>]+>/, '' )
         text = text[ 0..400 ] # get first 400 chars
