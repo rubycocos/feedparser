@@ -31,14 +31,18 @@ class RssFeedBuilder
     feed.url       = rss_feed.channel.link            # required
     feed.summary   = rss_feed.channel.description     # required
 
+    logger.debug "  rss | channel.description: >#{rss_feed.channel.description}< : #{rss_feed.channel.description.class.name}"
+
      # NOTE:
      # All date-times in RSS conform
      #   to the Date and Time Specification of RFC 822
      #  e.g. Sun, 19 May 2012 15:21:36 GMT  or
      #       Sat, 07 Sep 2013 00:00:01 GMT
 
-    feed.built     = rss_feed.channel.lastBuildDate   # optional
-    feed.published = rss_feed.channel.pubDate         # optional
+    ## convert from time to to_datetime  (avoid errors on windows w/ builtin rss lib)
+
+    feed.built     = rss_feed.channel.lastBuildDate.nil? ? nil : rss_feed.channel.lastBuildDate.to_datetime  # optional
+    feed.published = rss_feed.channel.pubDate.nil?       ? nil : rss_feed.channel.pubDate.to_datetime     # optional
 
     logger.debug "  rss | channel.lastBuildDate: >#{rss_feed.channel.lastBuildDate}< : #{rss_feed.channel.lastBuildDate.class.name}"
     logger.debug "  rss | channel.pubDate: >#{rss_feed.channel.pubDate}< : #{rss_feed.channel.pubDate.class.name}"
@@ -85,7 +89,9 @@ class RssFeedBuilder
     #  e.g. Sun, 19 May 2012 15:21:36 GMT  or
     #       Sat, 07 Sep 2013 00:00:01 GMT
 
-    item.published = rss_item.pubDate     # .utc.strftime( "%Y-%m-%d %H:%M" )
+    ## convert from time to to_datetime  (avoid errors on windows w/ builtin rss lib)
+
+    item.published = rss_item.pubDate.nil? ? nil : rss_item.pubDate.to_datetime    # .utc.strftime( "%Y-%m-%d %H:%M" )
 
     logger.debug "  rss | item.pubDate: >#{rss_item.pubDate}< : #{rss_item.pubDate.class.name}"
  
@@ -99,9 +105,16 @@ class RssFeedBuilder
     # end
 
     ## fix/todo: check if rss_item.guid present? !!!!
-    item.guid     = rss_item.guid.content
-        
-    logger.debug "  rss | item.guid.content: >#{rss_item.guid.content}< : #{rss_item.guid.content.class.name}"
+    ##
+    ##  might be the case e.g. check lambda-the-ultimate.org, for example
+
+    if rss_item.guid && rss_item.guid.content
+      item.guid     = rss_item.guid.content
+      logger.debug "  rss | item.guid.content: >#{rss_item.guid.content}< : #{rss_item.guid.content.class.name}"
+    else
+      item.guid     = rss_item.link
+      logger.warn "  rss | item.guid.content missing !!!! - using link for guid"
+    end
 
     ### todo: add support or authors (incl. dc:creator)
     ##  <dc:creator>Dhaivat Pandya</dc:creator>

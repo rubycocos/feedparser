@@ -19,5 +19,10 @@ class TestRss < MiniTest::Unit::TestCase
     assert( feed.format == 'rss 2.0' )
   end
 
+  def test_lambdatheultimate
+    ## check - has no item.guid - will use item.link for guid
+    feed = parse_feed( 'http://lambda-the-ultimate.org/rss.xml' )
+    assert( feed.format == 'rss 2.0' )
+  end
 
 end

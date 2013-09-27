@@ -29,7 +29,10 @@ class AtomFeedBuilder
     if atom_feed.updated
       # NOTE: empty updated.content e.g.  used by google groups feed
       #   will return nil : NilClass
-      feed.updated =  atom_feed.updated.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
+      
+      ## convert from time to to_datetime  (avoid errors on windows w/ builtin rss lib)
+      
+      feed.updated =  atom_feed.updated.content.nil?  ? nil : atom_feed.updated.content.to_datetime  #  .utc.strftime( "%Y-%m-%d %H:%M" )
       logger.debug "  atom | updated.content  >#{atom_feed.updated.content}< : #{atom_feed.updated.content.class.name}"
     end
 
@@ -65,7 +68,9 @@ class AtomFeedBuilder
 
 
     if atom_item.updated
-      item.updated    =  atom_item.updated.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
+      ## convert from time to to_datetime  (avoid errors on windows w/ builtin rss lib)
+
+      item.updated    =  atom_item.updated.content.nil? ? nil : atom_item.updated.content.to_datetime   #  .utc.strftime( "%Y-%m-%d %H:%M" )
 
       ## change time to utc if present? why? why not?
 
@@ -73,7 +78,9 @@ class AtomFeedBuilder
     end
     
     if atom_item.published
-      item.published   =  atom_item.published.content  #  .utc.strftime( "%Y-%m-%d %H:%M" )
+      ## convert from time to to_datetime  (avoid errors on windows w/ builtin rss lib)
+
+      item.published   =  atom_item.published.content.nil? ? nil : atom_item.published.content.to_datetime   #  .utc.strftime( "%Y-%m-%d %H:%M" )
       logger.debug "  atom | item.published.content  >#{atom_item.published.content}< : #{atom_item.published.content.class.name}"
     end
 
@@ -97,16 +104,15 @@ class AtomFeedBuilder
 
     if atom_item.summary
       item.summary = atom_item.summary.content
-    else
-      if atom_item.content
-        text  = atom_item.content.content
-        ## strip all html tags
-        text = text.gsub( /<[^>]+>/, '' )
-        text = text[ 0..400 ] # get first 400 chars
-        ## todo: check for length if > 400 add ... at the end???
-        item.summary = text
-      end
     end
+
+#  let client deal w/ missing summary - move to attic - delete
+#        text  = atom_item.content.content
+#        ## strip all html tags
+#        text = text.gsub( /<[^>]+>/, '' )
+#        text = text[ 0..400 ] # get first 400 chars
+#        ## todo: check for length if > 400 add ... at the end???
+#        item.summary = text
 
     item
   end # method build_feed_item
