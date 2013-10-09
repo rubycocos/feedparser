@@ -23,7 +23,7 @@ require 'feedutils/parser'
 module FeedUtils
 
   def self.banner
-    "feedutils #{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "feedutils/#{VERSION} (with stdlib rss/#{RSS::VERSION}) on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
 =begin

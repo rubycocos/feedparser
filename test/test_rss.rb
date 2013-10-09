@@ -28,4 +28,11 @@ class TestRss < MiniTest::Unit::TestCase
     assert_equal 'rss 2.0', feed.format
   end
 
+  def test_rubymine
+    # includes item/content:encoded
+    feed = parse_feed( 'http://feeds.feedburner.com/jetbrains_rubymine?format=xml' )
+    
+    assert_equal 'rss 2.0', feed.format
+  end
+
 end

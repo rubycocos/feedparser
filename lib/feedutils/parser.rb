@@ -15,8 +15,10 @@ class Parser
   def initialize( xml )
     @xml = xml
   end
-    
+
   def parse
+    logger.debug "using stdlib rss/#{RSS::VERSION}"
+
     parser = RSS::Parser.new( @xml )
     parser.do_validate            = false
     parser.ignore_unknown_element = true

@@ -70,6 +70,9 @@ class RssFeedBuilder
     item.title     = rss_item.title
     item.url       = rss_item.link
 
+    logger.debug "  rss | item.title: >#{rss_item.title}< : #{rss_item.title.class.name}"
+    logger.debug "  rss | item.link: >#{rss_item.link}< : #{rss_item.link.class.name}"
+
 ## todo:
 ##  check if feedburner:origLink present - if yes, use it for url/link
 ##  example: use
@@ -80,8 +83,10 @@ class RssFeedBuilder
 
     item.summary   = rss_item.description
 
-    logger.debug "  rss | item.title: >#{rss_item.title}< : #{rss_item.title.class.name}"
-    logger.debug "  rss | item.link: >#{rss_item.link}< : #{rss_item.link.class.name}"
+    # check for <content:encoded>
+    # -- using RSS 1.0 content module in RSS 2.0
+    item.content = rss_item.content_encoded
+    logger.debug "  rss | item.content_encoded[0..40]: >#{rss_item.content_encoded ? rss_item.content_encoded[0..40] : ''}< : #{rss_item.content_encoded.class.name}"
 
     # NOTE:
     # All date-times in RSS conform
@@ -94,15 +99,7 @@ class RssFeedBuilder
     item.published = rss_item.pubDate.nil? ? nil : rss_item.pubDate.to_datetime    # .utc.strftime( "%Y-%m-%d %H:%M" )
 
     logger.debug "  rss | item.pubDate: >#{rss_item.pubDate}< : #{rss_item.pubDate.class.name}"
- 
-    ## fix/todo: add
-    ## check for <content:encoded>
-    ##   full content  (example use e.g. in sitepoint/ruby/feed/)
-    # content:  item.content_encoded,
-  
-    # if item.content_encoded.nil?
-    # puts " using description for content"
-    # end
+
 
     ## fix/todo: check if rss_item.guid present? !!!!
     ##
