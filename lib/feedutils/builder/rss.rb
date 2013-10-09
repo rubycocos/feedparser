@@ -24,7 +24,7 @@ class RssFeedBuilder
 
   def build_feed( rss_feed )
     feed = Feed.new
-    feed.object = rss_feed
+    ## feed.object = rss_feed   # not use for now
     feed.format = "rss #{rss_feed.rss_version}"
 
     feed.title     = rss_feed.channel.title           # required
@@ -65,7 +65,7 @@ class RssFeedBuilder
   def build_feed_item( rss_item )
 
     item = Item.new
-    item.object = rss_item
+    ## item.object = rss_item  # not use for now
 
     item.title     = rss_item.title
     item.url       = rss_item.link
