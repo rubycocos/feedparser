@@ -30,25 +30,64 @@ feed = RSS::Parser.parse( xml, true )  # true => ignore unknown elements
 puts "feed.class: #{feed.class.name}"
 
 
+## puts "dump feed:"
+## pp feed
+
 # puts "dump feed.channel:"
 # puts feed.channel.inspect
 
 puts "dump feed.title (#{feed.title.class.name}):"
-pp feed.title
+## pp feed.title
 
 puts "dump feed.id (#{feed.id.class.name}):"
-pp feed.id
+## pp feed.id
 
 puts "dump feed.updated (#{feed.updated.class.name}):"
-pp feed.updated
+## pp feed.updated
 
-puts "dump feed.published (#{feed.published.class.name}):"
-pp feed.published
+=begin
+@link=
+  [#<RSS::Atom::Feed::Link:0x8c90c7c
+    @base=nil,
+    @converter=nil,
+    @do_validate=true,
+    @href="http://weblog.rubyonrails.org/feed/",
+    @hreflang=nil,
+    @lang=nil,
+    @length=nil,
+    @parent=#<RSS::Atom::Feed:0x8c9c2d4 ...>,
+    @rel="self",
+    @title=nil,
+    @type="application/atom+xml">,
+   #<RSS::Atom::Feed::Link:0x8c8cec4
+    @base=nil,
+    @converter=nil,
+    @do_validate=true,
+    @href="http://weblog.rubyonrails.org/",
+    @hreflang=nil,
+    @lang=nil,
+    @length=nil,
+    @parent=#<RSS::Atom::Feed:0x8c9c2d4 ...>,
+    @rel="alternate",
+    @title=nil,
+    @type="text">],
+=end
 
-# puts "dump feed:"
-# pp feed
+# check links (assume it's any array - always)
+puts "dump feed.link (#{feed.link.class.name}):"
+puts "  link rel=#{feed.link.rel} type=#{feed.link.type} href=#{feed.link.href}"
+
+## Note: use links (with s - plural to get back array)
+puts "dump feed.links (#{feed.links.class.name}):"
+
+feed.links.each_with_index do |link,i|
+  puts "[#{i}] link rel=#{link.rel} type=#{link.type} href=#{link.href}"
+end
 
 
+## todo/check: atom feed can include published element (optionaly)?
 
-
-
+if feed.respond_to?( :published )
+  puts "dump feed.published (#{feed.published.class.name}):"
+  ## pp feed.published
+end

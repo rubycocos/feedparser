@@ -15,8 +15,16 @@ require 'feedutils'
 
 LogUtils::Logger.root.level = :debug
 
-def parse_feed( feed_url )
-  xml = Fetcher.read( feed_url )
+def parse_feed( url )
+  xml = Fetcher.read( url )
 
   FeedUtils::Parser.parse( xml )
 end
+
+
+def parse_feed_from_file( name )
+  xml = File.read( "#{FeedUtils.root}/test/feeds/#{name}")
+
+  FeedUtils::Parser.parse( xml )  
+end
+

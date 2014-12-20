@@ -9,6 +9,9 @@ lib/feedutils/feed.rb
 lib/feedutils/item.rb
 lib/feedutils/parser.rb
 lib/feedutils/version.rb
+test/feeds/googlegroups.atom
+test/feeds/googlegroups2.atom
 test/helper.rb
 test/test_atom.rb
+test/test_atom_from_file.rb
 test/test_rss.rb
