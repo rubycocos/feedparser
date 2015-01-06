@@ -15,6 +15,8 @@ require 'feedutils/version'  # let it always go first
 require 'feedutils/builder/atom'
 require 'feedutils/builder/rss'
 
+require 'feedutils/helper/atom_v03'
+
 require 'feedutils/feed'
 require 'feedutils/item'
 require 'feedutils/parser'

@@ -22,8 +22,13 @@ def parse_feed( url )
 end
 
 
+
+def read_feed_from_file( name )
+  File.read( "#{FeedUtils.root}/test/feeds/#{name}")
+end
+
 def parse_feed_from_file( name )
-  xml = File.read( "#{FeedUtils.root}/test/feeds/#{name}")
+  xml = read_feed_from_file( name )
 
   FeedUtils::Parser.parse( xml )  
 end

@@ -10,7 +10,7 @@ feed_url = 'http://feeds.feedburner.com/Rubyflow?format=xml'   # rss 2.0
 
 xml = Fetcher.read( feed_url )
 
-feed = RSS::Parser.parse( xml, true )  # true => ignore unknown elements
+feed = RSS::Parser.parse( xml )
 
 ############
 #   format version mappings:

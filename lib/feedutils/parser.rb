@@ -14,12 +14,21 @@ class Parser
   ### Note: lets keep/use same API as RSS::Parser for now
   def initialize( xml )
     @xml = xml
+    @atomv03helper = AtomV03Helper.new
   end
+
 
   def parse
     logger.debug "using stdlib rss/#{RSS::VERSION}"
 
-    parser = RSS::Parser.new( @xml )
+    ## old (obsolete) Atom Version 0.3 - try to patch/upgrade to 1.0(-ish)
+    if @atomv03helper.match?( @xml )
+      logger.warn "*** atom v0.3 feed; try to patch/upgrade to 1.0(-ish); please use/find atom v1.0 feed"
+      parser = RSS::Parser.new( @atomv03helper.convert( @xml ))
+    else
+      parser = RSS::Parser.new( @xml )
+    end
+
     parser.do_validate            = false
     parser.ignore_unknown_element = true
 

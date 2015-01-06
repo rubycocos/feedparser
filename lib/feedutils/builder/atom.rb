@@ -28,30 +28,32 @@ class AtomFeedBuilder
     logger.debug "  atom | title.content  >#{atom_feed.title.content}< : #{atom_feed.title.content.class.name}"
 
 
-    ## note: for now assume id is feed (html)url
-    ## use url only if starts_with http
-    ##  might not be link e.g blogger uses for ids =>
-    ##    <id>tag:blogger.com,1999:blog-4704664917418794835</id>
-    ##
-    ## Note: remove (strip) leading and trailing spaces and newlines
-
-    if atom_feed.id.content.strip.start_with?( 'http' )
-      feed.url = atom_feed.id.content.strip
-    else
-      feed.url = nil
-    end
-
     logger.debug "  atom | id.content  >#{atom_feed.id.content}< : #{atom_feed.id.content.class.name}"
+
+    feed.url = nil
 
     ## note: use links (plural to allow multiple links e.g. self,alternate,etc.)
     atom_feed.links.each_with_index do |link,i|
       logger.debug "  atom | link[#{i+1}] link rel=>#{link.rel}< : #{link.rel.class.name} type=#{link.type} href=#{link.href}"
 
-      ## for now assume alternate is link or no rel specified (assumes alterante)
+      ## for now assume alternate is link or no rel specified (assumes alternate)
       ##   note: only set if feed.url is NOT already set (via <id> for example)
       if feed.url.nil? && (link.rel == 'alternate' || link.rel.nil?)
         feed.url = link.href
       end
+    end
+
+    ## note: as fallback try id if still no url found
+    ##   use url only if starts_with http
+    ##     might not be link e.g blogger uses for ids =>
+    ##    <id>tag:blogger.com,1999:blog-4704664917418794835</id>
+    ##
+    ##  note: id might actually be link to feed NOT to site  (remove fallback - why - why not???)
+    ##
+    ## Note: remove (strip) leading and trailing spaces and newlines
+
+    if feed.url.nil? && atom_feed.id.content.strip.start_with?( 'http' )
+      feed.url = atom_feed.id.content.strip
     end
 
 

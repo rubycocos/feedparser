@@ -6,11 +6,20 @@ require 'pp'
 # 3rd party libs/gems
 require 'fetcher'
 
-feed_url = 'http://weblog.rubyonrails.org/feed/atom.xml'   # atom 
+## feed_url = 'http://weblog.rubyonrails.org/feed/atom.xml'   # atom 1.0 
+
+feed_url = 'http://www.quirksmode.org/blog/atom.xml'  # atom 0.3 (!)
+
+
 
 xml = Fetcher.read( feed_url )
 
-feed = RSS::Parser.parse( xml, true )  # true => ignore unknown elements
+feed = RSS::Parser.parse( xml, false, true )
+# 1) false => do NOT validate  (otherwise atom 0.3 fails)
+# 2) true => ignore unknown elements   - use true - why? why not??
+
+# Note: default is true,true - that is, do validate, and do ignore unknown elements
+
 
 ############
 #    format version mappings:
@@ -91,3 +100,6 @@ if feed.respond_to?( :published )
   puts "dump feed.published (#{feed.published.class.name}):"
   ## pp feed.published
 end
+
+
+pp feed
