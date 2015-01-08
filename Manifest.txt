@@ -6,7 +6,6 @@ lib/feedparser.rb
 lib/feedparser/builder/atom.rb
 lib/feedparser/builder/rss.rb
 lib/feedparser/feed.rb
-lib/feedparser/helper/atom_v03.rb
 lib/feedparser/item.rb
 lib/feedparser/parser.rb
 lib/feedparser/version.rb
@@ -16,5 +15,4 @@ test/feeds/quirksblog.atom.v03
 test/helper.rb
 test/test_atom.rb
 test/test_atom_from_file.rb
-test/test_atom_v03.rb
 test/test_rss.rb
