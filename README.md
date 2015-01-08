@@ -2,10 +2,10 @@
 
 feedparser gems - web feed parser and normalizer (RSS 2.0, Atom, etc.)
 
-* home  :: [github.com/rubylibs/feedutils](https://github.com/rubylibs/feedutils)
-* bugs  :: [github.com/rubylibs/feedutils/issues](https://github.com/rubylibs/feedutils/issues)
-* gem   :: [rubygems.org/gems/feedutils](https://rubygems.org/gems/feedutils)
-* rdoc  :: [rubydoc.info/gems/feedutils](http://rubydoc.info/gems/feedutils)
+* home  :: [github.com/feedreader/feed.parser](https://github.com/feedreader/feed.parser)
+* bugs  :: [github.com/feedreader/feed.parser/issues](https://github.com/feedreader/feed.parser/issues)
+* gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)
+* rdoc  :: [rubydoc.info/gems/feedparser](http://rubydoc.info/gems/feedparser)
 * forum :: [groups.google.com/group/feedreader](http://groups.google.com/group/feedreader)
 
 
@@ -69,11 +69,11 @@ end
 
 ~~~
 require 'open-uri'
-require 'feedutils'
+require 'feedparser'
 
 xml = open( 'http://openfootball.github.io/atom.xml' ).read
 
-feed = FeedUtils::Parser.parse( xml )
+feed = FeedParser::Parser.parse( xml )
 pp feed
 ~~~
 
@@ -88,8 +88,21 @@ pp feed
 TBD
 
 
+
+## Install
+
+Just install the gem:
+
+    $ gem install feedparser
+
+
 ## License
 
-The `feedutils` scripts are dedicated to the public domain.
+The `feedparser` scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
+
+## Questions? Comments?
+
+Send them along to the [Planet Pluto and Friends Forum/Mailing List](http://groups.google.com/group/feedreader).
+Thanks!
