@@ -10,7 +10,7 @@ require 'fetcher'
 
 ## our own code
 
-require 'feedutils'
+require 'feedparser'
 
 
 LogUtils::Logger.root.level = :debug
@@ -18,18 +18,18 @@ LogUtils::Logger.root.level = :debug
 def parse_feed( url )
   xml = Fetcher.read( url )
 
-  FeedUtils::Parser.parse( xml )
+  FeedParser::Parser.parse( xml )
 end
 
 
 
 def read_feed_from_file( name )
-  File.read( "#{FeedUtils.root}/test/feeds/#{name}")
+  File.read( "#{FeedParser.root}/test/feeds/#{name}")
 end
 
 def parse_feed_from_file( name )
   xml = read_feed_from_file( name )
 
-  FeedUtils::Parser.parse( xml )  
+  FeedParser::Parser.parse( xml )  
 end
 

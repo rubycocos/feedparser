@@ -15,8 +15,6 @@ require 'feedparser/version'  # let it always go first
 require 'feedparser/builder/atom'
 require 'feedparser/builder/rss'
 
-require 'feedparser/helper/atom_v03'
-
 require 'feedparser/feed'
 require 'feedparser/item'
 require 'feedparser/parser'
