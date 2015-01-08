@@ -1,5 +1,5 @@
 
-module FeedUtils
+module FeedParser
 
 class AtomFeedBuilder
 
@@ -138,4 +138,4 @@ class AtomFeedBuilder
   end # method build_feed_item
 
 end # AtomFeedBuilder
-end # FeedUtils
+end # FeedParser

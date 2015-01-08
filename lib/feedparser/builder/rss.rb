@@ -1,5 +1,5 @@
 
-module FeedUtils
+module FeedParser
 
 ### todo/fix:
 #    rename to Rss20FeedBuilder?? or FeedBuilderRss20 ??
@@ -126,4 +126,4 @@ class RssFeedBuilder
   end # method build_feed_item_from_rss
 
 end # class RssFeedBuilder
-end # module FeedUtils
+end # module FeedParser

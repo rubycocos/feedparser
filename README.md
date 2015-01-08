@@ -1,6 +1,6 @@
-# feedutils
+# feedparser
 
-feedutils gems - web feed parser and normalizer (RSS 2.0, Atom, etc.)
+feedparser gems - web feed parser and normalizer (RSS 2.0, Atom, etc.)
 
 * home  :: [github.com/rubylibs/feedutils](https://github.com/rubylibs/feedutils)
 * bugs  :: [github.com/rubylibs/feedutils/issues](https://github.com/rubylibs/feedutils/issues)

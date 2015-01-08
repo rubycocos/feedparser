@@ -1,5 +1,5 @@
 
-module FeedUtils
+module FeedParser
 
 
 class Parser
@@ -50,4 +50,4 @@ class Parser
 end  # class Parser
 
 
-end # module FeedUtils
+end # module FeedParser

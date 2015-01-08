@@ -31,7 +31,7 @@
 ##  - rakaz.nl/2005/07/moving-from-atom-03-to-10.html
 
 
-module FeedUtils
+module FeedParser
 
 class AtomV03Helper
 
@@ -62,5 +62,5 @@ class AtomV03Helper
 
 end # class AtomV03Helper
 
-end # module FeedUtils
+end # module FeedParser
 

@@ -1,4 +1,4 @@
-module FeedUtils
+module FeedParser
 
 class Feed
   ### attr_accessor :object  # not use for now
@@ -37,4 +37,4 @@ class Feed
 
 end  # class Feed
 
-end # module FeedUtils
+end # module FeedParser

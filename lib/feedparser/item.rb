@@ -1,4 +1,4 @@
-module FeedUtils
+module FeedParser
 
 class Item
   ## attr_accessor :object   # not used for now -- orginal object (e.g RSS item or ATOM entry etc.)
@@ -31,4 +31,4 @@ class Item
 
 end  # class Item
 
-end # module FeedUtils
+end # module FeedParser

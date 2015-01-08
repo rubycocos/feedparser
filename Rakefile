@@ -1,14 +1,14 @@
 require 'hoe'
-require './lib/feedutils/version.rb'
+require './lib/feedparser/version.rb'
 
-Hoe.spec 'feedutils' do
+Hoe.spec 'feedparser' do
 
-  self.version = FeedUtils::VERSION
+  self.version = FeedParser::VERSION
 
-  self.summary = 'feedutils - web feed parser and normalizer (RSS 2.0, Atom, etc.)'
+  self.summary = 'feedparser - web feed parser and normalizer (RSS 2.0, Atom, etc.)'
   self.description = summary
 
-  self.urls    = ['https://github.com/rubylibs/feedutils']
+  self.urls    = ['https://github.com/feedreader/feed.parser']
 
   self.author  = 'Gerald Bauer'
   self.email   = 'feedreader@googlegroups.com'
