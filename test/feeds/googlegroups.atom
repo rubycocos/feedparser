@@ -27,6 +27,10 @@ feed.url:       https://groups.google.com/d/forum/beerdb
 feed.items[0].title: Planet Beer (Austria, Belgium) - Feeds Incl. Craft Fest Wien, Beer-A-Day, proBier n Friends
 feed.items[0].url:   https://groups.google.com/d/topic/beerdb/KpQOUDYJ3J8
 
+
+### todo: fix: &amp;amp;  => &amp;  -> always assume plain text? (by default) - auto-escape xml entities??
+feed.title2: Free open public domain beer database &amp; schema (beer.db) for use in any (programming) language (e.g. uses plain text fixtures/data sets). Questions? Comments?
+
 ### todo: add check for datetime (use to_s ??)
 ## feed.updated.to_s:  2014-12-31T15:33:00+00:00
 ## feed.items[0].to_s: 2014-12-31T15:33:00+00:00
