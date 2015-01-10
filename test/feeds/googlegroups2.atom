@@ -18,3 +18,10 @@
     <summary type="html">Hello, I&apos;ve started putting together a planet site for beer, that is, Planet Beer [1]. The first feed lists include: - Austria [2] - Belgium [3] You&apos;re welcome and invited to suggest new countries and feeds. Cheers. Prost. [1] http://planetbeer.herokuapp.com [2] http://github.com/openbeer/planet/blob/master/</summary>
   </entry>
 </feed>
+
+---
+
+feed.format:     atom
+feed.generator:  Google Groups (w/ leading n trailing newlines stripped)
+feed.url:        https://groups.google.com/d/forum/beerdb
+

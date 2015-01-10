@@ -1,10 +1,3 @@
-###
-#  to run use
-#     ruby -I ./lib -I ./test test/test_atom_v03.rb
-#  or better
-#     rake test
-
-require 'helper'
 
 
 class TestAtomV03 < MiniTest::Test
@@ -37,5 +30,4 @@ class TestAtomV03 < MiniTest::Test
     assert_equal '2014-11-26T12:11:25+00:00', feed.items[1].updated.to_s
   end
 
-end # class TestAtomV03
-
+end

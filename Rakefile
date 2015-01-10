@@ -18,7 +18,8 @@ Hoe.spec 'feedparser' do
   self.history_file = 'HISTORY.md'
 
   self.extra_deps = [
-    ['logutils', '>= 0.6.1']
+    ['logutils', '>=0.6.1'],
+    ['textutils', '>=1.0.0'],     ### used just for testing; move into dev deps - how ???
   ]
 
   ###  todo: add fetcher dep for testing (e.g. development only)
