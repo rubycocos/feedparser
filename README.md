@@ -19,27 +19,28 @@ Feed • Item
 
 #### Mappings
 
-Note: use question mark (`?`) for optional elements (otherwise assume required elements)
-
-**Dates**
-
-| Feed Struct        | RSS 2.0           | Notes             | Atom       | Notes           |
-| ------------------ | ----------------- | ----------------- | ---------- | --------------- |
-| `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`    | ISO 801 format  |
-| `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
-
-RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
-
-ISO-801 date format e.g. 2015-01-11T09:30:16Z
+Note: uses question mark (`?`) for optional elements (otherwise assume required elements)
 
 **Title 'n' Summary**
 
 Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
 description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on.
 
-| Feed Struct        | RSS 2.0           | Notes             | Atom         | Notes           |
-| ------------------ | ----------------- | ----------------- | ------------ | --------------- |
-| `feed.summary`     | `description`     |                   | `subtitle`   | check if @type w/ html,xhtml,html-escaped possible?  |
+| Feed Struct        | RSS 2.0           | Notes             | Atom          | Notes           |
+| ------------------ | ----------------- | ----------------- | ------------- | --------------- |
+| `feed.summary`     | `description`     |                   | `subtitle`?   |                 |
+
+
+**Dates**
+
+| Feed Struct        | RSS 2.0             | Notes             | Atom       | Notes           |
+| ------------------ | ------------------- | ----------------- | ---------- | --------------- |
+| `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`  | ISO 801 format  |
+| `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
+
+RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
+
+ISO-801 date format e.g. 2015-01-11T09:30:16Z
 
 
 ~~~
