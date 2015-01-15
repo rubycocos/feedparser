@@ -29,29 +29,31 @@ Dates
 | published          | pubDate?          | RFC-822 format    |  -         |                 |
 
 RFC-822 date format e.g. 
+
 ISO-801 date format e.g.
 
-Summary
+Title 'n' Summary 
+
+Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. &amp; becomes & and so on.
+
+| Feed Struct        | RSS 2.0           | Notes             | Atom       | Notes           |
+| ------------------ | ----------------- | ----------------- | ---------- | --------------- |
+| summary            | description       |                   | subtitle   | check if @type w/ html,xhtml,html-escaped possible?  |
 
 
 ~~~
 class Feed
   attr_accessor :format   # e.g. atom|rss 2.0|etc.
   attr_accessor :title
-  attr_accessor :title_type  # e.g. text|html|html-escaped  (optional) -use - why?? why not??
   attr_accessor :url
 
   attr_accessor :items
 
-  attr_accessor :summary        # e.g. description (rss)
-  attr_accessor :summary_type   # e.g. text|html|html-escaped
+  attr_accessor :summary
 
-  attr_accessor :title2         # e.g. subtitle (atom)
-  attr_accessor :title2_type    # e.g. text|html|html-escaped
-
-  attr_accessor :published
   attr_accessor :updated
-  attr_accessor :built
+  attr_accessor :published
 
   attr_accessor :generator
   attr_accessor :generator_version  # e.g. @version (atom)
