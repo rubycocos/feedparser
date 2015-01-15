@@ -28,11 +28,11 @@ Note: use question mark (`?`) for optional elements (otherwise assume required e
 | `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`    | ISO 801 format  |
 | `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
 
-RFC-822 date format e.g. 
+RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
 
-ISO-801 date format e.g.
+ISO-801 date format e.g. 2015-01-11T09:30:16Z
 
-** Title 'n' Summary**
+**Title 'n' Summary**
 
 Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
 description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on.
@@ -50,7 +50,7 @@ class Feed
 
   attr_accessor :items
 
-  attr_accessor :summary   # note: is description in RSS 2.0 and subtitle in Atom
+  attr_accessor :summary   # note: is description in RSS 2.0 and subtitle in Atom; always plain vanilla text
 
   attr_accessor :updated     # note: is lastBuildDate in RSS 2.0
   attr_accessor :published   # note: is pubDate in RSS 2.0; not available in Atom
