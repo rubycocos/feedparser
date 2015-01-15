@@ -17,43 +17,43 @@ Feed • Item
 
 ### `Feed` Struct
 
-**Mappings**
+#### Mappings
 
-Note: use question mark (?) for optional elements (otherwise assume required elements)
+Note: use question mark (`?`) for optional elements (otherwise assume required elements)
 
-Dates
+**Dates**
 
 | Feed Struct        | RSS 2.0           | Notes             | Atom       | Notes           |
 | ------------------ | ----------------- | ----------------- | ---------- | --------------- |
-| updated            | lastBuildDate?    | RFC-822 format    | updated    | ISO 801 format  |
-| published          | pubDate?          | RFC-822 format    |  -         |                 |
+| `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`    | ISO 801 format  |
+| `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
 
 RFC-822 date format e.g. 
 
 ISO-801 date format e.g.
 
-Title 'n' Summary 
+** Title 'n' Summary**
 
 Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
-description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. &amp; becomes & and so on.
+description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on.
 
-| Feed Struct        | RSS 2.0           | Notes             | Atom       | Notes           |
-| ------------------ | ----------------- | ----------------- | ---------- | --------------- |
-| summary            | description       |                   | subtitle   | check if @type w/ html,xhtml,html-escaped possible?  |
+| Feed Struct        | RSS 2.0           | Notes             | Atom         | Notes           |
+| ------------------ | ----------------- | ----------------- | ------------ | --------------- |
+| `feed.summary`     | `description`     |                   | `subtitle`   | check if @type w/ html,xhtml,html-escaped possible?  |
 
 
 ~~~
 class Feed
   attr_accessor :format   # e.g. atom|rss 2.0|etc.
-  attr_accessor :title
+  attr_accessor :title    # note: always plain vanilla text - if present html tags will get stripped and html entities unescaped
   attr_accessor :url
 
   attr_accessor :items
 
-  attr_accessor :summary
+  attr_accessor :summary   # note: is description in RSS 2.0 and subtitle in Atom
 
-  attr_accessor :updated
-  attr_accessor :published
+  attr_accessor :updated     # note: is lastBuildDate in RSS 2.0
+  attr_accessor :published   # note: is pubDate in RSS 2.0; not available in Atom
 
   attr_accessor :generator
   attr_accessor :generator_version  # e.g. @version (atom)
