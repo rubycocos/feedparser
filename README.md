@@ -24,11 +24,13 @@ Note: uses question mark (`?`) for optional elements (otherwise assume required 
 **Title 'n' Summary**
 
 Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
-description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on.
+description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
+resulting in plain vanilla text.
 
-| Feed Struct        | RSS 2.0           | Notes             | Atom          | Notes           |
-| ------------------ | ----------------- | ----------------- | ------------- | --------------- |
-| `feed.summary`     | `description`     |                   | `subtitle`?   |                 |
+| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
+| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
+| `feed.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
+| `feed.summary`     | `description`     | plain vanilla text  | `subtitle`?   | plain vanilla text  |
 
 
 **Dates**
@@ -63,22 +65,49 @@ end
 ~~~
 
 
+**Title 'n' Summary**
+
+Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+description (RSS 2.0) and subtitle (Atom) content
+and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
+resulting in plain vanilla text.
+
+Note: In plain vanilla RSS 2.0 there's no difference between (full) content and summary - everything is wrapped
+in a description element; however, best practice is using the content "module" from RSS 1.0 inside RSS 2.0.
+
+Note: The content element will assume html content.
+
+| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
+| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
+| `item.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
+| `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
+| `item.content`     | `content`?        | html                | `content`?    | html                |
+
+
+**Dates**
+
+| Item Struct        | RSS 2.0             | Notes             | Atom          | Notes           |
+| ------------------ | ------------------- | ----------------- | ------------- | --------------- |
+| `item.updated`     | `pubDate`?          | RFC-822 format    | `updated`     | ISO 801 format  |
+| `item.published`   | -                   | RFC-822 format    | `published`?  | ISO 801 format  |
+
+Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items, thus, it's not possible to differeniate between published and updated dates for items; note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0 use the dublin core e.g `dc:created`, for example.
+
+
 ### `Item` Struct
 
 ~~~
 class Item
-  attr_accessor :title
-  attr_accessor :title_type    # optional for now (text|html|html-escaped) - not yet set
-  attr_accessor :url           # todo: rename to link (use alias) ??
+  attr_accessor :title   # note: always plain vanilla text - if present html tags will get stripped and html entities
+  attr_accessor :url
 
   attr_accessor :content
   attr_accessor :content_type  # optional for now (text|html|html-escaped|binary-base64) - not yet set
 
   attr_accessor :summary
-  attr_accessor :summary_type  # optional for now (text|html|html-escaped) - not yet set
 
-  attr_accessor :published
-  attr_accessor :updated
+  attr_accessor :updated    # note: is pubDate in RSS 2.0 and updated in Atom
+  attr_accessor :published  # note: is published in Atom; not available in RSS 2.0 (use dc:created ??)
 
   attr_accessor :guid     # todo: rename to id (use alias) ??
 end
