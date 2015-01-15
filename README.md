@@ -70,7 +70,7 @@ end
 **Title 'n' Summary**
 
 Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
-description (RSS 2.0) and subtitle (Atom) content
+description (RSS 2.0) and summary (Atom) content
 and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
 resulting in plain vanilla text.
 
