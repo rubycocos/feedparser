@@ -23,9 +23,10 @@ Note: use question mark (?) for optional elements (otherwise assume required ele
 
 Dates
 
-| Feed Struct        | RSS 2.0           | Notes           | Atom       | Notes           |
-| updated            | lastBuildDate?    | RFC-822 format  | updated    | ISO 801 format  |
-| published          | pubDate?          | RFC-822 format  |  -         |                 |
+| Feed Struct        | RSS 2.0           | Notes             | Atom       | Notes           |
+| ------------------ | ----------------- | ----------------- | ---------- | --------------- |
+| updated            | lastBuildDate?    | RFC-822 format    | updated    | ISO 801 format  |
+| published          | pubDate?          | RFC-822 format    |  -         |                 |
 
 RFC-822 date format e.g. 
 ISO-801 date format e.g.
