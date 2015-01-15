@@ -40,6 +40,9 @@ resulting in plain vanilla text.
 | `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`  | ISO 801 format  |
 | `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
 
+Note: Check - for RSS 2.0 set feed.updated to pubDate or lastBuildDate if only one present? if both present - map as above. 
+
+
 RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
 
 ISO-801 date format e.g. 2015-01-11T09:30:16Z
@@ -76,6 +79,8 @@ resulting in plain vanilla text.
 
 Note: In plain vanilla RSS 2.0 there's no difference between (full) content and summary - everything is wrapped
 in a description element; however, best practice is using the content "module" from RSS 1.0 inside RSS 2.0.
+If there's no content module present the feed parser will "clone" the description and use one version for `item.summary` and
+the clone for `item.content`.
 
 Note: The content element will assume html content.
 
@@ -93,7 +98,7 @@ Note: The content element will assume html content.
 | `item.updated`     | `pubDate`?          | RFC-822 format    | `updated`     | ISO 801 format  |
 | `item.published`   | -                   | RFC-822 format    | `published`?  | ISO 801 format  |
 
-Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items, thus, it's not possible to differeniate between published and updated dates for items; note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0 use the dublin core e.g `dc:created`, for example.
+Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items, thus, it's not possible to differeniate between published and updated dates for items; note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0 use the dublin core module e.g `dc:created`, for example.
 
 ~~~
 class Item
