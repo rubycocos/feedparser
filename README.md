@@ -65,6 +65,8 @@ end
 ~~~
 
 
+### `Item` Struct
+
 **Title 'n' Summary**
 
 Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
@@ -92,9 +94,6 @@ Note: The content element will assume html content.
 | `item.published`   | -                   | RFC-822 format    | `published`?  | ISO 801 format  |
 
 Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items, thus, it's not possible to differeniate between published and updated dates for items; note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0 use the dublin core e.g `dc:created`, for example.
-
-
-### `Item` Struct
 
 ~~~
 class Item
