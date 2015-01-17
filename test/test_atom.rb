@@ -10,14 +10,18 @@ require 'helper'
 class TestAtom < MiniTest::Test
 
   def test_all
-    names = ['googlegroups.atom',
-             'googlegroups2.atom'
+    names = [
+             'googlegroups.atom',
+             'googlegroups2.atom',
+             'rubyonrails.atom',
+             'railstutorial.atom',
+             'headius.atom',
             ]
-    
+
     names.each do |name|
       assert_feed_tests_for( name )
     end
   end
 
 
-end # class TestAtomFromFile
+end # class TestAtom

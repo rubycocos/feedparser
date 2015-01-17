@@ -25,6 +25,8 @@ class Test
   def assert_feed_tests_for( name )
     b = BlockReader.from_file( "#{FeedParser.root}/test/feeds/#{name}" ).read
 
+    ## puts "  [debug] block.size: #{b.size}"
+
     xml   = b[0]
     tests = b[1]
 

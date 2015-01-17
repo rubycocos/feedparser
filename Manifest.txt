@@ -11,7 +11,15 @@ lib/feedparser/parser.rb
 lib/feedparser/version.rb
 test/feeds/googlegroups.atom
 test/feeds/googlegroups2.atom
+test/feeds/headius.atom
+test/feeds/lambdatheultimate.rss2
+test/feeds/railstutorial.atom
+test/feeds/rubyflow.rss2
+test/feeds/rubymine.rss2
+test/feeds/rubyonrails.atom
+test/feeds/sitepoint.rss2
 test/helper.rb
 test/test_atom.rb
 test/test_atom_live.rb
+test/test_rss.rb
 test/test_rss_live.rb

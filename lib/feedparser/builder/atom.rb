@@ -1,3 +1,4 @@
+# encoding: utf-8
 
 module FeedParser
 
@@ -42,7 +43,11 @@ class AtomFeedBuilder
       end
     end
 
-    ## note: as fallback try id if still no url found
+    if feed.url.nil?
+      ### todo/fix: issue warning - no link found!!!!
+    end
+
+    ## note: as fallback try id if still no url found - why?? why not??
     ##   use url only if starts_with http
     ##     might not be link e.g blogger uses for ids =>
     ##    <id>tag:blogger.com,1999:blog-4704664917418794835</id>
@@ -92,8 +97,30 @@ class AtomFeedBuilder
 
     item.title     = handle_content( atom_item.title, 'item.title' )
 
-    item.url       = atom_item.link.href
-    logger.debug "  atom | item.link.href  >#{atom_item.link.href}< : #{atom_item.link.href.class.name}"
+    ## Note: item might have many links
+    ##   e.g. see blogger (headius)
+    ##   <link rel='replies' type='application/atom+xml' href='http://blog.headius.com/feeds/3430080308857860963/comments/default' title='Post Comments'/>
+    ##   <link rel='replies' type='text/html' href='http://blog.headius.com/2014/05/jrubyconfeu-2014.html#comment-form' title='0 Comments'/>
+    ##   <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4704664917418794835/posts/default/3430080308857860963'/>
+    ##   <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4704664917418794835/posts/default/3430080308857860963'/>
+    ##   <link rel='alternate' type='text/html' href='http://blog.headius.com/2014/05/jrubyconfeu-2014.html' 
+
+    item.url = nil
+
+    if atom_item.links.size == 1
+      item.url       = atom_item.link.href
+      logger.debug "  atom | item.link.href  >#{atom_item.link.href}< : #{atom_item.link.href.class.name}"
+    else
+      ## note: use links (plural to allow multiple links e.g. self,alternate,etc.)
+      atom_item.links.each_with_index do |link,i|
+        logger.debug "  atom | item.link[#{i+1}]  rel=>#{link.rel}< : #{link.rel.class.name} type=>#{link.type}< href=>#{link.href}<"
+        ## for now assume alternate is link or no rel specified (assumes alternate)
+        ##   note: only set if feed.url is NOT already set (via <id> for example)
+        if item.url.nil? && (link.rel == 'alternate' || link.rel.nil?)
+          item.url = link.href
+        end
+      end
+    end
 
 
     if atom_item.updated
