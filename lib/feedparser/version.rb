@@ -2,8 +2,8 @@
 
 module FeedParser
 
-  MAJOR = 0
-  MINOR = 2
+  MAJOR = 1
+  MINOR = 0
   PATCH = 0
   VERSION = [MAJOR,MINOR,PATCH].join('.')
 
@@ -13,7 +13,7 @@ module FeedParser
 
 
   def self.banner
-    "feedparser/#{VERSION} (with stdlib rss/#{RSS::VERSION}) on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "feedparser/#{VERSION} (with rss/#{RSS::VERSION}) on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
   def self.root

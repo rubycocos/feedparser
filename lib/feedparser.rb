@@ -1,12 +1,16 @@
+
 # core and stdlibs
 
 require 'rss'
 require 'pp'
-require 'date'
+require 'time'    # note: ruby has a builtin core time class and a stdlib time class pack; require stdlib extensions 
+require 'date'    # note: ruby has a builtin core date class and a stdlib date class pack; require stdlib extensions 
 
 # 3rd party gems/libs
 
 require 'logutils'
+require 'textutils'
+
 
 # our own code
 

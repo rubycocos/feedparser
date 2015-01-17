@@ -1,12 +1,9 @@
 module FeedParser
 
 class Item
-  ## attr_accessor :object   # not used for now -- orginal object (e.g RSS item or ATOM entry etc.)
 
   attr_accessor :title
-  attr_accessor :title_type    # optional for now (text|html|html-escaped) - not yet set
-  attr_accessor :url      # todo: rename to link (use alias) ??
-
+  attr_accessor :url
 
   def content?()  @content.nil? == false;  end
   attr_accessor  :content
@@ -14,20 +11,18 @@ class Item
 
   def summary?()  @summary.nil? == false;  end
   attr_accessor   :summary
-  attr_accessor   :summary_type  # optional for now (text|html|html-escaped) - not yet set
 
-## todo: add summary (alias description)  ???
-## todo: add author/authors
-## todo: add category/categories
-
-  def published?()  @published.nil? == false;  end
-  attr_accessor :published
 
   def updated?()  @updated.nil? == false;  end
-  attr_accessor :updated
+  attr_accessor :updated   # pubDate (RSS)|updated (Atom)
+
+  def published?()  @published.nil? == false;  end
+  attr_accessor :published  # note: published is basically an alias for created
 
   attr_accessor :guid     # todo: rename to id (use alias) ??
 
+## todo: add author/authors
+## todo: add category/categories
 
 end  # class Item
 

@@ -13,5 +13,5 @@ test/feeds/googlegroups.atom
 test/feeds/googlegroups2.atom
 test/helper.rb
 test/test_atom.rb
-test/test_atom_from_file.rb
-test/test_rss.rb
+test/test_atom_live.rb
+test/test_rss_live.rb

@@ -25,7 +25,7 @@ class Parser
     parser.do_validate            = false
     parser.ignore_unknown_element = true
 
-    puts "Parsing feed..."
+    logger.debug "Parsing feed..."
     feed_wild = parser.parse  # not yet normalized
 
     logger.debug "  feed.class=#{feed_wild.class.name}"
@@ -36,7 +36,7 @@ class Parser
       feed = RssFeedBuilder.build( feed_wild )
     end
 
-    puts "== #{feed.format} / #{feed.title} =="
+    logger.debug "== #{feed.format} / #{feed.title} =="
     feed # return new (normalized) feed
   end
 

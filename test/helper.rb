@@ -6,7 +6,6 @@
 require 'minitest/autorun'
 
 require 'logutils'
-
 require 'textutils'
 require 'fetcher'
 
@@ -35,7 +34,7 @@ class Test
       if line =~ /^[ \t]*$/
         next        ## skip blank lines
       end
-      
+
       line = line.strip
 
       pos = line.index(':')   ## assume first colon (:) is separator
@@ -53,10 +52,9 @@ end # module MiniTest
 
 
 
-def parse_feed( url )
+def fetch_and_parse_feed( url )
   xml = Fetcher.read( url )
 
   FeedParser::Parser.parse( xml )
 end
-
 
