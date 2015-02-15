@@ -15,6 +15,8 @@ feedparser gems - web feed parser and normalizer (RSS 2.0, Atom, etc.)
 
 Feed • Item
 
+![](feed-models.png)
+
 ### `Feed` Struct
 
 #### Mappings
