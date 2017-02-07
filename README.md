@@ -1,12 +1,12 @@
 # feedparser
 
-feedparser gems - web feed parser and normalizer (RSS 2.0, Atom, etc.)
+feedparser gems - web feed parser and normalizer (Atom, RSS 2.0, etc.)
 
-* home  :: [github.com/feedreader/feed.parser](https://github.com/feedreader/feed.parser)
-* bugs  :: [github.com/feedreader/feed.parser/issues](https://github.com/feedreader/feed.parser/issues)
+* home  :: [github.com/feedparser/feedparser](https://github.com/feedparser/feedparser)
+* bugs  :: [github.com/feedparser/feedparser/issues](https://github.com/feedparser/feedparser/issues)
 * gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)
 * rdoc  :: [rubydoc.info/gems/feedparser](http://rubydoc.info/gems/feedparser)
-* forum :: [groups.google.com/group/feedreader](http://groups.google.com/group/feedreader)
+* forum :: [groups.google.com/group/wwwmake](http://groups.google.com/group/wwwmake)
 
 
 ## Usage
@@ -50,7 +50,7 @@ RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
 ISO-801 date format e.g. 2015-01-11T09:30:16Z
 
 
-~~~
+```
 class Feed
   attr_accessor :format   # e.g. atom|rss 2.0|etc.
   attr_accessor :title    # note: always plain vanilla text - if present html tags will get stripped and html entities unescaped
@@ -67,7 +67,7 @@ class Feed
   attr_accessor :generator_version  # e.g. @version (atom)
   attr_accessor :generator_uri      # e.g. @uri     (atom) - use alias url/link ???
 end
-~~~
+```
 
 
 ### `Item` Struct
@@ -102,7 +102,7 @@ Note: The content element will assume html content.
 
 Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items, thus, it's not possible to differeniate between published and updated dates for items; note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0 use the dublin core module e.g `dc:created`, for example.
 
-~~~
+```
 class Item
   attr_accessor :title   # note: always plain vanilla text - if present html tags will get stripped and html entities
   attr_accessor :url
@@ -117,12 +117,12 @@ class Item
 
   attr_accessor :guid     # todo: rename to id (use alias) ??
 end
-~~~
+```
 
 
 ### Read Feed Example
 
-~~~
+```
 require 'open-uri'
 require 'feedparser'
 
@@ -130,7 +130,7 @@ xml = open( 'http://openfootball.github.io/atom.xml' ).read
 
 feed = FeedParser::Parser.parse( xml )
 pp feed
-~~~
+```
 
 
 ## Install
@@ -142,11 +142,13 @@ Just install the gem:
 
 ## License
 
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
 The `feedparser` scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
 
 ## Questions? Comments?
 
-Send them along to the [Planet Pluto and Friends Forum/Mailing List](http://groups.google.com/group/feedreader).
+Send them along to the [wwwmake Forum/Mailing List](http://groups.google.com/group/wwwmake).
 Thanks!
