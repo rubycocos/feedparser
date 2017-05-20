@@ -89,13 +89,18 @@ in a description element; however, best practice is using the content "module" f
 If there's no content module present the feed parser will "clone" the description and use one version for `item.summary` and
 the clone for `item.content`.
 
+Note: In JSON Feed the title is not required (that is, is optional). The idea is to support "modern" micro blog postings (tweets, toots, etc.) that have no titles.  The JSON Feed supports `content_html` and/or `content_text`. At least one version must be present.
+
+<!-- todo: update JSON Feed comments - add support for content_text - now just uses content_html - why? why not??  
+  -->
+
 Note: The content element will assume html content.
 
-| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
-| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
-| `item.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
-| `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
-| `item.content`     | `content`?        | html                | `content`?    | html                |
+| Feed Struct        | RSS 2.0           | Notes       | Atom          | Notes       | JSON               | Notes       |
+| ------------------ | ----------------- | ----------- | ------------- | ----------- | -----------------  | ----------- |  
+| `item.title`       | `title`           | plain text  | `title`       | plain text  |  `title`?          | plain text  | 
+| `item.summary`     | `description`     | plain text  | `summary`?    | plain text  |   -tbd-            |             |
+| `item.content`     | `content`?        | html        | `content`?    | html        |  `content_html (*)`| html        |
 
 
 **Dates**
@@ -141,7 +146,7 @@ or reading a feed in the new [JSON Feed](https://jsonfeed.org) format in - surpr
 note: nothing changes :-)
 
 ```
-txt = open( https://jsonfeed.org/feed.json ).read
+txt = open( 'https://jsonfeed.org/feed.json' ).read
 
 feed = FeedParser::Parser.parse( txt )
 pp feed
