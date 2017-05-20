@@ -11,7 +11,7 @@ feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON, etc.)
 
 ## What's News?
 
-May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org)) format in - surprise, surprise - JSON. 
+May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON. 
 
 
 ## Usage
