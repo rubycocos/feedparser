@@ -4,14 +4,17 @@ README.md
 Rakefile
 lib/feedparser.rb
 lib/feedparser/builder/atom.rb
+lib/feedparser/builder/json.rb
 lib/feedparser/builder/rss.rb
 lib/feedparser/feed.rb
 lib/feedparser/item.rb
 lib/feedparser/parser.rb
 lib/feedparser/version.rb
+test/feeds/byparker.json
 test/feeds/googlegroups.atom
 test/feeds/googlegroups2.atom
 test/feeds/headius.atom
+test/feeds/jsonfeed.json
 test/feeds/lambdatheultimate.rss2
 test/feeds/railstutorial.atom
 test/feeds/rubyflow.rss2
@@ -21,5 +24,6 @@ test/feeds/sitepoint.rss2
 test/helper.rb
 test/test_atom.rb
 test/test_atom_live.rb
+test/test_json.rb
 test/test_rss.rb
 test/test_rss_live.rb

@@ -5,8 +5,10 @@
 
 require 'rss'
 require 'pp'
-require 'time'    # note: ruby has a builtin core time class and a stdlib time class pack; require stdlib extensions 
-require 'date'    # note: ruby has a builtin core date class and a stdlib date class pack; require stdlib extensions 
+require 'time'    # note: ruby has a builtin core time class and a stdlib time class pack; require stdlib extensions
+require 'date'    # note: ruby has a builtin core date class and a stdlib date class pack; require stdlib extensions
+require 'json'
+
 
 # 3rd party gems/libs
 
@@ -20,6 +22,7 @@ require 'feedparser/version'  # let it always go first
 
 require 'feedparser/builder/atom'
 require 'feedparser/builder/rss'
+require 'feedparser/builder/json'
 
 require 'feedparser/feed'
 require 'feedparser/item'

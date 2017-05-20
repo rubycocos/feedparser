@@ -20,7 +20,8 @@ class TestAtomLive < MiniTest::Test
     feed = fetch_and_parse_feed( 'http://feeds.feedburner.com/railstutorial?format=xml' )
 
     assert_equal 'atom',                           feed.format
-    assert_equal 'http://news.railstutorial.org/', feed.url
+    assert_equal 'http://news.learnenough.com/',   feed.url
+    ## note was (2017/5):  assert_equal 'http://news.railstutorial.org/', feed.url
   end
 
 

@@ -3,7 +3,7 @@
 module FeedParser
 
   MAJOR = 1
-  MINOR = 0
+  MINOR = 1
   PATCH = 0
   VERSION = [MAJOR,MINOR,PATCH].join('.')
 
@@ -18,7 +18,6 @@ module FeedParser
 
   def self.root
     "#{File.expand_path( File.dirname(File.dirname(File.dirname(__FILE__))) )}"
-  end  
+  end
 
 end # module FeedParser
-
