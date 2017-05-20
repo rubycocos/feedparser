@@ -1,12 +1,17 @@
 # feedparser
 
-feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, etc.)
+feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON, etc.)
 
 * home  :: [github.com/feedparser/feedparser](https://github.com/feedparser/feedparser)
 * bugs  :: [github.com/feedparser/feedparser/issues](https://github.com/feedparser/feedparser/issues)
 * gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)
 * rdoc  :: [rubydoc.info/gems/feedparser](http://rubydoc.info/gems/feedparser)
 * forum :: [groups.google.com/group/wwwmake](http://groups.google.com/group/wwwmake)
+
+
+## What's News?
+
+May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org)) format in - surprise, surprise - JSON. 
 
 
 ## Usage
@@ -29,10 +34,10 @@ Note: The Feed parser will remove all html tags and attributes from the title (R
 description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
 resulting in plain vanilla text.
 
-| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
-| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
-| `feed.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
-| `feed.summary`     | `description`     | plain vanilla text  | `subtitle`?   | plain vanilla text  |
+| Feed Struct        | RSS 2.0           | Notes       | Atom          | Notes       | JSON            | Notes       |
+| ------------------ | ----------------- | ----------- | ------------- | ----------- | --------------- | ----------- |
+| `feed.title`       | `title`           | plain text  | `title`       | plain text  | `title`         | plain text  |
+| `feed.summary`     | `description`     | plain text  | `subtitle`?   | plain text  | `description`?  | plain text  |
 
 
 **Dates**
@@ -126,9 +131,19 @@ end
 require 'open-uri'
 require 'feedparser'
 
-xml = open( 'http://openfootball.github.io/atom.xml' ).read
+txt = open( 'http://openfootball.github.io/atom.xml' ).read
 
-feed = FeedParser::Parser.parse( xml )
+feed = FeedParser::Parser.parse( txt )
+pp feed
+```
+
+or reading a feed in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON;
+note: nothing changes :-)
+
+```
+txt = open( https://jsonfeed.org/feed.json ).read
+
+feed = FeedParser::Parser.parse( txt )
 pp feed
 ```
 
