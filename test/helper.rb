@@ -43,7 +43,12 @@ class Test
       expr  = line[0...pos].strip    ## NOTE: do NOT include colon (thus, use tree dots ...)
       value = line[pos+1..-1].strip
 
-      code="assert_equal '#{value}', #{expr}"
+      if value.start_with? 'DateTime'
+        code="assert_equal #{value}, #{expr}"
+      else # assume value is a "plain" string
+        code="assert_equal '#{value}', #{expr}"
+      end
+
       puts "eval #{code}"
       eval( code )
     end  # each line
@@ -59,4 +64,3 @@ def fetch_and_parse_feed( url )
 
   FeedParser::Parser.parse( xml )
 end
-

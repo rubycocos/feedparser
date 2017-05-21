@@ -8,8 +8,11 @@ class Item
   attr_accessor :url
 
   def content?()  @content.nil? == false;  end
-  attr_accessor  :content
+  attr_accessor  :content    # todo: make it for now an alias for content_html
+
+  ## todo: remove content_type  use content_html and content_text
   attr_accessor  :content_type  # optional for now (text|html|html-escaped|binary-base64) - not yet set
+
 
   def summary?()  @summary.nil? == false;  end
   attr_accessor   :summary

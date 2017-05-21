@@ -6,7 +6,9 @@ class Feed
 
   attr_accessor :format   # e.g. atom|rss 2.0|etc.
   attr_accessor :title
-  attr_accessor :url
+  attr_accessor :url        ## todo - add alias site_url/home_page_url/page_url - why? why not??
+  attr_accessor :feed_url   ## todo - add alias self_url - why? why not??
+
 
   attr_accessor :items
 

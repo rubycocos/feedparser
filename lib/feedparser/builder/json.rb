@@ -26,9 +26,12 @@ class JsonFeedBuilder
     feed = Feed.new
     feed.format = 'json'
 
-    feed.title   = h['title']
-    feed.url     = h['home_page_url']
-    feed.summary = h['description']
+    feed.title    = h['title']
+    feed.url      = h['home_page_url']
+    feed.feed_url = h['feed_url']
+    feed.summary  = h['description']
+
+
 
     items = []
     h['items'].each do |hash_item|
@@ -51,12 +54,12 @@ class JsonFeedBuilder
     ## convert date if present (from string to date type)
     date_published_str = h['date_published']
     if date_published_str
-      item.published  = DateTime.parse( date_published_str )
+      item.published  = DateTime.iso8601( date_published_str )
     end
 
     date_modified_str = h['date_modified']
     if date_modified_str
-      item.updated  = DateTime.parse( date_modified_str )
+      item.updated  = DateTime.iso8601( date_modified_str )
     end
 
 

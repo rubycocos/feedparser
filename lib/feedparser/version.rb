@@ -13,7 +13,7 @@ module FeedParser
 
 
   def self.banner
-    "feedparser/#{VERSION} (with rss/#{RSS::VERSION}) on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "feedparser/#{VERSION} (with rss/#{RSS::VERSION} n json/#{JSON::VERSION}) on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
   def self.root

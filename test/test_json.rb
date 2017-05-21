@@ -13,6 +13,8 @@ class TestJson < MiniTest::Test
     names = [
              'jsonfeed.json',
              'byparker.json',
+             'daringfireball.json',
+             'inessential.json',
             ]
 
     names.each do |name|
