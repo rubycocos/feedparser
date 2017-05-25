@@ -630,10 +630,17 @@ feed.title:      By Parker
 feed.url:        https://byparker.com/
 feed.feed_url:   https://byparker.com/feed.json
 
+##  todo be done -- check what is the size ???
+##  for ruby code use |>  or >> or =>  or $ or | or RUN or  ????
+##   otherwise assume "literal" string
+
+
+# feed.items.size:    |> 8
+
 feed.items[0].url:       https://byparker.com/blog/2017/add-json-feed-to-your-jekyll-site/
 feed.items[0].guid:      https://byparker.com/blog/2017/add-json-feed-to-your-jekyll-site/
-feed.items[0].published: DateTime.new( 2017, 5, 18, 21, 8, 49 )
-feed.items[0].updated:   DateTime.new( 2017, 5, 18, 21, 8, 49 )
+feed.items[0].published: |> DateTime.new( 2017, 5, 18, 21, 8, 49 )
+feed.items[0].updated:   |> DateTime.new( 2017, 5, 18, 21, 8, 49 )
 
 
 feed.items[1].url:    https://byparker.com/blog/2017/the-internet-is-unstable/
