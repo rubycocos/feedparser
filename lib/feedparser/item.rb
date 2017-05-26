@@ -38,11 +38,11 @@ class Item
   attr_accessor :published  # note: published is basically an alias for created
 
 
-  attr_accessor :guid     # todo: rename to id (use alias) ??
+  attr_accessor :id
 
-  ## note: guid is an alias for id;  todo/fix: reverse - make guid an alias of id
-  alias :id  :guid
-  alias :id= :guid=
+  ## note: guid is an alias for id
+  alias :guid  :id
+  alias :guid= :id=
 
 
 ## todo: add author/authors

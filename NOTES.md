@@ -15,3 +15,6 @@
 - [ ]  check intertwingly.atom feed - uses relative urls - how to make absolute ??
        - feed.url:       /blog/
        - feed.items[0].url:      /blog/2017/04/07/Badges-We-dont-need-no-stinkin-badges
+
+
+- [ ]  change feed.generator_uri to generator_url  (keep uri as alias)

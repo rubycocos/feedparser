@@ -4,10 +4,10 @@ module FeedParser
 
 class Feed
 
-  attr_accessor :format   # e.g. atom|rss 2.0|etc.
+  attr_accessor :format   # e.g. atom|rss 2.0|json etc.
   attr_accessor :title
   attr_accessor :url        ## todo - add alias site_url/home_page_url/page_url - why? why not??
-  attr_accessor :feed_url   ## todo - add alias self_url - why? why not??
+  attr_accessor :feed_url
 
 
   attr_accessor :items
@@ -26,6 +26,7 @@ class Feed
   ##  for now alias summary to subtitle
   alias :subtitle  :summary
   alias :subtitle= :summary=
+  alias :subtitle? :summary?
 
 
 
@@ -38,7 +39,12 @@ class Feed
 
   attr_accessor :generator
   attr_accessor :generator_version  # e.g. @version (atom)
-  attr_accessor :generator_uri      # e.g. @uri     (atom) - use alias url/link ???
+  attr_accessor :generator_url      # e.g. @uri     (atom)
+
+  ## note: generator_uri is an alias for generator_url
+  alias :generator_uri  :generator_url
+  alias :generator_uri= :generator_url=
+
 
 
   ## fix:
