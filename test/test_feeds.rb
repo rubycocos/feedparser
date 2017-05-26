@@ -1,18 +1,19 @@
 ###
 #  to run use
-#     ruby -I ./lib -I ./test test/test_atom_ii.rb
+#     ruby -I ./lib -I ./test test/test_feeds.rb
 #  or better
 #     rake test
 
 require 'helper'
 
 
-class TestAtomV2 < MiniTest::Test
+class TestFeeds < MiniTest::Test
 
   def test_all
     names = [
              'learnenough.atom',
              'xkcd.atom',
+             'xkcd.rss2',
              'daringfireball.atom',
             ]
 
@@ -22,4 +23,4 @@ class TestAtomV2 < MiniTest::Test
   end
 
 
-end # class TestAtomV2
+end # class TestFeeds

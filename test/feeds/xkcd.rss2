@@ -35,3 +35,21 @@
     </item>
   </channel>
 </rss>
+
+---
+
+feed.format:        rss 2.0
+feed.title:         xkcd.com
+feed.summary:       xkcd.com: A webcomic of romance and math humor.
+feed.url:           https://xkcd.com/
+feed.items.size:    >>> 4
+
+feed.items[0].title:   Genetic Testing Results
+feed.items[0].url:     https://xkcd.com/1840/
+feed.items[0].guid:    https://xkcd.com/1840/
+feed.items[0].updated: >>> DateTime.new( 2017, 5, 22, 4, 0 )
+
+feed.items[1].title:   Doctor Visit
+feed.items[1].url:     https://xkcd.com/1839/
+feed.items[1].guid:    https://xkcd.com/1839/
+feed.items[1].updated: >>> DateTime.new( 2017, 5, 19, 4, 0 )

@@ -31,9 +31,9 @@ test/feeds/xkcd.atom
 test/feeds/xkcd.rss2
 test/helper.rb
 test/test_atom.rb
-test/test_atom_ii.rb
 test/test_atom_live.rb
 test/test_dates.rb
+test/test_feeds.rb
 test/test_json.rb
 test/test_rss.rb
 test/test_rss_live.rb
