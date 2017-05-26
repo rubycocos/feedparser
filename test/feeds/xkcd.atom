@@ -33,3 +33,16 @@
     <summary type="html">&lt;img src="https://imgs.xkcd.com/comics/rental_car.png" title="Technically, both cars are haunted, but the murder ghosts can't stand listening to the broken GPS for more than a few minutes." alt="Technically, both cars are haunted, but the murder ghosts can't stand listening to the broken GPS for more than a few minutes." /&gt;</summary>
   </entry>
 </feed>
+
+---
+
+feed.format:        atom
+feed.title:         xkcd.com
+feed.url:           https://xkcd.com/
+feed.updated:       >>> DateTime.new( 2017, 5, 22 )
+feed.items.size:    >>> 4
+
+feed.items[0].title:   Genetic Testing Results
+feed.items[0].url:     https://xkcd.com/1840/
+feed.items[0].guid:    https://xkcd.com/1840/
+feed.items[0].updated: >>> DateTime.new( 2017, 5, 22 )

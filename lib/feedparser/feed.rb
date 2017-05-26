@@ -12,8 +12,22 @@ class Feed
 
   attr_accessor :items
 
+
   def summary?()  @summary.nil? == false;  end
   attr_accessor :summary        # e.g. description (rss)|subtitle (atom)
+
+  ##
+  ##  todo/check/fix:
+  ##     use a extra field for atom subtitle
+  ##      - subtitle not the same as summary - why? why not?
+  ##      -  assume summary == description == abstract but
+  ##            keep subtitle separate e.g. assume subtitle is just a (simple) single line
+  ##
+  ##  for now alias summary to subtitle
+  alias :subtitle  :summary
+  alias :subtitle= :summary=
+
+
 
   def updated?()  @updated.nil? == false;  end
   attr_accessor :updated        # e.g. lastBuildDate (rss)|updated (atom)

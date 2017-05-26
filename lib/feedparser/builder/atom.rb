@@ -30,6 +30,19 @@ class AtomFeedBuilder
 
     logger.debug "  atom | feed.id.content  >#{atom_feed.id.content}< : #{atom_feed.id.content.class.name}"
 
+
+    ## try to find self link if present
+    ## note: use links (plural to allow multiple links e.g. self,alternate,etc.)
+    atom_feed.links.each_with_index do |link,i|
+      logger.debug "  atom | feed.link[#{i+1}]  rel=>#{link.rel}< : #{link.rel.class.name} type=>#{link.type}< href=>#{link.href}<"
+
+      if link.rel == 'self'
+        feed.feed_url = link.href
+        break
+      end
+    end
+
+
     feed.url = nil
 
     ## note: use links (plural to allow multiple links e.g. self,alternate,etc.)
@@ -103,7 +116,7 @@ class AtomFeedBuilder
     ##   <link rel='replies' type='text/html' href='http://blog.headius.com/2014/05/jrubyconfeu-2014.html#comment-form' title='0 Comments'/>
     ##   <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4704664917418794835/posts/default/3430080308857860963'/>
     ##   <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4704664917418794835/posts/default/3430080308857860963'/>
-    ##   <link rel='alternate' type='text/html' href='http://blog.headius.com/2014/05/jrubyconfeu-2014.html' 
+    ##   <link rel='alternate' type='text/html' href='http://blog.headius.com/2014/05/jrubyconfeu-2014.html'
 
     item.url = nil
 

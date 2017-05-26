@@ -5,13 +5,13 @@ Hoe.spec 'feedparser' do
 
   self.version = FeedParser::VERSION
 
-  self.summary = 'feedparser - web feed parser and normalizer (RSS 2.0, Atom, etc.)'
+  self.summary = 'feedparser - web feed parser and normalizer (RSS 2.0, Atom, JSON, etc.)'
   self.description = summary
 
-  self.urls    = ['https://github.com/feedreader/feed.parser']
+  self.urls    = ['https://github.com/feedreader/feedparser']
 
   self.author  = 'Gerald Bauer'
-  self.email   = 'feedreader@googlegroups.com'
+  self.email   = 'wwwmake@googlegroups.com'
 
   # switch extension to .markdown for gihub formatting
   self.readme_file  = 'README.md'

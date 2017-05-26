@@ -1849,3 +1849,18 @@ player in the smartwatch world.</p>
 
     ]]></content>
   <title>★ The Swiss Watch Industry Should Double Down on Mechanical Watches</title></entry></feed><!-- THE END -->
+
+---
+
+feed.format:        atom
+feed.title:         Daring Fireball
+feed.subtitle:      By John Gruber
+feed.url:           https://daringfireball.net/
+feed.feed_url:      https://daringfireball.net/feeds/main
+feed.updated:       >>> DateTime.new( 2017, 5, 23, 19, 36, 44 )
+
+feed.items[0].title:     Feedbin, Too
+feed.items[0].url:       https://feedbin.com/blog/2017/05/22/feedbin-supports-json-feed/
+feed.items[0].guid:      tag:daringfireball.net,2017:/linked//6.33732
+feed.items[0].updated:   >>> DateTime.new( 2017, 5, 23, 19, 03, 33 )
+feed.items[0].published: >>> DateTime.new( 2017, 5, 23, 18, 50, 36 )

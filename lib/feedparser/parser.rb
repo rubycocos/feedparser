@@ -7,25 +7,21 @@ class Parser
 
   include LogUtils::Logging
 
-  ###
-  ## todo/fix:
-  #   change xml to txt (or text) - now supports json too!!!
-
 
   ### convenience class/factory method
-  def self.parse( xml, opts={} )
-    self.new( xml ).parse
+  def self.parse( text, opts={} )
+    self.new( text ).parse
   end
 
   ### Note: lets keep/use same API as RSS::Parser for now
-  def initialize( xml )
-    @xml = xml
+  def initialize( text )
+    @text = text
   end
 
 
 
   def parse
-    head = @xml[0..100].strip     # note: remove leading spaces if present
+    head = @text[0..100].strip     # note: remove leading spaces if present
 
     jsonfeed_version_regex = %r{"version":\s*"https://jsonfeed.org/version/1"}
 
@@ -49,7 +45,7 @@ class Parser
     logger.debug "using stdlib json/#{JSON::VERSION}"
 
     logger.debug "Parsing feed in json..."
-    feed_hash = JSON.parse( @xml )
+    feed_hash = JSON.parse( @text )
 
     feed = JsonFeedBuilder.build( feed_hash )
 
@@ -61,7 +57,7 @@ class Parser
   def parse_xml
     logger.debug "using stdlib rss/#{RSS::VERSION}"
 
-    parser = RSS::Parser.new( @xml )
+    parser = RSS::Parser.new( @text )
 
     parser.do_validate            = false
     parser.ignore_unknown_element = true
