@@ -17,6 +17,7 @@ class TestFeeds < MiniTest::Test
              'daringfireball.atom',
              'intertwingly.atom',
              'ongoing.atom',
+             'scripting.rss2',
             ]
 
     names.each do |name|
