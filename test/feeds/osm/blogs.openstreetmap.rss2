@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss">
+  <channel>
+    <title>OpenStreetMap Blogbeiträge</title>
+    <description>Neueste Blogeinträge von OpenStreetMap-Nutzern</description>
+    <link>http://www.openstreetmap.org/diary</link>
+    <image>
+      <url>http://www.openstreetmap.org/assets/mag_map-rss2.0-0f5c83e82b8170eeee9a6782160ddff8a7f8bfd6c994265658e556e6a8358e69.png</url>
+      <title>OpenStreetMap Blogbeiträge</title>
+      <width>100</width>
+      <height>100</height>
+      <link>http://www.openstreetmap.org/diary</link>
+    </image>
+    <item>
+      <title>Validation Scoop: Inconsistent edits observed</title>
+      <link>http://www.openstreetmap.org/user/nammala/diary/41413</link>
+      <guid>http://www.openstreetmap.org/user/nammala/diary/41413</guid>
+      <description>&lt;p&gt;Resuming from previous diary posts, we would like to start off with interesting changesets we have observed over the last month. Nearly all of these changesets have been flagged by currently existing filters in OSMCha.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here is what we found&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26341087/72ab887c-3faf-11e7-979c-aa33045d719e.png" alt="image"/&gt;
+We found randomly added parks in the form of letters K N N in this &lt;a href="https://osmcha.mapbox.com/48837022/" rel="nofollow"&gt;changeset&lt;/a&gt;. This was detected while we were reviewing changesets from &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=50&amp;all_reason=False" rel="nofollow"&gt;pokemon nest by new user&lt;/a&gt; filter in OSMCha. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26341214/3aacaf90-3fb0-11e7-81c8-5fbc0fb84064.png" alt="image"/&gt;
+Added park over residential area. Here is the &lt;a href="https://osmcha.mapbox.com/48550196/" rel="nofollow"&gt;changeset&lt;/a&gt;. This was detected by &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=44&amp;all_reason=False" rel="nofollow"&gt;park added by new user&lt;/a&gt; filter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26341333/ce267c7e-3fb0-11e7-9348-89f93d08ef7a.png" alt="image"/&gt;
+We found a juggling teddy bear in Belarus which was posted in the &lt;a href="https://forum.openstreetmap.org/viewtopic.php?pid=645320#p645320" rel="nofollow"&gt;Russian forum&lt;/a&gt;. Here is the associated &lt;a href="https://osmcha.mapbox.com/40538203/" rel="nofollow"&gt;changeset&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26341411/34d32c74-3fb1-11e7-9cdb-2bd82259d9b6.png" alt="image"/&gt;
+We found a &lt;a href="https://osmcha.mapbox.com/48290750/" rel="nofollow"&gt;changeset&lt;/a&gt; which consisted of fictional edits that were basically some names and random characters. This was flagged through &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;checked=All&amp;reasons%5B%5D=57&amp;all_reason=True" rel="nofollow"&gt;feature overlap&lt;/a&gt; filter. Feature overlap filter takes a feature and downloads nearby features to check if there is an overlap. We have been testing this filter with thresholds of overlap. Code for this can be found &lt;a href="https://github.com/mapbox/osm-compare/blob/master/comparators/feature_overlap.js" rel="nofollow"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26341725/c187a694-3fb2-11e7-9abb-0bfc98dc3fc7.png" alt="image"/&gt;
+We found fantasy water bodies over a residential buildings. This &lt;a href="https://osmcha.mapbox.com/48323895/" rel="nofollow"&gt;changeset&lt;/a&gt; was detected by &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=49&amp;all_reason=False" rel="nofollow"&gt;waterbody added by new user&lt;/a&gt; filter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26342060/2512af0a-3fb4-11e7-99f8-f24ccc31b37b.png" alt="image"/&gt;
+Similar fantasy parks and waterbodies were found in this &lt;a href="https://osmcha.mapbox.com/48145207/" rel="nofollow"&gt;changeset&lt;/a&gt;. It was detected by &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=49&amp;all_reason=False" rel="nofollow"&gt;waterbody added by new user&lt;/a&gt; filter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26342683/a745f822-3fb6-11e7-8f7b-83881c8833c6.png" alt="image"/&gt;
+A park was found over buildings. This &lt;a href="https://osmcha.mapbox.com/48518873/" rel="nofollow"&gt;changeset&lt;/a&gt; was detected by &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=44&amp;all_reason=False" rel="nofollow"&gt;park added by new user&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/17470597/26483541/2cc95c90-420b-11e7-865c-615c08583117.gif" alt="image"/&gt;
+We noticed suspicious edits in Japan by a new user, who is adding random parks, waterbodies, footways etc. This was detected by &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=44&amp;all_reason=False" rel="nofollow"&gt;Park added by new user&lt;/a&gt; , &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;harmful=None&amp;checked=All&amp;reasons%5B%5D=49&amp;all_reason=False" rel="nofollow"&gt;Waterbody added by new user&lt;/a&gt;, and &lt;a href="https://osmcha.mapbox.com/?is_suspect=False&amp;is_whitelisted=All&amp;checked=All&amp;reasons%5B%5D=67&amp;all_reason=True" rel="nofollow"&gt;Footway added by new user&lt;/a&gt; filters in &lt;a href="https://osmcha.mapbox.com/" rel="nofollow"&gt;OSMCha&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in getting into details of Pokemon specific edit detection, you can refer to the &lt;a href="https://www.openstreetmap.org/user/manoharuss/diary" rel="nofollow"&gt;previous diary post&lt;/a&gt; for better understanding.&lt;/p&gt;
+
+&lt;p&gt;This is a very small subset of issues we have reviewed. Rarely do we find these kind of intentional errors on the map. We also have come across some detailed mapping activity. One of those is this &lt;a href="https://osmcha.mapbox.com/48739529/" rel="nofollow"&gt;changeset&lt;/a&gt; which added some beautiful details to a castle in &lt;a href="https://www.openstreetmap.org/relation/405292#map=16/48.8977/9.1974" rel="nofollow"&gt;Ludwigsburg&lt;/a&gt;. ✨
+&lt;img src="https://d2mxuefqeaa7sj.cloudfront.net/s_708B686F8E37C9192D9C25FE66B8CE2D9183509F5AF16D45CFB9CB862C070BE7_1495536751131_image.png" alt="gif"/&gt;&lt;/p&gt;
+
+&lt;p&gt;Look forward to more such validation scoops from us. Let us know if you have feedback on any of these OSMCha filters. It would be great to hear similar stories of inconsistent or detailed mapping activity that you have come across. Comment on this diary post and share them with us &lt;em&gt;(We ❤️ screenshots).&lt;/em&gt;&lt;/p&gt;
+</description>
+      <dc:creator>nammala</dc:creator>
+      <pubDate>Fri, 26 May 2017 14:21:12 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/nammala/diary/41413#comments</comments>
+    </item>
+    <item>
+      <title> Excuse me, how do you use this map?</title>
+      <link>http://www.openstreetmap.org/user/youngZhang/diary/41406</link>
+      <guid>http://www.openstreetmap.org/user/youngZhang/diary/41406</guid>
+      <description>&lt;p&gt;I have a program ,and want to make a map to show my staff&amp;#39;s route.
+ I copyed codes from the website of
+&lt;a href="https://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example" rel="nofollow"&gt;https://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example&lt;/a&gt; ,
+but these codes doesn&amp;#39;t work .
+I ask for help ,which online file can I read to solve my problem or can you give me some example？
+Thanks for your help.&lt;/p&gt;
+</description>
+      <dc:creator>youngZhang</dc:creator>
+      <pubDate>Fri, 26 May 2017 03:20:05 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/youngZhang/diary/41406#comments</comments>
+      <geo:lat>30.1798572513835</geo:lat>
+      <geo:long>120.162792205811</geo:long>
+      <georss:point>30.1798572513835 120.162792205811</georss:point>
+    </item>
+    <item>
+      <title>Alterações feitas no bairro Estancia Monazitica - Serra/ES</title>
+      <link>http://www.openstreetmap.org/user/SarahMello/diary/41405</link>
+      <guid>http://www.openstreetmap.org/user/SarahMello/diary/41405</guid>
+      <description>&lt;p&gt;Dia 25 de Maio de 2017,
+       Hoje fiz uma pesquisa usando o site veracidade.com onde se dá pra ver mudanças de locais através do tempo, melhor dizendo desde 1970 até 2012. Então diante da minha analise utilizei o OSM para marca dois pontos no meu bairro que se chama Estancia Monazitica, em um dos pontos pode se vem um lote vazio mais nem sempre ele foi vazio, antigamente naquele local era o Reviera ou melhor dizendo um clube dos anos 70 onde ocorria umas das melhores festas de carnaval. Já no segundo ponto, pode se ver atualmente um condomínio mais também nem sempre foi um condomínio, antigamente lá era uma área de vegetação, então podemos concluir que ouve desmatamento.        &lt;/p&gt;
+</description>
+      <dc:creator>SarahMello</dc:creator>
+      <pubDate>Fri, 26 May 2017 00:02:11 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/SarahMello/diary/41405#comments</comments>
+    </item>
+    <item>
+      <title>alterações que ocorreu no barrio das laranjeiras</title>
+      <link>http://www.openstreetmap.org/user/Dayane%20Brum/diary/41404</link>
+      <guid>http://www.openstreetmap.org/user/Dayane%20Brum/diary/41404</guid>
+      <description>&lt;p&gt;Dia 25 de março foi entrado na plataforma  ver a cidade, para ver as alterações que ocorreu durante 42 anos. A plataforma  permite que você veja mudanças de 1970 até 2012.
+Podemos percebe que durante 47 anos atras tira uma área no barrio das laranjeiras, aonde podemos encontra muita água, é hoje encontramos casas.Acredita-se que por causa disso alaga quando chove nessa região   &lt;/p&gt;
+</description>
+      <dc:creator>Dayane Brum</dc:creator>
+      <pubDate>Thu, 25 May 2017 23:39:03 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Dayane%20Brum/diary/41404#comments</comments>
+    </item>
+    <item>
+      <title>Mapeando lugares históricos em Jacaraípe, Serra - ES, Brasil</title>
+      <link>http://www.openstreetmap.org/user/Henrique%20Pires/diary/41403</link>
+      <guid>http://www.openstreetmap.org/user/Henrique%20Pires/diary/41403</guid>
+      <description>&lt;p&gt;Usando o site &amp;quot;veracidade.com.br&amp;quot; é possível visualizar as modificações no espaço físico ao longo do tempo através de um mapa. Visualizei uma área do meu bairro que não existe mais, é um lago que hoje grande parte do mesmo está aterrado, inclusive nota-se que essa área é uma área de constantes alagamentos. Então, usando a plataforma OSM, marquei essa mesma área no mapa atual, descrevendo-a e rotulando como um lugar histórico.&lt;/p&gt;
+</description>
+      <dc:creator>Henrique Pires</dc:creator>
+      <pubDate>Thu, 25 May 2017 22:57:24 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Henrique%20Pires/diary/41403#comments</comments>
+      <geo:lat>-20.1331819450119</geo:lat>
+      <geo:long>-40.2030354738236</geo:long>
+      <georss:point>-20.1331819450119 -40.2030354738236</georss:point>
+    </item>
+    <item>
+      <title>Paris, France</title>
+      <link>http://www.openstreetmap.org/user/Cabanokid/diary/41402</link>
+      <guid>http://www.openstreetmap.org/user/Cabanokid/diary/41402</guid>
+      <description>&lt;p&gt;Dans le 13ème arrondissement entre la rue de la Santé et le boulevard Arago, la rue Léon-Maurice Nordmann a été totalement déformée comme si quelqu&amp;#39;un avait tiré dessus, comme un chewing-gum ! Tout du moins quand on ne grossit pas trop l&amp;#39;approche du plan.
+Il faudrait rectifier ça.
+J&amp;#39;ai fait une saisie d&amp;#39;écran mais il n&amp;#39;est pas possible de joindre une pièce attachée à ce message.&lt;/p&gt;
+</description>
+      <dc:creator>Cabanokid</dc:creator>
+      <pubDate>Thu, 25 May 2017 14:18:29 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Cabanokid/diary/41402#comments</comments>
+      <geo:lat>48.8337035575343</geo:lat>
+      <geo:long>2.34317243099213</geo:long>
+      <georss:point>48.8337035575343 2.34317243099213</georss:point>
+    </item>
+    <item>
+      <title>Hometown Mapping : Kolar Gold Fields</title>
+      <link>http://www.openstreetmap.org/user/oormilavinod/diary/41401</link>
+      <guid>http://www.openstreetmap.org/user/oormilavinod/diary/41401</guid>
+      <description>&lt;p&gt;I stumbled upon OpenStreetMap (OSM) recently.  At first  I  was overwhelmed to see the  amount of  community work that is put together and reflects in the maps that are created.  I was  also  excited to know how a hobby project of a person now resonates into something that has become a huge success. I started off my OSM project by mapping my hometown &lt;a href="https://en.wikipedia.org/wiki/Kolar_Gold_Fields" rel="nofollow"&gt;Kolar Gold Fields&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Kolar Gold Fields often acronymed as &lt;strong&gt;KGF&lt;/strong&gt;  is a small town located in Karnataka, It was once famous for the gold mining which eventually stopped in the year 2001 due to receding deposits. KGF is often compared to England due to its climate and the beautiful landscapes. hence known as “&lt;strong&gt;The Little England “&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/26453390/26451216/b3059654-4178-11e7-93b6-c34b51ff47c1.png" alt="mine final"/&gt;&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;With some  initial analysis of the place on OSM I noticed that it was fairly less mapped  than most parts of the country . I was pleasantly surprised  to notice major parts of the town were  already mapped by a community member. This fills me  with great  enthusiasm to become a more active Community member myself and improve my hometown map.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Before mapping on OSM&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/26453390/26450964/8ca32be4-4177-11e7-989a-6f77e3118af6.png" alt="screen shot 2017-05-24 at 6 15 41 pm"/&gt;&lt;/p&gt;
+
+&lt;h3&gt;what I worked on&lt;/h3&gt;
+
+&lt;p&gt;Initially it took me time understanding the interface , tools and the shortcuts on OSM . I arrived to conclusion to map my home town as it had very little data.&lt;/p&gt;
+
+&lt;p&gt;For a start I concentrated on the road features , Mainly the residential and the secondary road as there were missing. Data was added using Bing imagery as primary source. With time I enabled myself adding buildings , leisure parks ,  natural lakes,  banks and schools, also  tagging each feature suitably. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;After the edits were made&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/26453390/26450964/8ca32be4-4177-11e7-989a-6f77e3118af6.png" alt="screen shot 2017-05-24 at 6 15 41 pm"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/26453390/26450931/62c585ba-4177-11e7-845c-17e72d8a084f.png" alt="screen shot 2017-05-24 at 6 16 30 pm"/&gt;&lt;/p&gt;
+
+&lt;p&gt;My local knowledge of the place enabled me identify these features on the imagery and name them. 
+The major  strength of OSM  can be attributed to its nature.   Being an open source and a strong community driven project it enables  us to create maps with  such intricate details .&lt;/p&gt;
+</description>
+      <dc:creator>oormilavinod</dc:creator>
+      <pubDate>Thu, 25 May 2017 13:06:24 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/oormilavinod/diary/41401#comments</comments>
+    </item>
+    <item>
+      <title>[TBCL]OSM activities in Japan, June 2017</title>
+      <link>http://www.openstreetmap.org/user/muramototomoya/diary/41400</link>
+      <guid>http://www.openstreetmap.org/user/muramototomoya/diary/41400</guid>
+      <description>&lt;h1&gt;Event&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;6/17 Kyu Shiba Rikyu Japanese Garden Mapping party, &lt;a href="https://openstreetmap.connpass.com/event/57776/" rel="nofollow"&gt;https://openstreetmap.connpass.com/event/57776/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <dc:creator>muramototomoya</dc:creator>
+      <pubDate>Thu, 25 May 2017 13:03:46 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/muramototomoya/diary/41400#comments</comments>
+    </item>
+    <item>
+      <title>[TBCL]OSM activities in Japan, May 2017</title>
+      <link>http://www.openstreetmap.org/user/muramototomoya/diary/41399</link>
+      <guid>http://www.openstreetmap.org/user/muramototomoya/diary/41399</guid>
+      <description>&lt;h1&gt;Event&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5/20 Settsutonda town mapping party, &lt;a href="https://countries-romantic.connpass.com/event/56126/" rel="nofollow"&gt;https://countries-romantic.connpass.com/event/56126/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5/20 Hamarikyu Gardens Mapping party, &lt;a href="https://openstreetmap.connpass.com/event/55481/" rel="nofollow"&gt;https://openstreetmap.connpass.com/event/55481/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5/17 Mokumoku concentrated mapping, &lt;a href="https://countries-romantic.connpass.com/event/56121/" rel="nofollow"&gt;https://countries-romantic.connpass.com/event/56121/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Software&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;K.Sakanoshita opened a web based map service to make custom map, &lt;a href="https://twitter.com/K_Sakanoshita/status/861227994961952768" rel="nofollow"&gt;https://twitter.com/K_Sakanoshita/status/861227994961952768&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kudarisenmon published a map of &amp;quot;bus_stop mapping progress&amp;quot; based on Hayashi&amp;#39;s work, &lt;a href="https://twitter.com/kudarisenmon/status/860341061452877826" rel="nofollow"&gt;https://twitter.com/kudarisenmon/status/860341061452877826&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Other&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nyampire translated &amp;quot;How to draw features&amp;quot;, &lt;a href="https://twitter.com/nyampire/status/867309413169643521" rel="nofollow"&gt;https://twitter.com/nyampire/status/867309413169643521&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MIERUNE corporation opened &amp;quot;Japanese taginfo&amp;quot;, &lt;a href="https://twitter.com/nyampire/status/866782269880516608" rel="nofollow"&gt;https://twitter.com/nyampire/status/866782269880516608&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Promotion video of SotM Aizuwakamatsu is published, &lt;a href="https://twitter.com/mapconcierge/status/866654432477536256" rel="nofollow"&gt;https://twitter.com/mapconcierge/status/866654432477536256&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@higa4 contributed to iD walkthrough, &lt;a href="https://twitter.com/nyampire/status/862081594009333760" rel="nofollow"&gt;https://twitter.com/nyampire/status/862081594009333760&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5/9 Yomiuri newspaper reported about OSM activities, &lt;a href="https://twitter.com/mapconcierge/status/861814124153622528" rel="nofollow"&gt;https://twitter.com/mapconcierge/status/861814124153622528&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <dc:creator>muramototomoya</dc:creator>
+      <pubDate>Thu, 25 May 2017 13:01:04 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/muramototomoya/diary/41399#comments</comments>
+    </item>
+    <item>
+      <title>Please remove these Profile Spammers</title>
+      <link>http://www.openstreetmap.org/user/alexkemp/diary/41388</link>
+      <guid>http://www.openstreetmap.org/user/alexkemp/diary/41388</guid>
+      <description>&lt;p&gt;Please remove these Profile spammers (&lt;em&gt;Other nearby users&lt;/em&gt; shown in my Profile page).    &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.openstreetmap.org/user/alexkemp/diary/41258" rel="nofollow"&gt;Info on Profile Spammers&lt;/a&gt;    &lt;/p&gt;
+
+&lt;p&gt;If you have access to their email address &amp;amp; IP you can signup at &lt;a href="http://www.stopforumspam.com/" rel="nofollow"&gt;SFS&lt;/a&gt; &amp;amp; report them on to the DB, which will then prevent them from spamming any other forum/blog that makes use of &lt;em&gt;SFS&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;felineescorts&lt;/em&gt; (removed - thank you) (spam for escorts):–&lt;br/&gt;
+Signed up:– 10 April, 2017&lt;br/&gt;
+Edits:– 0&lt;br/&gt;
+Traces:– 0&lt;br/&gt;
+Diary:– 0&lt;/p&gt;
+
+&lt;p&gt;bohemiagirkl  (removed - thank you) (spam for escorts):–&lt;br/&gt;
+Signed up:– 13 March, 2014&lt;br/&gt;
+Edits:– 0&lt;br/&gt;
+Traces:– 0&lt;br/&gt;
+Diary:– 0&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.openstreetmap.org/user/debbie%20bryan%20" rel="nofollow"&gt;debbie bryan &lt;/a&gt; (spam for a shop;
+ no link, but is still spamming):–&lt;br/&gt;
+Signed up:– 25 March, 2009&lt;br/&gt;
+Edits:– 0&lt;br/&gt;
+Traces:– 0&lt;br/&gt;
+Diary:– 0&lt;/p&gt;
+
+&lt;p&gt;Steveford11 (removed - thank you) (pharmaceutical spam):–&lt;br/&gt;
+Signed up:– 11 April, 2014&lt;br/&gt;
+Edits:– 0&lt;br/&gt;
+Traces:– 0&lt;br/&gt;
+Diary:– 0&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.openstreetmap.org/user/RDArchitects" rel="nofollow"&gt;RDArchitects&lt;/a&gt; (spam for architects practice; no link, but is still spamming):–&lt;br/&gt;
+Signed up:– 12 October, 2012&lt;br/&gt;
+Edits:– 0&lt;br/&gt;
+Traces:– 0&lt;br/&gt;
+Diary:– 0&lt;/p&gt;
+
+&lt;p&gt;This is 5 of 30 users, suggesting that 16.7% (1 in every 6) of users sign up purely for the purpose of spamming OSM. After an analysis of those 30 users shown on my &lt;em&gt;Profile&lt;/em&gt;, I found that 80% made no or very little contribution (3 or less edits) to &lt;em&gt;OSM&lt;/em&gt;; this seems to be the classic 20%/80% split, and makes it very difficult to understand why all these redundant users should be retained.&lt;/p&gt;
+</description>
+      <dc:creator>alexkemp</dc:creator>
+      <pubDate>Wed, 24 May 2017 20:30:22 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/alexkemp/diary/41388#comments</comments>
+    </item>
+    <item>
+      <title>Málaga, ciudad de mil tabernas y una sola librería</title>
+      <link>http://www.openstreetmap.org/user/dcapillae/diary/41385</link>
+      <guid>http://www.openstreetmap.org/user/dcapillae/diary/41385</guid>
+      <description>&lt;p&gt;Tengo en casa un librito titulado &lt;em&gt;&lt;a href="https://openlibrary.org/books/OL26317348M/Librer%C3%ADas_en_M%C3%A1laga" rel="nofollow"&gt;Librerías en Málaga&lt;/a&gt;&lt;/em&gt;, editado por el Instituto Municipal del Libro (2005). Es una guía donde se recogen todas las librerías y establecimientos de la ciudad que se dedican a la venta de libros (&lt;a href="http://wiki.openstreetmap.org/wiki/ES:Tag:shop%3Dbooks" rel="nofollow"&gt;shop=books&lt;/a&gt;). Algunas librerías han cerrado en estos años, pero la mayoría siguen existiendo.&lt;/p&gt;
+
+&lt;p&gt;La guía recoge un tópico de antaño compartido por muchos viajeros y geógrafos sociales que visitaban la ciudad en el pasado: &amp;quot;Málaga, ciudad de mil tabernas y una sola librería&amp;quot;. Por curiosidad, he consultado el número de librerías que actualmente hay mapeadas en Málaga. No son muchas: hay más cafés, bares y restaurantes que librerías.&lt;/p&gt;
+
+&lt;p&gt;No me parece del todo acertado afirmar que el interés de una ciudad por la cultura se mide por su número de librerías, bibliotecas, museos o teatros. En cualquier caso, que no se diga que en Málaga no tenemos librerías.&lt;/p&gt;
+
+&lt;p&gt;He añadido tres de las más conocidas, &lt;a href="https://www.openstreetmap.org/?mlat=36.72419&amp;mlon=-4.42059#map=19/36.72419/-4.42059" rel="nofollow"&gt;Prometeo&lt;/a&gt;, &lt;a href="https://www.openstreetmap.org/?mlat=36.72346&amp;mlon=-4.42004#map=19/36.72346/-4.42004" rel="nofollow"&gt;Rayuela&lt;/a&gt; y &lt;a href="https://www.openstreetmap.org/?mlat=36.71792&amp;mlon=-4.42318#map=19/36.71792/-4.42318" rel="nofollow"&gt;Luces&lt;/a&gt;, y alguna otra. Curiosamente, ninguna de estas librerías tan conocidas estaba mapeada. En los próximos días seguiré con el &lt;a href="https://www.openstreetmap.org/user/dcapillae/diary/41229" rel="nofollow"&gt;trazado de edificios&lt;/a&gt; y aprovecharé para añadir tantas librerías como me sea posible. Si encuentro tiempo, haré lo mismo con las bibliotecas.&lt;/p&gt;
+</description>
+      <dc:creator>dcapillae</dc:creator>
+      <pubDate>Wed, 24 May 2017 15:43:26 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/dcapillae/diary/41385#comments</comments>
+      <geo:lat>36.7213</geo:lat>
+      <geo:long>-4.42164</geo:long>
+      <georss:point>36.7213 -4.42164</georss:point>
+    </item>
+    <item>
+      <title>Hello </title>
+      <link>http://www.openstreetmap.org/user/Harvest%20Moon%20Yakitori%20&amp;%20Beer%20Garden/diary/41379</link>
+      <guid>http://www.openstreetmap.org/user/Harvest%20Moon%20Yakitori%20&amp;%20Beer%20Garden/diary/41379</guid>
+      <description>&lt;p&gt;မဂၤလာရွိေသာေန႔ေလးေတြကိုပိုင္ဆိုင္ႏိုၾကပါေစ။
+Harvest Moon Beer Garden ႀကိဳဆိုပါတယ္ခင္ဗ်။&lt;/p&gt;
+</description>
+      <dc:creator>Harvest Moon Yakitori &amp; Beer Garden</dc:creator>
+      <pubDate>Tue, 23 May 2017 13:56:58 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Harvest%20Moon%20Yakitori%20&amp;%20Beer%20Garden/diary/41379#comments</comments>
+    </item>
+    <item>
+      <title>GSoC Diary: Start of Community Bonding</title>
+      <link>http://www.openstreetmap.org/user/n42k/diary/41366</link>
+      <guid>http://www.openstreetmap.org/user/n42k/diary/41366</guid>
+      <description>&lt;p&gt;Hi! I’m Pedro Amaro, an undergraduate student from Portugal. Currently, I’m studying Informatics and Computing Engineering at FEUP (Faculty of Engineering of the University of Porto). I will be working on a project for the OSM community for Google Summer of Code 2017. I took a special interest in OSM for my GSoC proposal, as I had used it before multiple times, mostly to know my bearings and also in the FlightGear flight simulator.&lt;/p&gt;
+
+&lt;p&gt;One of the most interesting suggested projects, that mixed some of my interests, including 3D graphics and web applications, was the implementation of a 3D Model Repository. This project consists of implementing a repository for 3D models, where users can upload freely licensed models and their metadata to it, so that 3D visualizers can use this data to render beautiful graphics for buildings (such as the Eiffel Tower) or smaller features such as trees. After a lot of back and forth with the project proposal with Tordanik, I submitted it, and around a month later, was accepted.&lt;/p&gt;
+
+&lt;p&gt;In my proposal, I had suggested using OpenLayers as the API for drawing maps in the repository, and having the live 3D preview of models be optional. Upon further discussion, we decided to change the API to Leaflet and start working on the preview early in the summer, by June.&lt;/p&gt;
+
+&lt;p&gt;To explore both ideas, I built a small demonstration of each, to get acquainted with the tools I will be using, namely Leaflet and Three.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/tjS31SJ.png" alt="Region around the Eiffel Tower, with a popup with a link to the model"/&gt;
+Leaflet API demo&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/S3B3pBx.png" alt="Interactive Three.js model of the Eiffel Tower"/&gt;
+Three.js OpenCOLLADA demo&lt;/p&gt;
+
+&lt;p&gt;The Eiffel Tower model was made in Sketch Up by joe89v, and exported as an OpenCOLLADA model. The model can be found &lt;a href="https://3dwarehouse.sketchup.com/model/98810fe9c4f57f1141ba0f9fe83c1fd/eiffel-tower" rel="nofollow"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <dc:creator>n42k</dc:creator>
+      <pubDate>Mon, 22 May 2017 19:40:51 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/n42k/diary/41366#comments</comments>
+    </item>
+    <item>
+      <title>OpenStreetMap Carto release v3.3.1</title>
+      <link>http://www.openstreetmap.org/user/Math1985/diary/41364</link>
+      <guid>http://www.openstreetmap.org/user/Math1985/diary/41364</guid>
+      <description>&lt;p&gt;Today, v3.3.1 of the openstreetmap-carto stylesheet (the default
+stylesheet on openstreetmap.org) has been released.&lt;/p&gt;
+
+&lt;p&gt;This version includes a single change:
+* Fix a regression in intermittent waterways&lt;/p&gt;
+
+&lt;p&gt;For a full list of commits, see
+&lt;a href="https://github.com/gravitystorm/openstreetmap-carto/compare/v3.3.0...v3.3.1" rel="nofollow"&gt;https://github.com/gravitystorm/openstreetmap-carto/compare/v3.3.0...v3.3.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As always, we welcome any bug reports at
+&lt;a href="https://github.com/gravitystorm/openstreetmap-carto/issues" rel="nofollow"&gt;https://github.com/gravitystorm/openstreetmap-carto/issues&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <dc:creator>Math1985</dc:creator>
+      <pubDate>Mon, 22 May 2017 17:40:35 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Math1985/diary/41364#comments</comments>
+    </item>
+    <item>
+      <title>Representing San Francisco City Hall in simple 3D building </title>
+      <link>http://www.openstreetmap.org/user/Chetan_Gowda/diary/41363</link>
+      <guid>http://www.openstreetmap.org/user/Chetan_Gowda/diary/41363</guid>
+      <description>&lt;p&gt;Last weekend, I tried modelling &lt;a href="https://en.wikipedia.org/wiki/San_Francisco_City_Hall" rel="nofollow"&gt;San Francisco City Hall&lt;/a&gt; in &lt;a href="http://wiki.openstreetmap.org/wiki/Simple_3D_buildings" rel="nofollow"&gt;S3DB&lt;/a&gt;. The public building has 100 years of glorious history. The diameter of the central dome is around 34 m and total height of the building is 93 m. 
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/San_Francisco_City_Hall_September_2013_panorama_3.jpg/1024px-San_Francisco_City_Hall_September_2013_panorama_3.jpg" alt=""/&gt;
+&lt;em&gt;From Wikipedia&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The co-ordinates of the building is &lt;a href="http://www.openstreetmap.org/#map=18/37.77910/-122.41937" rel="nofollow"&gt;37.77910°N/122.41937°W&lt;/a&gt;. Edited this model first through &lt;a href="http://wiki.openstreetmap.org/wiki/Sandbox_for_editing" rel="nofollow"&gt;OSM Sandbox&lt;/a&gt; and copied all the geometries and tags to main OSM database. I used JOSM current version and &lt;a href="http://wiki.openstreetmap.org/wiki/JOSM/Plugins/Kendzi3D" rel="nofollow"&gt;Kendzi3D&lt;/a&gt; plugin to visualise locally. &lt;/p&gt;
+
+&lt;h2&gt;Before Simple 3D tags&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/6770741/26302073/b30c1ff8-3f00-11e7-8321-8e05963751b3.png" alt="before_in_kendzi"/&gt;
+&lt;em&gt;Visualised in JOSM Kendzi3D plugin&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;After adding Simple 3D tags&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="https://c2.staticflickr.com/2/1527/24749694245_53975e9636.jpg" alt=""/&gt;
+&lt;em&gt;Photo credits: At Flickr by &lt;a href="https://www.flickr.com/photos/thomashawk/" rel="nofollow"&gt;Thomas Hawk&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/6770741/26295720/ed930c44-3ee8-11e7-8d68-dae0d63f9036.png" alt="globe"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/6770741/26303359/104db25e-3f05-11e7-9237-9b5b45db3db3.png" alt="after_in_kendzi"/&gt;&lt;/p&gt;
+
+&lt;h2&gt;Rendering&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. F4Map&lt;/strong&gt; 
+&lt;img src="https://cloud.githubusercontent.com/assets/6770741/26302484/015c7d46-3f02-11e7-977d-c34f48de0cce.png" alt="f4map"/&gt;
+&lt;em&gt;&lt;a href="http://demo.f4map.com/#lat=37.7788311&amp;lon=-122.4198467&amp;zoom=18&amp;camera.theta=61.902&amp;camera.phi=116.024" rel="nofollow"&gt;Click here for demo&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. OSMBuildings&lt;/strong&gt;
+&lt;img src="https://cloud.githubusercontent.com/assets/6770741/26302485/015d4c76-3f02-11e7-97be-b35ed05d1d73.png" alt="osmbuildings"/&gt;
+&lt;em&gt;&lt;a href="http://osmbuildings.org/?lat=37.77948&amp;lon=-122.41973&amp;zoom=18.2&amp;rotation=0&amp;tilt=30" rel="nofollow"&gt;Click here for demo&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d love to see many places in OpenStreetMap in 3D. If you have any questions, ping me &lt;a href="https://twitter.com/chtnha" rel="nofollow"&gt;@chtnha&lt;/a&gt; on twitter or OSM message.  &lt;/p&gt;
+</description>
+      <dc:creator>Chetan_Gowda</dc:creator>
+      <pubDate>Mon, 22 May 2017 10:27:59 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Chetan_Gowda/diary/41363#comments</comments>
+    </item>
+    <item>
+      <title>Up The Creek</title>
+      <link>http://www.openstreetmap.org/user/alexkemp/diary/41354</link>
+      <guid>http://www.openstreetmap.org/user/alexkemp/diary/41354</guid>
+      <description>&lt;p&gt;A small snippet from my recent survey off &lt;a href="http://www.openstreetmap.org/way/15219161" rel="nofollow"&gt;Mapperley Plains, Notts.&lt;/a&gt;:–&lt;/p&gt;
+
+&lt;p&gt;The householder was a retired chap &amp;amp; explained that, when he &amp;amp; his wife got married &amp;amp; bought a house, some so-called friends had said that the two of them were now &lt;em&gt;“Up the creek”&lt;/em&gt; (splendid friends, huh?). So, in response, they decided to give their new home &lt;a href="https://www.mapillary.com/map/im/tSR6VSuCf30pw9mF3liwAw" rel="nofollow"&gt;a name&lt;/a&gt;:–&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://d1cuyjsrcm0gby.cloudfront.net/tSR6VSuCf30pw9mF3liwAw/thumb-2048.jpg" alt="the creek"/&gt;&lt;/p&gt;
+</description>
+      <dc:creator>alexkemp</dc:creator>
+      <pubDate>Mon, 22 May 2017 00:34:04 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/alexkemp/diary/41354#comments</comments>
+      <geo:lat>52.9952831906341</geo:lat>
+      <geo:long>-1.09928250330995</geo:long>
+      <georss:point>52.9952831906341 -1.09928250330995</georss:point>
+    </item>
+    <item>
+      <title>Finding Wilson Boulevard</title>
+      <link>http://www.openstreetmap.org/user/Minh%20Nguyen/diary/41353</link>
+      <guid>http://www.openstreetmap.org/user/Minh%20Nguyen/diary/41353</guid>
+      <description>&lt;p&gt;&lt;em&gt;(This post is cross-posted from &lt;a href="http://notes.1ec5.org/archives/2017/05/21/wilson.html" rel="nofollow"&gt;a recent post on my blog&lt;/a&gt; and adapted for an audience already familiar with OpenStreetMap.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;An overflowing &lt;a href="https://en.wikipedia.org/wiki/B%C3%A1nh_m%C3%AC" rel="nofollow"&gt;&lt;em&gt;bánh mì&lt;/em&gt;&lt;/a&gt;, a tray of tender &lt;a href="https://en.wikipedia.org/wiki/B%C3%A1nh_da_l%E1%BB%A3n" rel="nofollow"&gt;&lt;em&gt;bánh da lợn&lt;/em&gt;&lt;/a&gt;, a can of soybean milk: my treat after every monthly trip to the little Vietnamese grocery across town. Mekong Market was my Sunday Bible school of Vietnamese culture in a childhood as distant from Asia as one could imagine, in Cincinnati. Snacks, sauces, and canned foods defying translation lined the shelves; in the refrigerator, a variety of mystery meats wrapped in aluminum foil each bore the same place of origin: Chicago.&lt;/p&gt;
+
+&lt;p&gt;One Labor Day, my family made a trip up to Chicago to finally see the bustling Vietnamese community whose clearance we had happily bought for years. We made a lot of road trips back then, often just spur-of-the-moment driving through the peaceful countryside. But since we were headed five hours away to an unfamiliar city, we needed to plan ahead. As the resident &lt;a href="http://notes.1ec5.org/archives/2015/02/14/maps.html" rel="nofollow"&gt;map enthusiast&lt;/a&gt;, I was to find directions to the Vietnamese supermarket in Chicago using our new Internet connection. We’d enjoy some phở for lunch and bring back enough fresh ingredients to avoid Mekong Market for a little while.&lt;/p&gt;
+
+&lt;p&gt;A search for “Vietnamese markets in Chicago” on AltaVista turned up &lt;a href="http://web.archive.org/web/19990224232430/http://washingtonian.com:80/Great%20Food/ethnicmarkets.html#vietnamese" rel="nofollow"&gt;an article from &lt;em&gt;The Washingtonian&lt;/em&gt;&lt;/a&gt; describing a cluster of supermarkets, phở restaurants, and bakeries on Wilson Boulevard. I pasted the street address into MapQuest, specified “Chicago” and “Illinois” to make sure I got the right “Wilson”, and printed out the directions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/ba%CC%81nh_mi%CC%80.jpg" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/ba%CC%81nh_mi%CC%80-thumb-1024x768-213.jpg" alt="Bánh mì thịt nguội"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;A Vietnamese cold cuts sandwich (bánh mì thịt nguội).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Five hours later, we arrived in Chicago and crawled up and down Wilson Avenue. If a Vietnamese supermarket or two were to be found along this street, it couldn’t have fit very easily inside any of the modest townhouses that lined the street from end to end without interruption. I noticed, too, that the entire length of the street was numbered in the 8000 range, as opposed to the 6700 block on which this supermarket supposedly stood. My father pulled the car aside and called the supermarket’s phone number on his cell phone. I could understand just enough Vietnamese to make out the voice on the other end: “I’m in Northern Virginia&amp;nbsp;– what in the world do you want me to do for you?”&lt;/p&gt;
+
+&lt;p&gt;As my father held his tongue&amp;nbsp;– Grandma was in the back seat&amp;nbsp;– we wandered aimlessly around that part of town until we happened to spot some Vietnamese signage. There, just a few minutes away from Wilson Avenue, were the supermarket, phở restaurant, and bakery we had been hoping for, by sheer luck.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;In the years since, I moved to San José, California, home to one of the largest populations of Vietnamese Americans in the country. Bánh mì shops here are as commonplace as cafés. In fact, the only reason I ever notice them is that I also became immersed in OSM. I found a niche &lt;a href="http://2015.stateofthemap.us/tickling-locals-into-action" rel="nofollow"&gt;mapping “flyover country”&lt;/a&gt; and made it &lt;a href="https://wiki.openstreetmap.org/wiki/User:Minh_Nguyen#Mission" rel="nofollow"&gt;my mission&lt;/a&gt; to improve coverage of communities underserved by commercial map vendors, among them ethnic enclaves &lt;a href="http://www.openstreetmap.org/user/Minh%20Nguyen/diary/35646" rel="nofollow"&gt;in San José&lt;/a&gt;, &lt;a href="http://www.openstreetmap.org/way/483006220" rel="nofollow"&gt;Orange County&lt;/a&gt;, and elsewhere.&lt;/p&gt;
+
+&lt;p&gt;Last month, I happened to be in Washington, D.C., visiting my employer &lt;a href="https://www.mapbox.com/" rel="nofollow"&gt;Mapbox&lt;/a&gt; at the new office there. On a lark, I decided to spend Sunday afternoon visiting Wilson Boulevard for real. It had been almost eighteen years since my last attempt, but despite having since moved to a city with a large Vietnamese population and plenty of Vietnamese food, I figured seeing this street in person would give me some closure. Fortunately, the same Metro line that took me almost to the airport also took me almost to &lt;a href="http://edencenter.com/" rel="nofollow"&gt;Eden Center&lt;/a&gt;, the Vietnamese shopping center that had teased me back in grade school.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/gate.jpg" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/gate-thumb-1024x819-220.jpg" alt="Parking aisles"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;No Vietnamese shopping center would be complete without a kitschy gate.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I had always imagined Eden Center to be more of a bazaar than a strip mall. Nonetheless, it has almost everything you’d expect from a center of Vietnamese social life: a dearth of parking, a man singing karaoke to an impromptu crowd out front, a father treating his daughters to the kumquats that hang from a decorative tree nearby. On the other hand, there are no elderly men playing &lt;a href="https://en.wikipedia.org/wiki/Xiangqi" rel="nofollow"&gt;&lt;em&gt;cờ tướng&lt;/em&gt;&lt;/a&gt; in front of the shops, as one often finds in California. (One wall bears an enormous warning against gambling and suggests area casinos as alternatives.)&lt;/p&gt;
+
+&lt;p&gt;Like similar centers in Orange County, Eden Center is steeped in war history. Each aisle in the parking lot bears the name of a South Vietnamese general.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/parking_aisles.jpg" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/parking_aisles-thumb-1024x818-218.jpg" alt="Parking aisles"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;At the intersection of Nguyễn Khoa Nam and Trần Văn Bá “Avenues”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The South Vietnamese flag flies proudly beside the American flag. As it was the week before the anniversary of the Fall of Saigon, a banner spanning the two flagpoles honored South Vietnamese war heroes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/banner.jpg" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/banner-thumb-1024x819-215.jpg" alt="South Vietnamese heroes banner"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;The banner reads, “With Gratitude We Revere the Martyred National Heroes of the Republic of Vietnam”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I thoroughly field-surveyed Eden Center, noting the restaurants, jewelers, beauty salons, travel agencies, and karaoke bars tucked away in the center’s “mini-malls”. Before leaving, I bought a &lt;em&gt;bánh mì&lt;/em&gt;, a piping hot tray of &lt;em&gt;bánh da lợn&lt;/em&gt;, and a can of soybean milk for the road.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;The whole reason I got involved with “citizen mapping” is that proprietary map sources fall so short when it comes to places beyond San Francisco, beyond the central business districts, beyond the tourist traps.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/apple.png" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/apple-thumb-1024x894-229.png" alt="Eden Center on Apple Maps"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;&lt;a href="https://maps.apple.com/?address=6751%20Wilson%20Blvd,%20Falls%20Church,%20VA%20%2022044,%20United%20States&amp;auid=16233408304682597308&amp;ll=38.874273,-77.154686&amp;lsp=9902&amp;q=Eden%20Center&amp;t=m" rel="nofollow"&gt;Apple Maps&lt;/a&gt; includes only a few shops, but they’re all in the wrong places and some are no longer open.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/google.png" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/2017/05/21/google.png" alt="Eden Center on Google Maps"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;With the same indoor mapping style it applies to every mall, &lt;a href="https://www.google.com/maps/place/Eden+Center/@38.8737114,-77.1558559,17z/" rel="nofollow"&gt;Google Maps&lt;/a&gt; makes it look like it has spectacular coverage of Eden Center. But it’s just walls: most of the shops are still in the wrong location and some have closed.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/baidu.png" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/baidu-thumb-1024x1081-232.png" alt="Eden Center on Baidu Maps"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;I found it surprising that &lt;a href="http://j.map.baidu.com/FychI" rel="nofollow"&gt;Baidu Maps&lt;/a&gt; has coverage of this area on par with Apple Maps, but it too has misplaced and outdated points of interest.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;OSM didn’t have a lot of detail about Eden Center until I ventured there last month, but now &lt;a href="http://www.openstreetmap.org/way/488944969" rel="nofollow"&gt;it’s complete, accurate, and up-to-date&lt;/a&gt;. Even the parking aisles are named. It’s looking &lt;a href="https://mc.bbbike.org/mc/?lon=-77.154141&amp;lat=38.873712&amp;zoom=18&amp;num=2&amp;mt0=mapnik&amp;mt1=google-map&amp;marker=" rel="nofollow"&gt;a lot better than the competition&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/eden_before_after.png" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/eden_before_after-thumb-1024x690-222.png" alt="Eden Center on OSM, before and after"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;After my visit to Eden Center, OSM gained so much detail in the area that there isn’t enough room to display most of the points of interest with proper icons and labels. (Left: before; right: after)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/eden_detail_before_after.png" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/2017/05/21/eden_detail_before_after.png" alt="Eden mini-malls on OSM, before and after"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;(Top: before; bottom: after)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://notes.1ec5.org/archives/2017/05/21/mini_mall_id.jpg" rel="nofollow"&gt;&lt;img src="http://notes.1ec5.org/archives/assets_c/2017/05/mini_mall_id-thumb-1024x512-227.jpg" alt="Eden Mini Mall on OSM, full detail"/&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;One of the advantages of a human-curated map database is an at-times quirky attention to detail. The abundance of diacritical marks in Vietnamese are essential to comprehension, so this Vietnamese-American community will find it helpful that OSM includes the diacritics, even though this shopping center is located in a predominantly English-speaking city. Maybe someday the &lt;code&gt;highway=corridor&lt;/code&gt; ways will be useful for pedestrian routing, too.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;OSM may have a long way to go before it can even dream of breaking people’s Google habits. I’m under no illusions about how poorly it scales to visit each site in person via public transportation. But for now, I’m just happy to have finally made it to Wilson Boulevard and made it easier for others to do the same&amp;nbsp;– minus the detour.&lt;/p&gt;
+</description>
+      <dc:creator>Minh Nguyen</dc:creator>
+      <pubDate>Mon, 22 May 2017 00:30:10 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/Minh%20Nguyen/diary/41353#comments</comments>
+      <geo:lat>38.873957912886</geo:lat>
+      <geo:long>-77.1542894840241</geo:long>
+      <georss:point>38.873957912886 -77.1542894840241</georss:point>
+    </item>
+    <item>
+      <title>Virgo GIS</title>
+      <link>http://www.openstreetmap.org/user/justascii/diary/41352</link>
+      <guid>http://www.openstreetmap.org/user/justascii/diary/41352</guid>
+      <description>&lt;p&gt;University of Virginia Library has GIS data for &lt;a href="http://gis.lib.virginia.edu/catalog/uva-Loudoun:bldgs_polygon" rel="nofollow"&gt;buildings in Loudoun county&lt;/a&gt; (and lots of others), and the terms of use say the data &amp;quot;&lt;a href="http://gis.lib.virginia.edu/pages/about" rel="nofollow"&gt;is publicly available and can be reused and published without restriction&lt;/a&gt;, so I figured I&amp;#39;d start importing it into OSM using &lt;a href="http://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData" rel="nofollow"&gt;JOSM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This first upload was a residential neighborhood to test the workflow.&lt;/p&gt;
+</description>
+      <dc:creator>justascii</dc:creator>
+      <pubDate>Sun, 21 May 2017 18:26:40 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/justascii/diary/41352#comments</comments>
+      <geo:lat>39.1409785465165</geo:lat>
+      <geo:long>-77.7112126350403</geo:long>
+      <georss:point>39.1409785465165 -77.7112126350403</georss:point>
+    </item>
+    <item>
+      <title>Mapper of the Month: Marek Kleciak (Poland/Germany)</title>
+      <link>http://www.openstreetmap.org/user/escada/diary/41351</link>
+      <guid>http://www.openstreetmap.org/user/escada/diary/41351</guid>
+      <description>&lt;p&gt;&lt;img src="http://www.openstreetmap.org/attachments/users/images/000/338/611/large/bc2dcb86cd4ba99f45ed526e755a8014.jpg" alt="Marek Kleciak"/&gt;&lt;/p&gt;
+
+&lt;h2&gt;Who are you?&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#39;m half German half Polish. I&amp;#39;m living in Bavaria in Germany. I&amp;#39;m a car navigation professional responsible for innovation management. Previously I worked with navigation maps and city modelling. Years before I developed specifications for 3D city models for the German government in &lt;a href="http://www.openstreetmap.org/relation/2618040" rel="nofollow"&gt;Hamburg&lt;/a&gt;. Then I started to work for one of the biggest car navigation companies.
+I made the first trials for 3D data acquisition with laser scanning used now e.g. in &lt;a href="https://here.com/en" rel="nofollow"&gt;Here&lt;/a&gt; products. I also taught for 15 years constructive geometry and technical representation techniques at the &lt;a href="https://www.tuhh.de/alt/tuhh/startpage.html" rel="nofollow"&gt;Technical University&lt;/a&gt; in Hamburg.
+My hobbies are my family, 3D modeling, painting, photography, geography and molecular medicine.
+I decided to use the polish part of my full name instead of nickname because I believe, I have nothing to hide when I map.&lt;/p&gt;
+
+&lt;h2&gt;When and how did you discover OpenStreetMap?&lt;/h2&gt;
+
+&lt;p&gt;I heard about OSM already in 2004 because of my professional work and searching after alternatively map sources for car navigation, but  I started participating actively only in 2008.&lt;/p&gt;
+
+&lt;h2&gt;What do you map? Is there any difference with your early days?&lt;/h2&gt;
+
+&lt;p&gt;I have probably the same story as a lot of mappers: in the beginning I mapped mostly things from my immediate surroundings, then other areas I know.  After two years I decided to do mapping in some badly covered areas in developing countries.&lt;/p&gt;
+
+&lt;h2&gt;How do you map ?&lt;/h2&gt;
+
+&lt;p&gt;In the beginning I did some surveys but because of my professional and family duties I am now mostly an armchair mapper. I spent a lot of time  improving the accuracy of the  map.&lt;/p&gt;
+
+&lt;h2&gt;Which tools do you use ?&lt;/h2&gt;
+
+&lt;p&gt;For mapping: I use [JOSM](josm.openstreetmap.de), &lt;a href="https://wiki.openstreetmap.org/wiki/Potlatch_2" rel="nofollow"&gt;Potlatch2&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/Potlatch_2" rel="nofollow"&gt;OsmAnd&lt;/a&gt;, a digital camera and &lt;a href="https://wiki.openstreetmap.org/wiki/Potlatch_2" rel="nofollow"&gt;Field papers&lt;/a&gt;.
+For Q&amp;amp;A I use &lt;a href="http://qa.poole.ch" rel="nofollow"&gt;http://qa.poole.ch&lt;/a&gt;, &lt;a href="https://www.keepright.at/" rel="nofollow"&gt;keepright.at&lt;/a&gt;, &lt;a href="http://tools.geofabrik.de/osmi/" rel="nofollow"&gt;OSM Inspector&lt;/a&gt;, and &lt;a href="http://product.itoworld.com/map/129?lon=85.40441&amp;lat=27.82368&amp;zoom=9&amp;open_sidebar=clickthrough_wrapper&amp;fullscreen=true" rel="nofollow"&gt;ITO World&amp;#39;s map&lt;/a&gt; showing the last 90 days of edits.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://photos.smugmug.com/OSM/Screenshots/Mapper-in-the-Spotlight/Marek-Kleciak/i-PrZNxmq/0/58d61e20/L/Screen%20Shot%202017-05-19%20at%2022.37.25-L.png" alt="Demo F4 Example"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Demo F4 Example in Warsaw&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For 3D modeling: &lt;a href="https://en.wikipedia.org/wiki/Adobe_Photoshop" rel="nofollow"&gt;Adobe Photoshop&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/ArchiCAD" rel="nofollow"&gt;ArchiCAD&lt;/a&gt;, and &lt;a href="http://demo.f4map.com/#camera.theta=0.9" rel="nofollow"&gt;f4map&lt;/a&gt;.
+JOSM PlugIns: &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Kendzi3D" rel="nofollow"&gt;Kendzi3D&lt;/a&gt;, Kendzi3d_improved_by_Andrei, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/ShapeTools" rel="nofollow"&gt;Shape Tools&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/CADTools" rel="nofollow"&gt;CAD Tools&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/ContourOverlappingMerge" rel="nofollow"&gt;ContourOverlappingMerge&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Tracer" rel="nofollow"&gt;Tracer&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer" rel="nofollow"&gt;PicLayer&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/AlignWayS" rel="nofollow"&gt;Alignways&lt;/a&gt;, areaselector, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/BuildingsTools" rel="nofollow"&gt;buildings_tools&lt;/a&gt; – those plugins are the most  important to me. But I use also the following plugins:  &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/DXF_import" rel="nofollow"&gt;DFX import&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/FastDraw" rel="nofollow"&gt;FastDraw&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/JunctionChecking" rel="nofollow"&gt;junctionchecking&lt;/a&gt;,  &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Mapillary" rel="nofollow"&gt;Mapillary&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/measurement" rel="nofollow"&gt;measurement&lt;/a&gt;, &lt;a href="https://github.com/openstreetmap/josm-plugins/tree/master/merge-overlap" rel="nofollow"&gt;merge-overlap&lt;/a&gt;, &lt;a href="https://github.com/openstreetmap/josm-plugins/tree/master/pdfimport" rel="nofollow"&gt;pdfimport&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PhotoAdjust" rel="nofollow"&gt;photoadjust&lt;/a&gt;,  &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Reverter" rel="nofollow"&gt;reverter&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/RoadSigns" rel="nofollow"&gt;roadSigns&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Splinex" rel="nofollow"&gt;splinex&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Terracer" rel="nofollow"&gt;terracer&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/Tracer2" rel="nofollow"&gt;tracer2&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2" rel="nofollow"&gt;utilsplugin2&lt;/a&gt;, &lt;a href="https://wiki.openstreetmap.org/wiki/JOSM/Plugins/WalkingPapers" rel="nofollow"&gt;walkingpapers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Where do you map ?&lt;/h2&gt;
+
+&lt;p&gt;I do mapping around the world. Previously mostly in Poland and Germany, but with time more and more in developing countries like Ruanda and Nepal. After the earthquake in Nepal in 2015 I did my mapping mostly there. The help is still needed.&lt;/p&gt;
+
+&lt;h2&gt;What is your biggest achievement as mapper?&lt;/h2&gt;
+
+&lt;p&gt;I have three points. First would be the organization of the &lt;a href="https://wiki.openstreetmap.org/wiki/2nd_3D_Workshop_Garching/Agenda" rel="nofollow"&gt;Garching Workshop&lt;/a&gt;: I suggested there the mapping schema known now as &lt;a href="https://wiki.openstreetmap.org/wiki/Simple_3D_buildings" rel="nofollow"&gt;Simple 3D Building&lt;/a&gt;. My good friend Kendzi, a very smart guy, developed based on this idea his plugin Kendzi3d. Now we have 3D maps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://wiki.openstreetmap.org/w/images/5/58/88915622.png" alt="Example 3D Building in Kendzi plugin"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example 3D Building in Kendzi plugin&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Secondly the lobbying for OSM in Poland and the foundation of the OSM Poland association. As the result the polish mappers got access to the very accurate government aerial images.&lt;/p&gt;
+
+&lt;p&gt;Third: Specification of &lt;a href="https://wiki.openstreetmap.org/wiki/Proposed_features/area:highway" rel="nofollow"&gt;area:highway&lt;/a&gt;. Another smart mapper, marimil, has programmed the &lt;a href="http://osmapa.pl/w/area/?lat=53.44252&amp;lon=14.54771&amp;zoom=19&amp;ol=PEFGABR" rel="nofollow"&gt;visualization&lt;/a&gt;. Now, we have over 82000 such areas in the map. Why is it so important in my opinion? First: a better look of the map on highest zoom level, secondly: this content can help to develop apps for automated driving.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://photos.smugmug.com/OSM/Screenshots/Mapper-in-the-Spotlight/Marek-Kleciak/i-c9TzKQ5/0/e698a28e/L/Screen%20Shot%202017-05-19%20at%2022.25.27-L.png" alt="Visualization of area:highway"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Visualization of area:highway on osmapa.pl&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Why do you map?&lt;/h2&gt;
+
+&lt;p&gt;I love the idea of open source. I have teached the &lt;a href="http://www.kathmandulivinglabs.org/" rel="nofollow"&gt;Kathmandu Living Labs&lt;/a&gt; team in Nepal before earthquake. They used this knowledge for production of maps for rescue teams after the earthquake.&lt;/p&gt;
+
+&lt;h2&gt;What is the most difficult part of mapping ?&lt;/h2&gt;
+
+&lt;p&gt;I don´t understand this question :-) In my eyes it is wonderful and easy to understand project. Maybe I´m too long in this business.&lt;/p&gt;
+
+&lt;h2&gt;What are your mapping plans for the near future ?&lt;/h2&gt;
+
+&lt;p&gt;I wish to improve the OSM map of &lt;a href="http://www.openstreetmap.org/relation/184633#map=7/28.425/84.133" rel="nofollow"&gt;Nepal&lt;/a&gt;. I like this beautiful country and nice, friendly Nepali.
+Especially mapping of forest areas is in my eyes of special value: Where are forests, there are no people. This knowledge is important for disaster management. And new earthquakes are  very likely to happen in Nepal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://photos.smugmug.com/OSM/Screenshots/Mapper-in-the-Spotlight/Marek-Kleciak/i-PJVNttm/0/a5859a6f/L/Screen%20Shot%202017-05-19%20at%2022.43.04-L.png" alt="Map of Nepal"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Map of Nepal in Humanitarian Style&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Do you have contact with other mappers ?&lt;/h2&gt;
+
+&lt;p&gt;Absolutely. Many of them. I know a lot of nice and addicted friends.&lt;/p&gt;
+
+&lt;h2&gt;Do you use OpenStreetMap yourself ? How ?&lt;/h2&gt;
+
+&lt;p&gt;I use it for navigation and biking.&lt;/p&gt;
+
+&lt;h2&gt;Do you do anything else than mapping that is related to OpenStreetMap?&lt;/h2&gt;
+
+&lt;p&gt;Yes, I try to write some specification for JOSM plugins I miss. Sometimes I find people that realize this ideas, as was the case with e.g. CAD Tools. I´m also working in my free time on the S3DB 2.0 specification. It would be great to have more detailed 3D models. I am also the member of advisory board of &lt;a href="http://www.i-locate.eu/" rel="nofollow"&gt;I-locate consortium&lt;/a&gt; which develops standards for indoor data. I am responsible for OSM content there.&lt;/p&gt;
+
+&lt;h2&gt;To conclude, is there anything else you want to mention?&lt;/h2&gt;
+
+&lt;p&gt;Don´t believe everything is already mapped and OSM becomes boring. There is still a lot, a whole lot to do!&lt;/p&gt;
+</description>
+      <dc:creator>escada</dc:creator>
+      <pubDate>Sun, 21 May 2017 18:20:24 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/escada/diary/41351#comments</comments>
+    </item>
+    <item>
+      <title>Rendering of Muslim cemeteries</title>
+      <link>http://www.openstreetmap.org/user/michalfabik/diary/41348</link>
+      <guid>http://www.openstreetmap.org/user/michalfabik/diary/41348</guid>
+      <description>&lt;p&gt;While I was fixing a lot of stuff around Sarajevo, it occurred to me that we don&amp;#39;t have a way to render Muslim cemeteries - an important landmark of the cityscape there, and in many other parts of the world too, I&amp;#39;m sure. Some big cemeteries are even divided into Christian and Muslim sections.&lt;br/&gt;
+Adapting one the existing rendering patterns was &lt;a href="https://wiki.openstreetmap.org/wiki/File:Landuse-cemetery_muslim.png" rel="nofollow"&gt;easy enough&lt;/a&gt;:&lt;br/&gt;
+&lt;img src="https://wiki.openstreetmap.org/w/images/f/f8/Landuse-cemetery_muslim.png" alt="landuse=cemetery + religion=muslim"/&gt;&lt;br/&gt;
+So, how does one officially propose a new way to render an existing feature?&lt;/p&gt;
+</description>
+      <dc:creator>michalfabik</dc:creator>
+      <pubDate>Sun, 21 May 2017 08:07:18 +0000</pubDate>
+      <comments>http://www.openstreetmap.org/user/michalfabik/diary/41348#comments</comments>
+    </item>
+  </channel>
+</rss>
