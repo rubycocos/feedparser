@@ -24,6 +24,8 @@ feed.title:      My Example Feed
 feed.url:        https://example.org/
 feed.feed_url:   https://example.org/feed.json
 
+feed.items.size:    >>> 2
+
 feed.items[0].guid:      2
 feed.items[0].url:       https://example.org/second-item
 

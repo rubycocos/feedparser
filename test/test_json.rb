@@ -15,8 +15,8 @@ class TestJson < MiniTest::Test
              'byparker.json',
              'daringfireball.json',
              'inessential.json',
-             'example.json',
-             'microblog.json',
+             'spec/json/example.json',
+             'spec/json/microblog.json',
             ]
 
     names.each do |name|

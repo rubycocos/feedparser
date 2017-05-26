@@ -43,7 +43,14 @@ class Test
       expr  = line[0...pos].strip    ## NOTE: do NOT include colon (thus, use tree dots ...)
       value = line[pos+1..-1].strip
 
-      if value.start_with? 'DateTime'
+
+      ##  for ruby code use |>  or >> or >>> or =>  or $ or | or RUN or  ????
+      ##   otherwise assume "literal" string
+
+      if value.start_with? '>>>'
+         value = value[3..-1].strip
+         code="assert_equal #{value}, #{expr}"
+      elsif value.start_with? 'DateTime'         ## todo/fix: remove; use >>> style
         code="assert_equal #{value}, #{expr}"
       else # assume value is a "plain" string
         code="assert_equal '#{value}', #{expr}"

@@ -26,6 +26,8 @@ feed.title:      Brent Simmons’s Microblog
 feed.url:        https://example.org/
 feed.feed_url:   https://example.org/feed.json
 
+feed.items.size:    >>> 1
+
 feed.items[0].guid:       2347259
 feed.items[0].url:        https://example.org/2347259
-feed.items[0].published:  DateTime.new( 2016, 2, 9, 14, 22, 0, '-7')
+feed.items[0].published:  >>> DateTime.new( 2016, 2, 9, 14, 22, 0, '-7')
