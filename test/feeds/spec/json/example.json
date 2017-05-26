@@ -26,9 +26,11 @@ feed.feed_url:   https://example.org/feed.json
 
 feed.items.size:    >>> 2
 
-feed.items[0].guid:      2
-feed.items[0].url:       https://example.org/second-item
+feed.items[0].id:           2
+feed.items[0].content_text: This is a second item.
+feed.items[0].url:          https://example.org/second-item
 
-feed.items[1].guid:      1
-feed.items[1].url:       https://example.org/initial-post
-feed.items[1].content:   <p>Hello, world!</p>
+
+feed.items[1].id:            1
+feed.items[1].content_html:  <p>Hello, world!</p>
+feed.items[1].url:           https://example.org/initial-post

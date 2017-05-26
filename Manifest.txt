@@ -17,6 +17,7 @@ test/feeds/googlegroups.atom
 test/feeds/googlegroups2.atom
 test/feeds/headius.atom
 test/feeds/inessential.json
+test/feeds/intertwingly.atom
 test/feeds/jsonfeed.json
 test/feeds/lambdatheultimate.rss2
 test/feeds/learnenough.atom

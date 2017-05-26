@@ -63,10 +63,9 @@ class JsonFeedBuilder
     end
 
 
-    item.content = h['content_html']
-
-    ## todo/fix: add check for content_text too - why? why not??
-    ##   use item.summary for plain text version - why? why not??
+    item.content_html = h['content_html']
+    item.content_text = h['content_text']
+    item.summary      = h['summary']
 
     item
   end # method build_feed_item

@@ -53,7 +53,8 @@ class Test
       elsif value.start_with? 'DateTime'         ## todo/fix: remove; use >>> style
         code="assert_equal #{value}, #{expr}"
       else # assume value is a "plain" string
-        code="assert_equal '#{value}', #{expr}"
+        ## note use %{ } so value can include quotes ('') etc.
+        code="assert_equal %{#{value}}, #{expr}"
       end
 
       puts "eval #{code}"

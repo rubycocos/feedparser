@@ -6,10 +6,11 @@ require 'pp'
 # 3rd party libs/gems
 require 'fetcher'
 
-## feed_url = 'http://weblog.rubyonrails.org/feed/atom.xml'   # atom 1.0 
+## feed_url = 'http://weblog.rubyonrails.org/feed/atom.xml'   # atom 1.0
 
-feed_url = 'http://www.quirksmode.org/blog/atom.xml'  # atom 0.3 (!)
+## feed_url = 'http://www.quirksmode.org/blog/atom.xml'  # atom 0.3 (!)
 
+feed_url = 'http://intertwingly.net/blog/index.atom'
 
 
 xml = Fetcher.read( feed_url )

@@ -7,11 +7,24 @@ class Item
   attr_accessor :title
   attr_accessor :url
 
-  def content?()  @content.nil? == false;  end
-  attr_accessor  :content    # todo: make it for now an alias for content_html
 
-  ## todo: remove content_type  use content_html and content_text
-  attr_accessor  :content_type  # optional for now (text|html|html-escaped|binary-base64) - not yet set
+  ## note: only content/content_html should use html;
+  ##  all others (e.g. title/summary/content_text) shoud be plain (vanilla) text
+
+
+  def content?()  @content.nil? == false;  end
+  attr_accessor  :content
+
+  ## note: content_html is an alias for content
+  ##   will hold type html/xhtml/html-escaped  - check if always converted to string by parser ??
+  alias :content_html  :content
+  alias :content_html= :content=
+  alias :content_html? :content?
+
+
+  def content_text?()  @content_text.nil? == false;  end
+  attr_accessor  :content_text
+
 
 
   def summary?()  @summary.nil? == false;  end
@@ -24,7 +37,13 @@ class Item
   def published?()  @published.nil? == false;  end
   attr_accessor :published  # note: published is basically an alias for created
 
+
   attr_accessor :guid     # todo: rename to id (use alias) ??
+
+  ## note: guid is an alias for id;  todo/fix: reverse - make guid an alias of id
+  alias :id  :guid
+  alias :id= :guid=
+
 
 ## todo: add author/authors
 ## todo: add category/categories
