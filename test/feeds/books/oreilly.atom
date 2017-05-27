@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+			xmlns:on="http://www.oreillynet.com/csrss/"
+			xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+			xml:lang="en-US">
+
+<title>O'Reilly Media, Inc. Upcoming Titles</title>
+<link rel="alternate" type="text/html" href="http://shop.oreilly.com/" hreflang="en" title="O'Reilly Media, Inc. Upcoming Titles" />
+<subtitle type="text">O'Reilly's Upcoming Titles: Books, Ebooks, Videos, and More</subtitle>
+<rights>Copyright O'Reilly Media, Inc.</rights>
+<id>http://shop.oreilly.com/</id>
+<updated>2017-05-25T19:20:21-08:00</updated>
+
+<itunes:author>O'Reilly Media, Inc.</itunes:author>
+<itunes:category text="Technology" />
+<itunes:explicit>no</itunes:explicit>
+<itunes:owner>
+<itunes:name>O'Reilly Media, Inc.</itunes:name>
+<itunes:email>webmaster@oreillynet.com</itunes:email>
+</itunes:owner>
+
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/oreilly/upcomingbooks" />
+<feedburner:info uri="oreilly/upcomingbooks" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+
+<entry>
+	<title>Fundamentals of Deep Learning</title>
+	<id>http://shop.oreilly.com/product/0636920039709.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/HTGrIycm3vo/0636920039709.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920039709.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491925614/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;div&gt;&lt;p&gt;With the reinvigoration of neural networks in the 2000s, deep learning has become an extremely active area of research that is paving the way for modern machine learning. This book uses exposition and examples to help you understand major concepts in this complicated field.&lt;/p&gt;&lt;p&gt;Large companies such as Google, Microsoft, and Facebook have taken notice, and are actively growing in-house deep learning teams. For the rest of us however, deep learning is still a pretty complex and difficult subject to grasp. If you have a basic understanding of what machine learning is, have familiarity with the Python programming language, and have some mathematical background with calculus, this book will help you get started.&lt;/p&gt;&lt;/div&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/HTGrIycm3vo" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-25T19:20:21-08:10</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920039709.do</feedburner:origLink>
+</entry>
+
+<entry>
+	<title>High Performance Spark</title>
+	<id>http://shop.oreilly.com/product/0636920046967.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/mpfK4huQgiI/0636920046967.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920046967.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491943205/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Apache Spark is amazing when everything clicks. But if you haven&amp;#8217;t seen the performance improvements you expected, or still don&amp;#8217;t feel confident enough to use Spark in production, this practical book is for you. Authors Holden Karau and Rachel Warren demonstrate performance optimizations to help your Spark queries run faster and handle larger data sizes, while using fewer resources.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/mpfK4huQgiI" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-25T13:20:34-08:11</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920046967.do</feedburner:origLink>
+</entry>
+
+<entry>
+	<title>Think Data Structures</title>
+	<id>http://shop.oreilly.com/product/0636920056379.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/AHZvIu7ohEc/0636920056379.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920056379.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491972359/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;If you&amp;#8217;re a student studying computer science or a software developer preparing for technical interviews, this practical book helps you learn and review the most important ideas in software engineering&amp;#8212;data structures and algorithms&amp;#8212;in a way that&amp;#8217;s clearer, more concise, and more engaging than other materials. You&amp;#8217;ll explore the important classes in the Java collections framework (JCF), how they&amp;#8217;re are implemented, and how they are expected to perform.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/AHZvIu7ohEc" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-24T13:20:51-08:12</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920056379.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Interactive Data Visualization for the Web</title>
+	<id>http://shop.oreilly.com/product/0636920037316.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/MZlZvQyE46o/0636920037316.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920037316.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491921289/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;&lt;i&gt;Interactive Data Visualization for the Web&lt;/i&gt; addresses people interested in data visualization but new to programming or web development, giving them what they need to get started creating and publishing their own data visualization projects on the web. The recent explosion of interest in visualization and publicly available data sources has created need for making these skills accessible at an introductory level. The second edition includes greatly expanded geomapping coverage, more real-world examples, a chapter on how to put together all the pieces, and an appendix of case studies, in addition to other improvements.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/MZlZvQyE46o" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-23T13:20:23-08:13</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920037316.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Arduino Cookbook</title>
+	<id>http://shop.oreilly.com/product/0636920033653.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/aWFjT_WLNmw/0636920033653.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920033653.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491903520/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;This cookbook is perfect for anyone who wants to experiment with the popular Arduino microcontroller and programming environment. You&amp;#8217;ll find more than 200 tips and techniques for building a variety of objects and prototypes such as toys, detectors, robots, and interactive clothing that can sense and respond to touch, sound, position, heat, and light.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/aWFjT_WLNmw" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-23T03:20:20-08:14</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920033653.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Streaming Systems</title>
+	<id>http://shop.oreilly.com/product/0636920073994.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/4bjDsR2TFeo/0636920073994.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920073994.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491983874/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Expanded from co-author Tyler Akidau&amp;#8217;s popular series of blog posts "Streaming 101" and "Streaming 102", this practical book shows data engineers, data scientists, and developers how to work with streaming or event-time data in a conceptual and platform-agnostic way. You&amp;#8217;ll go from "101"-level understanding of stream processing to a nuanced grasp of the what, where, when, and how of processing real-time data streams.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/4bjDsR2TFeo" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-22T19:20:33-08:15</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920073994.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Windows 10: The Missing Manual</title>
+	<id>http://shop.oreilly.com/product/0636920068181.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/tu-YnxPLr8E/0636920068181.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920068181.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491981917/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Windows 10 hit the scene in 2015 with lots of new features, such as the Edge web browser, Cortana voice-activated personal assistant, and universal apps that run on tablets, phones, and computers. Now, the Windows 10 Creators Update brings even more goodies&amp;#8212;and this jargon-free guide helps you get the most out of this supercharged operating system.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/tu-YnxPLr8E" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-10T19:20:27-08:16</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920068181.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Practical Monitoring</title>
+	<id>http://shop.oreilly.com/product/0636920050773.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/dgJVBOvRcrk/0636920050773.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920050773.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491957356/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Do you have a nagging feeling that your monitoring could be improved, but you just aren&amp;#8217;t sure how? This is the book for you. &lt;i&gt;Monitoring Monitoring&lt;/i&gt; explains what makes your monitoring less than stellar, and provides a practical approach to designing and implementing a monitoring strategy, from the application down to the hardware in the datacenter and everything in between.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/dgJVBOvRcrk" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-01T03:20:17-08:17</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920050773.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Visualizing Streaming Data</title>
+	<id>http://shop.oreilly.com/product/0636920063124.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/9Bn5LskbP7k/0636920063124.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920063124.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491978016/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Machine learning and computerized data analysis is incredibly powerful, but humans still excel at "getting a sense of things"&amp;#8212;the ability to recognize ill-defined or novel patterns or anomalies. With the rise of real-time streaming data, it&amp;#8217;s important to give people access to data as it arrives, in ways that enable users or analysts to recognize that "something is going on." This book provides both conceptual guidance and programming tools to do just that. Application designers, data scientists, data miners, data journalists, and system administrators will learn several ways to create visualizations that bring context and a sense of time to streaming text data.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/9Bn5LskbP7k" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-01T03:20:17-08:18</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920063124.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Kubernetes Cookbook</title>
+	<id>http://shop.oreilly.com/product/0636920064947.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/xr9Atg7N24Q/0636920064947.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920064947.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491979686/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Kubernetes is becoming the de-facto standard for container orchestration and distributed applications management across a microservices framework. With this practical cookbook, you&amp;#8217;ll learn hands-on recipes for automating the deployment, scaling, and operations of application containers across clusters of hosts. The book's easy-lookup problem-solution-discussion format helps you find the detailed answers you need&amp;#8212;quickly.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/xr9Atg7N24Q" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-05-01T03:20:17-08:19</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920064947.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Learning React</title>
+	<id>http://shop.oreilly.com/product/0636920049579.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/fFitxvCBosQ/0636920049579.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920049579.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491954621/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;If you want to learn how to build efficient user interfaces with React, this is your book. Authors Alex Banks and Eve Porcello show you how to create UIs with this small JavaScript library that can deftly display data changes on large-scale, data-driven websites without page reloads. Along the way, you&amp;#8217;ll learn how to work with functional programming and the latest ECMAScript features.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/fFitxvCBosQ" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-27T13:20:39-08:20</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920049579.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Functional Programming: A PragPub Anthology</title>
+	<id>http://shop.oreilly.com/product/9781680502336.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/nxlh2cR8nkU/9781680502336.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781680502336.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781680502336/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Explore functional programming and discover new ways of thinking about code. You know you need to master functional programming, but learning one functional language is only the start. In this book, through articles drawn from &lt;i&gt;PragPub&lt;/i&gt; magazine and articles written specifically for this book, you'll explore functional thinking and functional style and idioms across languages. Led by expert guides, you'll discover the distinct strengths and approaches of Clojure, Elixir, Haskell, Scala, and Swift and learn which best suits your needs.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/nxlh2cR8nkU" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-22T13:20:30-08:21</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781680502336.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Researching UX: User Research</title>
+	<id>http://shop.oreilly.com/product/9780995382633.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/RI3Guc3rN6g/9780995382633.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9780995382633.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9780995382633/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;How well do you &lt;em&gt;really&lt;/em&gt; know your users? With properly conducted user research, you can discover what really makes your audience tick. This practical guide will show you, step-by-step, how to gain proper insight about your users so that you can base design decisions on solid evidence. You'll not only learn the different methodologies that you can employ in user research, but also gain insight into important set-up activities, such as recruiting users and equipping your lab, and acquire analysis skills so that you can make the most of the data you've gathered. And finally, you'll learn how to communicate findings and deploy evidence, to boost your design rationale and persuade skeptical colleagues.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/RI3Guc3rN6g" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-22T13:20:30-08:22</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9780995382633.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Scalable Cloud Ops with Fugue</title>
+	<id>http://shop.oreilly.com/product/9781680502343.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/7lYipGyYNBY/9781680502343.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781680502343.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781680502343/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Harness the promise of the cloud with Fugue, an operating system built for the cloud. Program cloud infrastructure in a fraction of the time it takes with current tools, debug infrastructure at design time, and centralize your change control process. Written by the Fugue development team, this is the definitive resource to scalable cloud operations with Fugue.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/7lYipGyYNBY" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-13T03:20:46-08:23</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781680502343.do</feedburner:origLink></entry>
+
+<entry>
+	<title>WordPress Projects</title>
+	<id>http://shop.oreilly.com/product/0636920046905.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/JBMWW67ulUA/0636920046905.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920046905.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491942932/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;It&amp;#8217;s relatively quick and easy to begin a self-hosted WordPress website, but adding the content and functions that actually make your site work is much more challenging. With this practical book, you&amp;#8217;ll learn the process, tools, and tips you need to lay out content in self-hosted WordPress installations successfully. Author George Plumley offers a visual guide to adding more than 50 common functions to WordPress. Ideal for beginning to intermediate site builders using self-hosted WordPress, the fully illustrated steps in this book make it easy for you to get the site you want.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/JBMWW67ulUA" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-01T03:20:07-08:24</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920046905.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Introduction to Spark Operations</title>
+	<id>http://shop.oreilly.com/product/0636920055990.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/e63d2NqwVjs/0636920055990.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920055990.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491971796/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Apache Spark may be the most powerful technology to hit the data world since MapReduce, but many enterprises face unique problems when trying to take advantage of it. With this practical book, system administrators will learn how to work with data science teams to configure, troubleshoot, and optimize Spark clusters at enterprise scale. You&amp;#8217;ll learn everything from initial setup and installation to all facets of architecture, functional testing, and memory. You&amp;#8217;ll also get up to speed with the Spark WebUI and troubleshooting toolkit.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/e63d2NqwVjs" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-01T03:20:07-08:25</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920055990.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Programming on MicroPython</title>
+	<id>http://shop.oreilly.com/product/0636920056515.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/3Qm9j_tg8-g/0636920056515.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920056515.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491972731/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Learn how to use MicroPython to make cool stuff with the BBC micro:bit, a simple, fun, and powerful gateway into both hardware and software development. This practical book assumes no previous knowledge of programming and takes you on a journey from first steps to advanced projects. Written by the programmer who proposed, coordinated, and contributed to getting MicroPython on the BBC micro:bit, there's no better person to teach you this topic.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/3Qm9j_tg8-g" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-04-01T03:20:07-08:26</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920056515.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Designing with Data</title>
+	<id>http://shop.oreilly.com/product/0636920026228.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/qEAp7wWNA4E/0636920026228.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920026228.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781449334833/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;On the surface, design practices and data science may not seem like obvious partners. But these disciplines actually work toward the same goal, helping designers and product managers understand users so they can craft elegant digital experiences. This practical guide shows you how to conduct data-driven A/B testing for making design decisions on everything from small tweaks to large-scale UX concepts. Complete with real-world examples, this book shows you how to make data-driven design part of your product design workflow.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/qEAp7wWNA4E" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-29T19:20:28-08:27</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920026228.do</feedburner:origLink></entry>
+
+<entry>
+	<title>SVG Animations</title>
+	<id>http://shop.oreilly.com/product/0636920045335.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/SRiSgUwLknc/0636920045335.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920045335.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491939703/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;div&gt;&lt;p&gt;SVG is extremely powerful, with its reduced HTTP requests and crispness on any display. It becomes increasingly more interesting as you explore its capabilities for responsive animation and performance boons. When you animate SVG, you must be aware of normal image traits like composition, color, implementation, and optimization. But when you animate, it increases the complexity of each of these factors exponentially.&lt;/p&gt;&lt;p&gt;This practical book takes a deep dive into how you can to solve these problems with stability, performance, and creativity in mind.&lt;/p&gt;&lt;/div&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/SRiSgUwLknc" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-17T19:20:01-08:28</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920045335.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Flexbox in CSS</title>
+	<id>http://shop.oreilly.com/product/0636920066682.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/cqZb-cb4A18/0636920066682.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920066682.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491981429/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Layout designers rejoice: CSS finally has an update that will make your lives easier. Flexible box layout, often called Flexbox, frees you from the challenges of creating layouts with floats and padding? and lets you specify containers and their contents instead. The new model means you can specify the directions in which material flows, how content wraps, and the ways components can expand to fill a space. Whether you've been creating large sites or small, fixed sites or responsive sites, flexbox will simplify your work.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/cqZb-cb4A18" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-07T19:20:14-08:29</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920066682.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Creative Coding and Data Visualization with p5.js</title>
+	<id>http://shop.oreilly.com/product/0636920048572.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/4MKtz7Bp96w/0636920048572.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920048572.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491951903/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;div&gt;&lt;p&gt;Good news for artists, designers, educators, and beginners with no programming experience: with the p5.js JavaScript library and this hands-on guide, you&amp;#8217;ll use a sketchpad approach learn the fundamentals of computer programming and data visualization right in your own web browser.&lt;/p&gt;&lt;p&gt;p5 is the native JavaScript alternative to Processing, the language and environment that helps non-programmers learn how to program with the aid of visual feedback. While Processing provides its own sketchpad environment, p5 and its full set of drawing tools enable you to sketch in the browser.Author Scott Murray provides the first in-depth book on p5 to cover all of the exciting possibilities of using Processing-like code on the Web.&lt;/p&gt;&lt;/div&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/4MKtz7Bp96w" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-06T13:20:11-08:30</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920048572.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Programming Phoenix 1.3</title>
+	<id>http://shop.oreilly.com/product/9781680502268.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/2UjzTLS9RBE/9781680502268.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781680502268.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781680502268/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Don't accept the compromise between fast and beautiful: you can have it all. Phoenix creator Chris McCord, Elixir creator Jose Valim, and award-winning author Bruce Tate walk you through building an application that's fast and reliable. At every step, you'll learn from the Phoenix creators not just what to do, but why. Packed with insider insights and completely updated for Phoenix 1.3, this definitive guide will be your constant companion in your journey from Phoenix novice to expert, as you build the next generation of web applications.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/2UjzTLS9RBE" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-01T03:20:21-08:31</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781680502268.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Jump Start Adobe Experience Design CC</title>
+	<id>http://shop.oreilly.com/product/9780995382619.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/xo_-OtHLR44/9780995382619.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9780995382619.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9780995382619/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;div&gt;&lt;p&gt;Get a Jump Start on the up and coming UX design and prototyping power tool, Experience Design!&lt;/p&gt; &lt;p&gt;Experience Design CC (also known as XD) is a brand new design tool from Adobe. With a clean, uncluttered UI and a raft of powerful features--such as live preview, Repeat Grids, artboards, symbols and collaboration tools--XD is designed from the ground up to streamline the UX design process. It makes creating interactive, sharable prototypes a snap!&lt;/p&gt; &lt;p&gt;This book provides a rapid and practical introduction to using Adobe XD for UX design and prototyping. You'll:&lt;/p&gt; &lt;ul&gt;&lt;li&gt;Get to grips with XD's clean UI and efficient keyboard shortcuts&lt;/li&gt;&lt;li&gt;Use XD' powerful tools, such as repeat grid and symbols, to rapidly create wireframes and prototypes&lt;/li&gt;&lt;li&gt;Create interactive prototypes with ease&lt;/li&gt;&lt;li&gt;Collaborate with stakeholders using built-in sharing and feedback tools&lt;/li&gt;&lt;li&gt;And more!&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/xo_-OtHLR44" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-01T03:20:21-08:32</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9780995382619.do</feedburner:origLink></entry>
+
+<entry>
+	<title>The Arduino Inventor's Guide</title>
+	<id>http://shop.oreilly.com/product/9781593276522.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/vGer9GHx9YA/9781593276522.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781593276522.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781593276522/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;&lt;i&gt;The Arduino Inventor's Guide&lt;/i&gt; is a hands-on introduction to exploring electronics with Arduino, for total beginners.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/vGer9GHx9YA" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-03-01T03:20:21-08:33</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781593276522.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Woodworking for Young Makers</title>
+	<id>http://shop.oreilly.com/product/0636920114031.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/KbQ6IOo1e7M/0636920114031.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920114031.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781680452815/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Learning to be a maker has never been more fun. Full-color cartoons and drawings lead you through the steps needed for making a wizard wand, a sanding block, a charging station for your phone or tablet, and a sturdy box with a secret compartment. You'll learn how to choose and use the right tools, measure and cut properly, sand, glue, and finish your projects for great-looking pieces. This is the perfect guide for young people who want to try their hand at building things with wood in a home or school workshop. It teaches fundamental skills and unlocks creativity. Highly visual and illustrated with engaging cartoons, the book is visual guide that focuses more heavily on graphics than on words. No prior experience or knowledge of tools is required. Everything you need to know is included in the text.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/KbQ6IOo1e7M" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-02-02T03:20:09-08:34</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920114031.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Electricity for Young Makers</title>
+	<id>http://shop.oreilly.com/product/9781680452860.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/2WAu_e82peQ/9781680452860.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781680452860.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781680452860/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Learn about electricity while having fun! Lavishly illustrated with cartoons and drawings, this book guides the reader through six hands-on projects. Discover the electrical potential lurking in a stack of pennies - enough to light up an LED or power a calculator! Launch a flying LED copter into the air. Make a speaker that plays music from an index card. Build working motors from a battery, a magnet, and some copper wire. Have fun while learning about and exploring the world of electricity. The projects in this book illuminate such concepts as electric circuits, electromagnetism, electroluminescence, the Lorentz force and more. You'll be amazed by the results you get with a handful of simple materials. No prior experience is required. Everything you need to know is included in the text.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/2WAu_e82peQ" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-02-02T03:20:09-08:35</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781680452860.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Computers for Seniors</title>
+	<id>http://shop.oreilly.com/product/9781593277925.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/1oJFKpPjRo4/9781593277925.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781593277925.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781593277925/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;&lt;i&gt;Computers for Seniors&lt;/i&gt; is a step-by-step guide to learning basic computer skills.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/1oJFKpPjRo4" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-02-01T03:20:16-08:36</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781593277925.do</feedburner:origLink></entry>
+
+<entry>
+	<title>The Customer-Driven Playbook</title>
+	<id>http://shop.oreilly.com/product/0636920066606.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/eZQ9BXNA8QA/0636920066606.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920066606.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491981207/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;&lt;i&gt;The Customer-Driven Playbook&lt;/i&gt; details a complete end-to-end process to help large teams and organizations learn from their customers, conceptualize new ideas, and build products their customers will love. By consolidating theory from various lean books into a step-by-step playbook, this book provides a way to operationalize and scale lean principles across teams, divisions, disciplines, and organizations. You can start at any stage in your product lifecycle and experience results that will have a strong impact on the product strategy within your organization.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/eZQ9BXNA8QA" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-01-31T19:20:04-08:37</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920066606.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Ansible: Up and Running</title>
+	<id>http://shop.oreilly.com/product/0636920065500.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/c1mc5ML-Iwg/0636920065500.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/0636920065500.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781491979808/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Among the many configuration management tools available, Ansible has some distinct advantages&amp;#8212;it&amp;#8217;s minimal in nature, you don&amp;#8217;t need to install anything on your nodes, and it has an easy learning curve. With this updated second edition, you&amp;#8217;ll learn how to be productive with this tool quickly, whether you&amp;#8217;re a developer deploying code to production or a system administrator looking for a better automation solution.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/c1mc5ML-Iwg" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-01-31T13:20:09-08:38</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/0636920065500.do</feedburner:origLink></entry>
+
+<entry>
+	<title>Rails, Angular, Postgres, and Bootstrap</title>
+	<id>http://shop.oreilly.com/product/9781680502206.do</id>
+	<link rel="alternate" href="http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/M2jG6BB8pKQ/9781680502206.do" />
+	<summary type="html">
+	&lt;a href='http://shop.oreilly.com/product/9781680502206.do'&gt;&lt;img src='http://covers.oreillystatic.com/images/9781680502206/bkt.gif' style='float:left;width:85px;padding:0 10px 10px 0;' /&gt;&lt;/a&gt;&lt;p&gt;Achieve awesome user experiences and performance with simple, maintainable code! Embrace the full stack of web development, from styling with Bootstrap, building an interactive user interface with Angular 2, to storing data quickly and reliably in PostgreSQL. With this fully revised new edition, take a holistic view of full-stack development to create usable, high-performing applications with Rails 5.&lt;/p&gt;
+	&lt;img src="http://feeds.feedburner.com/~r/oreilly/upcomingbooks/~4/M2jG6BB8pKQ" height="1" width="1" alt=""/&gt;</summary>
+	<author><name>O'Reilly Media, Inc.</name></author>
+	<updated>2017-01-27T13:20:05-08:39</updated>
+<feedburner:origLink>http://shop.oreilly.com/product/9781680502206.do</feedburner:origLink></entry>
+
+</feed>
+
+---
+
+feed.format:     atom
+feed.title:      O'Reilly Media, Inc. Upcoming Titles
+feed.subtitle:   O'Reilly's Upcoming Titles: Books, Ebooks, Videos, and More
+feed.url:        http://shop.oreilly.com/
+feed.feed_url:   http://feeds.feedburner.com/oreilly/upcomingbooks
+feed.updated:    >>> DateTime.new( 2017, 5, 25, 19, 20, 21, '-8' )
+
+feed.items.size:    >>> 30
+
+feed.items[0].title:     Fundamentals of Deep Learning
+feed.items[0].url:       http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/HTGrIycm3vo/0636920039709.do
+feed.items[0].id:        http://shop.oreilly.com/product/0636920039709.do
+feed.items[0].updated:   >>> DateTime.new( 2017, 5, 25, 19, 20, 21, '-8:10')
+
+feed.items[1].title:     High Performance Spark
+feed.items[1].url:       http://feedproxy.google.com/~r/oreilly/upcomingbooks/~3/mpfK4huQgiI/0636920046967.do
+feed.items[1].id:        http://shop.oreilly.com/product/0636920046967.do
+feed.items[1].updated:   >>> DateTime.new( 2017, 5, 25, 13, 20, 34, '-8:11' )
+
+
+>>> pp feed.items[0].summary
+>>> pp feed.items[0].updated
+>>> pp feed.items[1].updated

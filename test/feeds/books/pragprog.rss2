@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:atom="http://www.w3.org/2005/Atom"
+                   xmlns:access="http://www.bloglines.com/about/specs/fac-1.0">
+  <access:restriction relationship="deny"/>
+  <channel>
+    <atom:link href="https://pragprog.com/feed/global" rel="self" type="application/rss+xml"/>
+    <title>Pragmatic Bookshelf</title>
+    <link>https://pragprog.com/</link>
+    <description>Up-to-date information about the Pragmatic Bookshelf</description>
+    <language>en-us</language>
+    <pubDate>Sat, 27 May 2017 17:18:55 +0000</pubDate>
+    <item>
+      <title>Python Testing with pytest</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Tue, 23 May 2017 18:35:00 +0000</pubDate>
+      <guid>http://pragprog.com/news/python-testing-with-pytest?3639225</guid>
+      <link>http://pragprog.com/news/python-testing-with-pytest</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Agile Web Development with Rails 5.1, Upgrade Details</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Wed, 10 May 2017 14:32:55 +0000</pubDate>
+      <guid>http://pragprog.com/news/agile-web-development-with-rails-5-1-upgrade-details?3629250</guid>
+      <link>http://pragprog.com/news/agile-web-development-with-rails-5-1-upgrade-details</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Surprise Sale: 40% Off this week only</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Wed, 26 Apr 2017 13:20:02 +0000</pubDate>
+      <guid>http://pragprog.com/news/surprise-sale-40-off-this-week-only?3619134</guid>
+      <link>http://pragprog.com/news/surprise-sale-40-off-this-week-only</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Now in print: iOS 10 SDK Development: Creating iPhone and iPad Apps with Swift</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Tue, 28 Mar 2017 13:54:09 +0000</pubDate>
+      <guid>http://pragprog.com/news/now-in-print-ios-10-sdk-development-creating-iphone-and-ipad-apps-with-swift?3607075</guid>
+      <link>http://pragprog.com/news/now-in-print-ios-10-sdk-development-creating-iphone-and-ipad-apps-with-swift</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Functional Web Development with Elixir, OTP, and Phoenix</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Tue, 21 Mar 2017 14:48:25 +0000</pubDate>
+      <guid>http://pragprog.com/news/functional-web-development-with-elixir-otp-and-phoenix?3602607</guid>
+      <link>http://pragprog.com/news/functional-web-development-with-elixir-otp-and-phoenix</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>A Common-Sense Guide to Data Structures and Algorithms</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Tue, 14 Mar 2017 17:32:21 +0000</pubDate>
+      <guid>http://pragprog.com/news/a-common-sense-guide-to-data-structures-and-algorithms?3600282</guid>
+      <link>http://pragprog.com/news/a-common-sense-guide-to-data-structures-and-algorithms</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Design It! From Programmer to Software Architect</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Wed, 08 Mar 2017 14:30:18 +0000</pubDate>
+      <guid>http://pragprog.com/news/design-it-from-programmer-to-software-architect?3597202</guid>
+      <link>http://pragprog.com/news/design-it-from-programmer-to-software-architect</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Programming Elixir 1.3 in print</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Sun, 19 Feb 2017 14:35:41 +0000</pubDate>
+      <guid>http://pragprog.com/news/programming-elixir-1-3-in-print?3593675</guid>
+      <link>http://pragprog.com/news/programming-elixir-1-3-in-print</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>The Cucumber Book, Second Edition for Rails 5</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Sun, 19 Feb 2017 14:31:11 +0000</pubDate>
+      <guid>http://pragprog.com/news/the-cucumber-book-second-edition-for-rails-5?3593671</guid>
+      <link>http://pragprog.com/news/the-cucumber-book-second-edition-for-rails-5</link>
+      <category>news</category>
+    </item>
+    <item>
+      <title>Practical Vim for Vim 8 and Core Data for Swift 3</title>
+      <description>&lt;div id="cms-content"&gt;
+
+      &lt;/div&gt;
+     </description>
+      <pubDate>Sun, 19 Feb 2017 14:29:19 +0000</pubDate>
+      <guid>http://pragprog.com/news/practical-vim-for-vim-8-and-core-data-for-swift-3?3593667</guid>
+      <link>http://pragprog.com/news/practical-vim-for-vim-8-and-core-data-for-swift-3</link>
+      <category>news</category>
+    </item>
+  </channel>
+</rss>
+
+---
+
+feed.format:     rss 2.0
+feed.title:      Pragmatic Bookshelf
+feed.url:        https://pragprog.com/
+feed.summary:    Up-to-date information about the Pragmatic Bookshelf
+feed.published:  >>> DateTime.new( 2017, 5, 27, 17, 18, 55 )
+
+
+feed.items.size:    >>> 10
+
+feed.items[0].title:     Python Testing with pytest
+feed.items[0].url:       http://pragprog.com/news/python-testing-with-pytest
+feed.items[0].guid:      http://pragprog.com/news/python-testing-with-pytest?3639225
+feed.items[0].updated:   >>> DateTime.new( 2017, 5, 23, 18, 35 )
+
+feed.items[1].title:     Agile Web Development with Rails 5.1, Upgrade Details
+feed.items[1].url:       http://pragprog.com/news/agile-web-development-with-rails-5-1-upgrade-details
+feed.items[1].guid:      http://pragprog.com/news/agile-web-development-with-rails-5-1-upgrade-details?3629250
+feed.items[1].updated:   >>> DateTime.new( 2017, 5, 10, 14, 32, 55 )
+
+
+>>> pp feed.items[0].summary

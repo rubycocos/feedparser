@@ -12,6 +12,8 @@ class TestBooks < MiniTest::Test
   def test_all
     names = [
              'books/nostarch.rss2',
+             'books/pragprog.rss2',
+             'books/oreilly.atom',
             ]
 
     names.each do |name|

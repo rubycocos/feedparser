@@ -35,6 +35,11 @@ Cannot read feed_url link using atom:link type="self" e.g.:
 <atom:link href="https://www.nostarch.com/feeds/comingsoon.xml?startat=tcpip"
            rel="self"
            type="application/rss+xml" />
+
+<atom:link href="https://pragprog.com/feed/global"
+           rel="self"
+           type="application/rss+xml"/>
+
 ```
 
 see books/nostarch.rss2 and others as examples.
