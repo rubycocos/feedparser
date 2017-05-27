@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xml:base="https://www.nostarch.com/frontpage_comingsoon"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>No Starch Press - Coming Soon</title>
+    <link>https://www.nostarch.com/frontpage_comingsoon</link>
+    <description>Keep an eye on what&#039;s coming out down the line.</description>
+    <language>en</language>
+     <atom:link href="https://www.nostarch.com/feeds/comingsoon.xml?startat=tcpip" rel="self" type="application/rss+xml" />
+      <item>
+    <title>PoC||GTFO</title>
+    <link>https://www.nostarch.com/gtfo</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/gtfo&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/GTFO_cover.png?itok=DUUsVJxz&quot; width=&quot;168&quot; height=&quot;225&quot; alt=&quot;PoC||GTFO&quot; title=&quot;PoC||GTFO&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.nostarch.com/gtfo&quot;&gt;PoC||GTFO&lt;/a&gt; is a compilation of the wildly popular hacker zine of the same name. Contributions range from humorous poems to deeply technical essays.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 11 Apr 2017 23:50:54 +0000</pubDate>
+ <dc:creator>Caitlin Griffin</dc:creator>
+ <guid isPermaLink="false">423 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Coding iPhone Apps for Kids</title>
+    <link>https://www.nostarch.com/iphoneappsforkids</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/iphoneappsforkids&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/CodingiPhoneAppsforKids_cover.png?itok=zfRGgmaL&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;Coding iPhone Apps for Kids&quot; title=&quot;Coding iPhone Apps for Kids&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;/iphoneappsforkids&quot;&gt;Coding iPhone Apps for Kids&lt;/a&gt; teaches you how to program the iOS apps and games you’ve always wanted to make! &lt;i&gt;PDF Available Now!&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 11 Mar 2016 19:07:21 +0000</pubDate>
+ <dc:creator>Caitlin Griffin</dc:creator>
+ <guid isPermaLink="false">371 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Gray Hat C#</title>
+    <link>https://www.nostarch.com/grayhatcsharp</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/grayhatcsharp&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/GrayHatC_cover.png?itok=oFuFmPd9&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;Gray Hat C#&quot; title=&quot;Gray Hat C#&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.nostarch.com/GrayHatCSharp&quot;&gt;Gray Hat C#&lt;/a&gt; shows you how to use C#&#039;s powerful set of core libraries to create and automate security tools. &lt;i&gt;PDF Available Now!&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 27 Jul 2016 18:35:33 +0000</pubDate>
+ <dc:creator>Caitlin Griffin</dc:creator>
+ <guid isPermaLink="false">389 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>The Arduino Inventor&#039;s Guide</title>
+    <link>https://www.nostarch.com/sparkfunarduino</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/sparkfunarduino&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/ArduinoInventor%27sGuide_cover_0.png?itok=eSSQoSei&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;The Arduino Inventor&amp;#039;s Guide&quot; title=&quot;The Arduino Inventor&amp;#039;s Guide&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;/sparkfunarduino&quot;&gt;The Arduino Inventor&#039;s Guide&lt;/a&gt; is a hands-on introduction to exploring electronics with Arduino for total beginners. &lt;i&gt;Now Available in Early Access!&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 19 May 2015 23:41:36 +0000</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">346 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>The Manga Guide to Microprocessors</title>
+    <link>https://www.nostarch.com/microprocessors</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/microprocessors&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/MangaMicroprocessors_cover_0.png?itok=MxmdxH9e&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;The Manga Guide to Microprocessors&quot; title=&quot;The Manga Guide to Microprocessors&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;/microprocessors&quot;&gt;The Manga Guide to Microprocessors&lt;/a&gt; is a comic guide to microprocessors, computer architecture, and digital operations. &lt;i&gt;Now Available in Early Access!&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 24 Oct 2016 20:43:55 +0000</pubDate>
+ <dc:creator>ahariri</dc:creator>
+ <guid isPermaLink="false">393 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Arduino Project Handbook, Vol. 2</title>
+    <link>https://www.nostarch.com/arduinohandbook2</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/arduinohandbook2&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/ArduinoProjectHandbookII_cover.png?itok=FkF3sw-p&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;Arduino Project Handbook Vol. 2&quot; title=&quot;Arduino Project Handbook Vol. 2&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;/arduinohandbook2&quot;&gt;Arduino Project Handbook, Vol. 2&lt;/a&gt; is a full-color guide to building 25 fun and practical projects with the low-cost Arduino microcontroller. &lt;i&gt;Now Available in Early Access!&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 24 Oct 2016 21:24:45 +0000</pubDate>
+ <dc:creator>ahariri</dc:creator>
+ <guid isPermaLink="false">394 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Think Like a Programmer, Python Edition</title>
+    <link>https://www.nostarch.com/thinkpython</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/thinkpython&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/ThinkLikeaProgrammerPython_cover.png?itok=1yCoVJfA&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;Think Like a Programmer, Python Edition&quot; title=&quot;Think Like a Programmer, Python Edition&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Python edition of &lt;a href=&quot;https://www.nostarch.com/thinkpython&quot;&gt;Think Like a Programmer&lt;/a&gt; will teach you how to solve problems with programming.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 10 Mar 2017 23:50:24 +0000</pubDate>
+ <dc:creator>ahariri</dc:creator>
+ <guid isPermaLink="false">399 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Computers for Seniors</title>
+    <link>https://www.nostarch.com/computersforseniors</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/computersforseniors&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/ComputersforSeniors_cover.png?itok=sWPaSVC7&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;Computers for Seniors&quot; title=&quot;Computers for Seniors&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.nostarch.com/computersforseniors&quot;&gt;Computers for Seniors&lt;/a&gt; is a step-by-step guide to learning basic computer skills.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 13 Apr 2016 20:07:07 +0000</pubDate>
+ <dc:creator>Caitlin Griffin</dc:creator>
+ <guid isPermaLink="false">375 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Game Console</title>
+    <link>https://www.nostarch.com/gameconsole</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/gameconsole&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/gameconsole_cover.png?itok=S9JH4c1z&quot; width=&quot;176&quot; height=&quot;225&quot; alt=&quot;The Game Console&quot; title=&quot;The Game Console&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;a href=&quot;/gameconsole&quot;&gt;The Game Console&lt;/a&gt;&lt;/b&gt;  is a visual history of video game technology, with gorgeous photos of more than 80 video game consoles manufactured since 1972.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 09 Jan 2016 00:31:43 +0000</pubDate>
+ <dc:creator>Caitlin Griffin</dc:creator>
+ <guid isPermaLink="false">362 at https://www.nostarch.com</guid>
+  </item>
+  <item>
+    <title>Serious Cryptography</title>
+    <link>https://www.nostarch.com/seriouscrypto</link>
+    <description>&lt;div class=&quot;field field-name-field-image-cache field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/seriouscrypto&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://www.nostarch.com/sites/default/files/styles/uc_product/public/SeriousCrypto_cover_0.png?itok=s0OdQ-Pl&quot; width=&quot;170&quot; height=&quot;225&quot; alt=&quot;Serious Cryptography&quot; title=&quot;Serious Cryptography&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.nostarch.com/SeriousCrypto&quot;&gt;Serious Cryptography&lt;/a&gt; is a practical guide to the past, present, and future of cryptographic systems and algorithms. &lt;i&gt;Now Available in Early Access!&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 25 Apr 2017 22:25:46 +0000</pubDate>
+ <dc:creator>Caitlin Griffin</dc:creator>
+ <guid isPermaLink="false">428 at https://www.nostarch.com</guid>
+  </item>
+  </channel>
+</rss>
+
+---
+
+feed.format:     rss 2.0
+feed.title:      No Starch Press - Coming Soon
+feed.url:        https://www.nostarch.com/frontpage_comingsoon
+feed.summary:    Keep an eye on what's coming out down the line.
+
+
+feed.items.size:    >>> 10
+
+feed.items[0].title:     PoC||GTFO
+feed.items[0].url:       https://www.nostarch.com/gtfo
+feed.items[0].guid:      423 at https://www.nostarch.com
+feed.items[0].updated:   >>> DateTime.new( 2017, 4, 11, 23, 50, 54 )
+
+feed.items[1].title:     Coding iPhone Apps for Kids
+feed.items[1].url:       https://www.nostarch.com/iphoneappsforkids
+feed.items[1].guid:      371 at https://www.nostarch.com
+feed.items[1].updated:   >>> DateTime.new( 2016, 3, 11, 19, 7, 21 )
+
+
+>>> pp feed.items[0].summary

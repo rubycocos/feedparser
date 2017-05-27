@@ -17,4 +17,24 @@
        - feed.items[0].url:      /blog/2017/04/07/Badges-We-dont-need-no-stinkin-badges
 
 
-- [ ]  change feed.generator_uri to generator_url  (keep uri as alias)
+- [x]  change feed.generator_uri to generator_url  (keep uri as alias)
+
+- [ ]   turn gernerator into a struct (instead of three strings)   
+        - use generator.name, generator.url, generator.version, etc.
+        - add alias for generator.name == generator.title  e.g. name = title
+
+
+
+## Limitations of Stdlib RSS reader
+
+### RSS 2.0
+
+Cannot read feed_url link using atom:link type="self" e.g.:
+
+```
+<atom:link href="https://www.nostarch.com/feeds/comingsoon.xml?startat=tcpip"
+           rel="self"
+           type="application/rss+xml" />
+```
+
+see books/nostarch.rss2 and others as examples.

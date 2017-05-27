@@ -11,7 +11,7 @@ feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON, etc.)
 
 ## What's News?
 
-May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON. 
+May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON.
 
 
 ## Usage
@@ -30,7 +30,7 @@ Note: uses question mark (`?`) for optional elements (otherwise assume required 
 
 **Title 'n' Summary**
 
-Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom),
 description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
 resulting in plain vanilla text.
 
@@ -47,7 +47,7 @@ resulting in plain vanilla text.
 | `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`  | ISO 801 format  |
 | `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
 
-Note: Check - for RSS 2.0 set feed.updated to pubDate or lastBuildDate if only one present? if both present - map as above. 
+Note: Check - for RSS 2.0 set feed.updated to pubDate or lastBuildDate if only one present? if both present - map as above.
 
 
 RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
@@ -79,7 +79,7 @@ end
 
 **Title 'n' Summary**
 
-Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom),
 description (RSS 2.0) and summary (Atom) content
 and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
 resulting in plain vanilla text.
@@ -98,7 +98,7 @@ Note: The content element will assume html content.
 
 | Feed Struct        | RSS 2.0           | Notes       | Atom          | Notes       | JSON               | Notes       |
 | ------------------ | ----------------- | ----------- | ------------- | ----------- | -----------------  | ----------- |  
-| `item.title`       | `title`           | plain text  | `title`       | plain text  |  `title`?          | plain text  | 
+| `item.title`       | `title`           | plain text  | `title`       | plain text  |  `title`?          | plain text  |
 | `item.summary`     | `description`     | plain text  | `summary`?    | plain text  |   -tbd-            |             |
 | `item.content`     | `content`?        | html        | `content`?    | html        |  `content_html (*)`| html        |
 
@@ -136,21 +136,71 @@ end
 require 'open-uri'
 require 'feedparser'
 
-txt = open( 'http://openfootball.github.io/atom.xml' ).read
+txt = open( 'http://openfootball.github.io/feed.xml' ).read
 
 feed = FeedParser::Parser.parse( txt )
-pp feed
+
+puts feed.title
+# => "football.db - Open Football Data"
+
+puts feed.url
+# => "http://openfootball.github.io/"
+
+puts feed.items[0].title
+# => "football.db - League Quick Starter Sample - Mauritius Premier League - Create Your Own Repo/League(s) from Scratch"
+
+puts feed.items[0].url
+# => "http://openfootball.github.io/2015/08/30/league-quick-starter.html"
+
+puts feed.items[0].updated
+# => Sun, 30 Aug 2015 00:00:00 +0000
+
+puts feed.items[0].content
+# => "Added a new quick starter sample using the Mauritius Premier League to get you started..."
+
+...
 ```
 
 or reading a feed in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON;
 note: nothing changes :-)
 
 ```
-txt = open( 'https://jsonfeed.org/feed.json' ).read
+txt = open( 'http://openfootball.github.io/feed.json' ).read
 
 feed = FeedParser::Parser.parse( txt )
-pp feed
+
+puts feed.title
+# => "football.db - Open Football Data"
+
+puts feed.url
+# => "http://openfootball.github.io/"
+
+puts feed.items[0].title
+# => "football.db - League Quick Starter Sample - Mauritius Premier League - Create Your Own Repo/League(s) from Scratch"
+
+puts feed.items[0].url
+# => "http://openfootball.github.io/2015/08/30/league-quick-starter.html"
+
+puts feed.items[0].updated
+# => Sun, 30 Aug 2015 00:00:00 +0000
+
+puts feed.items[0].content_text
+# => "Added a new quick starter sample using the Mauritius Premier League to get you started..."
+
+...
 ```
+
+
+## Real World Usage
+
+See the Planet Pluto feed reader family:
+
+- [Planet Pluto](https://github.com/feedreader)  - static planet website generator
+- [Planet Pluto Live](https://github.com/plutolive) - dynamic (live) planet web apps (using Sinatra, Rails, etc.)
+
+
+Add your tools, scripts, apps here! Let us know.
+
 
 
 ## Install
