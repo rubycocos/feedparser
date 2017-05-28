@@ -22,7 +22,7 @@ class AtomFeedBuilder
 
 
 
-  def build_feed( atom_feed )
+  def build_feed( atom_feed )    ## fix/todo: rename atom_feed to atom or wire or xml or in ???
     feed = Feed.new
     feed.format = 'atom'
 
@@ -36,9 +36,8 @@ class AtomFeedBuilder
     atom_feed.links.each_with_index do |link,i|
       logger.debug "  atom | feed.link[#{i+1}]  rel=>#{link.rel}< : #{link.rel.class.name} type=>#{link.type}< href=>#{link.href}<"
 
-      if link.rel == 'self'
+      if feed.feed_url.nil? && link.rel == 'self'
         feed.feed_url = link.href
-        break
       end
     end
 
@@ -95,9 +94,17 @@ class AtomFeedBuilder
     end
 
 
+    ## check for authors
+    authors = []
+    atom_feed.authors.each do |atom_author|
+      authors << build_author( atom_author )
+    end
+    feed.authors = authors
+
+
     items = []
     atom_feed.items.each do |atom_item|
-      items << build_feed_item( atom_item )
+      items << build_item( atom_item )
     end
     feed.items = items
 
@@ -105,7 +112,20 @@ class AtomFeedBuilder
   end # method build_feed_from_atom
 
 
-  def build_feed_item( atom_item )
+  def build_author( atom_author )
+    ## pp atom_author
+    author = Author.new
+
+    ## note: always strip leading n trailing spaces (from content)
+    author.name  = atom_author.name.content.strip    if atom_author.name
+    author.url   = atom_author.uri.content.strip     if atom_author.uri
+    author.email = atom_author.email.content.strip   if atom_author.email
+
+    author
+  end  # build_author
+
+
+  def build_item( atom_item )
     item = Item.new   # Item.new
 
     item.title     = handle_content( atom_item.title, 'item.title' )
@@ -156,8 +176,15 @@ class AtomFeedBuilder
       item.summary = handle_content( atom_item.summary, 'item.summary' )
     end
 
+    ## check for authors
+    authors = []
+    atom_item.authors.each do |atom_author|
+      authors << build_author( atom_author )
+    end
+    item.authors = authors
+
     item
-  end # method build_feed_item
+  end # method build_item
 
 
 

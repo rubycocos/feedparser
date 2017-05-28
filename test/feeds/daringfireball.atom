@@ -7,7 +7,9 @@
 <id>https://daringfireball.net/feeds/main</id>
 
 
-<updated>2017-05-23T19:36:44Z</updated><rights>Copyright © 2017, John Gruber</rights><entry>
+<updated>2017-05-23T19:36:44Z</updated>
+  <rights>Copyright © 2017, John Gruber</rights>
+<entry>
 	<title>Feedbin, Too</title>
 	<link rel="alternate" type="text/html" href="https://feedbin.com/blog/2017/05/22/feedbin-supports-json-feed/" />
 	<link rel="shorturl" type="text/html" href="http://df4.us/q10" />
@@ -1864,3 +1866,8 @@ feed.items[0].url:       https://feedbin.com/blog/2017/05/22/feedbin-supports-js
 feed.items[0].guid:      tag:daringfireball.net,2017:/linked//6.33732
 feed.items[0].updated:   >>> DateTime.new( 2017, 5, 23, 19, 03, 33 )
 feed.items[0].published: >>> DateTime.new( 2017, 5, 23, 18, 50, 36 )
+
+feed.items[0].authors.size:     >>> 1
+feed.items[0].authors[0].name:  John Gruber
+feed.items[0].authors[0].url:	  http://daringfireball.net/
+feed.items[0].authors[0].email:	>>> nil

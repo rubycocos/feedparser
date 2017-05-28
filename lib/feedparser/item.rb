@@ -44,8 +44,12 @@ class Item
   alias :guid  :id
   alias :guid= :id=
 
+  attr_accessor :authors
+  ## add author  shortcut e.g. equals authors[0] - for now only read only
+  ##   fix: also add author=  why? why not???
+  def author() @authors[0]; end
 
-## todo: add author/authors
+
 ## todo: add category/categories
 
 end  # class Item

@@ -8,7 +8,7 @@ Hoe.spec 'feedparser' do
   self.summary = 'feedparser - web feed parser and normalizer (RSS 2.0, Atom, JSON, etc.)'
   self.description = summary
 
-  self.urls    = ['https://github.com/feedreader/feedparser']
+  self.urls    = ['https://github.com/feedparser/feedparser']
 
   self.author  = 'Gerald Bauer'
   self.email   = 'wwwmake@googlegroups.com'

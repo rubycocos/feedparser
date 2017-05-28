@@ -11,6 +11,12 @@ class Feed
 
 
   attr_accessor :items
+  attr_accessor :authors
+
+  ## add author  shortcut e.g. equals authors[0] - for now only read only
+  ##   fix: also add author=  why? why not???
+  def author() @authors[0]; end
+
 
 
   def summary?()  @summary.nil? == false;  end

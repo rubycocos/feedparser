@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Test Author</title>
+  <link rel="alternate" type="text/html" href="http://example.com/" />
+  <link rel="self" type="application/atom+xml" href="http://example.com/feed.xml" />
+  <id>http://example.com</id>
+  <updated>2017-05-23T19:36:44Z</updated>
+  <author>
+		<name>John Jay Gruber</name>
+		<uri>http://example.com/</uri>
+	</author>
+  <author>
+		<name>Frank Huber</name>
+		<uri>http://example.com/frank/</uri>
+	</author>
+
+  <entry>
+  	<title>Feedbin, Too</title>
+	  <link rel="alternate" type="text/html" href="https://feedbin.com/blog/2017/05/22/feedbin-supports-json-feed/" />
+	  <id>tag:daringfireball.net,2017:/linked//6.33732</id>
+	  <published>2017-05-23T18:50:36Z</published>
+	  <updated>2017-05-23T19:03:33Z</updated>
+	  <author>
+		  <name>Max Gruber Jun.</name>
+		  <uri>http://example.com/</uri>
+	  </author>
+    <author>
+  		<name>Frank Huber</name>
+  		<uri>http://example.com/frank/</uri>
+      <email>frank@example.com</email>
+  	</author>
+    <author>
+  		<name>George Imker</name>
+  		<uri>http://example.com/george/</uri>
+  	</author>
+  	<content type="text">
+       Ben Ubois, announcing support for JSON Feed in Feedbin...
+    </content>
+  </entry>
+</feed>
+
+---
+
+feed.authors.size:      >>> 2
+feed.authors[0].name:   John Jay Gruber
+feed.authors[0].url:	  http://example.com/
+feed.authors[0].email:	>>> nil
+feed.authors[1].name:   Frank Huber
+feed.authors[1].url:	  http://example.com/frank/
+
+feed.author.name:  John Jay Gruber
+feed.author.url: 	 http://example.com/
+feed.author.email: >>> nil
+
+
+
+feed.items[0].authors.size:     >>> 3
+feed.items[0].authors[0].name:  Max Gruber Jun.
+feed.items[0].authors[0].url:	  http://example.com/
+feed.items[0].authors[0].email:	>>> nil
+feed.items[0].authors[1].name:  Frank Huber
+feed.items[0].authors[1].url:	  http://example.com/frank/
+feed.items[0].authors[1].email:	frank@example.com
+feed.items[0].authors[2].name:  George Imker
+feed.items[0].authors[2].url:	  http://example.com/george/
+feed.items[0].authors[2].email:	>>> nil
+
+feed.items[0].author.name:   Max Gruber Jun.
+feed.items[0].author.url: 	 http://example.com/
+feed.items[0].author.email:  >>> nil

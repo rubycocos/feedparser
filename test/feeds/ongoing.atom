@@ -1603,6 +1603,11 @@ feed.updated:       >>> DateTime.new( 2017, 5, 23, 11, 55, 3, '-7' )
 feed.generator:     Generated from XML source code using Perl, Expat, Emacs, Mysql, Ruby, Java, and ImageMagick.  Industrial-strength technology, baby.
 feed.generator_url: /misc/Colophon
 
+feed.authors.size:      >>> 1
+feed.authors[0].name:   Tim Bray
+feed.authors[0].url:	  >>> nil
+feed.authors[0].email:	>>> nil
+
 
 feed.items[0].title:     Rock Surprise
 feed.items[0].url:       https://www.tbray.org/ongoing/When/201x/2017/05/20/Rock-Surprise
