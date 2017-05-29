@@ -11,12 +11,19 @@ class Feed
 
 
   attr_accessor :items
+
   attr_accessor :authors
+  def authors?()  @authors && @authors.size > 0;  end
+  ## note: author? is an alias for authors?
+  alias :author? :authors?
 
   ## add author  shortcut e.g. equals authors[0] - for now only read only
   ##   fix: also add author=  why? why not???
   def author() @authors[0]; end
 
+
+  attr_accessor :tags
+  def tags?()  @tags && @tags.size > 0;  end
 
 
   def summary?()  @summary.nil? == false;  end
@@ -55,6 +62,16 @@ class Feed
 
   ## fix:
   #  add pretty printer/inspect (exclude object)
+
+
+  def initialize
+    ## note: make items, authors, tags empty arrays on startup (e.g. not nil)
+    @items   = []
+    @authors = []
+    @tags    = []
+
+    ### fix/todo:  use a struct for generator !!!
+  end
 
 end  # class Feed
 

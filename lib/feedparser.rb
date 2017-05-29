@@ -27,6 +27,7 @@ require 'feedparser/builder/json'
 require 'feedparser/feed'
 require 'feedparser/item'
 require 'feedparser/author'
+require 'feedparser/tag'
 require 'feedparser/parser'
 
 

@@ -101,6 +101,13 @@ class AtomFeedBuilder
     end
     feed.authors = authors
 
+    ## check for categories/tags
+    tags = []
+    atom_feed.categories.each do |atom_cat|
+      tags << build_tag( atom_cat )
+    end
+    feed.tags = tags
+
 
     items = []
     atom_feed.items.each do |atom_item|
@@ -123,6 +130,19 @@ class AtomFeedBuilder
 
     author
   end  # build_author
+
+
+  def build_tag( atom_cat )
+    ## pp atom_cat
+    tag = Tag.new
+
+    ## note: always strip leading n trailing spaces
+    ##         and add if preset (not blank/empty e.g. not nil or "")
+    tag.name     = atom_cat.term.strip    if atom_cat.term   && !atom_cat.term.empty?
+    tag.scheme   = atom_cat.scheme.strip  if atom_cat.scheme && !atom_cat.scheme.empty?
+
+    tag
+  end  # build_tag
 
 
   def build_item( atom_item )
@@ -182,6 +202,13 @@ class AtomFeedBuilder
       authors << build_author( atom_author )
     end
     item.authors = authors
+
+    ## check for categories/tags
+    tags = []
+    atom_item.categories.each do |atom_cat|
+      tags << build_tag( atom_cat )
+    end
+    item.tags = tags
 
     item
   end # method build_item
