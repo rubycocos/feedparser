@@ -222,12 +222,12 @@ end
 # step 2) mix up all postings in a new page
 
 FEED_ITEM_TEMPLATE = <<EOS
-<%% items.each do |item| %>
+<% items.each do |item| %>
   <div class="item">
-    <h2><a href="<%%= item.url %>"><%%= item.title %></a></h2>
-    <div><%%= item.content %></div>
+    <h2><a href="<%= item.url %>"><%= item.title %></a></h2>
+    <div><%= item.content %></div>
   </div>
-<%% end %>
+<% end %>
 EOS
 
 puts ERB.new( FEED_ITEM_TEMPLATE ).result
