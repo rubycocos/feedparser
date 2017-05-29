@@ -190,6 +190,65 @@ puts feed.items[0].content_text
 ...
 ```
 
+## Samples
+
+### Feed Reader
+
+_Planet Feed Reader in 20 Lines of Ruby_
+
+`planet.rb`:
+
+``` ruby
+require 'open-uri'
+require 'feedparser'
+require 'erb'
+
+# step 1) read a list of web feeds
+
+FEED_URLS = [
+  'http://vienna-rb.at/atom.xml',
+  'http://weblog.rubyonrails.org/feed/atom.xml',
+  'http://www.ruby-lang.org/en/feeds/news.rss',
+  'http://openfootball.github.io/feed.json',
+]
+
+items = []
+
+FEED_URLS.each do |url|
+  feed = FeedParser::Parser.parse( open( url ).read )
+  items += feed.items
+end
+
+# step 2) mix up all postings in a new page
+
+FEED_ITEM_TEMPLATE = <<EOS
+<%% items.each do |item| %>
+  <div class="item">
+    <h2><a href="<%%= item.url %>"><%%= item.title %></a></h2>
+    <div><%%= item.content %></div>
+  </div>
+<%% end %>
+EOS
+
+puts ERB.new( FEED_ITEM_TEMPLATE ).result
+```
+
+Run the script:
+
+```
+$ ruby ./planet.rb      
+```
+
+Prints:
+
+```
+<div class="item">
+  <h2><a href="http://vienna-rb.at/blog/2017/11/06/picks/">Picks / what the vienna.rb team thinks is worth sharing this week</a></h2>
+  <div>
+   <h3>6/11 Picks!!</h3>
+   <p>In a series on this website we'll entertain YOU with our picks...
+ ...
+```
 
 ## Real World Usage
 
