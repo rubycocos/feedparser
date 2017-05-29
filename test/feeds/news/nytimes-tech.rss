@@ -1,0 +1,653 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Technology</title>
+    <link>https://www.nytimes.com/section/technology?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/Technology.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2017  The New York Times Company</copyright>
+    <lastBuildDate>Mon, 29 May 2017 18:42:13 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Technology</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/technology?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Hackers Hide Cyberattacks in Social Media Posts</title>
+      <link>https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/business/socialhackjump/socialhackjump-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jay Kaplan, left, and Mark Kuhr, the founders of Synack, a cybersecurity company. &#x201C;The problem is pervasive,&#x201D; Mr. Kaplan said.</media:description>
+      <media:credit>Jim Wilson/The New York Times</media:credit>
+      <description>A recent attack on the accounts of Defense Department employees suggests how easily people can be duped into clicking on dangerous links.</description>
+      <dc:creator>SHEERA FRENKEL</dc:creator>
+      <pubDate>Sun, 28 May 2017 19:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Defense Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+    </item>
+    <item>
+      <title>The Future of European Transit: Driverless and Utilitarian</title>
+      <link>https://www.nytimes.com/2017/05/28/technology/the-future-of-european-transit-driverless-and-utilitarian.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/technology/the-future-of-european-transit-driverless-and-utilitarian.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/technology/the-future-of-european-transit-driverless-and-utilitarian.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/business/europecarjump/europecarjump-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A self-driving bus being tested in Helsinki. In Europe, driverless projects are focused on utilitarian self-driving vehicles for mass transit that barely exceed walking pace.</media:description>
+      <media:credit>Ugri Touko Tapani Hujanen for The New York Times</media:credit>
+      <description>Across Europe, some fledgling driverless projects are focused on utilitarian self-driving vehicles for mass transit that barely exceed walking pace.</description>
+      <dc:creator>MARK SCOTT</dc:creator>
+      <pubDate>Sun, 28 May 2017 21:53:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transit Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+    </item>
+    <item>
+      <title>Is China Outsmarting America in A.I.?</title>
+      <link>https://www.nytimes.com/2017/05/27/technology/china-us-ai-artificial-intelligence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/27/technology/china-us-ai-artificial-intelligence.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/27/technology/china-us-ai-artificial-intelligence.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/business/28Chinaai1/28Chinaai1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>S&#xF6;ren Schwertfeger at ShanghaiTech University, where a sizable grant has allowed him to set up an artificial intelligence lab.</media:description>
+      <media:credit>Tim Franco for The New York Times</media:credit>
+      <description>Its ambitions mingle sci-fi ideas and big money with the needs of an authoritarian state.</description>
+      <dc:creator>PAUL MOZUR and JOHN MARKOFF</dc:creator>
+      <pubDate>Sat, 27 May 2017 09:00:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Baidu Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Science Foundation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Censorship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
+    </item>
+    <item>
+      <title>Mother of Uber Chief Executive Killed in Boating Accident</title>
+      <link>https://www.nytimes.com/2017/05/27/business/uber-chief-executive-mother-killed-boating-accident.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/27/business/uber-chief-executive-mother-killed-boating-accident.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/27/business/uber-chief-executive-mother-killed-boating-accident.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/business/28kalanick/28kalanick-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Travis Kalanick, chief executive of Uber, in May 2016.</media:description>
+      <media:credit>via Associated Press</media:credit>
+      <description>Travis Kalanick&#x2019;s father was also seriously injured in the accident on Friday near Fresno, Calif., the company said.</description>
+      <dc:creator>MIKE ISAAC and BENJAMIN WEISER</dc:creator>
+      <pubDate>Sat, 27 May 2017 21:38:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Maritime Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Uber Technologies Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kalanick, Travis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Boats and Boating</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kalanick, Bonnie (1945-2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kalanick, Donald</category>
+    </item>
+    <item>
+      <title>Tech Tip: When You See Something (Fake), Say Something</title>
+      <link>https://www.nytimes.com/2017/05/29/technology/personaltech/facebook-fake-news-tech-tip.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/technology/personaltech/facebook-fake-news-tech-tip.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/technology/personaltech/facebook-fake-news-tech-tip.html?partner=rss&amp;emc=rss"/>
+      <description>In its efforts to help curb the spread of false news around the world, Facebook has added new tools for users to aid in monitoring the site.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Mon, 29 May 2017 14:14:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+    </item>
+    <item>
+      <title>The Week Ahead: A Monday Holiday Around the World, and May Hiring Data Is Due</title>
+      <link>https://www.nytimes.com/2017/05/28/business/a-monday-holiday-around-the-world-and-may-hiring-data-is-due.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/business/a-monday-holiday-around-the-world-and-may-hiring-data-is-due.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/business/a-monday-holiday-around-the-world-and-may-hiring-data-is-due.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/business/ahead1/ahead1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Sales of new cars declined in the first four months of 2017.</media:description>
+      <media:credit>Gene J. Puskar/Associated Press</media:credit>
+      <description>Many financial markets will close for national holidays. As for jobs, Wall Street analysts expect that 176,000 people joined the work force.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Mon, 29 May 2017 01:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Unemployment</category>
+    </item>
+    <item>
+      <title>In China, Umbrellas and Basketballs Join the Sharing Economy</title>
+      <link>https://www.nytimes.com/2017/05/28/business/china-communal-sharing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/business/china-communal-sharing.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/business/china-communal-sharing.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/18/business/00CHINASHARE1/00CHINASHARE1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A Mobike ride-share lot in Beijing. The popularity of bike shares and other sharing ventures has prompted more innovative businesses, like a basketball-sharing one. Some question their viability.</media:description>
+      <media:credit>Kevin Frayer/Getty Images</media:credit>
+      <description>Buoyed by the success of car- and bike-sharing companies and fueled with cash, Chinese start-ups are entering what some see as a sharing bubble.</description>
+      <dc:creator>AMY QIN</dc:creator>
+      <pubDate>Mon, 29 May 2017 00:00:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Venture Capital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Uber Technologies Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Umbrellas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Didi Chuxing</category>
+    </item>
+    <item>
+      <title>Bits: Farhad&#x2019;s and Sheera&#x2019;s Week in Tech: The Dark, Terrifying World of Hackers</title>
+      <link>https://www.nytimes.com/2017/05/27/technology/farhads-and-sheeras-week-in-tech-the-dark-terrifying-world-of-hackers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/27/technology/farhads-and-sheeras-week-in-tech-the-dark-terrifying-world-of-hackers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/27/technology/farhads-and-sheeras-week-in-tech-the-dark-terrifying-world-of-hackers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/technology/28technewsletter-web/28technewsletter-web-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Waymo&#x2019;s self-driving minivan. Cybersecurity researchers are concerned about the risks posed by self-driving cars.</media:description>
+      <media:credit>Brett Carlsen for The New York Times</media:credit>
+      <description>The Times&#x2019;s new cybersecurity reporter explains why the prospect of self-driving cars strikes fear in the hearts of security reearchers.</description>
+      <dc:creator>FARHAD MANJOO and SHEERA FRENKEL</dc:creator>
+      <pubDate>Sat, 27 May 2017 13:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zuckerberg, Mark E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computer Security</category>
+    </item>
+    <item>
+      <title>The Rise and Fall of Yik Yak, the Anonymous Messaging App</title>
+      <link>https://www.nytimes.com/2017/05/27/style/yik-yak-bullying-mary-washington.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/27/style/yik-yak-bullying-mary-washington.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/27/style/yik-yak-bullying-mary-washington.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/fashion/28JPYIKYAK1/28JPYIKYAK1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>David Plunkert</media:credit>
+      <description>The app, which shut down in April, was plagued by bad press from the beginning, earning itself a reputation as a place for racism, sexism, bullying and bomb threats.</description>
+      <dc:creator>VALERIYA SAFRONOVA</dc:creator>
+      <pubDate>Sat, 27 May 2017 18:42:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberharassment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Yik Yak Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of Mary Washington</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Suits and Litigation (Civil)</category>
+    </item>
+    <item>
+      <title>Bits: Daily Report: Lessons From a Journey Through America</title>
+      <link>https://www.nytimes.com/2017/05/26/technology/daily-report-lessons-from-a-journey-through-america.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/technology/daily-report-lessons-from-a-journey-through-america.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/technology/daily-report-lessons-from-a-journey-through-america.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/26/business/0526zuckerberg3-print/0526zuckerberg3-print-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mark Zuckerberg of Facebook, third from left, sitting down with the Gant family at their farm in Blanchardville, Wis.</media:description>
+      <media:credit>Facebook</media:credit>
+      <description>Mark Zuckerberg is only about halfway through his goal to visit all the states, but the trips seem to be influencing his thinking, and his philosophy.</description>
+      <dc:creator>PUI-WING TAM</dc:creator>
+      <pubDate>Fri, 26 May 2017 17:22:29 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zuckerberg, Mark E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">States (US)</category>
+    </item>
+    <item>
+      <title>Tech Tip: Finding Missing Notifications</title>
+      <link>https://www.nytimes.com/2017/05/26/technology/personaltech/finding-missing-notifications.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/technology/personaltech/finding-missing-notifications.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/technology/personaltech/finding-missing-notifications.html?partner=rss&amp;emc=rss"/>
+      <description>The iPhone and other mobile devices can alert you to breaking news and other events, as long as the settings are correct.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Fri, 26 May 2017 17:06:46 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">iPhone</category>
+    </item>
+    <item>
+      <title>Waiting for the Credits to End? Movies Are Naming More Names</title>
+      <link>https://www.nytimes.com/2017/05/26/movies/why-end-credits-in-movies-are-so-long.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/movies/why-end-credits-in-movies-are-so-long.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/movies/why-end-credits-in-movies-are-so-long.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/arts/28CREDIT-BLOAT/28CREDIT-BLOAT-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Some of the credits from the film &#x201C;Star Trek Into Darkness&#x201D; (2013).</media:description>
+      <media:credit>Paramount Pictures</media:credit>
+      <description>Complex special effects can mean several thousand crew members are listed at the end. But not all workers are there, and some wish the scrolls were even longer.</description>
+      <dc:creator>MEKADO MURPHY</dc:creator>
+      <pubDate>Fri, 26 May 2017 14:59:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Internet Movie Database</category>
+    </item>
+    <item>
+      <title>New Emoji is a Meaningful Symbol for Indigenous Australians</title>
+      <link>https://www.nytimes.com/2017/05/26/world/australia/aboriginal-emoji-australia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/world/australia/aboriginal-emoji-australia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/world/australia/aboriginal-emoji-australia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/27/world/27emoji-1/27emoji-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An Aboriginal flag near the Australian War Memorial in Canberra, Australia.</media:description>
+      <media:credit>Lukas Coch/European Pressphoto Agency</media:credit>
+      <description>Twitter&#x2019;s addition of the Aboriginal and Torres Strait Islander flags comes in time for the 50th anniversary of a vote to include the communities in the national census.</description>
+      <dc:creator>TACEY RYCHTER</dc:creator>
+      <pubDate>Mon, 29 May 2017 13:43:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Aborigines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Emojis and Emoticons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Flags, Emblems and Insignia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+    </item>
+    <item>
+      <title>Modern Love: Wanting Monogamy as 1,946 Men Await My Swipe</title>
+      <link>https://www.nytimes.com/2017/05/26/style/modern-love-wanting-monogamy-as-1946-men-await-your-swipe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/style/modern-love-wanting-monogamy-as-1946-men-await-your-swipe.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/style/modern-love-wanting-monogamy-as-1946-men-await-your-swipe.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/fashion/28MODERNLOVE/28MODERNLOVE-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Brian Rea</media:credit>
+      <description>They met on Bumble and fell into a fun, one-night-a-week, nonexclusive routine &#x2014; until she realized she liked him.</description>
+      <dc:creator>LAUREN PETERSEN</dc:creator>
+      <pubDate>Fri, 26 May 2017 04:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dating and Relationships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Text Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Dating</category>
+    </item>
+    <item>
+      <title>Mark Zuckerberg&#x2019;s Great American Road Trip</title>
+      <link>https://www.nytimes.com/2017/05/25/technology/zuckerberg-harvard-commencement-road-trip.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/technology/zuckerberg-harvard-commencement-road-trip.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/technology/zuckerberg-harvard-commencement-road-trip.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/26/business/26zuckerberg1/26zuckerberg1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mark Zuckerberg visited the Gant family on their farm in Blanchardville, Wis., in April.<br/><br/></media:description>
+      <media:credit>Facebook</media:credit>
+      <description>The Facebook chief plans to visit every state in the union and learn more about a sliver of the nearly two billion people who use the social network regularly.</description>
+      <dc:creator>MIKE ISAAC</dc:creator>
+      <pubDate>Thu, 25 May 2017 20:25:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Road Trips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zuckerberg, Mark E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Commencement Speeches</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Harvard University</category>
+    </item>
+    <item>
+      <title>Dani Mathers, Former Playboy Model, Gets Community Service for Snapchat of Woman in Gym</title>
+      <link>https://www.nytimes.com/2017/05/25/us/dani-mathers-body-shaming.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/us/dani-mathers-body-shaming.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/us/dani-mathers-body-shaming.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/27/us/26xp-bodyshaming/26xp-bodyshaming-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Dani Mathers, center, at a hearing at Clara Shortridge Foltz Criminal Justice Center in Los Angeles on Wednesday.</media:description>
+      <media:credit>Frederick M. Brown/Getty Images</media:credit>
+      <description>Ms. Mathers must remove graffiti in Los Angeles after taking a photograph of a naked 70-year-old in a shower area, in a case seen as body shaming.</description>
+      <dc:creator>CHRISTINE HAUSER</dc:creator>
+      <pubDate>Thu, 25 May 2017 19:36:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mathers, Danielle</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Privacy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Snap Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberharassment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Playboy Magazine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Los Angeles (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">body shaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fitness International LLC</category>
+    </item>
+    <item>
+      <title>Bits: Daily Report: AlphaGo Wins Again</title>
+      <link>https://www.nytimes.com/2017/05/25/technology/daily-report-alphago-wins-again.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/technology/daily-report-alphago-wins-again.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/technology/daily-report-alphago-wins-again.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/26/technology/26bitsdaily-web/26bitsdaily-web-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ke Jie lost the first two matches of a three-match series against the Google artificial intelligence program AlphaGo.</media:description>
+      <media:credit>China Network/Reuters</media:credit>
+      <description>In the second match of a three-game series on Thursday, the computer program beat the 19-year-old Chinese prodigy Ke Jie in the strategy board game Go.</description>
+      <dc:creator>PUI-WING TAM</dc:creator>
+      <pubDate>Thu, 25 May 2017 17:33:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">DeepMind Technologies Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Go (Game)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ke Jie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">AlphaGo</category>
+    </item>
+    <item>
+      <title>Tech Tip: Erasing Your Android Tracks</title>
+      <link>https://www.nytimes.com/2017/05/25/technology/personaltech/erasing-your-android-tracks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/technology/personaltech/erasing-your-android-tracks.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/technology/personaltech/erasing-your-android-tracks.html?partner=rss&amp;emc=rss"/>
+      <description>Google keeps a record of your searches and other activity across its sites, but you can delete the information, even with your phone or tablet.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Thu, 25 May 2017 15:36:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Android (Operating System)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Search Engines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+    </item>
+    <item>
+      <title>Wheels: What Self-Driving Cars See</title>
+      <link>https://www.nytimes.com/2017/05/25/automobiles/wheels/lidar-self-driving-cars.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/automobiles/wheels/lidar-self-driving-cars.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/automobiles/wheels/lidar-self-driving-cars.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/26/business/26wheels-top/26wheels-top-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Raw data captured from a Luminar sensor while driving along San Francisco&#x2019;s Embarcadero.</media:description>
+      <media:credit>Luminar Technologies</media:credit>
+      <description>Lidar, the sensing technology, is the centerpiece of an intense court fight in California between two key players on the road, Uber and Waymo.</description>
+      <dc:creator>JOHN R. QUAIN</dc:creator>
+      <pubDate>Thu, 25 May 2017 14:26:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sensors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+    </item>
+    <item>
+      <title>Google&#x2019;s A.I. Program Rattles Chinese Go Master as It Wins Match</title>
+      <link>https://www.nytimes.com/2017/05/25/business/google-alphago-defeats-go-ke-jie-again.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/business/google-alphago-defeats-go-ke-jie-again.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/business/google-alphago-defeats-go-ke-jie-again.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/26/world/26googlewins-1/26googleswins-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Chinese Go master Ke Jie during his second game against AlphaGo, an artificial intelligence program, in Wuzhen, near Shanghai, on Thursday.</media:description>
+      <media:credit>China Stringer Network, via Reuters</media:credit>
+      <description>A Google program called AlphaGo won a best-of-three match against a Chinese Go master, rattling his nerves and showing the power of new artificial intelligence technologies.</description>
+      <dc:creator>PAUL MOZUR</dc:creator>
+      <pubDate>Thu, 25 May 2017 10:06:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Go (Game)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ke Jie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">DeepMind Technologies Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+    </item>
+    <item>
+      <title>Jacque Fresco, Futurist Who Envisioned a Society Without Money, Dies at 101</title>
+      <link>https://www.nytimes.com/2017/05/24/us/jacque-fresco-futurist-who-envisioned-a-society-without-money-dies-at-101.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/us/jacque-fresco-futurist-who-envisioned-a-society-without-money-dies-at-101.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/us/jacque-fresco-futurist-who-envisioned-a-society-without-money-dies-at-101.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/25/us/25FRESCO/25FRESCO-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jacque Fresco and a model of the Venus Project, which he began on 21 acres in Florida in 1980.</media:description>
+      <media:credit>The Venus Project</media:credit>
+      <description>A self-taught industrial designer, Mr. Fresco promoted an alternative society where resources would be distributed equitably by computers.</description>
+      <dc:creator>RICHARD SANDOMIR</dc:creator>
+      <pubDate>Thu, 25 May 2017 00:34:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fresco, Jacque  (1916-2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+    </item>
+    <item>
+      <title>Bits: Daily Report: From Lean to Fat Start-Ups</title>
+      <link>https://www.nytimes.com/2017/05/24/technology/daily-report-from-lean-to-fat-start-ups.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/technology/daily-report-from-lean-to-fat-start-ups.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/technology/daily-report-from-lean-to-fat-start-ups.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/24STATE2/24STATE2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Eric Wu, a founder and the chief executive of Opendoor, at the company&#x2019;s headquarters in San Francisco.</media:description>
+      <media:credit>Christie Hemm Klok for The New York Times</media:credit>
+      <description>Silicon Valley, which once favored enterprises that didn&#x2019;t require much capital, is flush with cash, and entrepreneurs are tackling big &#x2014; some would say crazy &#x2014; ideas.</description>
+      <dc:creator>PUI-WING TAM</dc:creator>
+      <pubDate>Wed, 24 May 2017 21:49:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Silicon Valley (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Manjoo, Farhad</category>
+    </item>
+    <item>
+      <title>Mediator: Sean Hannity, a Murder and Why Fake News Endures</title>
+      <link>https://www.nytimes.com/2017/05/24/business/media/seth-rich-fox-news-sean-hannity.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/business/media/seth-rich-fox-news-sean-hannity.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/business/media/seth-rich-fox-news-sean-hannity.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/25/business/25rutenberg1alt/25rutenberg1alt-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>FoxNews.com and the Fox affiliate in Washington, WTTG, quoted an investigator working with the Rich family as saying that Seth Rich had been in contact with WikiLeaks before his death.</media:description>
+      <media:credit>Mary Altaffer/Associated Press</media:credit>
+      <description>As the case of the Seth Rich murder shows, uncorroborated stories will spread as long as some people want to tell them, and others want to believe.</description>
+      <dc:creator>JIM RUTENBERG</dc:creator>
+      <pubDate>Wed, 24 May 2017 16:31:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fox News Channel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rich, Seth Conrad (1989-2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hannity, Sean</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Rumors and Misinformation</category>
+    </item>
+    <item>
+      <title>Tech Tip: In Search of the Simple Sign-In</title>
+      <link>https://www.nytimes.com/2017/05/24/technology/personaltech/in-search-of-the-simple-sign-in.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/technology/personaltech/in-search-of-the-simple-sign-in.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/technology/personaltech/in-search-of-the-simple-sign-in.html?partner=rss&amp;emc=rss"/>
+      <description>A tool in Apple&#x2019;s iOS 10 software can save you a lot of password typing to stream video, but it doesn&#x2019;t work with every TV provider or app.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Wed, 24 May 2017 16:25:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tech Fix: Reality Check: What Does, and Doesn&#x2019;t, Protect Your Smartphone</title>
+      <link>https://www.nytimes.com/2017/05/24/technology/personaltech/reality-check-what-does-and-doesnt-protect-your-smartphone.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/technology/personaltech/reality-check-what-does-and-doesnt-protect-your-smartphone.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/technology/personaltech/reality-check-what-does-and-doesnt-protect-your-smartphone.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/25TECHFIX/25TECHFIX-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Minh Uong/The New York Times</media:credit>
+      <description>Why you should buy a case for your smartphone, and maybe a screen protector, but pass on an extended warranty.</description>
+      <dc:creator>BRIAN X. CHEN</dc:creator>
+      <pubDate>Wed, 24 May 2017 15:56:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Product Tests</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Guarantees and Warranties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Insurance</category>
+    </item>
+    <item>
+      <title>Tech We're Using: With a Bazaar of Gizmos and Apps, Tackling Readers&#x2019; Tech Questions</title>
+      <link>https://www.nytimes.com/2017/05/24/technology/personaltech/tech-tips-writer-tech-devices.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/technology/personaltech/tech-tips-writer-tech-devices.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/technology/personaltech/tech-tips-writer-tech-devices.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/25TECHUSING1/25TECHUSING1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>J.D. Biersdorfer at her desk with some of the devices she uses.</media:description>
+      <media:credit>Earl Wilson/The New York Times</media:credit>
+      <description>The New York Times&#x2019;s Tech Tips columnist describes the arsenal of gadgets at her disposal, and her special love for iPhone.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Wed, 24 May 2017 15:51:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">iPhone</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Handheld Computers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tablet Computers</category>
+    </item>
+    <item>
+      <title>Brazilian Uber Rival Raises $100 Million From SoftBank</title>
+      <link>https://www.nytimes.com/2017/05/24/business/dealbook/99-brazil-softbank-uber.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/business/dealbook/99-brazil-softbank-uber.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/business/dealbook/99-brazil-softbank-uber.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/25/business/25db-softbank1/25db-softbank1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The founder of SoftBank, Masayoshi Son, above, met with the chief executive of 99, Peter Fernandez, in Tokyo last week.</media:description>
+      <media:credit>Franck Robichon/European Pressphoto Agency</media:credit>
+      <description>The investment in the start-up 99 comes despite recent political turmoil in Brazil.</description>
+      <dc:creator>VINOD SREEHARSHA</dc:creator>
+      <pubDate>Wed, 24 May 2017 14:24:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">SOFTBANK Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brazil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Venture Capital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Car Services and Livery Cabs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">99Taxis</category>
+    </item>
+    <item>
+      <title>State of the Art: The Rise of the Fat Start-Up</title>
+      <link>https://www.nytimes.com/2017/05/24/technology/opendoor-start-up-home-sales.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/technology/opendoor-start-up-home-sales.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/technology/opendoor-start-up-home-sales.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/25/business/25STATE/25STATE-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Doug Chayka</media:credit>
+      <description>A service called Opendoor, which will make an offer on your house sight unseen, illustrates a new breed of start-up and Silicon Valley&#x2019;s ever-widening ambitions.</description>
+      <dc:creator>FARHAD MANJOO</dc:creator>
+      <pubDate>Wed, 24 May 2017 21:35:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Venture Capital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Opendoor (Open Door Labs Inc)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rabois, Keith</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wu, Eric C (1982- )</category>
+    </item>
+    <item>
+      <title>Unity Technologies, Whose Engine Is Behind Pok&#xE9;mon Go, Agrees to Funding</title>
+      <link>https://www.nytimes.com/2017/05/24/business/dealbook/unity-technologies-400-million-funding-round-pokemon.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/business/dealbook/unity-technologies-400-million-funding-round-pokemon.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/business/dealbook/unity-technologies-400-million-funding-round-pokemon.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/24db-unity1/24db-unity1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Japanese students played &#x201C;Pokemon Go&#x201D; in Tokyo in July.</media:description>
+      <media:credit>Koji Sasahara/Associated Press</media:credit>
+      <description>If a new investment round closes, it could bring Unity, which makes software at the heart of video games, $400 million and value it at about $2.6 billion.</description>
+      <dc:creator>MICHAEL J. de la MERCED</dc:creator>
+      <pubDate>Wed, 24 May 2017 06:00:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Unity Technologies ApS</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Silver Lake Partners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer and Video Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Virtual Reality (Computers)</category>
+    </item>
+    <item>
+      <title>Market Value: Angry Over Zillow&#x2019;s Home Prices? You Can Win a Prize by Improving Them</title>
+      <link>https://www.nytimes.com/2017/05/24/upshot/angry-over-zillows-home-prices-a-prize-is-offered-for-improving-them.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/24/upshot/angry-over-zillows-home-prices-a-prize-is-offered-for-improving-them.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/24/upshot/angry-over-zillows-home-prices-a-prize-is-offered-for-improving-them.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/upshot/up-zillow2/up-zillow2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A new house for sale in Chicago. Zillow&#x2019;s home estimates have been pilloried for inaccuracy, though they&#x2019;ve grown better over time.</media:description>
+      <media:credit>Scott Olson/Getty Images</media:credit>
+      <description>The overall accuracy of Zillow&#x2019;s estimates has gotten better, and it&#x2019;s now announcing a $1 million award to sharpen the company&#x2019;s algorithm further.</description>
+      <dc:creator>NICK WINGFIELD</dc:creator>
+      <pubDate>Wed, 24 May 2017 04:11:14 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Zillow.com</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prices (Fares, Fees and Rates)</category>
+    </item>
+    <item>
+      <title>Uber to Repay Millions to Drivers, Who Could Be Owed Far More</title>
+      <link>https://www.nytimes.com/2017/05/23/business/economy/uber-drivers-tax.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/business/economy/uber-drivers-tax.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/business/economy/uber-drivers-tax.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/23UBER/23UBER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An Uber driver in the Bronx. A lawsuit last year said that Uber was committing a form of wage theft.</media:description>
+      <media:credit>Mark Kauzlarich for The New York Times</media:credit>
+      <description>The company concedes taking tens of millions in excess commissions. But records point to improper tax deductions costing drivers even more.</description>
+      <dc:creator>NOAM SCHEIBER</dc:creator>
+      <pubDate>Wed, 24 May 2017 01:04:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Car Services and Livery Cabs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Uber Technologies Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Lyft Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Taxi Workers Alliance</category>
+    </item>
+    <item>
+      <title>Federal Court Revives Wikimedia&#x2019;s Challenge to N.S.A. Surveillance</title>
+      <link>https://www.nytimes.com/2017/05/23/us/politics/nsa-surveillance-warrantless-wikimedia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/us/politics/nsa-surveillance-warrantless-wikimedia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/us/politics/nsa-surveillance-warrantless-wikimedia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/us/24surveillance/24surveillance-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The director of the National Security Agency, Adm. Michael S. Rogers, in Washington on Tuesday. A court ruled that Wikimedia has grounds to sue the N.S.A. over Fourth Amendment privacy rights.</media:description>
+      <media:credit>Pablo Martinez Monsivais/Associated Press</media:credit>
+      <description>An appeals court ruling on warrantless internet surveillance raises the chances that the Supreme Court could one day scrutinize the issue.</description>
+      <dc:creator>CHARLIE SAVAGE</dc:creator>
+      <pubDate>Wed, 24 May 2017 00:20:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Security Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Wikimedia Foundation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Fourth Amendment (US Constitution)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Foreign Intelligence Surveillance Act (FISA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Snowden, Edward J</category>
+    </item>
+    <item>
+      <title>Target to Pay $18.5 Million to 47 States in Security Breach Settlement</title>
+      <link>https://www.nytimes.com/2017/05/23/business/target-security-breach-settlement.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/business/target-security-breach-settlement.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/business/target-security-breach-settlement.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/24TARGET/24TARGET-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Target&#x2019;s headquarters in Minneapolis. A settlement by the company ended an investigation into how the data of millions of customers was compromised in 2013.</media:description>
+      <media:credit>Glen Stubbe/Star Tribune, via Associated Press</media:credit>
+      <description>The agreement, which includes the District of Columbia, ends an investigation into how hackers obtained information about tens of millions of people in 2013.</description>
+      <dc:creator>RACHEL ABRAMS</dc:creator>
+      <pubDate>Tue, 23 May 2017 23:19:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Target Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Identity Theft</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Shopping and Retail</category>
+    </item>
+    <item>
+      <title>Bits: Daily Report: AlphaGo Shows How Far Artificial Intelligence Has Come</title>
+      <link>https://www.nytimes.com/2017/05/23/technology/alphago-shows-how-far-artificial-intelligence-has-come.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/technology/alphago-shows-how-far-artificial-intelligence-has-come.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/technology/alphago-shows-how-far-artificial-intelligence-has-come.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/technology/24bitsdaily-web/24bitsdaily-web-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Google artificial intelligence program AlphaGo beat the top-ranked Chinese Go player, Ke Jie, in Wuzhen, China, in the first game of a three-game match.</media:description>
+      <media:credit>Wu Hong/European Pressphoto Agency</media:credit>
+      <description>The computer program DeepMind&#x2019;s AlphaGo has defeated the top-ranked Chinese Go player, Ke Jie, in the first match of a three-game series.</description>
+      <dc:creator>PUI-WING TAM</dc:creator>
+      <pubDate>Tue, 23 May 2017 16:28:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">DeepMind Technologies Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wuzhen (China)</category>
+    </item>
+    <item>
+      <title>Tech Tip: Doing a 180 on Facebook 360 Photos</title>
+      <link>https://www.nytimes.com/2017/05/23/technology/personaltech/facebook-360-panorama-photos.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/technology/personaltech/facebook-360-panorama-photos.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/technology/personaltech/facebook-360-panorama-photos.html?partner=rss&amp;emc=rss"/>
+      <description>Facebook converts many wide-angle panorama photos to 360-degree interactive images when they are uploaded, but you can revert to the original.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Tue, 23 May 2017 15:56:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cameras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+    </item>
+    <item>
+      <title>Apple Settles Legal Dispute With Nokia</title>
+      <link>https://www.nytimes.com/2017/05/23/business/apple-nokia-patents.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/business/apple-nokia-patents.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/business/apple-nokia-patents.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/24/business/24applenokia/24applenokia-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A Nokia logo in Zenica, Bosnia, in 2014. The Finnish company used to be the world&#x2019;s largest seller of mobile phones.</media:description>
+      <media:credit>Dado Ruvic/Reuters</media:credit>
+      <description>The iPhone maker has agreed to a new licensing deal with the Finnish telecommunications company, ending a six-month battle over technology patents.</description>
+      <dc:creator>MARK SCOTT</dc:creator>
+      <pubDate>Tue, 23 May 2017 09:22:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wireless Communications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inventions and Patents</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cellular Telephones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Copyrights and Copyright Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Apple Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Nokia Oyj</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Suits and Litigation (Civil)</category>
+    </item>
+    <item>
+      <title>Need Mood Lighting to Go With Your Music? Ask Alexa. No App Required.</title>
+      <link>https://www.nytimes.com/2017/05/23/technology/amazon-echo-ikea-smart-homes.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/23/technology/amazon-echo-ikea-smart-homes.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/23/technology/amazon-echo-ikea-smart-homes.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/23/business/23ALEXA1/23ALEXA1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ikea has made a deal with Amazon for its voice-enabled products, allowing Ikea&#x2019;s new line of smart light bulbs to be controlled by Amazon&#x2019;s Echo speaker.</media:description>
+      <media:credit/>
+      <description>The e-commerce giant Amazon plans to connect its voice-command Echo technology to Ikea&#x2019;s new line of smart lighting products.</description>
+      <dc:creator>NICK WINGFIELD</dc:creator>
+      <pubDate>Tue, 23 May 2017 06:00:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Home Automation and Smart Homes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Home Appliances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ikea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>More Evidence Points to North Korea in Ransomware Attack</title>
+      <link>https://www.nytimes.com/2017/05/22/technology/north-korea-ransomware-attack.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/22/technology/north-korea-ransomware-attack.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/22/technology/north-korea-ransomware-attack.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/23/business/23RANSOM/23RANSOM-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Eric Chien of Symantec, front, said that technical evidence indicated that a group of North Korean hackers that experts call the Lazarus Group was behind the WannaCry attack.</media:description>
+      <media:credit>Michal Czerwonka for The New York Times</media:credit>
+      <description>Researchers at the security company Symantec have found more digital clues that offer hints to who was responsible for the global incident.</description>
+      <dc:creator>NICOLE PERLROTH</dc:creator>
+      <pubDate>Tue, 23 May 2017 02:39:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Lazarus Group</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">WannaCry</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2017  The New York Times Company</copyright>
+    <lastBuildDate>Mon, 29 May 2017 18:51:30 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Jared Kushner&#x2019;s Role Is Tested as Russia Case Grows</title>
+      <link>https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/us/29KUSHNER-01/29KUSHNER-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump&#x2019;s son-in-law and senior adviser, Jared Kushner, at a news conference this month at the White House.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>It is unclear how Jared Kushner&#x2019;s high-profile woes will affect his hard-won partnership with his father-in-law, perhaps the most stable in an often unstable White House.</description>
+      <dc:creator>GLENN THRUSH, MAGGIE HABERMAN and SHARON LaFRANIERE</dc:creator>
+      <pubDate>Mon, 29 May 2017 01:23:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidents and Presidency (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jared Kushner</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Donald J. Trump</category>
+    </item>
+    <item>
+      <title>Reported Talks by Jared Kushner With Russia Would Be &#x2018;Good Thing,&#x2019; Trump Official Says</title>
+      <link>https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/us/29TRUMP/29TRUMP-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump and Melania Trump arriving at the White House on Saturday night after a nine-day overseas trip.</media:description>
+      <media:credit>Al Drago/The New York Times</media:credit>
+      <description>John F. Kelly, the homeland security secretary, played down reports of a back channel. The president, meanwhile, resumed using Twitter as a weapon.</description>
+      <dc:creator>MATT FLEGENHEIMER and PETER BAKER</dc:creator>
+      <pubDate>Sun, 28 May 2017 16:57:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+    </item>
+    <item>
+      <title>News Analysis: Melania Trump, in Supporting Role, Shows Subdued Star Power on Trip</title>
+      <link>https://www.nytimes.com/2017/05/28/world/europe/melania-trump-pope-francis.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/world/europe/melania-trump-pope-francis.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/world/europe/melania-trump-pope-francis.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/world/29melania4/29melania4-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Melania Trump at the Western Wall in Jerusalem last week.</media:description>
+      <media:credit>Pool photo by Heidi Levine</media:credit>
+      <description>Mrs. Trump&#x2019;s travels with the president were something of a coming-out party, which may offer clues to what kind of first lady she could become.</description>
+      <dc:creator>MARK LANDLER</dc:creator>
+      <pubDate>Sun, 28 May 2017 19:22:30 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Melania</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">First Ladies (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Francis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taormina (Sicily)</category>
+    </item>
+    <item>
+      <title>Critic's Notebook: Melania Trump on Display, Dressed in Ambivalence and Armor</title>
+      <link>https://www.nytimes.com/2017/05/26/fashion/melania-trump-foreign-trip-fashion.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/fashion/melania-trump-foreign-trip-fashion.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/fashion/melania-trump-foreign-trip-fashion.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/fashion/28MELANIA-slide-IBCE/28MELANIA-slide-IBCE-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mrs. Trump wore a black lace sheath dress by Dolce &amp; Gabbana with a matching veil to meet the pope. Some critics wondered why the first lady chose to cover her head at the Vatican but not in Saudi Arabia, where most Muslim women wear headscarves.</media:description>
+      <media:credit>Vincenzo Pinto/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Nine days, five countries, and more than a dozen outfits: the first lady makes a statement abroad.</description>
+      <dc:creator>VANESSA FRIEDMAN</dc:creator>
+      <pubDate>Fri, 26 May 2017 19:19:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">First Ladies (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Melania</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+    </item>
+    <item>
+      <title>Sidebar: A Constitutional Puzzle: Can the President Be Indicted?</title>
+      <link>https://www.nytimes.com/2017/05/29/us/politics/a-constitutional-puzzle-can-the-president-be-indicted.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/us/politics/a-constitutional-puzzle-can-the-president-be-indicted.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/us/politics/a-constitutional-puzzle-can-the-president-be-indicted.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/us/30bar/30bar-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump boarding Marine One on the South Lawn of the White House this month. Legal experts disagree about whether the Constitution allows for a president to be indicted.</media:description>
+      <media:credit>Al Drago/The New York Times</media:credit>
+      <description>The Constitution includes detailed instructions for impeachment. But there&#x2019;s no clear answer on whether a president may be criminally prosecuted.</description>
+      <dc:creator>ADAM LIPTAK</dc:creator>
+      <pubDate>Mon, 29 May 2017 09:00:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Special Prosecutors (Independent Counsel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Constitution (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immunity from Prosecution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Federal Bureau of Investigation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Amar, Akhil Reed</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mueller, Robert S III</category>
+    </item>
+    <item>
+      <title>North Korean Tests Add Urgency for U.S. to Fix Defense Flaws</title>
+      <link>https://www.nytimes.com/2017/05/29/us/politics/north-koreas-missiles-us-defense.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/us/politics/north-koreas-missiles-us-defense.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/us/politics/north-koreas-missiles-us-defense.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/us/29MISSILES-01p/29MISSILES-01p-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The medium-range strategic ballistic missile Pukguksong-2, shown in this undated image, was tested recently at an undisclosed location in North Korea. The North has successfully tested solid-fueled missiles four times.</media:description>
+      <media:credit>Korean Central News Agency, via European Pressphoto Agency</media:credit>
+      <description>The North has recently test-fired missiles based on a technology that would give the United States little warning of an attack. And they seem to work.</description>
+      <dc:creator>DAVID E. SANGER and WILLIAM J. BROAD</dc:creator>
+      <pubDate>Mon, 29 May 2017 04:01:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Missiles and Missile Defense Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Central Intelligence Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Defense Intelligence Agency</category>
+    </item>
+    <item>
+      <title>North Korea Fires Missile That Lands in Sea Between Korea and Japan</title>
+      <link>https://www.nytimes.com/2017/05/28/world/asia/north-korea-missile-test.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/world/asia/north-korea-missile-test.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/world/asia/north-korea-missile-test.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/world/29nkorea-1/29nkorea-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Kim Jong-un, North Korea&#x2019;s leader, on Sunday.</media:description>
+      <media:credit> Korean Central News Agency, via Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The apparent test of a ballistic missile that landed near Japan comes a week after the test of another ballistic missile.</description>
+      <dc:creator>CHOE SANG-HUN</dc:creator>
+      <pubDate>Mon, 29 May 2017 00:03:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Missiles and Missile Defense Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Jong-un</category>
+    </item>
+    <item>
+      <title>Emmanuel Macron Challenges Putin on Syria and Gay Rights</title>
+      <link>https://www.nytimes.com/2017/05/29/world/europe/emmanuel-macron-putin-france-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/world/europe/emmanuel-macron-putin-france-russia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/world/europe/emmanuel-macron-putin-france-russia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/world/30Macron/30Macron-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Emmanuel Macron of France, left, welcoming his Russian counterpart, Vladimir V. Putin, on Monday at Versailles, near Paris.</media:description>
+      <media:credit>Geoffroy Van Der Hasselt/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>France&#x2019;s newly elected president said that the use of chemical weapons in Syria was a &#x201C;red line,&#x201D; and that the punishment of gay men in Chechnya would be monitored.</description>
+      <dc:creator>ALISSA J. RUBIN and AURELIEN BREEDEN</dc:creator>
+      <pubDate>Mon, 29 May 2017 18:30:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+    </item>
+    <item>
+      <title>52 Places to Go: A Bird&#x2019;s Eye View in Laikipia</title>
+      <link>https://www.nytimes.com/video/travel/100000004909957/52-places-to-go-a-birds-eye-view-in-laikipia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/travel/100000004909957/52-places-to-go-a-birds-eye-view-in-laikipia.html</guid>
+      <description>Here are three ways to spy wildlife, large and small, in the Laikipia region of Kenya.</description>
+      <dc:creator/>
+      <pubDate>Mon, 29 May 2017 09:00:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Gliders, Hang Gliding and Paragliding</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Animals</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Safaris</category>
+      <category domain="http://www.nytimes.com/namespaces/mdes">Travel and Vacations</category>
+    </item>
+    <item>
+      <title>Your Daily Mini Crossword</title>
+      <link>http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/crosswords/game/mini</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss"/>
+      <description>Solve a bite-size crossword in just a few minutes.</description>
+      <dc:creator/>
+      <pubDate>Tue, 14 Mar 2017 22:01:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>War Hero&#x2019;s Family Suing in Its Decades-Long Fight to Identify Remains</title>
+      <link>https://www.nytimes.com/2017/05/29/us/veterans-graves-alexander-nininger.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/us/veterans-graves-alexander-nininger.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/us/veterans-graves-alexander-nininger.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/25/us/28Memorial-1/28Memorial-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The American Cemetery in Manila. The family of Alexander Nininger, who was killed in World War II, says his remains are buried there.</media:description>
+      <media:credit>Jes Aznar for The New York Times</media:credit>
+      <description>The family of Alexander Nininger, the first Medal of Honor recipient in World War II, has contended for decades that he is buried in Manila as an &#x201C;unknown.&#x201D;</description>
+      <dc:creator>DAVE PHILIPPS</dc:creator>
+      <pubDate>Mon, 29 May 2017 04:01:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cemeteries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World War II (1939-45)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Medal of Honor (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Military Academy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nininger, Lt. Alexander</category>
+    </item>
+    <item>
+      <title>A Guide to Staying on Top of Your Student Loan</title>
+      <link>https://www.nytimes.com/2017/05/21/smarter-living/student-loan-help.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/21/smarter-living/student-loan-help.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/21/smarter-living/student-loan-help.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/21/your-money/21studentloans-web/21studentloans-web-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Federal student loan rates will rise for the 2017-18 academic year.</media:description>
+      <media:credit>Julio Cortez/Associated Press</media:credit>
+      <description>Our best guidance for families and students trying to figure out the best strategies for managing college debt.</description>
+      <dc:creator>ANNA DUBENKO</dc:creator>
+      <pubDate>Sun, 21 May 2017 13:00:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Student Loans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Savings</category>
+    </item>
+    <item>
+      <title>Hackers Hide Cyberattacks in Social Media Posts</title>
+      <link>https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/business/socialhackjump/socialhackjump-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jay Kaplan, left, and Mark Kuhr, the founders of Synack, a cybersecurity company. &#x201C;The problem is pervasive,&#x201D; Mr. Kaplan said.</media:description>
+      <media:credit>Jim Wilson/The New York Times</media:credit>
+      <description>A recent attack on the accounts of Defense Department employees suggests how easily people can be duped into clicking on dangerous links.</description>
+      <dc:creator>SHEERA FRENKEL</dc:creator>
+      <pubDate>Sun, 28 May 2017 19:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Defense Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+    </item>
+    <item>
+      <title>The &#x2018;Bronx Tale&#x2019; Strategy: Win Suburban Love, Not Broadway Prestige</title>
+      <link>https://www.nytimes.com/2017/05/29/theater/the-bronx-tale-strategy-win-suburban-love-not-broadway-prestige.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/theater/the-bronx-tale-strategy-win-suburban-love-not-broadway-prestige.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/theater/the-bronx-tale-strategy-win-suburban-love-not-broadway-prestige.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/arts/30BRONXTALE/30BRONXTALE-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Nick Cordero, left, as Sonny and Hudson Loverro as the young Calogero in the musical &#x201C;A Bronx Tale,&#x201D; at the Longacre Theater.</media:description>
+      <media:credit>Sara Krulwich/The New York Times</media:credit>
+      <description>The musical received no Tony nominations. But nostalgia and smart marketing are filling the seats with the &#x201C;Jersey Boys&#x201D; demographic.</description>
+      <dc:creator>SOPAN DEB</dc:creator>
+      <pubDate>Mon, 29 May 2017 16:26:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_misspell">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">A Bronx Tale</category>
+    </item>
+    <item>
+      <title>Christian-Backed School Teaches Scions of the Elite in Atheist North Korea</title>
+      <link>https://www.nytimes.com/2017/05/29/world/asia/north-korea-university-christian-evangelical.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/world/asia/north-korea-university-christian-evangelical.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/world/asia/north-korea-university-christian-evangelical.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/23/world/23korea-university-1/23korea-university-1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Students at the Pyongyang University of Science and Technology in 2011. The North Korean school is staffed with volunteer Christian professors, many of them American.</media:description>
+      <media:credit>David Guttenfelder/Associated Press</media:credit>
+      <description>In a country that bans religion, the school educates a crop of handpicked students &#x2014; and perhaps gives the government some leverage with Washington.</description>
+      <dc:creator>CHOE SANG-HUN</dc:creator>
+      <pubDate>Mon, 29 May 2017 09:00:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Pyongyang University of Science and Technology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Evangelical Movement</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Christians and Christianity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+    </item>
+    <item>
+      <title>Three Men Stood Up to Anti-Muslim Attack. Two Paid With Their Lives.</title>
+      <link>https://www.nytimes.com/2017/05/28/us/portland-stabbing-victims.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/us/portland-stabbing-victims.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/us/portland-stabbing-victims.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/us/29xp-portland/29xp-portland-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Coco Douglas, 8, on Saturday at a memorial in Portland, Ore., for two men who were killed when they confronted a man yelling anti-Muslim insults at two women on a commuter train.</media:description>
+      <media:credit>Gillian Flaccus/Associated Press</media:credit>
+      <description>The victims in Friday&#x2019;s attack were an Army veteran, a recent college graduate and a poet who spoke out against anti-Muslim prejudice.</description>
+      <dc:creator>DANIEL VICTOR</dc:creator>
+      <pubDate>Sun, 28 May 2017 22:45:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Portland (Ore)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Christian, Jeremy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Meche, Taliesin Myrddin Namkai</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Best, Rick</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fletcher, Micah David-Cole</category>
+    </item>
+    <item>
+      <title>The Coat of Arms Said &#x2018;Integrity.&#x2019; Now It Says &#x2018;Trump.&#x2019;</title>
+      <link>https://www.nytimes.com/2017/05/28/business/trump-coat-of-arms.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/business/trump-coat-of-arms.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/business/trump-coat-of-arms.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/business/29TRUMPCREST-COMBO/29TRUMPCREST-COMBO-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The crest, right, that President Trump displays at his American properties is a coat of arms, left, that British authorities granted to another family.</media:description>
+      <media:credit/>
+      <description>The emblem used by the Trump Organization in the United States had to be changed in Britain, since it belongs to another family.</description>
+      <dc:creator>DANNY HAKIM</dc:creator>
+      <pubDate>Sun, 28 May 2017 16:28:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Heraldry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Trademarks and Trade Names</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Scotland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Post, Marjorie Merriweather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Mar-a-Lago (Palm Beach, Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Trump Organization</category>
+    </item>
+    <item>
+      <title>Afloat on the Erie Canal: Sonar Gear, Ferris Wheel Parts and Beer Tanks</title>
+      <link>https://www.nytimes.com/2017/05/28/nyregion/erie-canal-rebound-commercial-shipping.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/nyregion/erie-canal-rebound-commercial-shipping.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/nyregion/erie-canal-rebound-commercial-shipping.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/nyregion/29CANAL1/29CANAL1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Twelve enormous beer tanks, headed to the Genesee Beer Company in Rochester, are among the oversize cargo populating the Erie Canal.</media:description>
+      <media:credit>Nathaniel Brooks for The New York Times</media:credit>
+      <description>The canal, long relegated as a recreational byway, has had a rebound in commercial shipping for odd and oversize cargo.</description>
+      <dc:creator>JESSE McKINLEY</dc:creator>
+      <pubDate>Mon, 29 May 2017 00:16:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Erie Canal (NYS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York State</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Canals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freight (Cargo)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Power Authority</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Empire State Development Corp</category>
+    </item>
+    <item>
+      <title>On Memorial Day, Trump Pays Tribute to Fallen Troops</title>
+      <link>https://www.nytimes.com/2017/05/29/us/politics/memorial-day-trump-veterans.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/us/politics/memorial-day-trump-veterans.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/us/politics/memorial-day-trump-veterans.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/us/30trump/30trump-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump laid a wreath at the Tomb of the Unknown Solider at Arlington National Cemetery, in Arlington, Va., on Monday, to mark Memorial Day.</media:description>
+      <media:credit>Al Drago/The New York Times</media:credit>
+      <description>At a solemn ceremony at Arlington National Cemetery, President Trump praised those &#x201C;who died in war so we could live in peace.&#x201D;</description>
+      <dc:creator>PETER BAKER</dc:creator>
+      <pubDate>Mon, 29 May 2017 18:04:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Memorial Day</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Arlington National Cemetery</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Veterans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Iraq War (2003-11)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001-14)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kelly, John F (1950- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>U.K. Is Investigating Missed Signals Over Manchester Bomber</title>
+      <link>https://www.nytimes.com/2017/05/29/world/europe/manchester-attack-uk.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/world/europe/manchester-attack-uk.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/world/europe/manchester-attack-uk.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/world/30Manchester/30Manchester-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Police officers outside Didsbury Mosque in Manchester, England, last week. At least two congregants from the mosque reported Salman Abedi, the assailant in the Manchester Arena bombing that left 22 dead, to the authorities two years ago, a law enforcement official confirmed.</media:description>
+      <media:credit>Andrew Testa for The New York Times</media:credit>
+      <description>The British domestic intelligence agency will focus on why, despite repeated warnings from the public, agents decided that the bomber, Salman Abedi, posed no threat.</description>
+      <dc:creator>CEYLAN YEGINSU</dc:creator>
+      <pubDate>Mon, 29 May 2017 14:29:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Manchester Arena Bombing (May, 2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Abedi, Salman (d 2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Security Service (MI5)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manchester (England)</category>
+    </item>
+    <item>
+      <title>Merkel, After Discordant G-7 Meeting, Is Looking Past Trump</title>
+      <link>https://www.nytimes.com/2017/05/28/world/europe/angela-merkel-trump-alliances-g7-leaders.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/world/europe/angela-merkel-trump-alliances-g7-leaders.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/world/europe/angela-merkel-trump-alliances-g7-leaders.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/world/29germany/29germany-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Chancellor Angela Merkel of Germany in Munich on Sunday. &#x201C;The times in which we could rely fully on others, they are somewhat over,&#x201D; she said.</media:description>
+      <media:credit>Christian Bruna/European Pressphoto Agency</media:credit>
+      <description>After President Trump declined to endorse NATO&#x2019;s doctrine of collective defense and the Paris climate pact, the German leader said Europe should &#x201C;take our fate into our own hands.&#x201D;</description>
+      <dc:creator>ALISON SMALE and STEVEN ERLANGER</dc:creator>
+      <pubDate>Mon, 29 May 2017 00:44:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Group of Seven</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Merkel, Angela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United Nations Framework Convention on Climate Change</category>
+    </item>
+    <item>
+      <title>Philippine Forces Struggle to Retake City Held by Islamist Militants</title>
+      <link>https://www.nytimes.com/2017/05/29/world/asia/rodrigo-duterte-philippines-isis-marawi-militant.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/world/asia/rodrigo-duterte-philippines-isis-marawi-militant.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/world/asia/rodrigo-duterte-philippines-isis-marawi-militant.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/world/30philippines-4/30philippines-4-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A Philippine Air Force helicopter launching a rocket in Marawi on Monday. Government troops have cleared about half of the city of militants.</media:description>
+      <media:credit>Erik De Castro/Reuters</media:credit>
+      <description>An official called on civilians to help the military clear Marawi, a city in the south, of insurgents from ISIS-linked groups who are proving difficult to dislodge.</description>
+      <dc:creator>FELIPE VILLAMOR</dc:creator>
+      <pubDate>Mon, 29 May 2017 09:27:33 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Abu Sayyaf</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Philippines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duterte, Rodrigo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Martial Law</category>
+    </item>
+    <item>
+      <title>Takuma Sato Narrowly Wins the Indianapolis 500 on a Day of Crashes</title>
+      <link>https://www.nytimes.com/2017/05/28/sports/autoracing/indianapolis-500-takuma-sato.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/sports/autoracing/indianapolis-500-takuma-sato.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/sports/autoracing/indianapolis-500-takuma-sato.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/sports/29INDYprint/29INDY3-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Takuma Sato of Japan drenching himself with milk, an Indianapolis 500 tradition, after winning the 101st running of the race on Sunday.</media:description>
+      <media:credit>Mark J. Rebilas/USA Today Sports, via Reuters</media:credit>
+      <description>Sato, the first champion from Japan, is a 40-year-old former Formula One driver who has just one other victory in IndyCar racing.</description>
+      <dc:creator>JERRY GARRETT</dc:creator>
+      <pubDate>Mon, 29 May 2017 00:18:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sato, Takuma</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Indianapolis 500 (Auto Race)</category>
+    </item>
+    <item>
+      <title>Tiger Woods Is Charged in Florida for Driving Under the Influence</title>
+      <link>https://www.nytimes.com/2017/05/29/sports/golf/tiger-woods-arrested-dui.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/sports/golf/tiger-woods-arrested-dui.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/sports/golf/tiger-woods-arrested-dui.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/us/30xp-tiger/30xp-tiger-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>The mug shot of Tiger Woods after he was taken into custody in Jupiter, Fla., early Monday morning.</media:description>
+      <media:credit>Palm Beach County Sheriff's Office</media:credit>
+      <description>Woods, 41, who has won 14 major championships but has been troubled by health problems in recent years, was taken into custody at 3 a.m. in Jupiter, Fla.</description>
+      <dc:creator>DANIEL VICTOR</dc:creator>
+      <pubDate>Mon, 29 May 2017 17:09:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Golf</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Woods, Tiger</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drunken and Reckless Driving</category>
+    </item>
+    <item>
+      <title>After Technical Chaos, British Airways Looks to Restore Schedule</title>
+      <link>https://www.nytimes.com/2017/05/29/business/uk-british-airways-london-flights.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/business/uk-british-airways-london-flights.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/business/uk-british-airways-london-flights.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/business/30BRITISHAIRWAYS1/30BRITISHAIRWAYS1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Passengers waiting to check in at Heathrow Airport near London on Sunday. British Airways was still grappling on Monday with the impact of a major technical failure over the weekend.</media:description>
+      <media:credit>Jack Taylor/Getty Images</media:credit>
+      <description>The airline said it was running most flights as normal, but the weekend disruption has resulted in tense scenes at London&#x2019;s two biggest airports in particular.</description>
+      <dc:creator>PALKO KARASZ</dc:creator>
+      <pubDate>Mon, 29 May 2017 16:10:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airlines and Airplanes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Delays (Transportation)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customer Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Airports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">British Airways PLC</category>
+    </item>
+    <item>
+      <title>Francesco Totti Leaves the Field, and Romans Weep for a Living Monument</title>
+      <link>https://www.nytimes.com/2017/05/29/world/europe/francesco-totti-roma.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/world/europe/francesco-totti-roma.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/world/europe/francesco-totti-roma.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/world/30Totti5/30Totti5-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Fans of A.S. Roma watching Francesco Totti&#x2019;s final game on Sunday. Many took his departure hard.</media:description>
+      <media:credit>Nadia Shira Cohen for The New York Times</media:credit>
+      <description>It&#x2019;s been a rough decade for Rome. Jobs have left and garbage piles up in the streets. The latest kick in the gut? Francesco Totti has left the soccer pitch.</description>
+      <dc:creator>JASON HOROWITZ</dc:creator>
+      <pubDate>Mon, 29 May 2017 12:36:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roma (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Totti, Francesco (1976- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
+    </item>
+    <item>
+      <title>China Charges Activist From Taiwan With &#x2018;Subverting State Power&#x2019;</title>
+      <link>https://www.nytimes.com/2017/05/29/world/asia/taiwan-china-activist-lee-ming-cheh.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/29/world/asia/taiwan-china-activist-lee-ming-cheh.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/29/world/asia/taiwan-china-activist-lee-ming-cheh.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/30/world/30taiwan-1/30taiwan-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Lee Ching-yu holding a photo of her husband, the rights advocate Lee Ming-cheh, at a news conference in Taipei, Taiwan, in March.</media:description>
+      <media:credit>Associated Press</media:credit>
+      <description>The mainland authorities have never leveled that charge against someone from Taiwan before, and his formal arrest adds a new strain to tensions between Beijing and Taipei.</description>
+      <dc:creator>CHRIS HORTON and CHRIS BUCKLEY</dc:creator>
+      <pubDate>Mon, 29 May 2017 12:02:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Communist Party of China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Chinese Nationalist Party (Taiwan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Progressive Party (Taiwan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee Ming-cheh</category>
+    </item>
+    <item>
+      <title>The Motive in a Manhattan Shooting? The Statue of Liberty</title>
+      <link>https://www.nytimes.com/2017/05/28/nyregion/manhattan-statue-of-liberty-ticket-sellers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/nyregion/manhattan-statue-of-liberty-ticket-sellers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/nyregion/manhattan-statue-of-liberty-ticket-sellers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/26/nyregion/00FERRY1/00FERRY1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Passengers aboard a boat operated by the Hop-On Hop-Off Liberty Cruise, a boat that does not dock at Liberty Island.</media:description>
+      <media:credit>Alex Wroblewski for The New York Times</media:credit>
+      <description>An unlikely turf battle at the bottom of Manhattan is being fought over the Statue of Liberty. There have been several assaults and most recently a shooting.</description>
+      <dc:creator>JOSEPH GOLDSTEIN and NATE SCHWEBER</dc:creator>
+      <pubDate>Sun, 28 May 2017 20:58:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Statue of Liberty</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cruises</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Downtown Alliance</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Park Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Police Department (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Battery Park (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Liberty Island (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manhattan (NYC)</category>
+    </item>
+    <item>
+      <title>A Russian Businessman&#x2019;s Road From Siberia to Success</title>
+      <link>https://www.nytimes.com/2017/05/26/business/russia-cosmetics-siberia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/26/business/russia-cosmetics-siberia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/26/business/russia-cosmetics-siberia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/17/business/00RUSSIACOSMETICS1/00RUSSIACOSMETICS1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Andrei Trubnikov, the founder of Natura Siberica, in the company&#x2019;s offices in Moscow surrounded by bottles and beauty products he has bought on his travels for inspiration and comparison for packaging.</media:description>
+      <media:credit>James Hill for The New York Times</media:credit>
+      <description>A cosmetics company is a rare bright spot for a Russian economy that has been languishing in recent years.</description>
+      <dc:creator>ANDREW E. KRAMER</dc:creator>
+      <pubDate>Fri, 26 May 2017 21:37:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trubnikov, Andrei V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Natura Siberica</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cosmetics and Toiletries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Shampoos and Hair Products</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+    </item>
+    <item>
+      <title>John Severson, Surfer Who Illustrated Allure of Waves, Dies at 83</title>
+      <link>https://www.nytimes.com/2017/05/28/sports/john-severson-dead-surfer-magazine-artist.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/sports/john-severson-dead-surfer-magazine-artist.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/sports/john-severson-dead-surfer-magazine-artist.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/sports/29SEVERSON1-obit/29SEVERSON1-obit-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>John Severson working at San Onofre State Beach outside San Clemente, Calif., in 1959.</media:description>
+      <media:credit>John Severson/Puka Puka</media:credit>
+      <description>Mr. Severson founded Surfer magazine in 1962 and created paintings, films and photographs depicting the surfing lifestyle.</description>
+      <dc:creator>RICHARD GOLDSTEIN</dc:creator>
+      <pubDate>Mon, 29 May 2017 00:56:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surfing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Surfer (Magazine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Severson, John (1933- )</category>
+    </item>
+    <item>
+      <title>Navy Parachutist Dies During Demonstration Over Jersey City</title>
+      <link>https://www.nytimes.com/2017/05/28/nyregion/fleet-week-parachute-dead-leap-frogs.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/nyregion/fleet-week-parachute-dead-leap-frogs.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/28/nyregion/fleet-week-parachute-dead-leap-frogs.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/29/nyregion/29parachute/29parachute-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An investigator held a bag of evidence as officials looked into the death Sunday of a Leap Frogs parachutist whose name was not immediately released.</media:description>
+      <media:credit>Bryan Anselm for The New York Times</media:credit>
+      <description>The parachutist, a member of the elite Leap Frogs team, plunged into the Hudson River as hundreds watched from Liberty State Park.</description>
+      <dc:creator>SARAH MASLIN NIR and NIKITA STEWART</dc:creator>
+      <pubDate>Sun, 28 May 2017 22:47:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parachutes and Parachute Jumping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jersey City (NJ)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fleet Week</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Navy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hudson River</category>
+    </item>
+    <item>
+      <title>By the Book: Al Franken: By the Book</title>
+      <link>https://www.nytimes.com/2017/05/25/books/review/al-franken-by-the-book.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/books/review/al-franken-by-the-book.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/books/review/al-franken-by-the-book.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/books/review/0528-BKS-ByTheBook/0528-BKS-ByTheBook-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>Al Franken</media:description>
+      <media:credit>Illustration by Jillian Tamaki</media:credit>
+      <description>The author of &#x201C;Al Franken: Giant of the Senate&#x201D; has at least one Congressional Research Service report on his night stand. &#x201C;But it&#x2019;s under Carl Reiner&#x2019;s book on &#x2018;The Dick Van Dyke Show.&#x2019;&#x201D;</description>
+      <dc:creator/>
+      <pubDate>Thu, 25 May 2017 09:00:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Franken, Al</category>
+    </item>
+    <item>
+      <title>How the Clothes Make the First Lady</title>
+      <link>https://www.nytimes.com/2017/05/27/insider/melania-trump-political-fashion.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/27/insider/melania-trump-political-fashion.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/27/insider/melania-trump-political-fashion.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/insider/28-a2-insider-COMBO/28-a2-insider-COMBO-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Left to right, Wong Maye-E/Associated Press; Doug Mills/The New York Times; Pool photo by Dominic Lipinski </media:credit>
+      <description>Some criticize writing about the fashion statements of public figures like Melania Trump. But sartorial choices tell us a lot about a person.</description>
+      <dc:creator>VANESSA FRIEDMAN</dc:creator>
+      <pubDate>Sat, 27 May 2017 15:09:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Melania</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">First Ladies (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Letter of Recommendation: Letter of Recommendation: &#x2018;Terrace House&#x2019;</title>
+      <link>https://www.nytimes.com/2017/05/25/magazine/letter-of-recommendation-terrace-house.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/25/magazine/letter-of-recommendation-terrace-house.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/05/25/magazine/letter-of-recommendation-terrace-house.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/05/28/magazine/28lor/28mag-28lor-t_CA0-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A reality show so punishingly mundane it becomes beautiful.</media:description>
+      <media:credit>Illustration by Carolyn Figel</media:credit>
+      <description>A reality show so punishingly mundane that it becomes beautiful.</description>
+      <dc:creator>ANDREW RIDKER</dc:creator>
+      <pubDate>Thu, 25 May 2017 09:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Reality Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Terrace House (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+    </item>
+  </channel>
+</rss>

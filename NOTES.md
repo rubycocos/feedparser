@@ -1,11 +1,15 @@
 # Notes
 
 
-
-
-
 ## ToDos
 
+- [ ] change .rss2 to simple .rss
+   - rss 2.0 is just a "better" compatible version of the 0.9x series (0.90, 0.91, 0.92)
+
+- [ ] reorg feeds
+   - use new feedburner folder - move all feeds "managed" by feedburner to folder
+   - use a new google folder - why? why not?  incl. google forum and blogger feed - why? why not?
+   - for all remaining use a misc folder - why? why not??
 
 - [ ]  convert all dates to utc e.g. use DateTime#utc - why? why not?
        - example: 2015-01-16 08:33:57 UTC <= rfc822 Fri, 16 Jan 2015 09:33:57 +0100

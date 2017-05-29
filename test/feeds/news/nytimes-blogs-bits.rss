@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0"
+	xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>Bits</title>
+	<atom:link href="http://bits.blogs.nytimes.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://bits.blogs.nytimes.com</link>
+	<description>Business, Innovation, Technology, Society</description>
+	<lastBuildDate>Tue, 16 May 2017 20:18:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.2.9</generator>
+<image>
+	<url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+	<title>NYT</title>
+	<link>http://www.nytimes.com</link>
+</image>
+	<item>
+		<title>Daily Report: A Net Neutrality Setback for Facebook in India</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/09/daily-report-a-net-neutrality-setback-for-facebook-in-india/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/09/daily-report-a-net-neutrality-setback-for-facebook-in-india/#respond</comments>
+		<pubDate>Tue, 09 Feb 2016 14:36:54 +0000</pubDate>
+		<dc:creator><![CDATA[By Jim Kerstetter]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Facebook Inc]]></category>
+		<category><![CDATA[India]]></category>
+		<category><![CDATA[Net Neutrality]]></category>
+		<category><![CDATA[Regulation and Deregulation of Industry]]></category>
+		<category><![CDATA[Zuckerberg, Mark E]]></category>
+
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/09/daily-report-a-net-neutrality-setback-for-facebook-in-india/</guid>
+		<description><![CDATA[In the United States, the social media giant has been an advocate of equal treatment of all Internet content. In India, regulators who share that belief have effectively blocked a free Facebook service.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/09/daily-report-a-net-neutrality-setback-for-facebook-in-india/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Zenefits, in a Shake-Up, Appoints New C.E.O., Replacing Parker Conrad</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/08/zenefits-in-a-shake-up-appoints-new-c-e-o-replacing-parker-conrad/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/08/zenefits-in-a-shake-up-appoints-new-c-e-o-replacing-parker-conrad/#respond</comments>
+		<pubDate>Tue, 09 Feb 2016 02:18:10 +0000</pubDate>
+		<dc:creator><![CDATA[By Farhad Manjoo]]></dc:creator>
+				<category><![CDATA[Executives and Management]]></category>
+		<category><![CDATA[Start-ups]]></category>
+		<category><![CDATA[Venture Capital]]></category>
+		<category><![CDATA[Appointments and Executive Changes]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Conrad, Parker]]></category>
+		<category><![CDATA[Health Insurance and Managed Care]]></category>
+		<category><![CDATA[Sacks, David O]]></category>
+		<category><![CDATA[San Francisco (Calif)]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Zenefits Insurance Services]]></category>
+
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/08/zenefits-in-a-shake-up-appoints-new-c-e-o-replacing-parker-conrad/</guid>
+		<description><![CDATA[Zenefits, a high-profile San Francisco start-up specializing in health insurance, replaces its co-founder and chief executive after questions about compliance.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/08/zenefits-in-a-shake-up-appoints-new-c-e-o-replacing-parker-conrad/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2016/02/09/business/09bits-zenefits/09bits-zenefits-thumbStandard.jpg" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>For Some Cord Cutters, Streaming Super Bowl Was a Nonstarter</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/08/for-some-cord-cutters-streaming-super-bowl-was-a-nonstarter/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/08/for-some-cord-cutters-streaming-super-bowl-was-a-nonstarter/#respond</comments>
+		<pubDate>Mon, 08 Feb 2016 18:25:57 +0000</pubDate>
+		<dc:creator><![CDATA[By Brian X. Chen]]></dc:creator>
+				<category><![CDATA[Alphabet]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[video]]></category>
+		<category><![CDATA[CBS Corporation]]></category>
+		<category><![CDATA[CBS Sports]]></category>
+		<category><![CDATA[Super Bowl]]></category>
+		<category><![CDATA[Television Sets and Media Devices]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[CBS Corporation|CBS|NYSE]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/08/for-some-cord-cutters-streaming-super-bowl-was-a-nonstarter/</guid>
+		<description><![CDATA[Users complained that a CBS Sports app cut out while they were trying to watch the big game.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/08/for-some-cord-cutters-streaming-super-bowl-was-a-nonstarter/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2016/02/07/sports/football/superbowl-307-copy/superbowl-307-thumbStandard-v2.jpg" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Daily Report: Waiting for the F.C.C.&#8217;s Lawyer to Take Another Stand</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/08/daily-report-waiting-for-the-f-c-c-s-lawyer-to-take-another-stand/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/08/daily-report-waiting-for-the-f-c-c-s-lawyer-to-take-another-stand/#respond</comments>
+		<pubDate>Mon, 08 Feb 2016 14:41:21 +0000</pubDate>
+		<dc:creator><![CDATA[By Jim Kerstetter]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Federal Communications Commission]]></category>
+		<category><![CDATA[Mergers, Acquisitions and Divestitures]]></category>
+		<category><![CDATA[Time Warner Cable Inc]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Time Warner Cable Inc|TWC|NYSE]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/08/daily-report-waiting-for-the-f-c-c-s-lawyer-to-take-another-stand/</guid>
+		<description><![CDATA[The commission's high-profile general counsel has faced criticism that too many of his decisions have been based upon Democratic politics.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/08/daily-report-waiting-for-the-f-c-c-s-lawyer-to-take-another-stand/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>BlackBerry Lays Off 200, Pointing to Shift Away from Phones</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/05/blackberry-layoffs-point-to-shift-away-from-phones/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/05/blackberry-layoffs-point-to-shift-away-from-phones/#respond</comments>
+		<pubDate>Fri, 05 Feb 2016 20:50:39 +0000</pubDate>
+		<dc:creator><![CDATA[By Ian Austen]]></dc:creator>
+				<category><![CDATA[Inside Companies]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[BlackBerry]]></category>
+		<category><![CDATA[Chen, John S]]></category>
+		<category><![CDATA[Layoffs and Job Reductions]]></category>
+		<category><![CDATA[Smartphones]]></category>
+
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/05/blackberry-layoffs-point-to-shift-away-from-phones/</guid>
+		<description><![CDATA[The Canadian company's chief executive has said in the past that he wants to maintain the company's phone business. That is, if it is not a money loser.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/05/blackberry-layoffs-point-to-shift-away-from-phones/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Daily Report: As Tech Powers, China Is Rising, While Japan Declines</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/05/daily-report-as-tech-powers-china-is-rising-while-japan-declines/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/05/daily-report-as-tech-powers-china-is-rising-while-japan-declines/#respond</comments>
+		<pubDate>Fri, 05 Feb 2016 14:43:45 +0000</pubDate>
+		<dc:creator><![CDATA[By Pui-Wing Tam]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Computer Chips]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Electronics]]></category>
+		<category><![CDATA[Foxconn Technology]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[Sharp Corporation]]></category>
+
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/05/daily-report-as-tech-powers-china-is-rising-while-japan-declines/</guid>
+		<description><![CDATA[China's growing tech industry is inciting concern, while Japan's stalling tech industry is spurring deals. ]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/05/daily-report-as-tech-powers-china-is-rising-while-japan-declines/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Daily Report: The Mystery of Amazon&#8217;s Bookstores</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/04/daily-report-the-mystery-of-amazons-bookstores/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/04/daily-report-the-mystery-of-amazons-bookstores/#respond</comments>
+		<pubDate>Thu, 04 Feb 2016 14:54:38 +0000</pubDate>
+		<dc:creator><![CDATA[By Pui-Wing Tam]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Amazon.com Inc]]></category>
+		<category><![CDATA[Book Trade and Publishing]]></category>
+		<category><![CDATA[General Growth Properties]]></category>
+		<category><![CDATA[Real Estate (Commercial)]]></category>
+		<category><![CDATA[Seattle (Wash)]]></category>
+		<category><![CDATA[Shopping Centers and Malls]]></category>
+		<category><![CDATA[Social Media]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Amazon.com Inc|AMZN|NASDAQ]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/04/daily-report-the-mystery-of-amazons-bookstores/</guid>
+		<description><![CDATA[How an offhand remark about Amazon opening new bookstores spawned a viral reaction and a backtracking. ]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/04/daily-report-the-mystery-of-amazons-bookstores/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Mall Executive Backtracks From Statement on Amazon Retail Stores</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/03/mall-executive-backtracks-from-statement-on-amazon-retail-stores/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/03/mall-executive-backtracks-from-statement-on-amazon-retail-stores/#respond</comments>
+		<pubDate>Wed, 03 Feb 2016 23:26:08 +0000</pubDate>
+		<dc:creator><![CDATA[By Nick Wingfield]]></dc:creator>
+				<category><![CDATA[E-Commerce]]></category>
+		<category><![CDATA[Amazon.com Inc]]></category>
+		<category><![CDATA[Barnes & Noble Inc]]></category>
+		<category><![CDATA[Book Trade and Publishing]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[General Growth Properties]]></category>
+		<category><![CDATA[Real Estate (Commercial)]]></category>
+		<category><![CDATA[Shopping and Retail]]></category>
+		<category><![CDATA[Shopping Centers and Malls]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Amazon.com Inc|AMZN|NASDAQ]]></category><category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Barnes & Noble Inc|BKS|NYSE]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/03/mall-executive-backtracks-from-statement-on-amazon-retail-stores/</guid>
+		<description><![CDATA[A day after saying that Amazon planned to open 300 to 400 brick-and-mortar bookstores, a shopping mall executive stepped back from his comments.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/03/mall-executive-backtracks-from-statement-on-amazon-retail-stores/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Daily Report: Yahoo&#8217;s Multipronged Turnaround Strategy</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/03/daily-report-yahoos-multipronged-turnaround-strategy/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/03/daily-report-yahoos-multipronged-turnaround-strategy/#respond</comments>
+		<pubDate>Wed, 03 Feb 2016 14:34:22 +0000</pubDate>
+		<dc:creator><![CDATA[By Pui-Wing Tam]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Mayer, Marissa]]></category>
+		<category><![CDATA[Yahoo! Inc]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Yahoo! Inc|YHOO|NASDAQ]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/03/daily-report-yahoos-multipronged-turnaround-strategy/</guid>
+		<description><![CDATA[Yahoo is opening itself up to all options — spinoff, sale, a simplification of its operations — in its quest to right itself.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/03/daily-report-yahoos-multipronged-turnaround-strategy/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Daily Report: Alphabet Eclipses Apple to Become the Most Valuable Company</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/02/daily-report-from-apple-to-alphabet/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/02/daily-report-from-apple-to-alphabet/#respond</comments>
+		<pubDate>Tue, 02 Feb 2016 14:21:55 +0000</pubDate>
+		<dc:creator><![CDATA[By Pui-Wing Tam]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Alphabet Inc]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Google Inc]]></category>
+		<category><![CDATA[Mayer, Marissa]]></category>
+		<category><![CDATA[Search Engines]]></category>
+		<category><![CDATA[Yahoo! Inc]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Google Inc|GOOGL|NASDAQ]]></category><category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Yahoo! Inc|YHOO|NASDAQ]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/02/daily-report-from-apple-to-alphabet/</guid>
+		<description><![CDATA[There's a shifting of the guard at the top of the technology food chain, with Alphabet overtaking Apple to become the world's most valuable company.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/02/daily-report-from-apple-to-alphabet/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Daily Report: More Earnings, Earnings, Earnings</title>
+		<link>https://bits.blogs.nytimes.com/2016/02/01/daily-report-more-earnings-earnings-earnings/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/02/01/daily-report-more-earnings-earnings-earnings/#respond</comments>
+		<pubDate>Mon, 01 Feb 2016 14:26:12 +0000</pubDate>
+		<dc:creator><![CDATA[By Pui-Wing Tam]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Alphabet Inc]]></category>
+		<category><![CDATA[Company Reports]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Google Inc]]></category>
+		<category><![CDATA[Mayer, Marissa]]></category>
+		<category><![CDATA[Nest Labs Inc]]></category>
+		<category><![CDATA[Page, Larry]]></category>
+		<category><![CDATA[Search Engines]]></category>
+		<category><![CDATA[Yahoo! Inc]]></category>
+
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/02/01/daily-report-more-earnings-earnings-earnings/</guid>
+		<description><![CDATA[The tech earnings season is hitting peak news this week with big reveals from Alphabet and Yahoo.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/02/01/daily-report-more-earnings-earnings-earnings/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Daily Report: Divergent Fortunes in Cloud Computing</title>
+		<link>https://bits.blogs.nytimes.com/2016/01/29/daily-report-cloud-computing-is-proving-highly-profitable/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/01/29/daily-report-cloud-computing-is-proving-highly-profitable/#respond</comments>
+		<pubDate>Fri, 29 Jan 2016 14:43:01 +0000</pubDate>
+		<dc:creator><![CDATA[By Joseph Plambeck]]></dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Amazon.com Inc]]></category>
+		<category><![CDATA[Company Reports]]></category>
+		<category><![CDATA[Facebook Inc]]></category>
+		<category><![CDATA[Microsoft Corp]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Amazon.com Inc|AMZN|NASDAQ]]></category><category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Facebook Inc|FB|NASDAQ]]></category><category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Microsoft Corp|MSFT|NASDAQ]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/01/29/daily-report-cloud-computing-is-proving-highly-profitable/</guid>
+		<description><![CDATA[The earnings reports released by Amazon and Microsoft reinforced that cloud computing is a booming, multibillion-dollar business.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/01/29/daily-report-cloud-computing-is-proving-highly-profitable/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Facebook to Shut Down Parse, Its Platform for Mobile Developers</title>
+		<link>https://bits.blogs.nytimes.com/2016/01/28/facebook-to-shut-down-parse-its-platform-for-mobile-developers/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/01/28/facebook-to-shut-down-parse-its-platform-for-mobile-developers/#respond</comments>
+		<pubDate>Thu, 28 Jan 2016 22:00:08 +0000</pubDate>
+		<dc:creator><![CDATA[By Mike Isaac and Quentin Hardy]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Facebook Inc]]></category>
+		<category><![CDATA[Instant Messaging]]></category>
+		<category><![CDATA[Mobile Applications]]></category>
+		<category><![CDATA[Oculus VR Inc]]></category>
+		<category><![CDATA[Online Advertising]]></category>
+		<category><![CDATA[Silicon Valley (Calif)]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Virtual Reality (Computers)]]></category>
+		<category><![CDATA[WhatsApp Inc]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Facebook Inc|FB|NASDAQ]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/01/28/facebook-to-shut-down-parse-its-platform-for-mobile-developers/</guid>
+		<description><![CDATA[Facebook is shutting down Parse, a toolkit and support system for mobile developers, which it acquired in 2013.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/01/28/facebook-to-shut-down-parse-its-platform-for-mobile-developers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2016/01/28/business/28bits-parse/28bits-parse-thumbStandard.jpg" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Daily Report: Facebook&#8217;s Lucrative Long View</title>
+		<link>https://bits.blogs.nytimes.com/2016/01/28/daily-report-facebook-finds-a-way-to-make-the-long-view-lucrative/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/01/28/daily-report-facebook-finds-a-way-to-make-the-long-view-lucrative/#respond</comments>
+		<pubDate>Thu, 28 Jan 2016 14:32:18 +0000</pubDate>
+		<dc:creator><![CDATA[By Joseph Plambeck]]></dc:creator>
+				<category><![CDATA[Daily Report]]></category>
+		<category><![CDATA[Company Reports]]></category>
+		<category><![CDATA[Computers and the Internet]]></category>
+		<category><![CDATA[Facebook Inc]]></category>
+		<category><![CDATA[Zuckerberg, Mark E]]></category>
+<category domain="http://www.nytimes.com/namespaces/nyt_org_all"><![CDATA[Facebook Inc|FB|NASDAQ]]></category>
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/01/28/daily-report-facebook-finds-a-way-to-make-the-long-view-lucrative/</guid>
+		<description><![CDATA[Mark Zuckerberg has told investors over and over: Don't expect Facebook to focus much on quarterly earnings. The company is taking the long view. But that long view is sure looking spectacular in quarterly earnings.]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/01/28/daily-report-facebook-finds-a-way-to-make-the-long-view-lucrative/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2011/11/30/technology/bits-daily-report/bits-daily-report-thumbStandard-v5.png" width="75" height="75"></media:content>
+	</item>
+		<item>
+		<title>Alphabet Program Beats the European Human Go Champion</title>
+		<link>https://bits.blogs.nytimes.com/2016/01/27/alphabet-program-beats-the-european-human-go-champion/</link>
+		<comments>https://bits.blogs.nytimes.com/2016/01/27/alphabet-program-beats-the-european-human-go-champion/#respond</comments>
+		<pubDate>Wed, 27 Jan 2016 19:28:38 +0000</pubDate>
+		<dc:creator><![CDATA[By John Markoff]]></dc:creator>
+				<category><![CDATA[Alphabet]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Google Inc]]></category>
+		<category><![CDATA[Nature (Journal)]]></category>
+
+		<guid isPermaLink="false">https://bits.blogs.nytimes.com/2016/01/27/alphabet-program-beats-the-european-human-go-champion/</guid>
+		<description><![CDATA[DeepMind, a research organization, said that a program combining two separate algorithms had soundly defeated a high-ranking professional Go player. ]]></description>
+		<wfw:commentRss>https://bits.blogs.nytimes.com/2016/01/27/alphabet-program-beats-the-european-human-go-champion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:content medium="image" url="https://static01.nyt.com/images/2016/01/27/technology/personaltech/27bits-hassabis/27bits-hassabis-thumbStandard.jpg" width="75" height="75"></media:content>
+	</item>
+	</channel>
+</rss>

@@ -1,0 +1,60 @@
+<rss version="2.0">
+  <channel>
+    <ttl>60</ttl>
+    <title>Paul Krugman</title>
+    <link>https://www.nytimes.com/column/paul-krugman</link>
+    <description>Paul Krugman, a New York Times Op-Ed columnist, writes about macroeconomics, trade, health care, social policy and politics. In 2008, he received the Nobel Prize in Economics.</description>
+    <copyright>Copyright 2017 The New York Times Company</copyright>
+    <language>en-us</language>
+    <item>
+      <title>Trump&#8217;s Energy, Low and Dirty</title>
+      <link>https://www.nytimes.com/2017/05/29/opinion/trump-g-7-summit-energy.html</link>
+      <description>Risking the planet to keep a lie alive.</description>
+      <author>By PAUL KRUGMAN</author>
+      <pubDate>Mon, 29 May 2017 03:21:09 -0500</pubDate>
+    </item>
+    <item>
+      <title>It&#8217;s All About Trump&#8217;s Contempt</title>
+      <link>https://www.nytimes.com/2017/05/26/opinion/trumpcare-cbo-federal-budget.html</link>
+      <description>His budget and health plan show he despises his voters. Will they notice?</description>
+      <author>By PAUL KRUGMAN</author>
+      <pubDate>Fri, 26 May 2017 03:21:23 -0500</pubDate>
+    </item>
+    <item>
+      <title>The Unfreeing of American Workers</title>
+      <link>https://www.nytimes.com/2017/05/22/opinion/american-workers-noncompete-agreements.html</link>
+      <description>Creeping along the real road to serfdom.</description>
+      <author>By PAUL KRUGMAN</author>
+      <pubDate>Mon, 22 May 2017 03:21:10 -0500</pubDate>
+    </item>
+    <item>
+      <title>What&#8217;s the Matter With Republicans?</title>
+      <link>https://www.nytimes.com/2017/05/19/opinion/whats-the-matter-with-republicans.html</link>
+      <description>We need to understand what made Trump possible.</description>
+      <author>By PAUL KRUGMAN</author>
+      <pubDate>Fri, 19 May 2017 03:21:08 -0500</pubDate>
+    </item>
+    <item>
+      <title>The Priming of Mr. Donald Trump</title>
+      <link>https://www.nytimes.com/2017/05/15/opinion/trump-tax-cuts-deficit.html</link>
+      <description>He&#8217;s not the only one with fiscal fantasies.</description>
+      <author>By PAUL KRUGMAN</author>
+      <pubDate>Mon, 15 May 2017 03:21:15 -0500</pubDate>
+    </item>
+    <item>
+      <title>Judas, Tax Cuts and the Great Betrayal</title>
+      <link>https://www.nytimes.com/2017/05/12/opinion/judas-tax-cuts-and-the-great-betrayal.html</link>
+      <description>The Republican response to Trump&#8217;s cover-up will live in infamy forever.</description>
+      <author>By PAUL KRUGMAN</author>
+      <pubDate>Fri, 12 May 2017 03:22:04 -0500</pubDate>
+    </item>
+
+    <item><title>Republicans Party Like It&#8217;s 1984</title><link>https://www.nytimes.com/2017/05/08/opinion/republicans-party-like-its-1984.html</link><description>Making policy by lying about everything.</description><author>By PAUL KRUGMAN</author><pubDate>Mon, 08 May 2017 03:21:24 -0500</pubDate></item>
+
+    <item><title>What&#8217;s the Matter With Europe?</title><link>https://www.nytimes.com/2017/05/05/opinion/european-union-france-election.html</link><description>Le Pen must be beaten, but then what?</description><author>By PAUL KRUGMAN</author><pubDate>Fri, 05 May 2017 03:21:24 -0500</pubDate></item>
+
+    <item><title>On the Power of Being Awful</title><link>https://www.nytimes.com/2017/05/01/opinion/donald-trump-on-the-power-of-being-awful.html</link><description>Trump supporters will never admit they were wrong.</description><author>By PAUL KRUGMAN</author><pubDate>Mon, 01 May 2017 03:21:16 -0500</pubDate></item>
+
+    <item><title>Living in the Trump Zone</title><link>https://www.nytimes.com/2017/04/28/opinion/living-in-the-trump-zone.html</link><description>We&#8217;re in a place and time where childish petulance drives policy.</description><author>By PAUL KRUGMAN</author><pubDate>Fri, 28 Apr 2017 03:21:22 -0500</pubDate></item>
+  </channel>
+</rss>
