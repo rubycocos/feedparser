@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Categories</title>
+    <link>http://example.com</link>
+    <description/>
+    <lastBuildDate>Mon, 29 May 2017 18:51:30 GMT </lastBuildDate>
+    <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+    <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+    <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+
+    <item>
+      <title>Jared Kushner&#x2019;s Role Is Tested as Russia Case Grows</title>
+      <link>https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html</guid>
+      <description>It is unclear how Jared Kushner&#x2019;s high-profile woes will affect his hard-won partnership with his father-in-law, perhaps the most stable in an often unstable White House.</description>
+      <pubDate>Mon, 29 May 2017 01:23:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidents and Presidency (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jared Kushner</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Donald J. Trump</category>
+    </item>
+
+    <item>
+      <title>Reported Talks by Jared Kushner With Russia Would Be &#x2018;Good Thing,&#x2019; Trump Official Says</title>
+      <link>https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html</guid>
+      <description>John F. Kelly, the homeland security secretary, played down reports of a back channel. The president, meanwhile, resumed using Twitter as a weapon.</description>
+      <pubDate>Sun, 28 May 2017 16:57:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+    </item>
+  </channel>
+</rss>
+
+---
+
+feed.tags.size:      >>> 3
+feed.tags[0].name:   United States Politics and Government
+feed.tags[0].domain: http://www.nytimes.com/namespaces/keywords/des
+feed.tags[1].name:   Social Media
+feed.tags[2].name:   News and News Media
+
+
+feed.items[0].tags.size:      >>> 5
+feed.items[0].tags[0].name:   Presidents and Presidency (US)
+feed.items[0].tags[0].domain: http://www.nytimes.com/namespaces/keywords/mdes
+feed.items[0].tags[1].name:   Appointments and Executive Changes
+feed.items[0].tags[2].name:   United States
+feed.items[0].tags[3].name:   Jared Kushner
+feed.items[0].tags[4].name:   Donald J. Trump
+
+
+feed.items[1].tags.size:      >>> 5
+feed.items[1].tags[0].name:   Trump, Donald J
+feed.items[1].tags[0].domain: http://www.nytimes.com/namespaces/keywords/nyt_per
+feed.items[1].tags[1].name:   United States Politics and Government
+feed.items[1].tags[2].name:   Social Media
+feed.items[1].tags[3].name:   News and News Media
+feed.items[1].tags[4].name:   Twitter

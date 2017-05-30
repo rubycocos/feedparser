@@ -44,13 +44,16 @@ class Feed
 
 
   def updated?()  @updated.nil? == false;  end
-  attr_accessor :updated        # e.g. lastBuildDate (rss)|updated (atom)
+  attr_accessor :updated        # e.g. lastBuildDate (rss)|updated (atom)   -- always (converted) to utc
+  attr_accessor :updated_local  # "unparsed" local datetime as in feed (NOT converted to utc)
 
   def published?()  @published.nil? == false;  end
-  attr_accessor :published      # e.g. pubDate (rss)\n/a (atom)  -- note: published is basically an alias for created
+  attr_accessor :published         # e.g. pubDate (rss)\n/a (atom)  -- note: published is basically an alias for created
+  attr_accessor :published_local   # "unparsed" local datetime as in feed (NOT converted to utc)
 
 
   attr_accessor :generator
+
 
   ## fix:
   #  add pretty printer/inspect (exclude object)

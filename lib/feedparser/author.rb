@@ -16,6 +16,11 @@ class Author
   def avatar?()  @avatar.nil? == false;  end
   attr_accessor :avatar  # todo/check: use avatar_url ?? used by json feed -check if always a url
 
+
+  ## todo: add role - why? why not?
+  ##   e.g. add contributor (atom)
+  ##          or managingEditor (rss) or webMaster (rss) - why? why not??
+
   attr_accessor :text    # note: holds "unparsed" text (content) line form dc:creator or rss:author
 
 

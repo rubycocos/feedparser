@@ -33,9 +33,12 @@ class Item
 
   def updated?()  @updated.nil? == false;  end
   attr_accessor :updated   # pubDate (RSS)|updated (Atom)
+  attr_accessor :updated_local  # "unparsed" local datetime as in feed (NOT converted to utc)
 
   def published?()  @published.nil? == false;  end
   attr_accessor :published  # note: published is basically an alias for created
+  attr_accessor :published_local   # "unparsed" local datetime as in feed (NOT converted to utc)
+
 
 
   attr_accessor :id

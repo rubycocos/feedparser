@@ -3,6 +3,8 @@
 
 ## ToDos
 
+- [ ] add published_local, updated_local to atom, rss and json (for feed not just items)
+
 - [ ] change .rss2 to simple .rss
    - rss 2.0 is just a "better" compatible version of the 0.9x series (0.90, 0.91, 0.92)
 

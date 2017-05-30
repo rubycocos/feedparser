@@ -14,6 +14,9 @@ class Tag
 
 
   attr_accessor :scheme    ## use scheme_url -why? why not? is it always a url/uri??
+  ## note: domain (rss) is an alias for scheme (atom)
+  alias :domain   :scheme
+  alias :domain=  :scheme=
 
 end  # class Tag
 

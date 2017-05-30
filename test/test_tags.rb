@@ -12,6 +12,7 @@ class TestTags < MiniTest::Test
   def test_all
     names = [
              'spec/atom/categories.atom',
+             'spec/rss/categories.rss',
             ]
 
     names.each do |name|

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Author</title>
+    <link>http://example.com/</link>
+    <description/>
+    <lastBuildDate>Mon, 29 May 2017 18:51:30 GMT </lastBuildDate>
+    <managingEditor>Matt Flegenheimer Jr.</managingEditor>
+    <webMaster>Matt Flegenheimer Sr.</webMaster>
+    <item>
+      <title>Jared Kushner&#x2019;s Role Is Tested as Russia Case Grows</title>
+      <link>https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html</guid>
+      <pubDate>Mon, 29 May 2017 01:23:57 GMT</pubDate>
+      <author>Peter Baker</author>
+    </item>
+  </channel>
+</rss>
+
+---
+
+feed.authors.size:      >>> 2
+feed.authors[0].text:   Matt Flegenheimer Jr.
+feed.authors[0].to_s:	  Matt Flegenheimer Jr.
+feed.authors[0].email:	>>> nil
+feed.authors[1].text:   Matt Flegenheimer Sr.
+feed.authors[1].to_s:	  Matt Flegenheimer Sr.
+
+feed.author.text:  Matt Flegenheimer Jr.
+feed.author.to_s:  Matt Flegenheimer Jr.
+feed.author.email: >>> nil
+
+
+feed.items[0].authors.size:     >>> 1
+feed.items[0].authors[0].text:  Peter Baker
+feed.items[0].authors[0].to_s:	Peter Baker
+feed.items[0].authors[0].email:	>>> nil
+
+feed.items[0].author.text:   Peter Baker
+feed.items[0].author.to_s: 	 Peter Baker
+feed.items[0].author.email:  >>> nil

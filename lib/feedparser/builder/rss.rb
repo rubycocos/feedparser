@@ -45,6 +45,24 @@ class RssFeedBuilder
     feed.generator.name = feed.generator.text   ## note: for now set also name/title to "unparsed" (content) line (may change in the future!!!)
 
 
+
+    ## check for managingEditor and/or  webMaster
+
+    if rss_feed.channel.managingEditor
+      author = Author.new
+      author.text = rss_feed.channel.managingEditor.strip
+      author.name = author.text   ## note: for now use "unparsed" (content) line also for name
+      feed.authors << author
+    end
+
+    if rss_feed.channel.webMaster
+      author = Author.new
+      author.text = rss_feed.channel.webMaster.strip
+      author.name = author.text   ## note: for now use "unparsed" (content) line also for name
+      feed.authors << author
+    end
+
+
     ## check for dublin core (dc) metadata
 
     if rss_feed.channel.dc_creator
@@ -54,6 +72,12 @@ class RssFeedBuilder
       feed.authors = authors
     end
 
+
+    ###  check for categories (tags)
+
+    rss_feed.channel.categories.each do |rss_cat|
+      feed.tags << build_tag( rss_cat )
+    end
 
 
     items = []
@@ -72,6 +96,21 @@ class RssFeedBuilder
     author.name = author.text    # note: for now use "unparsed" creator line also for name (may change in the future!!!)
     author
   end
+
+
+
+  def build_tag( rss_cat )
+    ## pp rss_cat
+    tag = Tag.new
+
+    ## note: always strip leading n trailing spaces
+    ##         and add if preset (not blank/empty e.g. not nil or "")
+    tag.name     = rss_cat.content.strip    if rss_cat.content
+    tag.domain   = rss_cat.domain.strip     if rss_cat.domain
+
+    tag
+  end  # build_tag
+
 
 
   def build_item( rss_item )
@@ -115,8 +154,14 @@ class RssFeedBuilder
       logger.warn "  rss | item.guid.content missing !!!! - using link for guid"
     end
 
-    ### todo: add support or authors (incl. dc:creator)
-    ##  <dc:creator>Dhaivat Pandya</dc:creator>
+
+    if rss_item.author
+      author = Author.new
+      author.text = rss_item.author.strip
+      author.name = author.text   ## note: for now use "unparsed" (content) line also for name
+      item.authors << author
+    end
+
 
     ## check for dublin core (dc) metadata
 
@@ -128,10 +173,12 @@ class RssFeedBuilder
     end
 
 
-    #  todo: categories
-    # <category><![CDATA[Gems]]></category>
-    # <category><![CDATA[Ruby]]></category>
-    # <category><![CDATA[Ruby on Rails]]></category>
+    ###  check for categories (tags)
+
+    rss_item.categories.each do |rss_cat|
+      item.tags << build_tag( rss_cat )
+    end
+
 
     item
   end # method build_feed_item_from_rss

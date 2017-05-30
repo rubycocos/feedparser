@@ -26,9 +26,18 @@ feed.title:      Brent Simmons’s Microblog
 feed.url:        https://example.org/
 feed.feed_url:   https://example.org/feed.json
 
-feed.items.size:    >>> 1
+feed.authors.size:      >>> 1
+feed.authors[0].name:   Brent Simmons
+feed.authors[0].url:    http://example.org/
+feed.authors[0].avatar: https://example.org/avatar.png
 
+
+feed.items.size:            >>> 1
 feed.items[0].id:           2347259
 feed.items[0].url:          https://example.org/2347259
 feed.items[0].content_text: Cats are neat. \n\nhttps://example.org/cats
-feed.items[0].published:    >>> DateTime.new( 2016, 2, 9, 14, 22, 0, '-7')
+feed.items[0].published:       >>> DateTime.new( 2016, 2, 9, 14, 22, 0, '-7').utc
+feed.items[0].published_local: >>> DateTime.new( 2016, 2, 9, 14, 22, 0, '-7')
+
+>>> pp feed.items[0].published
+>>> pp feed.items[0].published_local
