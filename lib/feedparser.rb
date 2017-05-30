@@ -28,6 +28,7 @@ require 'feedparser/feed'
 require 'feedparser/item'
 require 'feedparser/author'
 require 'feedparser/tag'
+require 'feedparser/generator'
 require 'feedparser/parser'
 
 

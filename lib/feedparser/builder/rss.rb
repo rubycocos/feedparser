@@ -39,21 +39,42 @@ class RssFeedBuilder
     feed.published = handle_date( rss_feed.channel.pubDate,       'feed.pubDate => published'     )  # optional
 
 
-    feed.generator = rss_feed.channel.generator    # optional
-
     logger.debug "  rss | feed.generator  >#{rss_feed.channel.generator}< : #{rss_feed.channel.generator.class.name}"
+
+    feed.generator.text = rss_feed.channel.generator    # optional
+    feed.generator.name = feed.generator.text   ## note: for now set also name/title to "unparsed" (content) line (may change in the future!!!)
+
+
+    ## check for dublin core (dc) metadata
+
+    if rss_feed.channel.dc_creator
+      ## note: dc_creator wipes out authors if set with rss tag(s)
+      authors = []
+      authors << build_author_from_dublic_core_creator( rss_feed.channel.dc_creator )
+      feed.authors = authors
+    end
+
 
 
     items = []
     rss_feed.items.each do |rss_item|
-      items << build_feed_item( rss_item )
+      items << build_item( rss_item )
     end
     feed.items = items
 
     feed # return new feed
   end
 
-  def build_feed_item( rss_item )
+
+  def build_author_from_dublic_core_creator( dc_creator )
+    author = Author.new
+    author.text = dc_creator.strip
+    author.name = author.text    # note: for now use "unparsed" creator line also for name (may change in the future!!!)
+    author
+  end
+
+
+  def build_item( rss_item )
 
     item = Item.new
 
@@ -96,6 +117,16 @@ class RssFeedBuilder
 
     ### todo: add support or authors (incl. dc:creator)
     ##  <dc:creator>Dhaivat Pandya</dc:creator>
+
+    ## check for dublin core (dc) metadata
+
+    if rss_item.dc_creator
+      ## note: dc_creator wipes out authors if set with rss tag(s)
+      authors = []
+      authors << build_author_from_dublic_core_creator( rss_item.dc_creator )
+      item.authors = authors
+    end
+
 
     #  todo: categories
     # <category><![CDATA[Gems]]></category>

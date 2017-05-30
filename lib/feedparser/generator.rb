@@ -2,25 +2,25 @@
 
 module FeedParser
 
-class Author
+class Generator
 
   attr_accessor :name
+  ## note: title is an alias for name
+  alias :title  :name
+  alias :title= :name=
+
+  attr_accessor :version
+
   attr_accessor :url
   ## note: uri is an alias for url
   alias :uri  :url       ## add atom alias for uri - why? why not?
   alias :uri= :url=
 
-  def email?()   @email.nil? == false;  end
-  attr_accessor :email
 
-  def avatar?()  @avatar.nil? == false;  end
-  attr_accessor :avatar  # todo/check: use avatar_url ?? used by json feed -check if always a url
-
-  attr_accessor :text    # note: holds "unparsed" text (content) line form dc:creator or rss:author
-
+  attr_accessor :text  # note: holds "unparsed" text (content) line form rss:generator
 
   def to_s
-    ## note: to_s  - allows to use just author in templates
+    ## note: to_s  - allows to use just generator in templates
     ##    will by default return name if present or as fallback "unparsed" text line
      if @name    ## not blank
        @name
@@ -29,6 +29,6 @@ class Author
      end
   end
 
-end  # class Author
+end  # class Generator
 
 end # module FeedParser

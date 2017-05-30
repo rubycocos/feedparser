@@ -79,12 +79,12 @@ class AtomFeedBuilder
 
     if atom_feed.generator
       ## Note: remove (strip) leading and trailing spaces and newlines
-      feed.generator =  atom_feed.generator.content.strip
+      feed.generator.name =  atom_feed.generator.content.strip
       logger.debug "  atom | feed.generator.content  >#{atom_feed.generator.content}< : #{atom_feed.generator.content.class.name}"
 
       # pp atom_feed.generator
-      feed.generator_version = atom_feed.generator.version
-      feed.generator_uri     = atom_feed.generator.uri
+      feed.generator.version = atom_feed.generator.version
+      feed.generator.url     = atom_feed.generator.uri
       logger.debug "  atom | feed.generator.version  >#{atom_feed.generator.version}< : #{atom_feed.generator.version.class.name}"
       logger.debug "  atom | feed.generator.uri      >#{atom_feed.generator.uri}< : #{atom_feed.generator.uri.class.name}"
     end

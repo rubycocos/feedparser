@@ -13,6 +13,7 @@ class TestAuthors < MiniTest::Test
     names = [
              'spec/atom/author.atom',
              'spec/atom/authors.atom',
+             'spec/rss/creator.rss',
             ]
 
     names.each do |name|

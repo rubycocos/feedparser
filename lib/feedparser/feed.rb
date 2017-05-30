@@ -51,14 +51,6 @@ class Feed
 
 
   attr_accessor :generator
-  attr_accessor :generator_version  # e.g. @version (atom)
-  attr_accessor :generator_url      # e.g. @uri     (atom)
-
-  ## note: generator_uri is an alias for generator_url
-  alias :generator_uri  :generator_url
-  alias :generator_uri= :generator_url=
-
-
 
   ## fix:
   #  add pretty printer/inspect (exclude object)
@@ -70,7 +62,7 @@ class Feed
     @authors = []
     @tags    = []
 
-    ### fix/todo:  use a struct for generator !!!
+    @generator = Generator.new
   end
 
 end  # class Feed

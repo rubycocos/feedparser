@@ -13,7 +13,18 @@ class Feed
   def built?()  @built.nil? == false;  end
   attr_accessor :built
 
+
+
+  attr_accessor :generator_version  # e.g. @version (atom)
+  attr_accessor :generator_url      # e.g. @uri     (atom)
+
+  ## note: generator_uri is an alias for generator_url
+  alias :generator_uri  :generator_url
+  alias :generator_uri= :generator_url=
+
+
+
+
 end  # class Feed
 
 end # module FeedParser
-
