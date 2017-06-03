@@ -35,9 +35,11 @@ class RssFeedBuilder
     feed.summary   = handle_content( rss_feed.channel.description, 'feed.description => summary' )  # required
     feed.url       = rss_feed.channel.link            # required
 
-    feed.updated   = handle_date( rss_feed.channel.lastBuildDate, 'feed.lastBuildDate => updated' )  # optional
-    feed.published = handle_date( rss_feed.channel.pubDate,       'feed.pubDate => published'     )  # optional
+    feed.updated_local   = handle_date( rss_feed.channel.lastBuildDate, 'feed.lastBuildDate => updated' )  # optional
+    feed.updated         = feed.updated_local.utc     if feed.updated_local
 
+    feed.published_local = handle_date( rss_feed.channel.pubDate,       'feed.pubDate => published'     )  # optional
+    feed.published       = feed.published_local.utc   if feed.published_local
 
     logger.debug "  rss | feed.generator  >#{rss_feed.channel.generator}< : #{rss_feed.channel.generator.class.name}"
 
@@ -80,11 +82,9 @@ class RssFeedBuilder
     end
 
 
-    items = []
     rss_feed.items.each do |rss_item|
-      items << build_item( rss_item )
+      feed.items << build_item( rss_item )
     end
-    feed.items = items
 
     feed # return new feed
   end
@@ -139,7 +139,8 @@ class RssFeedBuilder
     logger.debug "  rss | item.content_encoded[0..40]  >#{rss_item.content_encoded ? rss_item.content_encoded[0..40] : ''}< : #{rss_item.content_encoded.class.name}"
 
 
-    item.updated   = handle_date( rss_item.pubDate, 'item.pubDate => updated' )
+    item.updated_local   = handle_date( rss_item.pubDate, 'item.pubDate => updated' )
+    item.updated         = item.updated_local.utc    if item.updated_local
 
 
     ## fix/todo: check if rss_item.guid present? !!!!

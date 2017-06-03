@@ -161,13 +161,22 @@ feed.format:     json
 feed.title:      inessential.com
 feed.url:        http://inessential.com/
 feed.feed_url:   http://inessential.com/feed.json
+feed.summary:    Brent Simmons’s weblog.
+
+feed.authors[0].name:   Brent Simmons
+feed.authors[0].url:    http://inessential.com/
+feed.authors[0].avatar: http://ranchero.com/downloads/brent_avatar.png
+
+
 
 feed.items[0].url:       http://inessential.com/2017/05/17/json_feed
-feed.items[0].guid:      http://inessential.com/2017/05/17/json_feed
+feed.items[0].id:        http://inessential.com/2017/05/17/json_feed
 feed.items[0].title:     JSON Feed
-feed.items[0].published: DateTime.new( 2017, 5, 17, 13, 22, 14, '-7')
+feed.items[0].published:       DateTime.new( 2017, 5, 17, 13, 22, 14, '-7').utc
+feed.items[0].published_local: DateTime.new( 2017, 5, 17, 13, 22, 14, '-7')
 
 feed.items[1].url:       http://inessential.com/2017/05/01/frontier_diary_8_when_worlds_collide
-feed.items[1].guid:      http://inessential.com/2017/05/01/frontier_diary_8_when_worlds_collide
+feed.items[1].id:        http://inessential.com/2017/05/01/frontier_diary_8_when_worlds_collide
 feed.items[1].title:     Frontier Diary #8: When Worlds Collide
-feed.items[1].published: DateTime.new( 2017, 5, 1, 13, 34, 23, '-7')
+feed.items[1].published:       DateTime.new( 2017, 5, 1, 13, 34, 23, '-7').utc
+feed.items[1].published_local: DateTime.new( 2017, 5, 1, 13, 34, 23, '-7')

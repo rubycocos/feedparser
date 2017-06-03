@@ -37,11 +37,9 @@ class JsonFeedBuilder
     end
 
 
-    items = []
     h['items'].each do |hash_item|
-      items << build_item( hash_item )
+      feed.items << build_item( hash_item )
     end
-    feed.items = items
 
     feed # return new feed
   end # method build_feed_from_json
@@ -51,7 +49,6 @@ class JsonFeedBuilder
     author = Author.new
 
     author.name     = h['name']
-    author.email    = h['email']
     author.url      = h['url']
     author.avatar   = h['avatar']
 
@@ -63,9 +60,10 @@ class JsonFeedBuilder
   def build_item( h )
     item = Item.new   # Item.new
 
-    item.guid       = h['id']
-    item.title      = h['title']
-    item.url        = h['url']
+    item.guid         = h['id']
+    item.title        = h['title']
+    item.url          = h['url']
+    item.external_url = h['external_url']
 
     ## convert date if present (from string to date type)
     date_published_str = h['date_published']
@@ -89,8 +87,24 @@ class JsonFeedBuilder
       item.authors << build_author( h['author'] )
     end
 
+    if h['tags']
+      h['tags'].each do |json_tag|
+        item.tags << build_tag( json_tag )
+      end
+    end
+
     item
   end # method build_item
+
+
+  def build_tag( json_tag )
+    ## pp rss_cat
+    tag = Tag.new
+
+    tag.name = json_tag
+
+    tag
+  end  # build_tag
 
 
 end # JsonFeedBuilder

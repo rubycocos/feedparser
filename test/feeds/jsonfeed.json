@@ -25,8 +25,13 @@
 feed.format:     json
 feed.title:      JSON Feed
 feed.url:        https://jsonfeed.org/
+feed.feed_url:   https://jsonfeed.org/feed.json
 feed.summary:    JSON Feed is a pragmatic syndication format for blogs, microblogs, and other time-based content.
 
-feed.items[0].title:  Announcing JSON Feed
-feed.items[0].url:    https://jsonfeed.org/2017/05/17/announcing_json_feed
-feed.items[0].guid:   https://jsonfeed.org/2017/05/17/announcing_json_feed
+feed.authors[0].name: Brent Simmons and Manton Reece
+
+
+feed.items[0].title:     Announcing JSON Feed
+feed.items[0].url:       https://jsonfeed.org/2017/05/17/announcing_json_feed
+feed.items[0].id:        https://jsonfeed.org/2017/05/17/announcing_json_feed
+feed.items[0].published: >>> DateTime.new( 2017, 5, 17, 8, 2, 12, '-7' ).utc

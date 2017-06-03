@@ -589,3 +589,31 @@ feed.format:     json
 feed.title:      Daring Fireball
 feed.url:        https://daringfireball.net/
 feed.feed_url:   https://daringfireball.net/feeds/json
+
+feed.authors[0].name: John Gruber
+feed.authors[0].url:  https://twitter.com/gruber
+
+feed.author.name: John Gruber
+feed.author.url:  https://twitter.com/gruber
+
+
+feed.items[0].title:        Stashword
+feed.items[0].published:    >>> DateTime.new( 2017, 5, 20, 19, 23, 6 ).utc
+feed.items[0].updated:      >>> DateTime.new( 2017, 5, 20, 19, 23, 8 ).utc
+feed.items[0].id:           https://daringfireball.net/linked/2017/05/20/stashword
+feed.items[0].url:          https://daringfireball.net/linked/2017/05/20/stashword
+feed.items[0].external_url: http://df.stashword.com/
+
+feed.items[0].authors[0].name:  John Gruber
+feed.items[0].author.name:      John Gruber
+
+
+feed.items[1].title:        MacStories’s iOS 11 iPad Wishes and Concept Video
+feed.items[1].published:    >>> DateTime.new( 2017, 5, 20, 19, 10, 48 ).utc
+feed.items[1].updated:      >>> DateTime.new( 2017, 5, 20, 19, 10, 50 ).utc
+feed.items[1].id:           https://daringfireball.net/linked/2017/05/20/macstories-ios-11-concept
+feed.items[1].url:          https://daringfireball.net/linked/2017/05/20/macstories-ios-11-concept
+feed.items[1].external_url: https://www.macstories.net/stories/ios-11-ipad-wishes-and-concept-video/
+
+feed.items[1].authors[0].name: John Gruber
+feed.items[1].author.name:     John Gruber

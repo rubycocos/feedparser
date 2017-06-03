@@ -6,6 +6,11 @@ class Item
 
   attr_accessor :title
   attr_accessor :url
+  attr_accessor :external_url
+
+  # note: related_url is an alias for external_url
+  alias :related_url  :external_url     ## link rel=related used in atom
+  alias :related_url= :external_url=
 
 
   ## note: only content/content_html should use html;

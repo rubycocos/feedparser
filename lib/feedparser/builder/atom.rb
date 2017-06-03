@@ -74,7 +74,8 @@ class AtomFeedBuilder
 
 
     if atom_feed.updated
-      feed.updated = handle_date( atom_feed.updated, 'feed.updated' )
+      feed.updated_local = handle_date( atom_feed.updated, 'feed.updated' )
+      feed.updated       = feed.updated_local.utc
     end
 
     if atom_feed.generator
@@ -95,25 +96,19 @@ class AtomFeedBuilder
 
 
     ## check for authors
-    authors = []
     atom_feed.authors.each do |atom_author|
-      authors << build_author( atom_author )
+      feed.authors << build_author( atom_author )
     end
-    feed.authors = authors
 
     ## check for categories/tags
-    tags = []
     atom_feed.categories.each do |atom_cat|
-      tags << build_tag( atom_cat )
+      feed.tags << build_tag( atom_cat )
     end
-    feed.tags = tags
 
 
-    items = []
     atom_feed.items.each do |atom_item|
-      items << build_item( atom_item )
+      feed.items << build_item( atom_item )
     end
-    feed.items = items
 
     feed # return new feed
   end # method build_feed_from_atom
@@ -177,11 +172,13 @@ class AtomFeedBuilder
 
 
     if atom_item.updated
-      item.updated    = handle_date( atom_item.updated, 'item.updated' )
+      item.updated_local  = handle_date( atom_item.updated, 'item.updated' )
+      item.updated        = item.updated_local.utc
     end
 
     if atom_item.published
-      item.published  = handle_date( atom_item.published, 'item.published' )
+      item.published_local  = handle_date( atom_item.published, 'item.published' )
+      item.published        = item.published_local.utc
     end
 
 
@@ -197,18 +194,14 @@ class AtomFeedBuilder
     end
 
     ## check for authors
-    authors = []
     atom_item.authors.each do |atom_author|
-      authors << build_author( atom_author )
+      item.authors << build_author( atom_author )
     end
-    item.authors = authors
 
     ## check for categories/tags
-    tags = []
     atom_item.categories.each do |atom_cat|
-      tags << build_tag( atom_cat )
+      item.tags << build_tag( atom_cat )
     end
-    item.tags = tags
 
     item
   end # method build_item

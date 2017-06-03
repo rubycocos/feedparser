@@ -1,0 +1,33 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "My Example Feed",
+    "home_page_url": "https://example.org/",
+    "feed_url": "https://example.org/feed.json",
+    "items": [
+        {
+            "id": "2",
+            "content_text": "This is a second item.",
+            "url": "https://example.org/second-item",
+            "tags": ["one", "two", "fourty four"]
+        },
+        {
+            "id": "1",
+            "content_html": "<p>Hello, world!</p>",
+            "url": "https://example.org/initial-post",
+            "tags": ["compiler","dynamic dispatch","dynamic languages","ruby 2.0"]
+        }
+    ]
+}
+
+---
+
+feed.items[0].tags.size:     >>> 3
+feed.items[0].tags[0].name: one
+feed.items[0].tags[1].name: two
+feed.items[0].tags[2].name: fourty four
+
+feed.items[1].tags.size:     >>> 4
+feed.items[1].tags[0].name: compiler
+feed.items[1].tags[1].name: dynamic dispatch
+feed.items[1].tags[2].name: dynamic languages
+feed.items[1].tags[3].name: ruby 2.0

@@ -3,6 +3,8 @@
 
 ## ToDos
 
+- [ ] add related_url for atom; use link rel=related
+
 - [ ] add published_local, updated_local to atom, rss and json (for feed not just items)
 
 - [ ] change .rss2 to simple .rss

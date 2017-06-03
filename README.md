@@ -13,12 +13,19 @@ feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON, etc.)
 
 May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON.
 
+## What's a Web Feed?
+
+See the [Awesome Feeds](https://github.com/statictimes/awesome-feeds) page.
+
+
 
 ## Usage
 
+
 ### Structs
 
-Feed • Item
+Feed • Item • Author • Tag • Generator
+
 
 ![](feed-models.png)
 
@@ -74,6 +81,8 @@ class Feed
 end
 ```
 
+(Source: [`lib/feedparser/feed.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/feed.rb))
+
 
 ### `Item` Struct
 
@@ -128,6 +137,23 @@ class Item
   attr_accessor :guid     # todo: rename to id (use alias) ??
 end
 ```
+
+(Source: [`lib/feedparser/item.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/item.rb))
+
+
+### `Author` Struct
+
+(Source: [`lib/feedparser/author.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/author.rb))
+
+
+### `Tag` Struct
+
+(Source: [`lib/feedparser/tag.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/tag.rb))
+
+### `Generator` Struct
+
+(Source: [`lib/feedparser/generator.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/generator.rb))
+
 
 
 ### Read Feed Example
