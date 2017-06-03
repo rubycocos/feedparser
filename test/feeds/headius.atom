@@ -110,13 +110,14 @@ feed.format:            atom
 feed.title:             Headius
 feed.summary:           Helping the JVM Into the 21st Century
 feed.url:               http://blog.headius.com/
-feed.generator:         Blogger
-feed.generator_uri:     http://www.blogger.com
-feed.generator_version: 7.00 
+
+feed.generator.name:         Blogger
+feed.generator.url:          http://www.blogger.com
+feed.generator.version:      7.00
 
 feed.items[0].title: JRubyConf.eu 2014!
 feed.items[0].url:   http://blog.headius.com/2014/05/jrubyconfeu-2014.html
-feed.items[0].guid:  tag:blogger.com,1999:blog-4704664917418794835.post-3430080308857860963
+feed.items[0].id:  tag:blogger.com,1999:blog-4704664917418794835.post-3430080308857860963
 
 feed.items[1].title: The Pain of Broken Subprocess Management on JDK
-feed.items[1].guid:  tag:blogger.com,1999:blog-4704664917418794835.post-462657466694269626
+feed.items[1].id:  tag:blogger.com,1999:blog-4704664917418794835.post-462657466694269626

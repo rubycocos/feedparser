@@ -1593,15 +1593,16 @@ reassurance.  You’re not crazy. I’m not crazy.</p>
 
 ---
 
-feed.format:        atom
-feed.title:         ongoing by Tim Bray
-feed.subtitle:      ongoing fragmented essay by Tim Bray
-feed.url:           https://www.tbray.org/ongoing/
-feed.feed_url:      https://www.tbray.org/ongoing/ongoing.atom
-feed.updated:       >>> DateTime.new( 2017, 5, 23, 11, 55, 3, '-7' )
+feed.format:         atom
+feed.title:          ongoing by Tim Bray
+feed.subtitle:       ongoing fragmented essay by Tim Bray
+feed.url:            https://www.tbray.org/ongoing/
+feed.feed_url:       https://www.tbray.org/ongoing/ongoing.atom
+feed.updated_local:  >>> DateTime.new( 2017, 5, 23, 11, 55, 3, '-7' )
+feed.updated:        >>> DateTime.new( 2017, 5, 23, 11, 55, 3, '-7' ).utc
 
-feed.generator:     Generated from XML source code using Perl, Expat, Emacs, Mysql, Ruby, Java, and ImageMagick.  Industrial-strength technology, baby.
-feed.generator_url: /misc/Colophon
+feed.generator.name:   Generated from XML source code using Perl, Expat, Emacs, Mysql, Ruby, Java, and ImageMagick.  Industrial-strength technology, baby.
+feed.generator.url:    /misc/Colophon
 
 feed.authors.size:      >>> 1
 feed.authors[0].name:   Tim Bray
@@ -1612,5 +1613,7 @@ feed.authors[0].email:	>>> nil
 feed.items[0].title:     Rock Surprise
 feed.items[0].url:       https://www.tbray.org/ongoing/When/201x/2017/05/20/Rock-Surprise
 feed.items[0].id:        https://www.tbray.org/ongoing/When/201x/2017/05/20/Rock-Surprise
-feed.items[0].published: >>> DateTime.new( 2017, 5, 20, 12,  0, 0, '-7' )
-feed.items[0].updated:   >>> DateTime.new( 2017, 5, 21, 11, 13, 0, '-7' )
+feed.items[0].published_local: >>> DateTime.new( 2017, 5, 20, 12,  0, 0, '-7' )
+feed.items[0].published:       >>> DateTime.new( 2017, 5, 20, 12,  0, 0, '-7' ).utc
+feed.items[0].updated_local:   >>> DateTime.new( 2017, 5, 21, 11, 13, 0, '-7' )
+feed.items[0].updated:         >>> DateTime.new( 2017, 5, 21, 11, 13, 0, '-7' ).utc

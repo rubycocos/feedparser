@@ -11,10 +11,10 @@ class TestRss < MiniTest::Test
 
   def test_all
     names = [
-             'rubyflow.rss2',
-             'sitepoint.rss2',
-             'lambdatheultimate.rss2',
-             'rubymine.rss2',
+             'rubyflow.feedburner.rss',
+             'sitepoint.rss',
+             'lambdatheultimate.rss',
+             'rubymine.feedburner.rss',
             ]
 
     names.each do |name|

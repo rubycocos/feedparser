@@ -37,7 +37,7 @@ class TestAtomLive < MiniTest::Test
     feed = fetch_and_parse_feed( 'http://blog.headius.com/feeds/posts/default' )
 
     assert_equal 'atom',    feed.format
-    assert_equal 'Blogger', feed.generator
+    assert_equal 'Blogger', feed.generator.name
     assert_equal 'Headius', feed.title
     assert_equal 'Helping the JVM Into the 21st Century', feed.summary  # aka subtitle in atom
     assert_equal 'http://blog.headius.com/', feed.url

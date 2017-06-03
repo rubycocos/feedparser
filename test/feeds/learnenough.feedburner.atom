@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
 
   <title><![CDATA[Learn Enough to Be Dangerous]]></title>
 
@@ -730,15 +733,15 @@ it!&lt;/p&gt;
 
 ---
 
-feed.format:        atom
-feed.title:         Learn Enough to Be Dangerous
-feed.url:           http://news.learnenough.com/
-feed.feed_url:      http://feeds.feedburner.com/railstutorial
-feed.generator:     Octopress
-feed.generator_uri: http://octopress.org/
-feed.updated:       >>> DateTime.new( 2017, 2, 1, 23,38 )
+feed.format:          atom
+feed.title:           Learn Enough to Be Dangerous
+feed.url:             http://news.learnenough.com/
+feed.feed_url:        http://feeds.feedburner.com/railstutorial
+feed.updated:         >>> DateTime.new( 2017, 2, 1, 23,38 )
+feed.generator.name:  Octopress
+feed.generator.url:   http://octopress.org/
 
 feed.items[0].title:   Learn Enough Dev Environment to Be Dangerous
 feed.items[0].url:     http://feedproxy.google.com/~r/railstutorial/~3/m8fo_xA6gGI/learn-enough-dev-environment
-feed.items[0].guid:    http://news.learnenough.com/learn-enough-dev-environment
+feed.items[0].id:      http://news.learnenough.com/learn-enough-dev-environment
 feed.items[0].updated: >>> DateTime.new( 2017, 2, 1 )

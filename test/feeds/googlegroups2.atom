@@ -22,6 +22,6 @@
 ---
 
 feed.format:     atom
-feed.generator:  Google Groups (w/ leading n trailing newlines stripped)
 feed.url:        https://groups.google.com/d/forum/beerdb
 
+feed.generator.name:  Google Groups (w/ leading n trailing newlines stripped)

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:series="http://organizeseries.com/"
-	>
+	xmlns:series="http://organizeseries.com/">
 
 <channel>
 	<title>SitePoint &#187; Ruby</title>
@@ -207,13 +207,12 @@ Content Delivery Network via Amazon Web Services: CloudFront: dab1nmslvvntp.clou
 
 ---
 
-feed.format:     rss 2.0
-feed.title:      SitePoint » Ruby
-feed.url:        http://www.sitepoint.com
-feed.summary:    Learn CSS | HTML5 | JavaScript | Wordpress | Tutorials-Web Development | Reference | Books and More
-feed.generator:  http://wordpress.org/?v=4.0
+feed.format:          rss 2.0
+feed.title:           SitePoint » Ruby
+feed.url:             http://www.sitepoint.com
+feed.summary:         Learn CSS | HTML5 | JavaScript | Wordpress | Tutorials-Web Development | Reference | Books and More
+feed.generator.text:  http://wordpress.org/?v=4.0
 
 feed.items[0].title: Rails Model Caching with Redis
 feed.items[0].url:  http://www.sitepoint.com/rails-model-caching-redis/
 feed.items[0].guid: http://www.sitepoint.com/?p=97720
-

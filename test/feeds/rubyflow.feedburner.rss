@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
   <channel>
     <title>RubyFlow</title>
     <link>http://www.rubyflow.com/</link>
     <description>Ruby Links</description>
     <language>en-us</language>
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Rubyflow" /><feedburner:info uri="rubyflow" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Rubyflow" />
+    <feedburner:info uri="rubyflow" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
     <item>
       <title>Why does Ruby have blocks?</title>
       <description>Newcomers to Ruby often have difficulty with the concept of blocks. &lt;a href="http://devblog.avdi.org/2015/01/16/why-does-ruby-have-blocks/"&gt;Here's how I like to explain them.&lt;/a&gt;&lt;div class="feedflare"&gt;
@@ -44,7 +48,7 @@
     <feedburner:origLink>http://www.rubyflow.com/items/12043-debugging-super-methods-with-ruby-2-2</feedburner:origLink></item>
     <item>
       <title>When edge cases poke holes in your perfect solution</title>
-      <description>You found the perfect solution to your crazy testing problem. All you have to do is override  &lt;code&gt;DEFAULT_HOST&lt;/code&gt;, and you'll be in business. Except that you have to turn off warnings. And you have to figure out that one test where you don't want to override the host. And then... Except... 
+      <description>You found the perfect solution to your crazy testing problem. All you have to do is override  &lt;code&gt;DEFAULT_HOST&lt;/code&gt;, and you'll be in business. Except that you have to turn off warnings. And you have to figure out that one test where you don't want to override the host. And then... Except...
 &lt;br&gt;&lt;br&gt;And a few days later, when you get stuck for the twenty-seventh time and your app has become one giant ball of hacks, you'll sit back and wonder: &lt;a href="http://www.justinweiss.com/blog/2015/01/13/when-edge-cases-poke-holes-in-your-perfect-solution/"&gt;Why am I &lt;em&gt;doing&lt;/em&gt; all this? Isn't the solution worse than the problem?&lt;/a&gt;&lt;div class="feedflare"&gt;
 &lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=hAxXj3zhkUA:8q296eaZPdc:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=hAxXj3zhkUA:8q296eaZPdc:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
 &lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/hAxXj3zhkUA" height="1" width="1" alt=""/&gt;</description>

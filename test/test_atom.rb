@@ -14,7 +14,7 @@ class TestAtom < MiniTest::Test
              'googlegroups.atom',
              'googlegroups2.atom',
              'rubyonrails.atom',
-             'railstutorial.atom',
+             'railstutorial.feedburner.atom',
              'headius.atom',
             ]
 

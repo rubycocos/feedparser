@@ -15,7 +15,7 @@ May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfee
 
 ## What's a Web Feed?
 
-See the [Awesome Feeds](https://github.com/statictimes/awesome-feeds) page.
+See the [Awesome Feeds](https://github.com/statictimes/awesome-feeds) page ».
 
 
 

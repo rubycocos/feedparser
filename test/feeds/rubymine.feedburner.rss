@@ -303,13 +303,12 @@ JetBrains RubyMine Team</em></p>
 
 ---
 
-feed.format:     rss 2.0
-feed.title:      JetBrains RubyMine Blog
-feed.url:        http://blog.jetbrains.com/ruby
-feed.summary:    The most Intelligent Ruby on Rails IDE
-feed.generator:  http://wordpress.org/?v=3.8.5
+feed.format:          rss 2.0
+feed.title:           JetBrains RubyMine Blog
+feed.url:             http://blog.jetbrains.com/ruby
+feed.summary:         The most Intelligent Ruby on Rails IDE
+feed.generator.text:  http://wordpress.org/?v=3.8.5
 
 feed.items[0].title:  RubyMine 7.0.2 is Here
 feed.items[0].url:    http://feedproxy.google.com/~r/jetbrains_rubymine/~3/5ZmfXfrgktY/
 feed.items[0].guid:   http://blog.jetbrains.com/ruby/?p=5901
-

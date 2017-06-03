@@ -73,7 +73,7 @@ class AtomFeedBuilder
     end
 
 
-    if atom_feed.updated
+    if atom_feed.updated && atom_feed.updated.content    ## note: content might be nil if <updated></updated> empty
       feed.updated_local = handle_date( atom_feed.updated, 'feed.updated' )
       feed.updated       = feed.updated_local.utc
     end
@@ -171,12 +171,12 @@ class AtomFeedBuilder
     end
 
 
-    if atom_item.updated
+    if atom_item.updated && atom_item.updated.content
       item.updated_local  = handle_date( atom_item.updated, 'item.updated' )
       item.updated        = item.updated_local.utc
     end
 
-    if atom_item.published
+    if atom_item.published && atom_item.published.content 
       item.published_local  = handle_date( atom_item.published, 'item.published' )
       item.published        = item.published_local.utc
     end

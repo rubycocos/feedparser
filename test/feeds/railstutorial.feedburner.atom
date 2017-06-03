@@ -12,11 +12,11 @@
   <id>http://news.railstutorial.org/</id>
   <author>
     <name><![CDATA[Michael Hartl]]></name>
-    
+
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
+
   <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/railstutorial" /><feedburner:info uri="railstutorial" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>railstutorial</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname>
   <entry>
     <title type="html"><![CDATA[Launch of the Ruby on Rails Tutorial screencasts (3rd edition)]]></title>
@@ -62,7 +62,7 @@
 &lt;p&gt;As a reminder, you can get a &lt;a href="https://www.softcover.io/buy/28fdb94f/ruby_on_rails_tutorial_3rd_edition?code=screencast_launch&amp;amp;option=html_ebooks_screencasts"&gt;&lt;strong&gt;20% discount&lt;/strong&gt; on any purchase through the end of the week&lt;/a&gt; (Friday, December 5).&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/GRG2NKC_Uwg" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_tutorial_3rd_ed_screencasts/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[The Rails Tutorial and Heroku Cedar-14]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/6CCzPXWiMwM/" />
@@ -113,7 +113,7 @@
 
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/6CCzPXWiMwM" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/heroku-update/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Launch of the 3rd Edition of the Ruby on Rails Tutorial book]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/aGLrPyy4Juk/" />
@@ -169,7 +169,7 @@
 &lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=8460670"&gt;Discuss this post at Hacker News&lt;/a&gt;&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/aGLrPyy4Juk" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_tutorial_3rd_ed_screencast_access/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Full draft of the Rails Tutorial 3rd Ed.]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/3jz9O7w8knw/" />
@@ -190,7 +190,7 @@
 &lt;p&gt;I hope to launch ebooks sales of the 3rd edition within a few weeks. All current customers will get upgrade discounts, with especially generous discounts for those who made recent purchases.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/3jz9O7w8knw" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_tutorial_full_draft/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Drafts of Chapters 5–8 from the Rails Tutorial 3rd Ed.]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/bRZ1jw2ECIc/" />
@@ -209,7 +209,7 @@
 &lt;p&gt;All four of these chapters has been extensively revised, and the last has been almost completely rewritten. It now includes all three of the most common login models (temporary sessions, automatic persistent sessions, and optional persistent sessions with a &amp;#8220;remember me&amp;#8221; checkbox). See the &lt;a href="http://news.railstutorial.org/rails_tutorial_3rd_edition/"&gt;main 3rd edition announcement post&lt;/a&gt; for more details, and &lt;a href="http://draft.railstutorial.org/#email"&gt;sign up here&lt;/a&gt; for priority notifications and an exclusive coupon code.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/bRZ1jw2ECIc" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_tutorial_draft_second_launch/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Draft chapters of the Ruby on Rails Tutorial (3rd Ed.)]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/5ykIjl8K7io/" />
@@ -262,7 +262,7 @@
 &lt;p&gt;I&amp;#8217;m more excited about the 3rd edition of the &lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt; than about any previous version. As reflected the new subtitle, &lt;em&gt;Learn Web Development with Rails&lt;/em&gt;, I believe that the &lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt; constitutes not only a solid introduction to Rails, but also a thorough general introduction to web development. It wouldn&amp;#8217;t be nearly as good as it is, though, without the contributions of hundreds (perhaps thousands) of readers who have taken the time to write in with bug &amp;amp; typo reports and other suggestions. As with previous editions, I thus look forward to getting feedback on the &lt;a href="http://draft.railstutorial.org/book"&gt;draft chapters of the 3rd edition of the &lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt;&lt;/a&gt;. And don&amp;#8217;t forget to &lt;a href="http://draft.railstutorial.org/#email"&gt;sign up here&lt;/a&gt; for priority notifications and an exclusive coupon code.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/5ykIjl8K7io" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_tutorial_3rd_edition/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Softcover – A publishing platform based on the Rails Tutorial]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/o58qX2aNDhU/" />
@@ -277,7 +277,7 @@
 &lt;p&gt;My hope is that Softcover will help allow many other authors to replicate the success of the Ruby on Rails Tutorial. If you&amp;#8217;re interested in using Softcover yourself, you can learn a little more about it on the &lt;a href="http://www.softcover.io/"&gt;Softcover home page&lt;/a&gt;. Then &lt;a href="https://www.softcover.io/account/sign_up"&gt;sign up for an account&lt;/a&gt; and follow the instructions on the start page.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/o58qX2aNDhU" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/softcover_launch/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Japanese translation of the Rails Tutorial]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/bdCEMG13ovM/" />
@@ -288,7 +288,7 @@
 &lt;p&gt;As with the &lt;a href="http://ruby.railstutorial.org/book"&gt;English version of the Rails Tutorial&lt;/a&gt;, the Japanese translation is available &lt;a href="http://railstutorial.jp/"&gt;for free online as HTML&lt;/a&gt;; with my blessing, the Japanese translators are also offering &lt;a href="http://tatsu-zine.com/books/railstutorial"&gt;ebook sales of the translation&lt;/a&gt;, the proceeds of which go to support their efforts. If you are a Japanese speaker, please check it out!&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/bdCEMG13ovM" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/japanese_translation/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails Tutorial updated for Rails 4.0.1]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/-WLquUriGUM/" />
@@ -337,7 +337,7 @@
 &lt;p&gt;As far as I can tell, there are no changes between Rails 4.0.0 and 4.0.1 that affect the Rails Tutorial, but please &lt;a href="http://railstutorial.org/contact"&gt;let me know&lt;/a&gt; if you run into any issues.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/-WLquUriGUM" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_4_0_1/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails 4.0 ebooks and supplementary screencasts]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/Lst9kJ55jE4/" />
@@ -363,7 +363,7 @@
 &lt;p&gt;If you do decide to &lt;a href="http://railstutorial.org/#buy"&gt;buy a Rails 4.0 product&lt;/a&gt;, be sure to use the code &lt;strong&gt;rails4launch&lt;/strong&gt; by Monday, July 22, to get a 25% launch discount, unless you are current customer. Current &lt;em&gt;Rails Tutorial&lt;/em&gt; customers should check their email to find coupon codes for special discounts on the new products. (You might notice that the prices have gone up with the addition of the new products; the discounts are large enough that current customers are still better off having bought things earlier rather than later.)&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/Lst9kJ55jE4" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails_4_0_supplement/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[One more test post]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/2UBdHakjcZM/" />
@@ -374,7 +374,7 @@
 &lt;p&gt;I&amp;#8217;ve changed over the feed to use the proper news.railstutorial.org URLs, but it might take a few days for all the caches with the old feed to expire. Thanks for your patience, and sorry for all the noise.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/2UBdHakjcZM" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/one-more-test-post/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Switching the news feed to Heroku]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/If0RI9wObxk/" />
@@ -383,7 +383,7 @@
     <content type="html">&lt;p&gt;After having some trouble with the refresh times on GitHub Pages, a few days ago I switched the Rails Tutorial News Feed over to Heroku. Some of you may have noticed a large number of unread articles in your feed reader or email summary; this change from Pages to Heroku is the reason why, as it forced a regeneration of the site&amp;#8217;s Atom feed. Now I&amp;#8217;ve discovered that a few posts got lost in the transition; I&amp;#8217;ve added them back, which means another chunk of &amp;#8220;unread&amp;#8221; items may show up in your reader or inbox. The Heroku site is now working well, though, so I&amp;#8217;m optimistic that this kind of thing won&amp;#8217;t happen again any time soon.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/If0RI9wObxk" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/switch-to-heroku/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[A more secure remember token]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/wAMbS1Ih47A/" />
@@ -392,7 +392,7 @@
     <content type="html">&lt;p&gt;I recently received a helpful email from reader Yuri Krichevsky pointing out a way to improve the security of the &amp;#8220;remember me&amp;#8221; tokens used in the &lt;a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0"&gt;Ruby on Rails Tutorial book&lt;/a&gt;. Since I&amp;#8217;m gearing up to release the Rails 4.0&amp;ndash;compatible version, I decided to go ahead and implement the more secure method. The result appears starting in &lt;a href="http://ruby.railstutorial.org/chapters/sign-in-sign-out?version=4.0#sec-remember_me"&gt;Section 8.2.1&lt;/a&gt; of the new version, with the corresponding &lt;a href="https://github.com/railstutorial/sample_app_rails_4/"&gt;sample app code&lt;/a&gt; available on GitHub. I&amp;#8217;ve edited it carefully, but there were a lot of little changes, so it&amp;#8217;s possible some errors slipped through. If you get the chance, please take a look at it and let me know if it works as advertised.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/wAMbS1Ih47A" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/secure-remember-token/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails Tutorial for Rails 4.0 final]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/am7pzwwgBWE/" />
@@ -407,7 +407,7 @@
 &lt;p&gt;It&amp;#8217;s worth bearing in mind that the purpose of the Rails Tutorial is to teach &lt;em&gt;web development&lt;/em&gt; with Rails, not principally to keep people up-to-date on the latest Rails techniques. In the context of an introductory tutorial, the differences between Rails 3.2 and Rails 4.0 are minor. If you are already an experienced Rails developer and want to keep up with latest techniques in Rails, I recommend Ryan Bates&amp;#8217;s &lt;a href="http://railscasts.com/"&gt;RailsCasts&lt;/a&gt;.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/am7pzwwgBWE" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails-tutorial-for-rails-4-0-final/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[RubyMine Tips Screencast]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/GmAJUmBqfi4/" />
@@ -416,7 +416,7 @@
     <content type="html">&lt;p&gt;My preferred text editor for Ruby on Rails development is Sublime Text&amp;nbsp;2, but I keep hearing great things about &lt;a href="http://www.jetbrains.com/ruby/"&gt;RubyMine&lt;/a&gt;. In advance of the release of the 2nd edition of the &lt;a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book"&gt;Ruby on Rails Tutorial book&lt;/a&gt;, last year I released a short &lt;a href="http://youtu.be/05x1Jk4rT1A"&gt;Sublime Text 2 for Rails screencast&lt;/a&gt;; I&amp;#8217;m pleased to announce that &lt;a href="http://railsonmaui.com/"&gt;Justin Gordon&lt;/a&gt; (&lt;a href="http://twitter.com/railsonmaui"&gt;@railsonmaui&lt;/a&gt;) has produced a companion &lt;a href="http://www.railsonmaui.com/tips/rubymine.html"&gt;RubyMine tips screencast&lt;/a&gt; that does a great job of showing off what RubyMine can do, especially in the context of a Ruby on Rails application. I encourage everyone with an interest in using an IDE for Rails development to &lt;a href="http://www.railsonmaui.com/tips/rubymine.html"&gt;check out Justin&amp;#8217;s screencast&lt;/a&gt;.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/GmAJUmBqfi4" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rubymine-tips/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails Tutorial for Rails 4.0 RC1]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/U7xmTNwWLqQ/" />
@@ -425,7 +425,7 @@
     <content type="html">&lt;p&gt;After some &lt;a href="http://news.railstutorial.org/failing-rails-4-0-rc1/"&gt;initial hiccups&lt;/a&gt;, I&amp;#8217;ve finished preparing a version of the &lt;a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=4.0"&gt;Ruby on Rails Tutorial compatible with the first Rails 4.0 release candidate&lt;/a&gt;. Interested readers can take a look at it and &lt;a href="http://railstutorial.org/contact"&gt;let me know&lt;/a&gt; if anything doesn&amp;#8217;t work.&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/U7xmTNwWLqQ" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails-tutorial-for-rails-4-0-rc/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails 4.0 Release Candidate 1]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/pfvjhrIetIM/" />
@@ -474,8 +474,8 @@
 &lt;span class='line-number'&gt;3&lt;/span&gt;
 &lt;span class='line-number'&gt;4&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;td class='code'&gt;&lt;pre&gt;&lt;code class=''&gt;&lt;span class='line'&gt;/Users/mhartl/.rvm/gems/ruby-2.0.0-p0@rails_4_0_rc1/gems/activerecord-
-&lt;/span&gt;&lt;span class='line'&gt;4.0.0.rc1/lib/active_record/migration.rb:376:in `check_pending!': 
-&lt;/span&gt;&lt;span class='line'&gt;Migrations are pending; run 'rake db:migrate RAILS_ENV=test' to resolve 
+&lt;/span&gt;&lt;span class='line'&gt;4.0.0.rc1/lib/active_record/migration.rb:376:in `check_pending!':
+&lt;/span&gt;&lt;span class='line'&gt;Migrations are pending; run 'rake db:migrate RAILS_ENV=test' to resolve
 &lt;/span&gt;&lt;span class='line'&gt;this issue. (ActiveRecord::PendingMigrationError)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
 
 
@@ -601,7 +601,7 @@
 &lt;p&gt;Any help in solving this issue would be much appreciated (admin at railstutorial dot org).&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/pfvjhrIetIM" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/failing-rails-4-0-rc1/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails Tutorial Russian translation]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/cAvzhs9_ZZY/" />
@@ -610,7 +610,7 @@
     <content type="html">&lt;p&gt;Hot on the heels of the &lt;a href="http://railstutorial-china.org/"&gt;Chinese version&lt;/a&gt;, I&amp;#8217;m pleased to announce the availability of a &lt;a href="http://railstutorial.ru/"&gt;Russian translation of the Ruby on Rails Tutorial&lt;/a&gt;. I&amp;#8217;d like to thank translator Alexey Razuvaev (Алексей Разуваев) for his initiative and outstanding work. As with the &lt;a href="http://railstutorial.org/book"&gt;English version&lt;/a&gt;, the Russian translation is available for free online as HTML. If you are a Russian speaker, please &lt;a href="http://railstutorial.ru/"&gt;check it out&lt;/a&gt;!&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/cAvzhs9_ZZY" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails-tutorial-russian-translation/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[The Ruby on Rails Tutorial for Rails 4.0 (beta)]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/dffThsPVJwA/" />
@@ -629,7 +629,7 @@
 &lt;p&gt;To get future announcements delivered to your inbox, &lt;a href="http://feedburner.google.com/fb/a/mailverify?uri=railstutorial&amp;amp;loc=en_US"&gt;subscribe&lt;/a&gt; to get email notifications. (Google apparently doesn&amp;#8217;t believe in RSS, but I do, so you can also &lt;a href="http://feeds.feedburner.com/railstutorial"&gt;subscribe to the news feed&lt;/a&gt;.)&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/dffThsPVJwA" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/ruby-on-rails-tutorial-rails-4-beta/</feedburner:origLink></entry>
-  
+
   <entry>
     <title type="html"><![CDATA[Rails Tutorial Chinese translation]]></title>
     <link href="http://feedproxy.google.com/~r/railstutorial/~3/9X98w215r0k/" />
@@ -638,7 +638,7 @@
     <content type="html">&lt;p&gt;I&amp;#8217;m pleased to announce the availability of a &lt;a href="http://railstutorial-china.org/"&gt;Chinese translation of the Ruby on Rails Tutorial&lt;/a&gt;. I&amp;#8217;d like to thank translator Andor Chen for his outstanding work. I deserve none of the credit; Andor reached out to me and asked if it was OK to translate the book, and I happily agreed. (All I did was contribute a &lt;a href="http://railstutorial-china.org/preface.html"&gt;short preface&lt;/a&gt;.) As with the English version, the Chinese translation is available for free online as HTML; with my blessing, Andor is also offering ebook sales of the translation, the proceeds of which go directly to him. If you are a Chinese speaker, please &lt;a href="http://railstutorial-china.org/"&gt;check it out&lt;/a&gt;!&lt;/p&gt;
 &lt;img src="//feeds.feedburner.com/~r/railstutorial/~4/9X98w215r0k" height="1" width="1" alt=""/&gt;</content>
   <feedburner:origLink>http://news.railstutorial.org/rails-tutorial-chinese-translation/</feedburner:origLink></entry>
-  
+
 </feed>
 
 ---
@@ -646,10 +646,11 @@
 feed.format:        atom
 feed.title:         Ruby on Rails Tutorial News
 feed.url:           http://news.railstutorial.org/
-feed.generator:     Octopress
-feed.generator_uri: http://octopress.org/
+
+feed.generator.name: Octopress
+feed.generator.url:  http://octopress.org/
 
 
 feed.items[0].title: Launch of the Ruby on Rails Tutorial screencasts (3rd edition)
 feed.items[0].url:   http://feedproxy.google.com/~r/railstutorial/~3/GRG2NKC_Uwg/
-feed.items[0].guid:  http://news.railstutorial.org/rails_tutorial_3rd_ed_screencasts
+feed.items[0].id:    http://news.railstutorial.org/rails_tutorial_3rd_ed_screencasts

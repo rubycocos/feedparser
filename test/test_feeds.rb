@@ -11,13 +11,13 @@ class TestFeeds < MiniTest::Test
 
   def test_all
     names = [
-             'learnenough.atom',
+             'learnenough.feedburner.atom',
              'xkcd.atom',
-             'xkcd.rss2',
+             'xkcd.rss',
              'daringfireball.atom',
              'intertwingly.atom',
              'ongoing.atom',
-             'scripting.rss2',
+             'scripting.rss',
             ]
 
     names.each do |name|
