@@ -5,7 +5,7 @@ Hoe.spec 'feedparser' do
 
   self.version = FeedParser::VERSION
 
-  self.summary = 'feedparser - web feed parser and normalizer (RSS 2.0, Atom, JSON, etc.)'
+  self.summary = 'feedparser - web feed parser and normalizer (RSS 2.0, Atom, JSON Feed, HTML h-entry, etc.)'
   self.description = summary
 
   self.urls    = ['https://github.com/feedparser/feedparser']
