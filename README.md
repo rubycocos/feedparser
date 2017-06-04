@@ -1,6 +1,6 @@
 # feedparser
 
-feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON, etc.)
+feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON Feed, HTML h-entry, etc.)
 
 * home  :: [github.com/feedparser/feedparser](https://github.com/feedparser/feedparser)
 * bugs  :: [github.com/feedparser/feedparser/issues](https://github.com/feedparser/feedparser/issues)
@@ -15,7 +15,7 @@ May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfee
 
 ## What's a Web Feed?
 
-See the [Awesome Feeds](https://github.com/statictimes/awesome-feeds) page ».
+See the [Awesome Feeds](https://github.com/feedparser/awesome-feeds) page ».
 
 
 
