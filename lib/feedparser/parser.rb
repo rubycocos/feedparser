@@ -35,10 +35,37 @@ class Parser
     elsif head.start_with?( '{' ) ||
           head =~ jsonfeed_version_regex
        parse_json
+    ##  note: reading/parsing microformat is for now optional
+    ##    microformats gem requires nokogiri
+    ##       nokogiri (uses libxml c-extensions) makes it hard to install (sometime)
+    ##       thus, if you want to use it, please opt-in to keep the install "light"
+    #
+    #  for now check for microformats v2 (e.g. h-entry, h-feed)
+    #    check for v1 too - why? why not? (e.g. hentry, hatom ??)
+  elsif defined?( Microformats ) &&
+          (@text.include?( 'h-entry' ) ||
+           @text.include?( 'h-feed' )
+           )
+      parse_microformats
     else  ## assume xml for now
        parse_xml
     end
   end # method parse
+
+
+  def parse_microformats
+    logger.debug "using microformats/#{Microformats::VERSION}"
+
+    logger.debug "Parsing feed in html (w/ microformats)..."
+
+    collection = Microformats.parse( @text )
+    collection_hash = collection.to_hash
+
+    feed = HyFeedBuilder.build( collection_hash )
+
+    logger.debug "== #{feed.format} / #{feed.title} =="
+    feed # return new (normalized) feed
+  end # method parse_microformats
 
 
   def parse_json

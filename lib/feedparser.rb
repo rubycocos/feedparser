@@ -23,6 +23,8 @@ require 'feedparser/version'  # let it always go first
 require 'feedparser/builder/atom'
 require 'feedparser/builder/rss'
 require 'feedparser/builder/json'
+require 'feedparser/builder/microformats'
+
 
 require 'feedparser/feed'
 require 'feedparser/item'
