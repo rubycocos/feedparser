@@ -11,7 +11,15 @@ feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON Feed, HTML 
 
 ## What's News?
 
-May/2017: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON.
+**June/2017**:  Added support for reading feeds in HTML with Microformats incl.
+[`h-entry`](http://microformats.org/wiki/h-entry),
+[`h-feed`](http://microformats.org/wiki/h-feed) and others.
+
+All feed with test assertions for easy (re)use and browsing moved
+to its own repo, that is, [`/feeds`](https://github.com/feedparser/feeds).
+
+**May/2017**: Added support for reading feeds in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON.
+
 
 ## What's a Web Feed?
 
@@ -62,7 +70,7 @@ RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
 ISO-801 date format e.g. 2015-01-11T09:30:16Z
 
 
-```
+``` ruby
 class Feed
   attr_accessor :format   # e.g. atom|rss 2.0|etc.
   attr_accessor :title    # note: always plain vanilla text - if present html tags will get stripped and html entities unescaped
@@ -75,9 +83,9 @@ class Feed
   attr_accessor :updated     # note: is lastBuildDate in RSS 2.0
   attr_accessor :published   # note: is pubDate in RSS 2.0; not available in Atom
 
+  attr_accessor :authors
+  attr_accessor :tags
   attr_accessor :generator
-  attr_accessor :generator_version  # e.g. @version (atom)
-  attr_accessor :generator_uri      # e.g. @uri     (atom) - use alias url/link ???
 end
 ```
 
@@ -121,7 +129,7 @@ Note: The content element will assume html content.
 
 Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items, thus, it's not possible to differeniate between published and updated dates for items; note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0 use the dublin core module e.g `dc:created`, for example.
 
-```
+``` ruby
 class Item
   attr_accessor :title   # note: always plain vanilla text - if present html tags will get stripped and html entities
   attr_accessor :url
@@ -158,7 +166,7 @@ end
 
 ### Read Feed Example
 
-```
+``` ruby
 require 'open-uri'
 require 'feedparser'
 
@@ -190,7 +198,7 @@ puts feed.items[0].content
 or reading a feed in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON;
 note: nothing changes :-)
 
-```
+``` ruby
 txt = open( 'http://openfootball.github.io/feed.json' ).read
 
 feed = FeedParser::Parser.parse( txt )
@@ -213,6 +221,60 @@ puts feed.items[0].updated
 puts feed.items[0].content_text
 # => "Added a new quick starter sample using the Mauritius Premier League to get you started..."
 
+...
+```
+
+### Microformats
+
+Microformats let you mark up feeds and posts in HTML with
+[`h-entry`](http://microformats.org/wiki/h-entry),
+[`h-feed`](http://microformats.org/wiki/h-feed),
+and friends.
+
+Note: Microformats support in feedparser is optional.
+Install and require the the [microformats gem](https://github.com/indieweb/microformats-ruby) to read
+feeds in HTML with Microformats.
+
+
+``` ruby
+
+require 'microformats'
+
+text =<<HTML
+<article class="h-entry">
+  <h1 class="p-name">Microformats are amazing</h1>
+  <p>Published by
+    <a class="p-author h-card" href="http://example.com">W. Developer</a>
+     on <time class="dt-published" datetime="2013-06-13 12:00:00">13<sup>th</sup> June 2013</time>
+
+  <p class="p-summary">In which I extoll the virtues of using microformats.</p>
+
+  <div class="e-content">
+    <p>Blah blah blah</p>
+  </div>
+</article>
+HTML
+
+feed = FeedParser::Parser.parse( text )
+
+puts feed.format
+# => "html"
+puts feed.items.size
+# =>  1
+puts feed.items[0].authors.size
+# => 1
+puts feed.items[0].content_html  
+# => "<p>Blah blah blah</p>"
+puts feed.items[0].content_text  
+# => "Blah blah blah"
+puts feed.items[0].title
+# => "Microformats are amazing"
+puts feed.items[0].summary
+# => "In which I extoll the virtues of using microformats."
+puts feed.items[0].published
+# => 2013-06-13 12:00:00
+puts feed.items[0].authors[0].name
+# => "W. Developer"
 ...
 ```
 

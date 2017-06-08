@@ -6,6 +6,7 @@ lib/feedparser.rb
 lib/feedparser/author.rb
 lib/feedparser/builder/atom.rb
 lib/feedparser/builder/json.rb
+lib/feedparser/builder/microformats.rb
 lib/feedparser/builder/rss.rb
 lib/feedparser/feed.rb
 lib/feedparser/generator.rb
@@ -16,4 +17,5 @@ lib/feedparser/version.rb
 test/helper.rb
 test/test_atom_live.rb
 test/test_dates.rb
+test/test_microformats.rb
 test/test_rss_live.rb
