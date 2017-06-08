@@ -1,6 +1,6 @@
 # feedparser
 
-feedparser gem - web feed parser and normalizer (Atom, RSS 2.0, JSON Feed, HTML h-entry, etc.)
+feedparser gem - web feed parser and normalizer (Atom, RSS, JSON Feed, HTML h-entry, etc.)
 
 * home  :: [github.com/feedparser/feedparser](https://github.com/feedparser/feedparser)
 * bugs  :: [github.com/feedparser/feedparser/issues](https://github.com/feedparser/feedparser/issues)
