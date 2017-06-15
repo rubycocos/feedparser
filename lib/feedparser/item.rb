@@ -35,15 +35,27 @@ class Item
   def summary?()  @summary.nil? == false;  end
   attr_accessor   :summary
 
+  ## add description as alias for summary (remove - why? why not?)
+  alias :description  :summary
+  alias :description= :summary=
+  alias :description? :summary?
+
+
 
   def updated?()  @updated.nil? == false;  end
   attr_accessor :updated   # pubDate (RSS)|updated (Atom)
   attr_accessor :updated_local  # "unparsed" local datetime as in feed (NOT converted to utc)
 
+  attr_accessor :updated_text    #  string version of date
+  alias :updated_line :updated_text   # text|line - convention for "unparsed" 1:1 from feed; add str(too ??)
+
+
   def published?()  @published.nil? == false;  end
   attr_accessor :published  # note: published is basically an alias for created
   attr_accessor :published_local   # "unparsed" local datetime as in feed (NOT converted to utc)
 
+  attr_accessor :published_text    #  string version of date
+  alias :published_line :published_text   # text|line - convention for "unparsed" 1:1 from feed; add str(too ??)
 
 
   attr_accessor :id
@@ -66,6 +78,8 @@ class Item
 
   attr_accessor :tags
   def tags?()  @tags && @tags.size > 0;  end
+
+  alias :categories :tags    # for now allow categories alias for tags - remove (why? why not?)
 
   def initialize
     ## note: make authors, tags empty arrays on startup (e.g. not nil)

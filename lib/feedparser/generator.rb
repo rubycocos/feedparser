@@ -18,6 +18,8 @@ class Generator
 
 
   attr_accessor :text  # note: holds "unparsed" text (content) line form rss:generator
+  alias :line :text    # line|text (add str?? too)
+
 
   def to_s
     ## note: to_s  - allows to use just generator in templates

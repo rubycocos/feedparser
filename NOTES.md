@@ -3,6 +3,11 @@
 
 ## ToDos
 
+- [ ] add published_confirmation (like password_confirmation) for dc:date duplicate if pubDate is (also) present?
+      - check if dates are the same ?? issue warning if different??
+
+- [ ] add "raw" published_text date string to all formats
+
 - [ ] add related_url for atom; use link rel=related
 
 - [ ] add published_local, updated_local to atom, rss and json (for feed not just items)

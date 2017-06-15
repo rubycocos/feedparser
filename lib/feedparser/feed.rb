@@ -25,9 +25,18 @@ class Feed
   attr_accessor :tags
   def tags?()  @tags && @tags.size > 0;  end
 
+  ## add alias category for tags (remove - why? why not?)
+  alias :categories :tags
+
 
   def summary?()  @summary.nil? == false;  end
   attr_accessor :summary        # e.g. description (rss)|subtitle (atom)
+
+  ## add description as alias for summary (remove - why? why not?)
+  alias :description  :summary
+  alias :description= :summary=
+  alias :description? :summary?
+
 
   ##
   ##  todo/check/fix:
@@ -47,9 +56,15 @@ class Feed
   attr_accessor :updated        # e.g. lastBuildDate (rss)|updated (atom)   -- always (converted) to utc
   attr_accessor :updated_local  # "unparsed" local datetime as in feed (NOT converted to utc)
 
+  attr_accessor :updated_text    #  string version of date
+  alias :updated_line :updated_text   # text|line - convention for "unparsed" 1:1 from feed; add str(too ??)
+
   def published?()  @published.nil? == false;  end
   attr_accessor :published         # e.g. pubDate (rss)\n/a (atom)  -- note: published is basically an alias for created
   attr_accessor :published_local   # "unparsed" local datetime as in feed (NOT converted to utc)
+
+  attr_accessor :published_text    #  string version of date
+  alias :published_line :published_text   # text|line - convention for "unparsed" 1:1 from feed; add str(too ??)
 
 
   attr_accessor :generator

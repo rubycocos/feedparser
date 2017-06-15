@@ -57,6 +57,7 @@ class RssFeedBuilder
       feed.authors << author
     end
 
+    ## todo/check - if tag is called webmaster or webMaster ???
     if rss_feed.channel.webMaster
       author = Author.new
       author.text = rss_feed.channel.webMaster.strip
@@ -139,8 +140,8 @@ class RssFeedBuilder
     logger.debug "  rss | item.content_encoded[0..40]  >#{rss_item.content_encoded ? rss_item.content_encoded[0..40] : ''}< : #{rss_item.content_encoded.class.name}"
 
 
-    item.updated_local   = handle_date( rss_item.pubDate, 'item.pubDate => updated' )
-    item.updated         = item.updated_local.utc    if item.updated_local
+    item.published_local   = handle_date( rss_item.pubDate, 'item.pubDate => published' )
+    item.published         = item.published_local.utc    if item.published_local
 
 
     ## fix/todo: check if rss_item.guid present? !!!!
