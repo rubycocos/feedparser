@@ -35,4 +35,10 @@ class TestRssLive < MiniTest::Test
     assert_equal 'rss 2.0', feed.format
   end
 
+  def test_enclosure
+    feed = fetch_and_parse_feed( 'http://www.radiofreesatan.com/category/featured/feed/' )
+
+    assert_equal 'audio/mpeg',    feed.items.first.enclosure[:type]
+  end
+
 end
