@@ -181,6 +181,13 @@ class RssFeedBuilder
       item.tags << build_tag( rss_cat )
     end
 
+    
+    if rss_item.enclosure
+      item.enclosure[:url] = rss_item.enclosure.url
+      item.enclosure[:length] = rss_item.enclosure.length
+      item.enclosure[:type] = rss_item.enclosure.type
+    end
+
 
     item
   end # method build_feed_item_from_rss

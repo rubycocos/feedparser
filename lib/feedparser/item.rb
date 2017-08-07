@@ -81,10 +81,16 @@ class Item
 
   alias :categories :tags    # for now allow categories alias for tags - remove (why? why not?)
 
+  # a hash containing the values of the first media enclosure. The hash will contain its attributes, specifically url,
+  # length and type
+  attr_accessor :enclosure
+
   def initialize
     ## note: make authors, tags empty arrays on startup (e.g. not nil)
-    @authors = []
-    @tags    = []
+    @authors    = []
+    @tags       = []
+    @enclosure  = {}
+    puts 'init'
   end
 
 end  # class Item
