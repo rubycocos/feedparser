@@ -203,6 +203,13 @@ class AtomFeedBuilder
       item.tags << build_tag( atom_cat )
     end
 
+    if atom_item.links
+      enclosure = atom_item.links.detect{|x| x.rel == 'enclosure' }
+      item.enclosure[:url] = enclosure.href
+      item.enclosure[:length] = enclosure.length
+      item.enclosure[:type] = enclosure.type
+    end
+
     item
   end # method build_item
 
