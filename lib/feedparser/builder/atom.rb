@@ -205,9 +205,11 @@ class AtomFeedBuilder
 
     if atom_item.links
       enclosure = atom_item.links.detect{|x| x.rel == 'enclosure' }
-      item.enclosure[:url] = enclosure.href
-      item.enclosure[:length] = enclosure.length
-      item.enclosure[:type] = enclosure.type
+      if enclosure
+        item.enclosure[:url] = enclosure.href
+        item.enclosure[:length] = enclosure.length
+        item.enclosure[:type] = enclosure.type
+      end
     end
 
     item
