@@ -11,6 +11,8 @@ feedparser gem - web feed parser and normalizer (Atom, RSS, JSON Feed, HTML h-en
 
 ## What's News?
 
+**October/2017**: Added support for attachments / media enclosures in RSS and Atom.
+
 **June/2017**:  Added support for reading feeds in HTML with Microformats incl.
 [`h-entry`](http://microformats.org/wiki/h-entry),
 [`h-feed`](http://microformats.org/wiki/h-feed) and others.
@@ -32,7 +34,7 @@ See the [Awesome Feeds](https://github.com/feedparser/awesome-feeds) page ».
 
 ### Structs
 
-Feed • Item • Author • Tag • Generator
+Feed • Item • Author • Tag • Attachment • Generator
 
 
 ![](feed-models.png)
@@ -158,9 +160,17 @@ end
 
 (Source: [`lib/feedparser/tag.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/tag.rb))
 
+### `Attachment`  Struct
+
+_Also known as Media Enclosure_
+
+(Source: [`lib/feedparser/attachment.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/attachment.rb))
+
+
 ### `Generator` Struct
 
 (Source: [`lib/feedparser/generator.rb`](https://github.com/feedparser/feedparser/blob/master/lib/feedparser/generator.rb))
+
 
 
 

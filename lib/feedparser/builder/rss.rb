@@ -181,13 +181,17 @@ class RssFeedBuilder
       item.tags << build_tag( rss_cat )
     end
 
-    
-    if rss_item.enclosure
-      item.enclosure[:url] = rss_item.enclosure.url
-      item.enclosure[:length] = rss_item.enclosure.length
-      item.enclosure[:type] = rss_item.enclosure.type
-    end
 
+    ## check for enclosure
+    ##   todo/check: rss can only include at most one enclosure?
+
+    if rss_item.enclosure
+      attachment = Attachment.new
+      attachment.url    = rss_item.enclosure.url
+      attachment.length = rss_item.enclosure.length
+      attachment.type   = rss_item.enclosure.type
+      item.attachments << attachment
+    end
 
     item
   end # method build_feed_item_from_rss

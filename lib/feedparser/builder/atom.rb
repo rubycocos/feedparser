@@ -176,7 +176,7 @@ class AtomFeedBuilder
       item.updated        = item.updated_local.utc
     end
 
-    if atom_item.published && atom_item.published.content 
+    if atom_item.published && atom_item.published.content
       item.published_local  = handle_date( atom_item.published, 'item.published' )
       item.published        = item.published_local.utc
     end
@@ -203,12 +203,17 @@ class AtomFeedBuilder
       item.tags << build_tag( atom_cat )
     end
 
+
+    ## check for attachments / media enclosures
+    ###  todo/fix: allow more than one attachment/enclosure
     if atom_item.links
-      enclosure = atom_item.links.detect{|x| x.rel == 'enclosure' }
+      enclosure = atom_item.links.detect{ |x| x.rel == 'enclosure' }
       if enclosure
-        item.enclosure[:url] = enclosure.href
-        item.enclosure[:length] = enclosure.length
-        item.enclosure[:type] = enclosure.type
+        attachment = Attachment.new
+        attachment.url    = enclosure.href
+        attachment.length = enclosure.length
+        attachment.type   = enclosure.type
+        item.attachments << attachment
       end
     end
 

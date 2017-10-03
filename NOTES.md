@@ -1,7 +1,13 @@
 # Notes
 
+## Add Attachments Update
 
-## ToDos
+- [ ] add attachments to jsonfeed
+- [ ] add support for multiple attachments / media enclosures in atom
+
+
+
+## More ToDos
 
 - [ ] add published_confirmation (like password_confirmation) for dc:date duplicate if pubDate is (also) present?
       - check if dates are the same ?? issue warning if different??
