@@ -189,6 +189,14 @@ class RssFeedBuilder
       item.authors = authors
     end
 
+    unless item.published_local
+        # use dc_date only of no regular item date was given
+        begin
+            item.published_local   = handle_date( rss_item.dc_date, 'item.dc_date => published' )
+        rescue
+        end
+        item.published         = item.published_local.utc    if item.published_local
+    end
 
     ###  check for categories (tags)
     if rss_item.respond_to?(:categories)
