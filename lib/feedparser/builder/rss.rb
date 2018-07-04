@@ -35,22 +35,34 @@ class RssFeedBuilder
     feed.summary   = handle_content( rss_feed.channel.description, 'feed.description => summary' )  # required
     feed.url       = rss_feed.channel.link            # required
 
-    feed.updated_local   = handle_date( rss_feed.channel.lastBuildDate, 'feed.lastBuildDate => updated' )  # optional
+    begin
+        feed.updated_local   = handle_date( rss_feed.channel.lastBuildDate, 'feed.lastBuildDate => updated' )  # optional
+    rescue
+    end
     feed.updated         = feed.updated_local.utc     if feed.updated_local
 
-    feed.published_local = handle_date( rss_feed.channel.pubDate,       'feed.pubDate => published'     )  # optional
+    begin
+        feed.published_local = handle_date( rss_feed.channel.pubDate,       'feed.pubDate => published'     )  # optional
+    rescue
+    end
     feed.published       = feed.published_local.utc   if feed.published_local
 
-    logger.debug "  rss | feed.generator  >#{rss_feed.channel.generator}< : #{rss_feed.channel.generator.class.name}"
+    begin
+        logger.debug "  rss | feed.generator  >#{rss_feed.channel.generator}< : #{rss_feed.channel.generator.class.name}"
+    rescue
+    end
 
-    feed.generator.text = rss_feed.channel.generator    # optional
+    begin
+        feed.generator.text = rss_feed.channel.generator    # optional
+    rescue
+    end
     feed.generator.name = feed.generator.text   ## note: for now set also name/title to "unparsed" (content) line (may change in the future!!!)
 
 
 
     ## check for managingEditor and/or  webMaster
 
-    if rss_feed.channel.managingEditor
+    if rss_feed.channel.respond_to?(:managingEditor) && rss_feed.channel.managingEditor
       author = Author.new
       author.text = rss_feed.channel.managingEditor.strip
       author.name = author.text   ## note: for now use "unparsed" (content) line also for name
@@ -58,7 +70,7 @@ class RssFeedBuilder
     end
 
     ## todo/check - if tag is called webmaster or webMaster ???
-    if rss_feed.channel.webMaster
+    if rss_feed.channel.respond_to?(:webMaster) && rss_feed.channel.webMaster
       author = Author.new
       author.text = rss_feed.channel.webMaster.strip
       author.name = author.text   ## note: for now use "unparsed" (content) line also for name
@@ -77,9 +89,10 @@ class RssFeedBuilder
 
 
     ###  check for categories (tags)
-
-    rss_feed.channel.categories.each do |rss_cat|
-      feed.tags << build_tag( rss_cat )
+    if rss_feed.channel.respond_to?(:categories)
+        rss_feed.channel.categories.each do |rss_cat|
+          feed.tags << build_tag( rss_cat )
+        end
     end
 
 
@@ -139,8 +152,10 @@ class RssFeedBuilder
     item.content = rss_item.content_encoded
     logger.debug "  rss | item.content_encoded[0..40]  >#{rss_item.content_encoded ? rss_item.content_encoded[0..40] : ''}< : #{rss_item.content_encoded.class.name}"
 
-
-    item.published_local   = handle_date( rss_item.pubDate, 'item.pubDate => published' )
+    begin
+        item.published_local   = handle_date( rss_item.pubDate, 'item.pubDate => published' )
+    rescue
+    end
     item.published         = item.published_local.utc    if item.published_local
 
 
@@ -148,7 +163,7 @@ class RssFeedBuilder
     ##
     ##  might be the case e.g. check lambda-the-ultimate.org, for example
 
-    if rss_item.guid && rss_item.guid.content
+    if rss_item.respond_to?(:guid) && rss_item.guid && rss_item.guid.content
       item.guid     = rss_item.guid.content
       logger.debug "  rss | item.guid.content  >#{rss_item.guid.content}< : #{rss_item.guid.content.class.name}"
     else
@@ -157,7 +172,7 @@ class RssFeedBuilder
     end
 
 
-    if rss_item.author
+    if rss_item.respond_to?(:author) && rss_item.author
       author = Author.new
       author.text = rss_item.author.strip
       author.name = author.text   ## note: for now use "unparsed" (content) line also for name
@@ -176,16 +191,17 @@ class RssFeedBuilder
 
 
     ###  check for categories (tags)
-
-    rss_item.categories.each do |rss_cat|
-      item.tags << build_tag( rss_cat )
+    if rss_item.respond_to?(:categories)
+        rss_item.categories.each do |rss_cat|
+          item.tags << build_tag( rss_cat )
+        end
     end
 
 
     ## check for enclosure
     ##   todo/check: rss can only include at most one enclosure?
 
-    if rss_item.enclosure
+    if rss_item.respond_to?(:enclosure) && rss_item.enclosure
       attachment = Attachment.new
       attachment.url    = rss_item.enclosure.url
       attachment.length = rss_item.enclosure.length
