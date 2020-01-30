@@ -5,6 +5,14 @@
 - [ ] add attachments to jsonfeed
 - [ ] add support for multiple attachments / media enclosures in atom
 
+## Fix head lookahead (in parse)
+
+```
+@head = @text[0..100].strip     # note: remove leading spaces if present
+change to
+@text.strip[0..100]   ## first strip whitespace (or better use lstrip?) avoids all leading blanks in extreme case
+```
+
 
 ## Check SSL Bug?
 
