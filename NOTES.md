@@ -10,9 +10,9 @@
 ```
 @head = @text[0..100].strip     # note: remove leading spaces if present
 change to
-@text.strip[0..100]   ## first strip whitespace (or better use lstrip?) avoids all leading blanks in extreme case
+@text.lstrip[0..100]   ## first strip whitespace (or better use lstrip?) avoids all leading blanks in extreme case
 # or
-@text.strip.[0..100]   ## more clear?
+@text.lstrip.[0..100]   ## more clear?
 ```
 
 
