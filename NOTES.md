@@ -6,6 +6,20 @@
 - [ ] add support for multiple attachments / media enclosures in atom
 
 
+## Check SSL Bug?
+
+```
+### returns ssl error e.g.
+## OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 
+##     state=SSLv2/v3 read server
+def test_googlegroup
+  feed = fetch_and_parse_feed( 'https://groups.google.com/forum/feed/beerdb/topics/atom.xml?num=15' )
+
+  assert_equal 'atom', feed.format
+  assert_equal 'https://groups.google.com/d/forum/beerdb', feed.url
+end
+```
+
 
 ## More ToDos
 

@@ -16,38 +16,53 @@ class Parser
   ### Note: lets keep/use same API as RSS::Parser for now
   def initialize( text )
     @text = text
+    @head = @text[0..100].strip     # note: remove leading spaces if present
   end
 
 
 
-  def parse
-    head = @text[0..100].strip     # note: remove leading spaces if present
+  #### note:
+  # make format checks callable from outside (that is, use builtin helper methods)
 
-    jsonfeed_version_regex = %r{"version":\s*"https://jsonfeed.org/version/1"}
-
+  def is_xml?
     ## check if starts with knownn xml prologs
-    if head.start_with?( '<?xml' )  ||
-       head.start_with?( '<feed/' ) ||
-       head.start_with?( '<rss/' )
+    @head.start_with?( '<?xml' )  ||
+    @head.start_with?( '<feed' ) ||
+    @head.start_with?( '<rss' )
+  end
+  alias_method :xml?, :is_xml?
+
+  JSONFEED_VERSION_RE = %r{"version":\s*"https://jsonfeed.org/version/1"}
+  def is_json?
     ## check if starts with { for json object/hash
     ##    or if includes jsonfeed prolog
+    @head.start_with?( '{' ) ||
+    @head =~ JSONFEED_VERSION_RE
+  end
+  alias_method :json?, :is_json?
+
+  def is_microformats?
+    #  for now check for microformats v2 (e.g. h-entry, h-feed)
+    #    check for v1 too - why? why not? (e.g. hentry, hatom ??)
+    @text.include?( 'h-entry' ) ||
+    @text.include?( 'h-feed' )
+  end
+  alias_method :microformats?, :is_microformats?
+
+
+
+  def parse
+    if is_xml?
        parse_xml
-    elsif head.start_with?( '{' ) ||
-          head =~ jsonfeed_version_regex
+    elsif is_json?
        parse_json
     ##  note: reading/parsing microformat is for now optional
     ##    microformats gem requires nokogiri
     ##       nokogiri (uses libxml c-extensions) makes it hard to install (sometime)
     ##       thus, if you want to use it, please opt-in to keep the install "light"
-    #
-    #  for now check for microformats v2 (e.g. h-entry, h-feed)
-    #    check for v1 too - why? why not? (e.g. hentry, hatom ??)
-  elsif defined?( Microformats ) &&
-          (@text.include?( 'h-entry' ) ||
-           @text.include?( 'h-feed' )
-           )
-      parse_microformats
-    else  ## assume xml for now
+    elsif defined?( Microformats ) && is_microformats?
+       parse_microformats
+    else  ## fallback - assume xml for now
        parse_xml
     end
   end # method parse
