@@ -11,12 +11,12 @@ class RssFeedBuilder
 
 
   def self.build( rss_feed )
-    feed = self.new( rss_feed )
+    feed = self.new( rss_feed, raw )
     feed.to_feed
   end
 
   def initialize( rss_feed )
-    @feed = build_feed( rss_feed )
+    @feed = build_feed( rss_feed, raw )
   end
 
   def to_feed
@@ -25,7 +25,7 @@ class RssFeedBuilder
 
 
 
-  def build_feed( rss_feed )
+  def build_feed( rss_feed, raw )
     feed = Feed.new
     feed.format = "rss #{rss_feed.rss_version}"
 
@@ -85,6 +85,12 @@ class RssFeedBuilder
 
     rss_feed.items.each do |rss_item|
       feed.items << build_item( rss_item )
+    end
+
+    parsed_xml = Oga.parse_xml( raw )
+    xml_items = parsed_xml.xpath( '/rss/channel/item' )
+    xml_items.each_with_index do |xml_item, i|
+        feed.items[i] = add_meta_items( feed.items[i], xml_item )
     end
 
     feed # return new feed
@@ -195,6 +201,17 @@ class RssFeedBuilder
 
     item
   end # method build_feed_item_from_rss
+
+
+  # Add additional elements, currently the media: namespace elements 
+  def add_meta_items( feed_item, xml_item )
+    feed_item.attachments << Attachment.new unless feed_item.attachments.first
+    feed_item.attachments.first.title = xml_item.at_xpath('media:group/media:title').text
+    feed_item.attachments.first.content = xml_item.at_xpath('media:group/media:content').text
+    feed_item.attachments.first.thumbnail = xml_item.at_xpath('media:group/media:thumbnail').get('url')
+    feed_item.attachments.first.description = xml_item.at_xpath('media:group/media:description').text
+    feed_item
+  end # method add_meta_items
 
 
 

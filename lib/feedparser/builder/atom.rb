@@ -8,12 +8,12 @@ class AtomFeedBuilder
 
 
   def self.build( atom_feed )
-    feed = self.new( atom_feed )
+    feed = self.new( atom_feed, raw )
     feed.to_feed
   end
 
   def initialize( atom_feed )
-    @feed = build_feed( atom_feed )
+    @feed = build_feed( atom_feed, raw )
   end
 
   def to_feed
@@ -22,7 +22,7 @@ class AtomFeedBuilder
 
 
 
-  def build_feed( atom_feed )    ## fix/todo: rename atom_feed to atom or wire or xml or in ???
+  def build_feed( atom_feed, raw )    ## fix/todo: rename atom_feed to atom or wire or xml or in ???
     feed = Feed.new
     feed.format = 'atom'
 
@@ -108,6 +108,13 @@ class AtomFeedBuilder
 
     atom_feed.items.each do |atom_item|
       feed.items << build_item( atom_item )
+    end
+
+    # Use Oga as generic xml parser to access elements not adressed by the core RSS module like media:
+    parsed_xml = Oga.parse_xml( raw )
+    xml_items = parsed_xml.xpath( '/feed/entry' )
+    xml_items.each_with_index do |xml_item, i|
+        feed.items[i] = add_meta_items( feed.items[i], xml_item )
     end
 
     feed # return new feed
@@ -220,6 +227,16 @@ class AtomFeedBuilder
     item
   end # method build_item
 
+
+  # Add additional elements, currently the media: namespace elements 
+  def add_meta_items( feed_item, xml_item )
+    feed_item.attachments << Attachment.new unless feed_item.attachments.first
+    feed_item.attachments.first.title = xml_item.at_xpath('media:group/media:title').text
+    feed_item.attachments.first.content = xml_item.at_xpath('media:group/media:content').text
+    feed_item.attachments.first.thumbnail = xml_item.at_xpath('media:group/media:thumbnail').get('url')
+    feed_item.attachments.first.description = xml_item.at_xpath('media:group/media:description').text
+    feed_item
+  end # method add_meta_items
 
 
   def handle_date( el, name )
