@@ -32,6 +32,7 @@ require 'feedparser/item'
 require 'feedparser/author'
 require 'feedparser/tag'
 require 'feedparser/attachment'
+require 'feedparser/thumbnail'
 require 'feedparser/generator'
 require 'feedparser/parser'
 

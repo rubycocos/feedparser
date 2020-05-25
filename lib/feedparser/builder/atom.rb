@@ -228,14 +228,32 @@ class AtomFeedBuilder
   end # method build_item
 
 
-  # Add additional elements, currently the media: namespace elements 
+  # Add additional elements, currently the media: namespace elements
+  # Note: This tries to accomodate both the different ways to transport the data via the spec https://www.rssboard.org/media-rss/ and the practice by Youtube of grouping everything under media:group
   def add_meta_items( feed_item, xml_item )
-    if xml_item.at_xpath('media:group')
+    if xml_item.at_xpath('media:group') || xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content') || xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:description')
       feed_item.attachments << Attachment.new unless feed_item.attachments.first
-      feed_item.attachments.first.title = xml_item.at_xpath('media:group/media:title').text
-      feed_item.attachments.first.content = xml_item.at_xpath('media:group/media:content').text
-      feed_item.attachments.first.thumbnail = xml_item.at_xpath('media:group/media:thumbnail').get('url')
-      feed_item.attachments.first.description = xml_item.at_xpath('media:group/media:description').text
+      
+      titleElement = xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content/media:title') || xml_item.at_xpath('media:group/media:title')
+      feed_item.attachments.first.title = titleElement.text if titleElement
+      
+      contentElement = xml_item.at_xpath('media:content') || xml_item.at_xpath('media:group/media:content')
+      if contentElement
+        feed_item.attachments.first.url = contentElement.get('url')
+        feed_item.attachments.first.length = contentElement.get('duration')
+      end
+      
+      thumbnailElement = xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:content/media:thumbnail') || xml_item.at_xpath('media:group/media:thumbnail')
+      if thumbnailElement
+        thumbnail = Thumbnail.new
+        thumbnail.url = thumbnailElement.get('url')
+        thumbnail.width = thumbnailElement.get('width')
+        thumbnail.height = thumbnailElement.get('height')
+        feed_item.attachments.first.thumbnail = thumbnail
+      end
+      
+      descriptionElement = xml_item.at_xpath('media:description') || xml_item.at_xpath('media:content/media:description') || xml_item.at_xpath('media:group/media:description')
+      feed_item.attachments.first.description = descriptionElement.text if descriptionElement
     end
     feed_item
   end # method add_meta_items

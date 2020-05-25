@@ -14,7 +14,6 @@ class Attachment   ## also known as Enclosure
 
   # Elements from the media namespace attachment
   attr_accessor :title
-  attr_accessor :content
   attr_accessor :thumbnail
   attr_accessor :description
   attr_accessor :community
