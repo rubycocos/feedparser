@@ -8,15 +8,15 @@ require 'helper'
 
 class TestAttachmentsLive < MiniTest::Test
 
-  #def test_atom_enclose
-    #feed = fetch_and_parse_feed( 'http://www.lse.ac.uk/assets/richmedia/webFeeds/publicLecturesAndEvents_AtomAllMediaTypesLatest100.xml' )
+  def test_atom_enclose
+    feed = fetch_and_parse_feed( 'http://www.lse.ac.uk/assets/richmedia/webFeeds/publicLecturesAndEvents_AtomAllMediaTypesLatest100.xml' )
 
-    #assert_equal 'audio/mpeg', feed.items.first.attachment.type
-    #assert_equal 'audio/mpeg', feed.items.first.enclosure.type
+    assert_equal 'audio/mpeg', feed.items.first.attachment.type
+    assert_equal 'audio/mpeg', feed.items.first.enclosure.type
 
-    #assert_equal true, feed.items.first.attachment?
-    #assert_equal true, feed.items.first.enclosure?
-  #end
+    assert_equal true, feed.items.first.attachment?
+    assert_equal true, feed.items.first.enclosure?
+  end
 
   def test_atom_media
     feed = fetch_and_parse_feed( 'http://www.youtube.com/feeds/videos.xml?channel_id=UCZUT79WUUpZlZ-XMF7l4CFg' )
@@ -48,14 +48,14 @@ class TestAttachmentsLive < MiniTest::Test
     assert feed.items.first.attachments.first.description
   end
 
-  #def test_rss_enclosure
-    #feed = fetch_and_parse_feed( 'http://www.radiofreesatan.com/category/featured/feed/' )
+  def test_rss_enclosure
+    feed = fetch_and_parse_feed( 'http://www.radiofreesatan.com/category/featured/feed/' )
 
-    #assert_equal 'audio/mpeg', feed.items.first.attachment.type
-    #assert_equal 'audio/mpeg', feed.items.first.enclosure.type
+    assert_equal 'audio/mpeg', feed.items.first.attachment.type
+    assert_equal 'audio/mpeg', feed.items.first.enclosure.type
 
-    #assert_equal true, feed.items.first.attachment?
-    #assert_equal true, feed.items.first.enclosure?
-  #end
+    assert_equal true, feed.items.first.attachment?
+    assert_equal true, feed.items.first.enclosure?
+  end
 
 end
