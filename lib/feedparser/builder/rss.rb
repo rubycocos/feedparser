@@ -10,12 +10,12 @@ class RssFeedBuilder
   include LogUtils::Logging
 
 
-  def self.build( rss_feed )
+  def self.build( rss_feed, raw )
     feed = self.new( rss_feed, raw )
     feed.to_feed
   end
 
-  def initialize( rss_feed )
+  def initialize( rss_feed, raw )
     @feed = build_feed( rss_feed, raw )
   end
 
@@ -205,11 +205,13 @@ class RssFeedBuilder
 
   # Add additional elements, currently the media: namespace elements 
   def add_meta_items( feed_item, xml_item )
-    feed_item.attachments << Attachment.new unless feed_item.attachments.first
-    feed_item.attachments.first.title = xml_item.at_xpath('media:group/media:title').text
-    feed_item.attachments.first.content = xml_item.at_xpath('media:group/media:content').text
-    feed_item.attachments.first.thumbnail = xml_item.at_xpath('media:group/media:thumbnail').get('url')
-    feed_item.attachments.first.description = xml_item.at_xpath('media:group/media:description').text
+    if xml_item.at_xpath('media:group')
+      feed_item.attachments << Attachment.new unless feed_item.attachments.first
+      feed_item.attachments.first.title = xml_item.at_xpath('media:group/media:title').text
+      feed_item.attachments.first.content = xml_item.at_xpath('media:group/media:content').text
+      feed_item.attachments.first.thumbnail = xml_item.at_xpath('media:group/media:thumbnail').get('url')
+      feed_item.attachments.first.description = xml_item.at_xpath('media:group/media:description').text
+    end
     feed_item
   end # method add_meta_items
 
