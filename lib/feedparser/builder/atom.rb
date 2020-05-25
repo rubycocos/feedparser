@@ -7,13 +7,13 @@ class AtomFeedBuilder
   include LogUtils::Logging
 
 
-  def self.build( atom_feed )
-    feed = self.new( atom_feed )
+  def self.build( atom_feed, raw )
+    feed = self.new( atom_feed, raw )
     feed.to_feed
   end
 
-  def initialize( atom_feed )
-    @feed = build_feed( atom_feed )
+  def initialize( atom_feed, raw )
+    @feed = build_feed( atom_feed, raw )
   end
 
   def to_feed
@@ -22,7 +22,7 @@ class AtomFeedBuilder
 
 
 
-  def build_feed( atom_feed )    ## fix/todo: rename atom_feed to atom or wire or xml or in ???
+  def build_feed( atom_feed, raw )    ## fix/todo: rename atom_feed to atom or wire or xml or in ???
     feed = Feed.new
     feed.format = 'atom'
 
@@ -108,6 +108,13 @@ class AtomFeedBuilder
 
     atom_feed.items.each do |atom_item|
       feed.items << build_item( atom_item )
+    end
+
+    # Use Oga as generic xml parser to access elements not adressed by the core RSS module like media:
+    parsed_xml = Oga.parse_xml( raw )
+    xml_items = parsed_xml.xpath( '/feed/entry' )
+    xml_items.each_with_index do |xml_item, i|
+        feed.items[i] = add_meta_items( feed.items[i], xml_item )
     end
 
     feed # return new feed
@@ -220,6 +227,36 @@ class AtomFeedBuilder
     item
   end # method build_item
 
+
+  # Add additional elements, currently the media: namespace elements
+  # Note: This tries to accomodate both the different ways to transport the data via the spec https://www.rssboard.org/media-rss/ and the practice by Youtube of grouping everything under media:group
+  def add_meta_items( feed_item, xml_item )
+    if xml_item.at_xpath('media:group') || xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content') || xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:description')
+      feed_item.attachments << Attachment.new unless feed_item.attachments.first
+      
+      titleElement = xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content/media:title') || xml_item.at_xpath('media:group/media:title')
+      feed_item.attachments.first.title = titleElement.text if titleElement
+      
+      contentElement = xml_item.at_xpath('media:content') || xml_item.at_xpath('media:group/media:content')
+      if contentElement
+        feed_item.attachments.first.url = contentElement.get('url')
+        feed_item.attachments.first.length = contentElement.get('duration')
+      end
+      
+      thumbnailElement = xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:content/media:thumbnail') || xml_item.at_xpath('media:group/media:thumbnail')
+      if thumbnailElement
+        thumbnail = Thumbnail.new
+        thumbnail.url = thumbnailElement.get('url')
+        thumbnail.width = thumbnailElement.get('width')
+        thumbnail.height = thumbnailElement.get('height')
+        feed_item.attachments.first.thumbnail = thumbnail
+      end
+      
+      descriptionElement = xml_item.at_xpath('media:description') || xml_item.at_xpath('media:content/media:description') || xml_item.at_xpath('media:group/media:description')
+      feed_item.attachments.first.description = descriptionElement.text if descriptionElement
+    end
+    feed_item
+  end # method add_meta_items
 
 
   def handle_date( el, name )

@@ -12,6 +12,12 @@ class Attachment   ## also known as Enclosure
   attr_accessor :length
   attr_accessor :type
 
+  # Elements from the media namespace attachment
+  attr_accessor :title
+  attr_accessor :thumbnail
+  attr_accessor :description
+  attr_accessor :community
+
 end  # class Attachment
 
 end # module FeedParser

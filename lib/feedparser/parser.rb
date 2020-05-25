@@ -110,9 +110,9 @@ class Parser
     logger.debug "  feed.class=#{feed_wild.class.name}"
 
     if feed_wild.is_a?( RSS::Atom::Feed )
-      feed = AtomFeedBuilder.build( feed_wild )
+      feed = AtomFeedBuilder.build( feed_wild, @text )
     else  # -- assume RSS::Rss::Feed
-      feed = RssFeedBuilder.build( feed_wild )
+      feed = RssFeedBuilder.build( feed_wild, @text )
     end
 
     logger.debug "== #{feed.format} / #{feed.title} =="
