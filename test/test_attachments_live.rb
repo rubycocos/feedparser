@@ -6,6 +6,14 @@
 
 require 'helper'
 
+
+###
+## note: needs to require oga gem (it's not required by default - it's a "soft" dependency)
+
+require 'oga'
+
+
+
 class TestAttachmentsLive < MiniTest::Test
 
   def test_atom_enclose
@@ -30,7 +38,7 @@ class TestAttachmentsLive < MiniTest::Test
     assert_equal 360, feed.items.first.attachments.first.thumbnail.height.to_i
     assert feed.items.first.attachments.first.description
   end
-  
+
   def test_rss_media
     # tests an example RSS file from https://creator.amazon.com/documentation/ac/mrss.html. Not that unlike the Atom example, it does
     # does not put everything under media:group

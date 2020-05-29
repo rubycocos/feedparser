@@ -14,7 +14,6 @@ require 'json'
 
 require 'logutils'
 require 'textutils'
-require 'oga'
 
 
 # our own code

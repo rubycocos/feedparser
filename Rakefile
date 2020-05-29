@@ -20,7 +20,7 @@ Hoe.spec 'feedparser' do
   self.extra_deps = [
     ['logutils', '>=0.6.1'],
     ['textutils', '>=1.0.0'],
-    ['oga', '>=3.2.0'],
+    ## ['oga', '>=3.2.0'],   note: oga is a "soft" dependency
   ]
 
   ###  todo: add fetcher dep for testing (e.g. development only)

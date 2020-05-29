@@ -110,11 +110,14 @@ class AtomFeedBuilder
       feed.items << build_item( atom_item )
     end
 
-    # Use Oga as generic xml parser to access elements not adressed by the core RSS module like media:
-    parsed_xml = Oga.parse_xml( raw )
-    xml_items = parsed_xml.xpath( '/feed/entry' )
-    xml_items.each_with_index do |xml_item, i|
-        feed.items[i] = add_meta_items( feed.items[i], xml_item )
+
+    if defined?( Oga )
+      # Use Oga as generic xml parser to access elements not adressed by the core RSS module like media:
+      parsed_xml = Oga.parse_xml( raw )
+      xml_items = parsed_xml.xpath( '/feed/entry' )
+      xml_items.each_with_index do |xml_item, i|
+          feed.items[i] = add_meta_items( feed.items[i], xml_item )
+      end
     end
 
     feed # return new feed
@@ -233,16 +236,16 @@ class AtomFeedBuilder
   def add_meta_items( feed_item, xml_item )
     if xml_item.at_xpath('media:group') || xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content') || xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:description')
       feed_item.attachments << Attachment.new unless feed_item.attachments.first
-      
+
       titleElement = xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content/media:title') || xml_item.at_xpath('media:group/media:title')
       feed_item.attachments.first.title = titleElement.text if titleElement
-      
+
       contentElement = xml_item.at_xpath('media:content') || xml_item.at_xpath('media:group/media:content')
       if contentElement
         feed_item.attachments.first.url = contentElement.get('url')
         feed_item.attachments.first.length = contentElement.get('duration')
       end
-      
+
       thumbnailElement = xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:content/media:thumbnail') || xml_item.at_xpath('media:group/media:thumbnail')
       if thumbnailElement
         thumbnail = Thumbnail.new
@@ -251,7 +254,7 @@ class AtomFeedBuilder
         thumbnail.height = thumbnailElement.get('height')
         feed_item.attachments.first.thumbnail = thumbnail
       end
-      
+
       descriptionElement = xml_item.at_xpath('media:description') || xml_item.at_xpath('media:content/media:description') || xml_item.at_xpath('media:group/media:description')
       feed_item.attachments.first.description = descriptionElement.text if descriptionElement
     end

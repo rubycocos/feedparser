@@ -100,10 +100,12 @@ class RssFeedBuilder
       feed.items << build_item( rss_item )
     end
 
-    parsed_xml = Oga.parse_xml( raw )
-    xml_items = parsed_xml.xpath( '/rss/channel/item' )
-    xml_items.each_with_index do |xml_item, i|
+    if defined?( Oga )
+      parsed_xml = Oga.parse_xml( raw )
+      xml_items = parsed_xml.xpath( '/rss/channel/item' )
+      xml_items.each_with_index do |xml_item, i|
         feed.items[i] = add_meta_items( feed.items[i], xml_item )
+      end
     end
 
     feed # return new feed
@@ -227,20 +229,20 @@ class RssFeedBuilder
   end # method build_feed_item_from_rss
 
 
-  # Add additional elements, currently the media: namespace elements 
+  # Add additional elements, currently the media: namespace elements
   def add_meta_items( feed_item, xml_item )
     if xml_item.at_xpath('media:group') || xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content') || xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:description')
       feed_item.attachments << Attachment.new unless feed_item.attachments.first
-      
+
       titleElement = xml_item.at_xpath('media:title') || xml_item.at_xpath('media:content/media:title') || xml_item.at_xpath('media:group/media:title')
       feed_item.attachments.first.title = titleElement.text if titleElement
-      
+
       contentElement = xml_item.at_xpath('media:content') || xml_item.at_xpath('media:group/media:content')
       if contentElement
         feed_item.attachments.first.url = contentElement.get('url')
         feed_item.attachments.first.length = contentElement.get('duration')
       end
-      
+
       thumbnailElement = xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:content/media:thumbnail') || xml_item.at_xpath('media:group/media:thumbnail')
       if thumbnailElement
         thumbnail = Thumbnail.new
@@ -249,7 +251,7 @@ class RssFeedBuilder
         thumbnail.height = thumbnailElement.get('height')
         feed_item.attachments.first.thumbnail = thumbnail
       end
-      
+
       descriptionElement = xml_item.at_xpath('media:description') || xml_item.at_xpath('media:content/media:description') || xml_item.at_xpath('media:group/media:description')
       feed_item.attachments.first.description = descriptionElement.text if descriptionElement
     end
