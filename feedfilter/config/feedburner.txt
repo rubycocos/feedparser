@@ -1,0 +1,21 @@
+####################################
+# feedburner text pattern (regex)
+#
+#  pattern (regex)
+#  ---
+#  test1
+#  ---
+#  test2
+#  ---
+#  etc.
+
+
+<img[^>]*?
+  src=("|')(:?http:)?//feeds\.feedburner\.com/~r/[^>]+?\1
+  .*?>
+
+---
+
+<img src="//feeds.feedburner.com/~r/Rubyflow/~4/1wUDnBztAJY" height="1" width="1" alt=""/>
+
+

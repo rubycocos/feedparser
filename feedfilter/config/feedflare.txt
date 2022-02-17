@@ -1,0 +1,17 @@
+###################################
+# feedflare text pattern (regex)
+
+<div[^>]*?
+  class=("|')feedflare\1
+  [^>]*?>
+    .*?
+<\/div>
+
+---
+
+<div class="feedflare">
+ <a href="http://feeds.feedburner.com/~ff/Rubyflow?a=1wUDnBztAJY:fzqBvTOGB9M:3H-1DwQop_U">
+   <img src="http://feeds.feedburner.com/~ff/Rubyflow?i=1wUDnBztAJY:fzqBvTOGB9M:3H-1DwQop_U" border="0"></img>
+ </a>
+</div>
+
