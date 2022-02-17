@@ -1,0 +1,6 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/feedfinder.rb
+lib/feedfinder/version.rb
