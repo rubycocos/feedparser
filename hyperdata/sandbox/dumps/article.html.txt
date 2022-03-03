@@ -1,0 +1,72 @@
+#(Document:0x20537e8 {
+  name = "document",
+  children = [
+    #(DTD:0x2053314 { name = "html" }),
+    #(Element:0x2052f3c {
+      name = "html",
+      children = [
+        #(Element:0x2052a20 {
+          name = "body",
+          children = [
+            #(Element:0x2052534 {
+              name = "article",
+              children = [
+                #(Text "\n  "),
+                #(Element:0x2057dfc {
+                  name = "h1",
+                  children = [ #(Text "Microformats are amazing")]
+                  }),
+                #(Text "\n  "),
+                #(Element:0x205734c {
+                  name = "p",
+                  children = [
+                    #(Text "Published by "),
+                    #(Element:0x2056cd4 {
+                      name = "a",
+                      attributes = [
+                        #(Attr:0x2056b48 {
+                          name = "href",
+                          value = "http://example.com"
+                          })],
+                      children = [ #(Text "W. Developer")]
+                      }),
+                    #(Text "\n     on "),
+                    #(Element:0x205bc60 {
+                      name = "time",
+                      attributes = [
+                        #(Attr:0x205bab0 {
+                          name = "datetime",
+                          value = "2013-06-13 12:00:00"
+                          })],
+                      children = [
+                        #(Text "13"),
+                        #(Element:0x205af70 {
+                          name = "sup",
+                          children = [ #(Text "th")]
+                          }),
+                        #(Text " June 2013")]
+                      }),
+                    #(Text "\n\n  ")]
+                  }),
+                #(Element:0x205a2f8 {
+                  name = "p",
+                  children = [
+                    #(Text "In which I extoll the virtues of using microformats.")]
+                  }),
+                #(Text "\n\n  "),
+                #(Element:0x205f998 {
+                  name = "div",
+                  children = [
+                    #(Text "\n    "),
+                    #(Element:0x205f320 {
+                      name = "p",
+                      children = [ #(Text "Blah blah blah")]
+                      }),
+                    #(Text "\n  ")]
+                  }),
+                #(Text "\n")]
+              }),
+            #(Text "\n")]
+          })]
+      })]
+  })

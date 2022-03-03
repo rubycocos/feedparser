@@ -1,0 +1,6 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/hyperdata.rb
+lib/hyperdata/version.rb

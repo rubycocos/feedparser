@@ -1,0 +1,83 @@
+#(Document:0x210b7c0 {
+  name = "document",
+  children = [
+    #(DTD:0x210b2ec { name = "html" }),
+    #(Element:0x210af14 {
+      name = "html",
+      children = [
+        #(Element:0x210a9f8 {
+          name = "body",
+          children = [
+            #(Element:0x210a50c {
+              name = "article",
+              attributes = [ #(Attr:0x210a26c { name = "o", value = "item" })],
+              children = [
+                #(Text "\n  "),
+                #(Element:0x210f72c {
+                  name = "h1",
+                  attributes = [
+                    #(Attr:0x210f5a0 { name = "x", value = "title" })],
+                  children = [ #(Text "Microformats are amazing")]
+                  }),
+                #(Text "\n  "),
+                #(Element:0x210e730 {
+                  name = "p",
+                  children = [
+                    #(Text "Published by "),
+                    #(Element:0x210e0b8 {
+                      name = "a",
+                      attributes = [
+                        #(Attr:0x2113f14 { name = "o", value = "card" }),
+                        #(Attr:0x2113f08 { name = "x", value = "author" }),
+                        #(Attr:0x2113efc {
+                          name = "href",
+                          value = "http://example.com"
+                          })],
+                      children = [ #(Text "W. Developer")]
+                      }),
+                    #(Text "\n     on "),
+                    #(Element:0x211269c {
+                      name = "time",
+                      attributes = [
+                        #(Attr:0x21124ec { name = "x", value = "published" }),
+                        #(Attr:0x21124e0 {
+                          name = "datetime",
+                          value = "2013-06-13 12:00:00"
+                          })],
+                      children = [
+                        #(Text "13"),
+                        #(Element:0x21174c0 {
+                          name = "sup",
+                          children = [ #(Text "th")]
+                          }),
+                        #(Text " June 2013")]
+                      }),
+                    #(Text "\n\n  ")]
+                  }),
+                #(Element:0x2116848 {
+                  name = "p",
+                  attributes = [
+                    #(Attr:0x2116698 { name = "x", value = "summary" })],
+                  children = [
+                    #(Text "In which I extoll the virtues of using microformats.")]
+                  }),
+                #(Text "\n \n  "),
+                #(Element:0x211b8d0 {
+                  name = "div",
+                  attributes = [
+                    #(Attr:0x211b720 { name = "x", value = "content" })],
+                  children = [
+                    #(Text "\n    "),
+                    #(Element:0x211ac40 {
+                      name = "p",
+                      children = [ #(Text "Blah blah blah")]
+                      }),
+                    #(Text "\n  ")]
+                  }),
+                #(Text "\n")]
+              }),
+            #(Text "\n")]
+          })]
+      })]
+  })
+  
