@@ -9,3 +9,11 @@ Gem Familiy
 
 
 
+
+
+
+
+More
+
+[**awesome-feeds**](awesome-feeds) - a collection of awesome feeds (formats, readers, services & tools, templates 'n' more) - JSON Feed, RSS, Atom, HTML w/ Microformats, Feed.TXT
+
