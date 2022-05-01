@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">Riding Rails</title>
+  <link type="application/atom+xml" href="http://weblog.rubyonrails.org/feed/" rel="self" />
+  <link type="text" href="http://weblog.rubyonrails.org/" rel="alternate" />
+  <updated>2015-01-16T22:42:22+00:00</updated>
+  <id>http://weblog.rubyonrails.org/</id>
+  
+  <entry>
+    <title>This week in Rails: tokens migrations, method_source and more</title>
+    <author>
+      <name>kaspth</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2015/1/16/This-week-in-Rails-tokens-migrations-method-source-and-more/"/>
+    <updated>2015-01-16T22:30:42+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2015/1/16/This-week-in-Rails-tokens-migrations-method-source-and-more/</id>
+    <content type="html"><![CDATA[<p>Live from our servers, it&#39;s This Week in Rails!</p>
+
+<p>As always we&#39;re your inside scoop of interesting commits, pull requests and more from <a href="https://github.com/rails/rails">Rails</a>.</p>
+
+<p>This is <a href="https://twitter.com/kaspth">Kasper</a>, and I&#39;m ready to serve you this scoop. I tapped keys on the board in front of me to make words appear. It&#39;s quite the tapestry.</p>
+
+<p>Let&#39;s get to it!</p>
+
+<h2>Featured</h2>
+
+<h3><a href="http://contributors.rubyonrails.org/contributors/in-time-window/this-week">This week&#39;s Rails contributors</a></h3>
+
+<p>33 contributors made this week happen. Pull Requests were merged, new friendships were made... I think I even heard someone say they saw a cat online. That&#39;s a rare sight, and part of what made this week special. Thanks everyone!</p>
+
+<h3><a href="https://github.com/rails/rails/pull/18448">Tokens in migrations and model generators</a></h3>
+
+<p>As a follow up to last week&#39;s <code>has_secure_token</code>, both the migration and model generators can create <code>token</code> attributes.<br>
+<code>rails g migration add_auth_token_to_users auth_token:token</code>. <code>rails g model user auth_token:token</code>.<br>
+The model generator automatically adds <code>has_secure_token :auth_token</code> to your new model file.</p>
+
+<h2>New Stuff</h2>
+
+<h3><a href="https://github.com/rails/rails/commit/0b2e0528df36bcef4aca62b86f55e1ea85604cd8"><code>method_source</code> added to the default Gemfile</a></h3>
+
+<p>On Rails 5 when you generate a new app, you&#39;ll find &#39;method_source&#39; in your Gemfile. This gem extends the <code>Method</code> class with <code>source</code> and <code>comment</code> methods to aid your debugging. There&#39;s a good usage example in <a href="https://github.com/rails/rails/issues/18473#issuecomment-69682891">this comment</a>.</p>
+
+<h2>Fixed</h2>
+
+<h3><a href="https://github.com/rails/rails/pull/18439">Allow &#39;1&#39; or true for acceptance validation</a></h3>
+
+<p>Previously <code>validates_acceptance_of</code> would only accept &#39;1&#39; as a valid attribute value. Now you can assign <code>true</code> to an attribute and the validation will pass.</p>
+
+<h3><a href="https://github.com/rails/rails/pull/15726">Time columns will be aware of application time zone</a></h3>
+
+<p>In Rails 5.1 your time columns will adhere to the time zone of your Rails application. To make the upgrade path smoother, the <code>config.active_record.time_zone_aware_types</code> option has been added. See the deprecation warning <a href="https://github.com/rails/rails/blob/5cd3bbbb832b58d2a0092f527d83312df4271de7/activerecord/lib/active_record/attribute_methods/time_zone_conversion.rb#L74-L86">here</a> for help.</p>
+
+<h2>One More Thing™</h2>
+
+<h3><a href="https://github.com/rails/rails/pull/18454">Validation callbacks tested with contexts</a></h3>
+
+<p>A feature you might not have heard about is validation contexts, which allow you to specify a context a callback should only be run for. Like this: <code>before_validation callback, on: :create</code>. The link shows a few tests being for this on <code>before/after_validation</code>. <a href="https://gist.github.com/dhh/9672827">Here</a> is a more advanced example.</p>
+
+<h2>Wrapping up</h2>
+
+<p>That&#39;s all for <em>This week in Rails</em>. As always, there are more changes than we have room to cover here, but feel free to <a href="https://github.com/rails/rails">check them out</a> yourself!</p>
+
+<p>P.S. If you enjoyed this newsletter, why not <a href="http://rails-weekly.goodbits.io">share it with your friends</a>? :) If you wish to be part of this project please don&#39;t hesitate to contact <a href="mailto:godfrey@brewhouse.io">Godfrey</a> – there&#39;re a lot of ways you could help make this newsletter more awesome!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>This week in Rails: a new beginning</title>
+    <author>
+      <name>chancancode</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2015/1/10/This-week-in-Rails/"/>
+    <updated>2015-01-10T02:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2015/1/10/This-week-in-Rails/</id>
+    <content type="html"><![CDATA[<p>Happy New Year, everyone!</p>
+
+<p>It was only less than a year ago when I sent the <a href="http://us3.campaign-archive1.com/?u=2721e27ce456363785acc5405&amp;id=d1b48a0b9d">first issue</a> of
+<a href="http://rails-weekly.goodbits.io"><em>This week in Rails</em></a> to a total of 14 recipients, discussing some
+of the latest and greatest additions to the Rails codebase.</p>
+
+<p>43 weeks later, this little hobby project has <a href="http://brewhouse.io/blog/2014/04/24/this-week-in-rails-the-backstory.html">evolved</a> into a true
+community effort –- we have assembled an <a href="https://twitter.com/kaspth">amazing</a> <a href="https://twitter.com/gregmolnar">team</a> of
+<a href="https://twitter.com/huoxito">editors</a> and other volunteers (<a href="mailto:godfrey@brewhouse.io">join us!</a>), keeping
+2000 subscribers in the loop and highlighting some key contributions to our
+beloved web framework every week.</p>
+
+<p>I am incredibly excited to announce that starting this week, we will be cross-
+posting the content from the newsletter to the <a href="http://weblog.rubyonrails.org">Riding Rails blog</a>. With
+this, we hope to reach even more members of our wonderful community, increase
+transparency, involve more of you in the decision-making processes and maybe
+even inspire some future contributors!</p>
+
+<p>I would like to thank my team at <a href="http://brewhouse.io">Brewhouse</a> and <a href="http://goodbits.io">Goodbits</a>
+for supporting the project and getting it off the ground, as well as all the
+volunteers who helped along the way. Of course, huge thank you to all of the
+<a href="http://contributors.rubyonrails.org">Rails contributors</a> who did all the hard work! &lt;3 &lt;3 &lt;3</p>
+
+<p>Without further ado, here is the first 2015 issue of <em>This week in Rails</em>!</p>
+
+<hr>
+
+<p>Welcome to <em>This week in Rails</em>, your weekly inside scoop of interesting commits, pull requests and more from <a href="https://github.com/rails/rails">Rails</a>.</p>
+
+<p>Hi there this is <a href="https://twitter.com/huoxito">Washington</a> again!</p>
+
+<p>Hope you all had the most gorgeous holidays ever doing things you love the most. The newsletter team is back to work and you should receive your Rails weekly news as usual. Here are some of the latest and greatest improvements, fixes and releases during the break.</p>
+
+<h2>Featured</h2>
+
+<h3><a href="https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/">Ruby 2.2.0 Released</a></h3>
+
+<p>YAY! December 25th saw another important Ruby release. See the blog post for all the goodies in this new version and keep in mind Rails 5 will target Ruby 2.2+ exclusively. As of this week, Rails&#39; master branch will only work on Ruby 2.2 or above.</p>
+
+<h3><a href="http://weblog.rubyonrails.org/2015/1/6/Rails-4-1-9-and-4-0-13-have-been-released/">Rails 4.0.13 and 4.1.9 have been released!</a></h3>
+
+<p>4.0.13 is last planned release for the 4.0 release series, so you should migrate off it as soon as possible. From here on, the 4.1 (you can thank <a href="https://github.com/rafaelfranca">Rafael</a>) and 4.2 release series will continue to receive regular bug fixes. Consult the <a href="http://guides.rubyonrails.org/maintenance_policy.html">maintenance policy</a> for details.</p>
+
+<h3><a href="http://contributors.rubyonrails.org/contributors/in-time-window/this-week">This week&#39;s Rails Contributors</a></h3>
+
+<p>Apparently holidays is no excuse for going to the beach all day long and having drinks away from computers. Rails community kept working hard during the break to keep improving the framework we appreciate so much. Thank you all!</p>
+
+<h2>New Stuff</h2>
+
+<h3><a href="https://github.com/rails/rails/pull/17227">Halting callback chains by throwing :abort</a></h3>
+
+<p>As of Rails 5 callback chains won&#39;t be halted by returning <code>false</code>. Instead you should explicitly <code>throw :abort</code>. This will help keep things consistent among all frameworks included in Rails and avoid accidental halting caused by unexpected <code>false</code> return values.</p>
+
+<h3><a href="https://github.com/rails/rails/pull/18335">New date helper</a></h3>
+
+<p>Working with days and weeks just got a bit easier. Keep in mind these new helpers <code>on_weekend?</code>, <code>next_weekday</code>, <code>prev_weekday</code>, <code>next_day</code>, <code>prev_day</code>. Perhaps you had even implemented them before yourself! Good thing Rails will have them out of the box now :)</p>
+
+<h3><a href="https://github.com/rails/rails/pull/18217"><code>has_secure_token</code> in Active Record</a></h3>
+
+<p>Rails will ship with a new Active Record macro for generating <a href="https://github.com/rails/rails/pull/18347">base 58</a> tokens out of the box. There&#39;s probably a large amount of applications already using this feature. As of the next major release you won&#39;t need to add another dependency or implement it yourself.</p>
+
+<h2>Fixed</h2>
+
+<h3><a href="https://github.com/rails/rails/pull/18074">More conventional filenames for mailers</a></h3>
+
+<p>Mailer generators now appends the <code>_mailer</code> suffix in the filename just like controller and jobs generators.</p>
+
+<h3><a href="https://github.com/rails/rails/pull/18325">Rails 5.0 deprecations clean up</a></h3>
+
+<p>This week Rails got some more love with this major clean up (339 additions and 1,433 deletions) on its master branch. There&#39;s still some deprecations left though as the team figures how to best address them.</p>
+
+<h2>One More Thing™</h2>
+
+<h3><a href="https://twitter.com/sgrif/status/548645759856300033">Automatic type casting deprecated in Arel</a></h3>
+
+<p>Watch out library authors! Sean Griffin put a lot of effort into improving Arel extensibility. Please get in touch with him if you need APIs to help your use case. (See also these <a href="https://github.com/rails/arel/commit/6160bfbda1d1781c3b08a33ec4955f170e95be11">follow-up</a> <a href="https://github.com/rails/rails/compare/266ff700011d...f916aa247bdd">commits</a>.)</p>
+
+<h2>Wrapping up</h2>
+
+<p>That&#39;s all for <em>This week in Rails</em>. As always, there are more changes than we have room to cover here, but feel free to <a href="https://github.com/rails/rails">check them out</a> yourself!</p>
+
+<p>P.S. If you enjoyed this newsletter, why not <a href="http://rails-weekly.goodbits.io">share it with your friends</a>? :) If you wish to be part of this project please don&#39;t hesitate to contact <a href="mailto:godfrey@brewhouse.io">Godfrey</a> – there&#39;re a lot of ways you could help make this newsletter more awesome!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.1.9 and 4.0.13 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2015/1/6/Rails-4-1-9-and-4-0-13-have-been-released/"/>
+    <updated>2015-01-06T20:13:06+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2015/1/6/Rails-4-1-9-and-4-0-13-have-been-released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone,</p>
+
+<p>I am happy to announce that Rails 4.1.9 and 4.0.13 have been released.</p>
+
+<p>This will be also the last release of 4.0 series as announced
+<a href="http://weblog.rubyonrails.org/2014/9/12/Rails-4-1-6-and-4-0-10-has-been-released/">in a previous blog post</a>.</p>
+
+<p>As per our maintenance policy, the release of Rails 4.2.0 means bug fixes will only apply to 4-2-stable,
+regular security issues to 4.2.x, 4.1.x, and severe security issues to 4.2.x, 4.1.x, and 3.2.x.
+In addition to these already stated commitments, I agreed to also apply bug fixes to 4-1-stable
+until the Rails 5 release.</p>
+
+<p>As before, we will announce in a future blog post when we will drop bug fixes support
+for Rails 4.1.</p>
+
+<h2>CHANGES since 4.0.12</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.0.12...v4.0.13">check out all the commits on
+GitHub</a>.</p>
+
+<h2>CHANGES since 4.1.8</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/actionview/CHANGELOG.md">Action View CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.1.8...v4.1.9">check out all the commits on
+GitHub</a>.</p>
+
+<h2>SHA-1</h2>
+
+<p>If you&#39;d like to verify that your gem is the same as the one I&#39;ve uploaded,
+please use these SHA-1 hashes.</p>
+
+<p>Here are the checksums for 4.0.13:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.13*
+75f128ffb5813f6ec895a2f6c000a18531232bfb  actionmailer-4.0.13.gem
+7356b2d90904ea3e5854a5fd5c969ff5521ee6bf  actionpack-4.0.13.gem
+019bc6e77c2c430e52d93642bee8ad137ec288d8  activemodel-4.0.13.gem
+fb367963994f153f68b904b8508b215b60a6a0ca  activerecord-4.0.13.gem
+55cbd61d330d29fac50249d5ab9964e34a102f44  activesupport-4.0.13.gem
+e4d679c792f0a2faafe69fd87217320bc318fc03  rails-4.0.13.gem
+856d1f60df48479c4faba3de6d3ffcfadeee2f6b  railties-4.0.13.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.9:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.9*
+7d4a8ce21aa0429ec5fc05c64e2f64fa769a1c4a  actionmailer-4.1.9.gem
+37b3990b77669877ab675124662ca5c0e880e556  actionpack-4.1.9.gem
+baf6c54a9f411e9399dc7f9ad99aaa892a43293a  actionview-4.1.9.gem
+cd9c214923ea0094fb65825b1866c3bc5b80fbdb  activemodel-4.1.9.gem
+330a753ec001e38834406c464e306c3c43e276b5  activerecord-4.1.9.gem
+66904e1371b047348d0247c43b9f1c3c596671bf  activesupport-4.1.9.gem
+12a8b208566f4c822cc9199f51f60fd8baf010bc  rails-4.1.9.gem
+2c494849ac54b8b3238d23fe62c81da37ca08e1b  railties-4.1.9.gem
+</code></pre></div>
+<p>I&#39;d like to thank you all, every contributor who helped with this release.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.1.9.rc1 and 4.0.13.rc1 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2015/1/2/Rails-4-1-9-rc1-and-4-0-13-rc1-have-been-released/"/>
+    <updated>2015-01-02T00:56:06+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2015/1/2/Rails-4-1-9-rc1-and-4-0-13-rc1-have-been-released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone,</p>
+
+<p>I am happy to announce that Rails 4.1.9.rc1 and 4.0.13.rc1 have been released.</p>
+
+<p>This is the first release of the year and it includes a lot of bug fixes. This will be also
+the last release of 4.0 series as announced
+<a href="http://weblog.rubyonrails.org/2014/9/12/Rails-4-1-6-and-4-0-10-has-been-released/">in a previous blog post</a>.</p>
+
+<p>As per our maintenance policy, the release of Rails 4.2.0 means bug fixes will only apply to 4-2-stable,
+regular security issues to 4.2.x, 4.1.x, and severe security issues to 4.2.x, 4.1.x, and 3.2.x.
+In addition to these already stated commitments, I agreed to also apply bug fixes to 4-1-stable
+until the Rails 5 release.</p>
+
+<p>As before, we will announce in a future blog post when we will drop bug fixes support
+for Rails 4.1.</p>
+
+<p>If no regressions are found expect the final release this Tuesday, on January 6, 2015.
+If you find one, please open an <a href="https://github.com/rails/rails/issues/new">issue on GitHub</a>
+and mention me (@rafaelfranca) on it, so that we can fix it before the final release.</p>
+
+<h2>CHANGES since 4.0.12</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13.rc1/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13.rc1/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13.rc1/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13.rc1/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13.rc1/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.13.rc1/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.0.12...v4.0.13.rc1">check out all the commits on
+GitHub</a>.</p>
+
+<h2>CHANGES since 4.1.8</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/actionview/CHANGELOG.md">Action View CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.9.rc1/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.1.8...v4.1.9.rc1">check out all the commits on
+GitHub</a>.</p>
+
+<h2>SHA-1</h2>
+
+<p>If you&#39;d like to verify that your gem is the same as the one I&#39;ve uploaded,
+please use these SHA-1 hashes.</p>
+
+<p>Here are the checksums for 4.0.13.rc1:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.13.rc1*
+bf4ddb5aa6eefc6e2495a1364974a5b396d94596  actionmailer-4.0.13.rc1.gem
+2bf785e91159bba8fe324e2f48a72277f2b3cf33  actionpack-4.0.13.rc1.gem
+f9d92979e211ce7fa71252cf1b6b4ac94c7f0b91  activemodel-4.0.13.rc1.gem
+d5147f64e08a3f5aed4c22ff1ebf640ca6fc0ae3  activerecord-4.0.13.rc1.gem
+e6f1421262fd1064e973f3d2628c6129b4c20d17  activesupport-4.0.13.rc1.gem
+f7416fc8485bb8a622fb50e0dd2c3fa5ca4215fa  rails-4.0.13.rc1.gem
+8a0690bab5e43712e8e982fe02bf76ea989f9356  railties-4.0.13.rc1.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.9.rc1:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.9.rc1*
+8afbb9c71a8f6e0dff26daacde407fe35aac8375  actionmailer-4.1.9.rc1.gem
+a5fd439bc41844a3c02671d7425bfa71d96cfbf1  actionpack-4.1.9.rc1.gem
+a77aaa2f936445211e7455b3228a9bfe8f27a4ac  actionview-4.1.9.rc1.gem
+65a7acbf9ef9b47392a48ab4c9ace44f12ea1f60  activemodel-4.1.9.rc1.gem
+eb66d5c52f0740114de46e1a1b76a0079c723d1f  activerecord-4.1.9.rc1.gem
+e758d54d7fabc7d23ff995646096f40d28df42a9  activesupport-4.1.9.rc1.gem
+479a31dd8d9eea3de6f444139eaefc830c6db170  rails-4.1.9.rc1.gem
+dae65c526ec8ee3abab9a9e8807ad7b210b7941d  railties-4.1.9.rc1.gem
+</code></pre></div>
+<p>I&#39;d like to thank you all, every contributor who helped with this release.</p>
+
+<p>Happy new year! <img class='emoji' title=':tada:' alt=':tada:' src='https://assets.github.com/images/icons/emoji/unicode/1f389.png' height='20' width='20' align='absmiddle' /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 4.2: Active Job, Asynchronous Mails, Adequate Record, Web Console, Foreign Keys</title>
+    <author>
+      <name>dhh</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/"/>
+    <updated>2014-12-19T21:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/</id>
+    <content type="html"><![CDATA[<p>We come bearing gifts! It&#39;s Rails 4.2, and the final version is ready just in time for Christmas. It&#39;s full of great toys, useful gizmos, and polished edges, courtesy of a fantastic community of merry elves who&#39;ve been coding away with jolly glee for months.</p>
+
+<p>This is probably also the most well-tested new major release of Rails in a long time. Through four betas and three release candidates, tons of people have helped ensure that regressions and bugs have been caught. Since the first beta, we have some 1600+ commits of spit and polish applied. So you have good reason to be excited!</p>
+
+<p>To recap, here&#39;s a walkthrough of the major new goodies:</p>
+
+<h2>Active Job, ActionMailer #deliver_later</h2>
+
+<p>The headline feature for Rails 4.2 is the brand new Active Job framework, and its integrations. Active Job is an adapter layer on top of queuing systems like <a href="https://github.com/resque/resque">Resque</a>, <a href="https://github.com/collectiveidea/delayed_job">Delayed Job</a>, <a href="https://github.com/mperham/sidekiq">Sidekiq</a>, and <a href="http://api.rubyonrails.org/classes/ActiveJob/QueueAdapters.html">more</a>. You can write your jobs to Active Job, and they&#39;ll run on all these queues with no changes.</p>
+
+<p>With an always-configured queue in place (though the default is just an <a href="http://api.rubyonrails.org/classes/ActiveJob/QueueAdapters/InlineAdapter.html">inline runner</a>), we can build on top of that where it makes sense. And the first place it makes sense is to send Action Mailer emails asynchronously. So we&#39;re introducing the <a href="http://api.rubyonrails.org/classes/ActionMailer/MessageDelivery.html#method-i-deliver_later">#deliver_later</a> method, which will do just that: Add your email to be sent as a job to a queue, so you don&#39;t bog down the controller or model. Voila!</p>
+
+<p>The cherry on top is our new <a href="https://github.com/rails/globalid">GlobalID</a> library. It makes it easy to pass Active Record objects to jobs by serializing them in a generic form. This means you no longer have to manually pack and unpack your Active Records by passing ids. Just give the job the straight AR object, and it&#39;ll serialize it using GlobalID, and deserialize it at run time. So much easier!</p>
+
+<p>Special thanks go out to <a href="https://github.com/cristianbica">Cristian Bica</a> and <a href="https://github.com/seuros">Abdelkader Boudih</a> for their outstanding work bringing this trinity of improvements to Rails!</p>
+
+<h2>Adequate Record</h2>
+
+<p><a href="https://github.com/tenderlove">Aaron Patterson</a> is always hunting for performance bounties in Rails, and with an improvement project called <a href="http://tenderlovemaking.com/2014/02/19/adequaterecord-pro-like-activerecord.html">Adequate Record</a> for Active Record, he&#39;s come up good. A lot of common queries are now no less than twice as fast in Rails 4.2! This is a great step forward for performance. While computers are constantly getting cheaper and performance is improving, nobody ever said &quot;hey, get that free speed out of my framework&quot;. So there you go: Some free speed, buddy!</p>
+
+<h2>Web Console</h2>
+
+<p>Out of the wonderful <a href="http://weblog.rubyonrails.org/2014/5/23/meet-our-google-summer-of-code-students-and-mentors/">Google Summer of Code</a> for Rails campaign comes <a href="https://github.com/rails/web-console">Web Console</a>, which gives you a development console to inspect the state of affairs on all exception pages! It even allows you to jump between the different points in the backtrace, and you&#39;ll be able to inspect things right at that point.</p>
+
+<p>It&#39;s a wonderful improvement to the debugging workflow. Thanks to <a href="https://github.com/gsamokovarov">Genadi Samokovarov</a> and <a href="https://github.com/ryandao">Ryan Dao</a> for their work on this project.</p>
+
+<h2>Foreign Keys</h2>
+
+<p>Rails has long had a tumultuous relationship with foreign keys, but the drama days are now over. If you want to have foreign keys, you can have foreign keys, and Rails will still smile as it takes your order. The migration DSL gets <a href="http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_foreign_key">add_foreign_key</a> and <a href="http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-remove_foreign_key">remove_foreign_key</a> and the standard schema.rb dumper will support maintaing these declarations. Foreign key support starts out as an exclusive to the MySQL and PostgreSQL adapters.</p>
+
+<h2>And so much more...</h2>
+
+<p>The above are just the highlights. We have many more goodies packed into this release than that. You can read a great summary in the <a href="http://guides.rubyonrails.org/4_2_release_notes.html">release notes</a>. </p>
+
+<h2>Maintenance consequences and Rails 5.0!</h2>
+
+<p>As per our <a href="http://guides.rubyonrails.org/maintenance_policy.html">maintenance policy</a>, the release of Rails 4.2 means bug fixes will only apply to 4-2-stable, regular security issues to 4.2.x, 4.1.x, and severe security issues to 4.2.x, 4.1.x, and 3.2.x. In addition to these already stated commitments, the honorable <a href="https://github.com/rafaelfranca">Rafael França</a> has agreed to also apply bug fixes to 4-1-stable. So everyone still on 4.1 and unable to move quickly can thank Rafael!</p>
+
+<p>Rails 4.2 also marks the last big release in the 4.x series. With this release out, we&#39;re now working towards the big Rails 5.0! This means rails/master is now targeting 5.0.</p>
+
+<p>Rails 5.0 will target Ruby 2.2+ exclusively. There are a bunch of optimizations coming in Ruby 2.2 that are going to be very nice, but most importantly for Rails, symbols are going to be garbage collected. This means we can shed a lot of weight related to juggling strings when we accept input from the outside world. It also means that we can convert fully to keyword arguments and all the other good stuff from the latest Ruby.</p>
+
+<p>The release target for Rails 5.0 is currently Fall of 2015. So there&#39;s a while yet, but we&#39;re putting this out there for people to know, so gem maintainers and other Ruby implementations can know where we&#39;re going. We&#39;ll be working on putting out somewhat of a road map for the features when that&#39;s become a bit clearer.</p>
+
+<h2>Thanks to all and happy holidays!</h2>
+
+<p>It continues to be a pleasure and an honor to be involved with the amazing Ruby on Rails community – both <a href="http://contributors.rubyonrails.org/releases/4-2-0/contributors">contributors</a> and users. The collaboration and resulting quality has never been better. Have a great holiday season and New Year&#39;s, and we&#39;ll see you all with more delicious releases in 2015!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.2.0.rc3 has been released!</title>
+    <author>
+      <name>chancancode</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/12/13/Rails-4-2-0-rc3-has-been-released/"/>
+    <updated>2014-12-13T03:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/12/13/Rails-4-2-0-rc3-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Happy Friday everyone!</p>
+
+<p>The Rails team has just released <a href="http://rubygems.org/gems/rails/versions/4.2.0.rc3">the third Release Candidate of Rails 4.2.0</a>
+today. For an overview of all the major changes in the 4.2 series, please refer
+to the <a href="http://edgeguides.rubyonrails.org/4_2_release_notes.html">release notes</a>.</p>
+
+<p>The RC3 release includes a few more minor patches over RC2. You can refer to
+<a href="https://github.com/rails/rails/compare/v4.2.0.rc2...v4.2.0.rc3">the diff on Github</a> for a full list of changes.</p>
+
+<p>We would like to thank you again for assisting our team in testing the release
+candidates. Please continue to report any issues you discovered to our
+<a href="https://github.com/rails/rails/issues">issue tracker</a> and/or notify the maintainers of the relevant gems and
+plugins.</p>
+
+<p>So far, we still haven&#39;t identify any major regressions for this release,
+meaning that we are still on track for our target to release the final version
+of 4.2.0 before Christmas time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.2.0.rc2 has been released!</title>
+    <author>
+      <name>chancancode</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/12/5/Rails-4-2-0-rc2-has-been-released/"/>
+    <updated>2014-12-05T23:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/12/5/Rails-4-2-0-rc2-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Happy Friday everyone!</p>
+
+<p>The Rails team has just released <a href="http://rubygems.org/gems/rails/versions/4.2.0.rc2">the second Release Candidate of Rails 4.2.0</a>
+today. For an overview of all the major changes in the 4.2 series, please refer
+to the <a href="http://edgeguides.rubyonrails.org/4_2_release_notes.html">release notes</a>.</p>
+
+<p>The RC2 release includes some patches for a few minor issues that was reported
+in the last week. It also includes some improvements to the documentation and
+some enhancements that decreases the verbosity of the Active Job logs. You can
+refer to <a href="https://github.com/rails/rails/compare/v4.2.0.rc1...v4.2.0.rc2">the diff on Github</a> for a full list of changes.</p>
+
+<p>We would like to thank you again for assisting our team in testing the release
+candidates. Please continue to report any issues you discovered to our
+<a href="https://github.com/rails/rails/issues">issue tracker</a> and/or notify the maintainers of the relevant gems and
+plugins.</p>
+
+<p>If no other major issues are found, we expect to release the final version of
+4.2.0 very soon, just in time for Christmas!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.2.0.rc1 has been released!</title>
+    <author>
+      <name>chancancode</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/11/28/Rails-4-2-0-rc1-has-been-released/"/>
+    <updated>2014-11-28T18:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/11/28/Rails-4-2-0-rc1-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Happy Black Friday everyone!</p>
+
+<p>The Rails team is very excited to announce that <a href="http://rubygems.org/gems/rails/versions/4.2.0.rc1">the first Release Candidate of Rails 4.2.0</a>
+has been released today. For an overview of all the major changes, please refer
+to the <a href="http://edgeguides.rubyonrails.org/4_2_release_notes.html">release notes</a>.</p>
+
+<p>We would like to thank everyone who have assisted our team in testing the beta
+and smoothing out all the rough edges. During the beta period, we have logged
+<a href="https://github.com/rails/rails/compare/v4.2.0.beta1...v4.2.0.rc1">over 1500 commits by over 60 contributors</a> and <a href="https://github.com/rails/rails/issues?q=milestone%3A4.2.0">over 100 tickets and pull requests</a>
+on GitHub.</p>
+
+<p>In particular, thanks to contributors who have assisted in testing the release
+in their Real World™ applications, we have identified and addressed a number of
+performance issues since the last beta release.</p>
+
+<p>With the release candidate out the door, we are now much closer to the final
+release of 4.2.0. Please consider testing this release with your applications if
+you haven&#39;t already – you can read the <a href="http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html">upgrade guide</a> for
+detailed instructions. If you found any problems while upgrading, please report
+them to our <a href="https://github.com/rails/rails/issues">issue tracker</a> and/or notify the authors of the relevant
+gems and plugins.</p>
+
+<p>Thank you all again, this release would not be possible without your help!</p>
+
+<h2>One More Thing™</h2>
+
+<p>The release of the first RC for the 4.2.0 series also marks the <a href="https://github.com/rails/rails/commit/f25ad07f5ade46eb978fa82658463232d0247c65">beginning of Rails 5 development</a>.
+The <a href="https://github.com/rails/rails/tree/4-2-stable">4-2-stable</a> branch has been created today and all changes on
+the master branch will be targeted for Rails 5.0 and backported according to our
+<a href="http://edgeguides.rubyonrails.org/maintenance_policy.html">maintenance policy</a>. Read more about the <a href="http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/#maintenance-consequences-and-rails-5-0">grand plans for Rails 5</a>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 4.0.11.1 and 4.1.7.1 have been released</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/11/19/Rails-4-0-11-1-and-4-1-7-1-have-been-released/"/>
+    <updated>2014-11-19T19:16:18+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/11/19/Rails-4-0-11-1-and-4-1-7-1-have-been-released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone!</p>
+
+<p>Rails 4.0.11.1 and 4.1.7.1 have been released!</p>
+
+<p>These two releases contain only security fix that was already released as 4.0.12 and 4.1.8.
+You can read more about the issue <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/rMTQy4oRCGk">here (CVE-2014-7829)</a>.</p>
+
+<p>4.0.12 and 4.1.8 were inadvertently based on their respective stable branches, and so incorporated
+additional changes beyond those necessary to resolve the security issue. In keeping with our security
+policy, it is our intention to include only the minimum necessary changes in security releases, to
+ensure everyone can upgrade without fear of regressions. As those releases included unrelated changes,
+we are providing new releases, based on the previous release, which contain only the security fix
+itself.</p>
+
+<p>If you have already successfully upgraded to 4.0.12 or 4.1.8, no further action is required.
+Otherwise, if you are still on 4.0.11 or 4.1.7, please do upgrade to 4.0.11.1 or 4.1.7.1 at your
+earliest convenience.</p>
+
+<p>The 3.2.21 release did incorporate a second change, but that change was intended: by policy, minor
+security-relevant bugs (which do not independently warrant a security release) are occasionally
+backported to 3-2-stable, and rolled into a subsequent security release.</p>
+
+<p>The commits for 4.0.11.1 can be found <a href="https://github.com/rails/rails/compare/v4.0.11...v4.0.11.1">here</a>,
+and the commits for 4.1.7.1 can be found <a href="https://github.com/rails/rails/compare/v4.1.7...v4.1.7.1">here</a>.</p>
+
+<p>Here are the checksums for 4.0.11.1:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.11.1*
+f35d8d54b15b83b25aa6a46aa57b58cd9888b5cc  actionmailer-4.0.11.1.gem
+9d656c7959dc913fc208fa7ffdab265b73abb8f1  actionpack-4.0.11.1.gem
+bde6aa4985bff22ca7046f5ad855ccacee3e345e  activemodel-4.0.11.1.gem
+26d91f7d7f5cf828d25503326f6fe598f275cca3  activerecord-4.0.11.1.gem
+2040d73aeb8ec84945e5ac5a1e060a703770f0a4  activesupport-4.0.11.1.gem
+1dde2b45a0039ccef166030bdbc1948fa899a5e5  rails-4.0.11.1.gem
+86cc0c06139bc085e830fbd0994a0bf7480e68dc  railties-4.0.11.1.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.7.1:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.7.1*
+3e0c627e2f35293c7f963586ddedad84fe140c3b  actionmailer-4.1.7.1.gem
+038d1dd8eab2471f44cf456cbb8f94f4e413e069  actionpack-4.1.7.1.gem
+6a6e2a188b58855748e0f400d6c562a779e76130  actionview-4.1.7.1.gem
+6dcfeca9cb28490a4d3fde1cfbb9d14850130167  activemodel-4.1.7.1.gem
+b1d5b4bab0873e712f270fdb7ad8acb81d487a73  activerecord-4.1.7.1.gem
+0af0c9e374f1a83f06db82457c219b29556233ca  activesupport-4.1.7.1.gem
+1fbef83600552fc18d83e61c39da752c7d6ba07c  rails-4.1.7.1.gem
+f50d5902047d96b8836c3f6376ed9c212506268b  railties-4.1.7.1.gem
+</code></pre></div>
+<p>&lt;3&lt;3&lt;3&lt;3</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 3.2.21, 4.0.12, and 4.1.8 have been released</title>
+    <author>
+      <name>tenderlove</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/11/17/Rails-3-2-21-4-0-12-and-4-1-8-have-been-released/"/>
+    <updated>2014-11-17T15:44:42+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/11/17/Rails-3-2-21-4-0-12-and-4-1-8-have-been-released/</id>
+    <content type="html"><![CDATA[<p>Hello everyone!!! It&#39;s that time again.</p>
+
+<p>I would like to announce that Rails 3.2.21, 4.0.12, and 4.1.8 have been released.  These releases contain a security fix where the existence of arbitrary files on the file system can be leaked, but the contents of the file <strong>will not</strong> be leaked.  The issue generally only impacts people who are using Rails to serve static assets, and will generally not impact people who use a proxy to serve static assets.  This issue is similar to CVE-2014-7818, but is slightly different.  You can read more about the issue <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/rMTQy4oRCGk">here (CVE-2014-7829)</a>.</p>
+
+<p>For ease of upgrading, the only changes in these releases are the security fixes.</p>
+
+<p>Here are the checksums for the gems:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">[aaron@TC release]$ shasum *3.2.21*
+5f59bb7e463fa3a443593bdd650a258b34ae8db6  actionmailer-3.2.21.gem
+1f7ffef317f7808aa3f6b3f63f292c136a827b7c  actionpack-3.2.21.gem
+aaf186bc935b66e52e43a5e5c8b0af37b0444ccc  activemodel-3.2.21.gem
+9e5645ea4536238a3fec7f04e6f74a22db9057ec  activerecord-3.2.21.gem
+fe64a4b4d5a0680ce2b05e4fb75d325454671c5f  activeresource-3.2.21.gem
+0a503dfc64a73980b18d799f9b80f02b3b1645b7  activesupport-3.2.21.gem
+b757a3161412742fd9f0323ff7ab6b31212e115c  rails-3.2.21.gem
+9cb5de52049319e1c837be75deaab0eba3695e42  railties-3.2.21.gem
+[aaron@TC release]$ shasum *4.0.12*
+c62e361241fd26a7e31ed3a9c87489bc5a86b12f  actionmailer-4.0.12.gem
+f63c9d0e7a637c114b96cd864c12641e09eed373  actionpack-4.0.12.gem
+2e9a64d08b9bcef0953132f1b9d4f295dfa167a4  activemodel-4.0.12.gem
+d3e59b3c9a0c5fc9045783905f53e49d4d6bc1ba  activerecord-4.0.12.gem
+6bf2468d9466b019d2ffaf21e44cb7a4d4ed8dde  activesupport-4.0.12.gem
+d759db3bb1420c02c97852358e425b4a168198ff  rails-4.0.12.gem
+729345b543653507dfea3d2e158a870d49260548  railties-4.0.12.gem
+[aaron@TC release]$ shasum *4.1.8*
+db4fc0a8ac77332b96947480db7ff529c18ead44  actionmailer-4.1.8.gem
+24cd5ff7bcc78a2d4997ebe6bc962f09e394f59e  actionpack-4.1.8.gem
+0c22174fbe03bf461aad27bf8ddebf7ae93988fa  actionview-4.1.8.gem
+2b2b98b8dfd96012b443a2ddf3cbf4267c378c4d  activemodel-4.1.8.gem
+f263ff5ee5a4436184390aaf825d5072c71afc4e  activerecord-4.1.8.gem
+c25e858743372f197ecfdbbbc5b1dbd71934947a  activesupport-4.1.8.gem
+4b96a78c669b7122f9ad905ee8f36772ac1bd8d9  rails-4.1.8.gem
+cbae764aa4a635f37c7bb52c84028dc032e1afea  railties-4.1.8.gem
+[aaron@TC release]$
+</code></pre></div>
+<p>Happy RubyConf and have a great day!!! &lt;3</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.2.0.beta4 has been released!</title>
+    <author>
+      <name>chancancode</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/10/30/Rails-4-2-0-beta4-has-been-released/"/>
+    <updated>2014-10-30T22:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/10/30/Rails-4-2-0-beta4-has-been-released/</id>
+    <content type="html"><![CDATA[<p>The Rails team has just released Rails <a href="http://rubygems.org/gems/rails/versions/4.2.0.beta4">4.2.0.beta4</a>.</p>
+
+<p>In addition to the security fixes in <a href="http://rubygems.org/gems/rails/versions/4.2.0.beta3">4.2.0.beta3</a>,
+this new release includes a number of bug fixes for issues reported since the
+<a href="http://rubygems.org/gems/rails/versions/4.2.0.beta2">4.2.0.beta2</a> release.</p>
+
+<p>If all goes according to plan, this should be the last beta release for 4.2.0
+before we move into the Release Candidates phase. We would like to thank all
+of the early adopters who participated in the beta testing and reported issues,
+as well as the 64 contributors who submitted patches to help our team address
+these bugs.</p>
+
+<p>Happy upgrading!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 3.2.20, 4.0.11, 4.1.7, and 4.2.0.beta3 have been released</title>
+    <author>
+      <name>tenderlove</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/10/30/Rails_3_2_20_4_0_11_4_1_7_and_4_2_0_beta3_have_been_released/"/>
+    <updated>2014-10-30T18:16:55+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/10/30/Rails_3_2_20_4_0_11_4_1_7_and_4_2_0_beta3_have_been_released/</id>
+    <content type="html"><![CDATA[<p>Hello everyone!!! It&#39;s that time again.</p>
+
+<p>I would like to announce that Rails 3.2.20, 4.0.11, 4.1.7, and 4.2.0.beta3 have been released.  These releases contain a security fix where the existence of arbitrary files on the file system can be leaked, but the contents of the file <strong>will not</strong> be leaked.  The issue generally only impacts people who are using Rails to serve static assets, and will generally not impact people who use a proxy to serve static assets.  You can read more about the issue <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/dCp7duBiQgo">here (CVE-2014-7818)</a>.  A release of sprockets has also been made to help with this issue.  You can read about it <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/doAVp0YaTqY">here (CVE-2014-7819)</a>.</p>
+
+<p>For ease of upgrading, the only changes in these releases are the security fixes.</p>
+
+<p>Here are the checksums for the gems:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">[aaron@TC release]$ shasum *3.2.20*
+b14ca1ad923e035ab2a7785e657c5653447c3149  actionmailer-3.2.20.gem
+d6fea767996a954e4bc95fd0ca101ec912fcb093  actionpack-3.2.20.gem
+97f5bb424aee73fbbd319baab3fd35c3f5eeb5f4  activemodel-3.2.20.gem
+32d76836675a4c88685c3904271b16d9d2338ce9  activerecord-3.2.20.gem
+640d83a96accc24e6afcae3cc5b253e5d355983f  activeresource-3.2.20.gem
+d1d0a19a589c62278e7d9ac4275d5f8d75df20b3  activesupport-3.2.20.gem
+f8b4d3c56d89760c02b37d4c67efd31dedd4df80  rails-3.2.20.gem
+41c272d53dd748407210a2270ad17bc7c9f30594  railties-3.2.20.gem
+[aaron@TC release]$ shasum *4.0.11*
+9718b62f4428a7e4bbf66df4ac57dd82d197905a  actionmailer-4.0.11.gem
+f1aec3d29e781e3beb685852db00ecf495150077  actionpack-4.0.11.gem
+2ba4ceeff0a76df850d6294e2e1da703f3f6e7cb  activemodel-4.0.11.gem
+714dca99a452adfec76b507241896ffd7978a254  activerecord-4.0.11.gem
+2791791c5c1eeefb3eee76712656bf674a20867d  activesupport-4.0.11.gem
+56bb306d4f0309dcf3a804a97104a3ee26b64b94  rails-4.0.11.gem
+243e265c879db8876cce8688374cb7f9bb752d7d  railties-4.0.11.gem
+[aaron@TC release]$ shasum *4.1.7*
+4e4ce2530ff8773af784340e17e925b3b2c8cb20  actionmailer-4.1.7.gem
+81628e433ca4335409677a33cfe9b56627f6ae1a  actionpack-4.1.7.gem
+7dc2626f5bc85379c55e49a712f5c0e060340ca8  actionview-4.1.7.gem
+83c8be73d22973c843d43a988b27a449d2ca8a9d  activemodel-4.1.7.gem
+001156373c248a20c69bcf1451d6f7166dac3ddb  activerecord-4.1.7.gem
+217f25a911f8e89cd2834849232555cbc47ca850  activesupport-4.1.7.gem
+a1d9bb181d718e7f6cf380136425444e627c2345  rails-4.1.7.gem
+1b9c8d08afc8fa77786fef13c54d4e6985cdc6d6  railties-4.1.7.gem
+[aaron@TC release]$ shasum *4.2.0*
+e5d608e8ce32abdd73c73c91fd34cb8f7075a251  actionmailer-4.2.0.beta3.gem
+2e2034c285943777ad325c35292e202a46b937c2  actionpack-4.2.0.beta3.gem
+a008833cd1045c926fb6f36ee03e3d34499a0aa9  actionview-4.2.0.beta3.gem
+02f4438363419c59b33d85b2dda4d4cf741a6098  activejob-4.2.0.beta3.gem
+c8a7dc2134c885ad3b23d4c36be95abc1ec1b769  activemodel-4.2.0.beta3.gem
+192e33ab3b9d54954ff834ce6ee7f67a9197cb36  activerecord-4.2.0.beta3.gem
+00437ab52df0ed0dd9afe571d083c92c3cdbe361  activesupport-4.2.0.beta3.gem
+ca81d6ac9fdd658775d32a6dbfe248ee13f5c87b  rails-4.2.0.beta3.gem
+cc302e363248e4bc2d245201f922c576f9fe6f15  railties-4.2.0.beta3.gem
+</code></pre></div>
+<p>Have a great day!!! &lt;3</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.2.0.beta2 has been released!</title>
+    <author>
+      <name>chancancode</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/9/29/Rails-4-2-0-beta2-has-been-released/"/>
+    <updated>2014-09-29T19:00:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/9/29/Rails-4-2-0-beta2-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Happy Monday everyone!</p>
+
+<p>Today the Rails team is happy to announce that we have released Rails
+<a href="http://rubygems.org/gems/rails/versions/4.2.0.beta2">4.2.0.beta2</a>.</p>
+
+<p>Thanks to all the early adopters who have participated in the first round of
+beta testing, we have identified a number of bugs, regressions and other
+imperfections in the codebase. These problems have since been fixed and included
+in this release.</p>
+
+<h2>Security Issues</h2>
+
+<p>This release also includes two security patches.</p>
+
+<h3>Web Console 2.0.0.beta4</h3>
+
+<p>Along with the Rails 4.2.0.beta2 release we also released Web Console <a href="https://rubygems.org/gems/web-console/versions/2.0.0.beta4">2.0.0.beta4</a>
+which includes a security fix.</p>
+
+<p>If you are already using Web Console in development we recommend you to upgrade
+to this new version of the gem.</p>
+
+<h3>Active Job vulnerability</h3>
+
+<p>We also fixed an Active Job bug that allowed String arguments to be deserialized
+as if they were Global IDs, an object injection security vulnerability.</p>
+
+<h2>Breaking Changes</h2>
+
+<p>In addition to the security and bug fixes, some of the new APIs have also been
+refined after further testing in real-world applications. This resulted in the
+following list of breaking changes that are not backwards-compatible with
+4.2.0.beta1:</p>
+
+<h3>Active Job</h3>
+
+<p>The Active Job API has been overhauled:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"># The enqueueing method has changed from +enqueue+ to +perform_later+.
+#
+# In 4.2.0.beta1:
+MyJob.enqueue(*args)
+#
+# In 4.2.0.beta2:
+MyJob.perform_later(*args)
+
+# The ways jobs are scheduled has changed.
+#
+# In 4.2.0.beta1:
+MyJob.enqueue_at(Date.tomorrow.noon, record)
+MyJob.enqueue_in(1.week, record)
+#
+# In 4.2.0.beta2:
+MyJob.set(wait_until: Date.tomorrow.noon).perform_later(record)
+MyJob.set(wait: 1.week).perform_later(record)
+#
+# You can also specify a queue to enqueue the job onto with this new API:
+MyJob.set(queue: :low_priority).perform_later(record)
+</code></pre></div>
+<h3>Action Mailer</h3>
+
+<p>The Action Mailer API has also undergone some changes:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"># Two new methods +#deliver_now+ and +#deliver_now!+ were introduced for
+# clarity. +#deliver+ and +#deliver!+ have been deprecated and applications are
+# encouraged to use the +#deliver_*+ instead.
+#
+# In 4.2.0.beta1:
+Notifier.welcome(User.first).deliver!
+#
+# In 4.2.0.beta2:
+Notifier.welcome(User.first).deliver_now!
+
+# The options for +#deliver_later+ and +#deliver_later!+ has changed to match
+# those on Active Job.
+#
+# In 4.2.0.beta1:
+Notifier.welcome(User.first).deliver_later!(in: 1.hour)
+Notifier.welcome(User.first).deliver_later!(at: 10.hours.from_now)
+#
+# In 4.2.0.beta2:
+Notifier.welcome(User.first).deliver_later!(wait: 1.hour)
+Notifier.welcome(User.first).deliver_later!(wait_until: 10.hours.from_now)
+</code></pre></div>
+<h3>Action Controller <code>render</code> behavior change</h3>
+
+<p>Historically, calling <code>render &quot;foo/bar&quot;</code> in a controller action is equivalent
+to calling <code>render file: &quot;foo/bar&quot;</code>. Since beta 2, this has been changed to mean
+<code>render template: &quot;foo/bar&quot;</code> instead. This is due to a number of potential
+security issues with the old default behavior. If you need to render a file,
+please change your code to use the explicit form (<code>render file: &quot;foo/bar&quot;</code>)
+instead.</p>
+
+<h2>Full list of changes</h2>
+
+<p>As always, you can browse the Rails source code repository on GitHub to view the
+<a href="https://github.com/rails/rails/compare/v4.2.0.beta1...v4.2.0.beta2">full list of changes</a>
+that were included in this release.</p>
+
+<h2>Acknowledgement</h2>
+
+<p>The Rails team would like to thank the 66 people who contributed patches to make
+this release possible!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.1.6 and 4.0.10 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/9/12/Rails-4-1-6-and-4-0-10-has-been-released/"/>
+    <updated>2014-09-12T18:40:03+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/9/12/Rails-4-1-6-and-4-0-10-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone,</p>
+
+<p>I am happy to announce that Rails 4.1.6 and 4.0.10 have been released.</p>
+
+<p>We are planning to produce one more bug fix release in the 4.0 series, targeted for early December.
+In keeping with our maintenance policy, after the upcoming release of 4.2.0, the 4.0 series will be
+retired. It will not receive further updates for either bug fixes or security issues. All users are
+urged to migrate to 4.1 as soon as possible.</p>
+
+<h2>CHANGES since 4.0.9</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.0.9...v4.0.10">check out all the commits on
+GitHub</a>.</p>
+
+<h2>CHANGES since 4.1.5</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/actionview/CHANGELOG.md">Action View CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.1.5...v4.1.6">check out all the commits on
+GitHub</a>.</p>
+
+<h2>SHA-1</h2>
+
+<p>If you&#39;d like to verify that your gem is the same as the one I&#39;ve uploaded,
+please use these SHA-1 hashes.</p>
+
+<p>Here are the checksums for 4.0.10:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.10*
+4bd4b8a2be1a2a649f46e37b6dff3a2d8f86fd7d  actionmailer-4.0.10.gem
+45d76f39092149e46c31f9226dae71b3faa52012  actionpack-4.0.10.gem
+08150685a471db48b240618b378ff22e3a9b7811  activemodel-4.0.10.gem
+ed3f6b184b4b62b501e0d7876d8e2f946fe0ed31  activerecord-4.0.10.gem
+7c886c946e835cbbfb09dc4b4daf7f1bf05db952  activesupport-4.0.10.gem
+a2b8e24d83d5395f9532fcdbfa5c441d3f86e060  rails-4.0.10.gem
+533c0589dadb4fc3bd5723bb9944464b545a88f3  railties-4.0.10.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.6:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.6*
+d6ab3d0aecb1cf97bd5a1050356b3151e4e8ef42  actionmailer-4.1.6.gem
+ba7233c749a2229e11ef02acea2d114719ceac71  actionpack-4.1.6.gem
+ed67c703dfb7d95e391da21f4f2aab52ae7bbfe4  actionview-4.1.6.gem
+1a9ca827740d5e3e254b26886b19ea9094b407c5  activemodel-4.1.6.gem
+69d77feb4ce141551875e2a4167d0f5529bd0526  activerecord-4.1.6.gem
+dc838a42455b674b95c15bf7433552ffdf777a4f  activesupport-4.1.6.gem
+8f2ebf38a0a8d70d8f19916e0b51ece8a954ff8d  rails-4.1.6.gem
+c9b10576113567011d37fa28aa4e5ca99b2e4fd9  railties-4.1.6.gem
+</code></pre></div>
+<p>I&#39;d like to thank you all, every contributor who helped with this release.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.1.6.rc2 and 4.0.10.rc2 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/9/8/Rails-4-1-6-rc2-and-4-0-10-rc2-has-been-released/"/>
+    <updated>2014-09-08T18:35:03+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/9/8/Rails-4-1-6-rc2-and-4-0-10-rc2-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone,</p>
+
+<p>I am happy to announce that Rails 4.1.6.rc2 and 4.0.10.rc2 have been released.</p>
+
+<p>If no regressions are found expect the final release this Thursday, on September 11, 2014.
+If you find one, please open an <a href="https://github.com/rails/rails/issues/new">issue on GitHub</a>
+and mention me (@rafaelfranca) on it, so that we can fix it before the final release.</p>
+
+<h2>CHANGES since 4.0.9</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc2/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc2/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc2/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc2/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc2/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc2/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.0.9...v4.0.10.rc2">check out all the commits on
+GitHub</a>.</p>
+
+<h2>CHANGES since 4.1.5</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/actionview/CHANGELOG.md">Action View CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc2/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.1.5...v4.1.6.rc2">check out all the commits on
+GitHub</a>.</p>
+
+<h2>SHA-1</h2>
+
+<p>If you&#39;d like to verify that your gem is the same as the one I&#39;ve uploaded,
+please use these SHA-1 hashes.</p>
+
+<p>Here are the checksums for 4.0.10.rc2:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.10.rc2*
+16be6057a1af45d0eaf9e5bb95f0980f0498ed38  actionmailer-4.0.10.rc2.gem
+b736f6ec57f14a08611bf94e9170a102bbcd235e  actionpack-4.0.10.rc2.gem
+7508c684dcfa38fca79640f7196fd437c6945be7  activemodel-4.0.10.rc2.gem
+aef89eeadb957dac5ec21cce6e640f13fad301f0  activerecord-4.0.10.rc2.gem
+1b6d2dfd4d69605d58de34eaa68bf9c98fedb581  activesupport-4.0.10.rc2.gem
+7e3de742b723def7e0026b89e8c744822f66fe23  rails-4.0.10.rc2.gem
+bb4f5083436987907c38dc019261b3477386b4b9  railties-4.0.10.rc2.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.6.rc2:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.6.rc2*
+8fbbefa7a1f87569b54b6b0444ccb42b112b8b4e  actionmailer-4.1.6.rc2.gem
+81c84fed39c32a013da3da7181eb81b41084c62f  actionpack-4.1.6.rc2.gem
+e750e2a53c16b3312a049c044c9f7d5e7ed1f228  actionview-4.1.6.rc2.gem
+8f034fa15a6c364d818e28a0bdd5bc4bcc691025  activemodel-4.1.6.rc2.gem
+8259ec18fbaaec162c4eaf344f2a4507322e049b  activerecord-4.1.6.rc2.gem
+c220cbad51271b9a2c4e2ef390a0060e66127323  activesupport-4.1.6.rc2.gem
+1578350d0c58c5c5ce3e771541336c76728b9c34  rails-4.1.6.rc2.gem
+d70a87ccb0d002b4c44cade8ce30a8ae6394313e  railties-4.1.6.rc2.gem
+</code></pre></div>
+<p>I&#39;d like to thank you all, every contributor who helped with this release.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Senny and Godfrey to Rails core, Yehuda to alumni</title>
+    <author>
+      <name>dhh</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/9/3/Senny-and-Godfrey-to-Rails-core-Yehuda-to-alumni/"/>
+    <updated>2014-09-03T18:30:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/9/3/Senny-and-Godfrey-to-Rails-core-Yehuda-to-alumni/</id>
+    <content type="html"><![CDATA[<p>The <a href="http://rubyonrails.org/core/">Rails core team</a> has just accepted Yves &quot;Senny&quot; Senn and Godfrey Chan into its ranks. </p>
+
+<p>Yves had his first patch committed to Rails back in 2011 and has since <a href="http://contributors.rubyonrails.org/contributors/yves-senn/commits">racked up 1256 commits</a> of improvements to the framework. He&#39;s a developer with <a href="https://www.4teamwork.ch">4teamwork</a> from Bern, Switzerland, and we couldn&#39;t be happier to recognize his great work by admission to Rails core!</p>
+
+<p>Godfrey Chan has been on a tear this year to help making everything Rails better. A lot of work and commits and reviews have come from Chan to ensure Rails 4.2 is the best it can be. He had his first commit in 2012, and has since <a href="http://contributors.rubyonrails.org/contributors/godfrey-chan/commits">racked up another 255</a>. Welcome as well!</p>
+
+<p>Finally, Yehuda Katz is retiring from active core participation and will join the hallowed halls of the <a href="http://rubyonrails.org/core/alumni/">Rails alumni</a>. We thank him dearly for all he has done to improve Rails and Ruby. It&#39;s been a pleasure to argue with him endlessly over things big and small, and doubt that&#39;s going to stop just because he&#39;s now alumni.</p>
+
+<p>Thanks to Yves, Godfrey, and Yehuda, and to everyone else working on improving Rails, for their service. The community is grateful!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 4.2.0 beta1: Active Job, Deliver Later, Adequate Record, Web Console</title>
+    <author>
+      <name>dhh</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/"/>
+    <updated>2014-08-20T03:30:00+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/</id>
+    <content type="html"><![CDATA[<p>We&#39;re putting the final touches on the first major new release of Rails in its second decade of life. While most software would be in a retirement home after a decade of operation, Rails has never been more fit, and this release is packed with goodies that&#39;ll make your work even easier, your apps even faster, and the whole experience even better.</p>
+
+<h2>Active Job, ActionMailer #deliver_later</h2>
+
+<p>The headline feature for Rails 4.2 is the brand new Active Job framework, and its integrations. Active Job is an adapter layer on top of queuing systems like <a href="https://github.com/resque/resque">Resque</a>, <a href="https://github.com/collectiveidea/delayed_job">Delayed Job</a>, <a href="https://github.com/mperham/sidekiq">Sidekiq</a>, and <a href="http://edgeapi.rubyonrails.org/classes/ActiveJob/QueueAdapters.html">more</a>. You can write your jobs to Active Job, and they&#39;ll run on all these queues with no changes.</p>
+
+<p>With an always-configured queue in place (though the default is just an <a href="http://edgeapi.rubyonrails.org/classes/ActiveJob/QueueAdapters/InlineAdapter.html">inline runner</a>), we can build on top of that where it makes sense. And the first place it makes sense is to send Action Mailer emails asynchronously. So we&#39;re introducing the <a href="http://edgeapi.rubyonrails.org/classes/ActionMailer/MessageDelivery.html#method-i-deliver_later">#deliver_later</a> method, which will do just that: Add your email to be sent as a job to a queue, so you don&#39;t bog down the controller or model. Voila!</p>
+
+<p>The cherry on top is our new <a href="https://github.com/rails/globalid">GlobalID</a> library. It makes it easy to pass Active Record objects to jobs by serializing them in a generic form. This means you no longer have to manually pack and unpack your Active Records by passing ids. Just give the job the straight AR object, and it&#39;ll serialize it using GlobalID, and deserialize it at run time. So much easier!</p>
+
+<p>Special thanks go out to <a href="https://github.com/cristianbica">Cristian Bica</a> and <a href="https://github.com/seuros">Abdelkader Boudih</a> for their outstanding work bringing this trinity of improvements to Rails!</p>
+
+<h2>Adequate Record</h2>
+
+<p><a href="https://github.com/tenderlove">Aaron Patterson</a> is always hunting for performance bounties in Rails, and with an improvement project called <a href="http://tenderlovemaking.com/2014/02/19/adequaterecord-pro-like-activerecord.html">Adequate Record</a> for Active Record, he&#39;s come up good. A lot of common queries are now no less than twice as fast in Rails 4.2! This is a great step forward for performance. While computers are constantly getting cheaper and performance is improving, nobody ever said &quot;hey, get that free speed out of my framework&quot;. So there you go: Some free speed, buddy!</p>
+
+<h2>Web Console</h2>
+
+<p>Out of the wonderful <a href="http://weblog.rubyonrails.org/2014/5/23/meet-our-google-summer-of-code-students-and-mentors/">Google Summer of Code</a> for Rails campaign comes <a href="https://github.com/rails/web-console">Web Console</a>. It&#39;s an IRB console available in the browser. In development mode, you can go to <code>/console</code> and do your work right there.</p>
+
+<p>Now that&#39;s neat, but what&#39;s insanely useful is that this console is automatically available on all exception pages! So when something is bust, you&#39;ll now instantly be able to inspect the state of affairs. It even allows you to jump between the different points in the backtrace, and you&#39;ll be able to inspect things right at that point.</p>
+
+<p>It&#39;s a wonderful improvement to the debugging workflow. Thanks to <a href="https://github.com/gsamokovarov">Genadi Samokovarov</a> and <a href="https://github.com/ryandao">Ryan Dao</a> for their work on this project.</p>
+
+<h2>Everything else</h2>
+
+<p>Some quick highlights from the rest of all the wonder that is Rails 4.2:</p>
+
+<ul>
+<li>Template digests are now automatically included when calculating etags for caching. So caches are bust when the template changes.</li>
+<li><code>respond_with</code> has moved out and into its own proper home with the <a href="https://github.com/plataformatec/responders">responders</a> gem.</li>
+<li>Support for real foreign keys! <code>add_foreign_key</code>/<code>remove_foreign_key</code> are now available in migrations.</li>
+<li>A ton of bug fixes and minor improvements to Active Record.</li>
+<li>Added <code>config.x.whatever.you_want = true</code> for custom configuration of your app in <code>config/environments/*</code>, <code>config/application.rb</code>, and initializers.</li>
+<li>Added <code>Rails::Application.config_for(:some_yaml)</code> to load YAML configurations store in <code>config/</code> easily.</li>
+</ul>
+
+<p>We&#39;re working on a set of <a href="http://edgeguides.rubyonrails.org/4_2_release_notes.html">preliminary release notes</a> too.</p>
+
+<h2 id="maintenance-consequences-and-rails-5-0">Maintenance consequences and Rails 5.0!</h2>
+
+<p>As per our <a href="http://guides.rubyonrails.org/maintenance_policy.html">maintenance policy</a>, the release of Rails 4.2 will mean that bug fixes will only apply to 4-2-stable, regular security issues to 4.2.x, 4.1.x, and severe security issues to 4.2.x, 4.1.x, and 3.2.x. In addition to these already stated commitments, the honorable <a href="https://github.com/rafaelfranca">Rafael França</a> has agreed to also apply bug fixes to 4-1-stable. So everyone still on 4.1 and unable to move quickly can thank Rafael!</p>
+
+<p>Rails 4.2 will also mark the last big release in the 4.x series. After release, we&#39;re going to work towards the big Rails 5.0! This means rails/master will have that target as soon as the release candidates for 4.2 start, and 4-2-stable is created.</p>
+
+<p>Rails 5.0 is in most likelihood going to target Ruby 2.2. There&#39;s a bunch of optimizations coming in Ruby 2.2 that are going to be very nice, but most importantly for Rails, symbols are going to be garbage collected. This means we can shed a lot of weight related to juggling strings when we accept input from the outside world. It also means that we can convert fully to keyword arguments and all the other good stuff from the latest Ruby.</p>
+
+<p>The release target for Rails 5.0 is currently spring/summer of 2015. So there&#39;s a while yet, but we&#39;re putting this out there for people to know, so gem maintainers and other Ruby implementations can know where we&#39;re going.</p>
+
+<h2>Please help us make Rails 4.2 solid!</h2>
+
+<p>We rely on the feedback from everyone in the community to flush out bugs and upgrade issues ahead of a big release like this. So please give Rails 4.2 a try on your app, and if you&#39;re starting a new app today, you should probably use the beta1 for that, if you&#39;re just the least bit savvy with Rails.</p>
+
+<p>Issues can be recorded on the <a href="https://github.com/rails/rails/issues">Github issues tracker</a>.</p>
+
+<p>Already, <a href="http://contributors.rubyonrails.org/edge/contributors">476 people have contributed</a> to this new release of Rails. Please do become one of them!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>[ANN] Rails 4.1.6.rc1 and 4.0.10.rc1 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/8/19/Rails-4-1-6-rc1-and-4-0-10-rc1-has-been-released/"/>
+    <updated>2014-08-19T21:05:03+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/8/19/Rails-4-1-6-rc1-and-4-0-10-rc1-has-been-released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone,</p>
+
+<p>I am happy to announce that Rails 4.1.6.rc1 and 4.0.10.rc1 have been released.</p>
+
+<p>If no regressions are found expect the final release this Friday, on August 22, 2014.
+If you find one, please open an <a href="https://github.com/rails/rails/issues/new">issue on GitHub</a>
+and mention me (@rafaelfranca) on it, so that we can fix it before the final release.</p>
+
+<h2>CHANGES since 4.0.9</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc1/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc1/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc1/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc1/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc1/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.0.10.rc1/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.0.9...v4.0.10.rc1">check out all the commits on
+GitHub</a>.</p>
+
+<h2>CHANGES since 4.1.5</h2>
+
+<p>To view the changes for each gem, please read the changelogs on GitHub:</p>
+
+<ul>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/actionmailer/CHANGELOG.md">Action Mailer CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/actionpack/CHANGELOG.md">Action Pack CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/actionview/CHANGELOG.md">Action View CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/activemodel/CHANGELOG.md">Active Model CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/activerecord/CHANGELOG.md">Active Record CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/activesupport/CHANGELOG.md">Active Support CHANGELOG</a></li>
+<li><a href="https://github.com/rails/rails/blob/v4.1.6.rc1/railties/CHANGELOG.md">Railties CHANGELOG</a></li>
+</ul>
+
+<p><em>Full listing</em></p>
+
+<p>To see the full list of changes, <a href="https://github.com/rails/rails/compare/v4.1.5...v4.1.6.rc1">check out all the commits on
+GitHub</a>.</p>
+
+<h2>SHA-1</h2>
+
+<p>If you&#39;d like to verify that your gem is the same as the one I&#39;ve uploaded,
+please use these SHA-1 hashes.</p>
+
+<p>Here are the checksums for 4.0.10.rc1:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.10.rc1*
+fa4efa72a6b89c6dcf55280f6bbfab00564982e8  actionmailer-4.0.10.rc1.gem
+bfbb408c6c2ab89eafda1b84a33f83a9f58eda8c  actionpack-4.0.10.rc1.gem
+f1bedb27e877ca6493541a69491910ce70a34ed0  activemodel-4.0.10.rc1.gem
+f211a80fc134f38f4eb2d503b3ca7e92a83eabed  activerecord-4.0.10.rc1.gem
+e751d258407d02c3f8790775ffa99f0895c56704  activesupport-4.0.10.rc1.gem
+34b8908b2738e78917a434b45ae9fe82b4908425  rails-4.0.10.rc1.gem
+a2d4ee8203ce07785b15b367ffe31f9ea96268a7  railties-4.0.10.rc1.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.6.rc1:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.6.rc1*
+3589d4ea69a04f87ea5335994a43f8d814c6c8df  actionmailer-4.1.6.rc1.gem
+b51d28e356c58d08d2f65a3a4912a2911b9d4ffe  actionpack-4.1.6.rc1.gem
+f2a8ba7e7ca8fa9e74688cbca3af1e8d48b23de7  actionview-4.1.6.rc1.gem
+9a2778d02bd596d629eca6265f0a6d7cecb7d2ef  activemodel-4.1.6.rc1.gem
+681023c5764cb1336b6d74bf2ff76efd9c1386b7  activerecord-4.1.6.rc1.gem
+85c4e30b5b0eba99c9d43049206591250aed2072  activesupport-4.1.6.rc1.gem
+fd10c0533065471768d8fe4b7e7ba81738c607dd  rails-4.1.6.rc1.gem
+ec05790e0d256a474f0eaf3ae61e9556e71f1b18  railties-4.1.6.rc1.gem
+</code></pre></div>
+<p>I&#39;d like to thank you all, every contributor who helped with this release.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 4.0.9 and 4.1.5 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/8/18/Rails_4_0_9_and_4_1_5_have_been_released/"/>
+    <updated>2014-08-18T17:16:03+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/8/18/Rails_4_0_9_and_4_1_5_have_been_released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone!</p>
+
+<p>Rails 4.0.9 and 4.1.5 have been released!</p>
+
+<p>These two releases contain a security fix, so please upgrade as soon
+as possible! In order to make upgrading as smooth as possible, we&#39;ve only
+included commits directly related to each security issue.</p>
+
+<p>The security fix for 4.0.9 and 4.1.5 is:</p>
+
+<ul>
+<li><a href="https://groups.google.com/d/msg/rubyonrails-security/M4chq5Sb540/CC1Fh0Y_NWwJ">CVE-2014-3514</a></li>
+</ul>
+
+<p>the commits for 4.0.9 can be found <a href="https://github.com/rails/rails/compare/v4.0.8...v4.0.9">here</a>,
+and the commits for 4.1.5 can be found <a href="https://github.com/rails/rails/compare/v4.1.4...v4.1.5">here</a>.</p>
+
+<p>Here are the checksums for 4.0.9:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.9*
+2034a17791be885e8e4e6211c26447614c830e62  actionmailer-4.0.9.gem
+00b13c7dfe94af6ede24c6c1652ff4bc2aee9ef8  actionpack-4.0.9.gem
+0a16de437de79128846d5a5fc73a0a0d6ebe369e  activemodel-4.0.9.gem
+3d1884dff4fa64267d7c840dbaaac3eafc6fc0a9  activerecord-4.0.9.gem
+eb27657cf79c4c13f7b4c4f7aa69a8a171f4e68c  activesupport-4.0.9.gem
+2bdba9c61f8860d1883ed5803591dc603b7312fb  rails-4.0.9.gem
+f90c7f3104d9d63992d53331990e33c1d832e7c0  railties-4.0.9.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.5:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.5*
+798edeca54bb9ca1ba91b7669fccb4d2bb41f404  actionmailer-4.1.5.gem
+2354a982938658cfafd6097a406ac43facb80c70  actionpack-4.1.5.gem
+eb71ffc6ea7537d6066483b6ff5d1edf51f0c344  actionview-4.1.5.gem
+15a24e5a1e9191541cc7b24bc1f74e3a0293cf97  activemodel-4.1.5.gem
+27cd6cc6a3b52eb5966171e5959b0505f411e8ce  activerecord-4.1.5.gem
+44a53eac3e7851c2311cce42f63c966ea05b5552  activesupport-4.1.5.gem
+7fa52337ec2b659abfb5b5678125ba0d3b5cbce7  rails-4.1.5.gem
+6ffdb1e19734460ded12f9a66f8390ea071f6727  railties-4.1.5.gem
+</code></pre></div>
+<p>&lt;3&lt;3&lt;3&lt;3</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title>Rails 4.0.8 and 4.1.4 have been released!</title>
+    <author>
+      <name>rafaelfranca</name>
+    </author>
+    <link href="http://weblog.rubyonrails.org/2014/7/2/Rails_4_0_8_and_4_1_4_have_been_released/"/>
+    <updated>2014-07-02T19:55:03+00:00</updated>
+    <id>http://weblog.rubyonrails.org/2014/7/2/Rails_4_0_8_and_4_1_4_have_been_released/</id>
+    <content type="html"><![CDATA[<p>Hi everyone!</p>
+
+<p>Rails 4.0.8 and 4.1.4 have been released!</p>
+
+<p>The security patches introduced a regression on the PostgreSQL Range feature.
+This regression was only introduced to Rails 4.x. Rails 3.2 users are not impacted.</p>
+
+<p>the commits for 4.0.8 can be found <a href="https://github.com/rails/rails/compare/v4.0.7...v4.0.8">here</a>,
+and the commits for 4.1.4 can be found <a href="https://github.com/rails/rails/compare/v4.1.3...v4.1.4">here</a>.</p>
+
+<p>Here are the checksums for 4.0.8:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.0.8*
+1214de9fa493f5a23c87f7a7c2f1af84f67b60b6  actionmailer-4.0.8.gem
+342aa07585b9b4b32ba37c8baf6fe93c53619ad6  actionpack-4.0.8.gem
+b40e3b1bbd744b868f74c26e1088d73c9e7d7297  activemodel-4.0.8.gem
+b1e28bdad10f21ed8af8b3b8b5e70f0110d19dff  activerecord-4.0.8.gem
+1d3d2a767478aee5be22db197b2ec06cdaede10a  activesupport-4.0.8.gem
+dbfa6c723191bf61d1c2d3f9809259f419956a74  rails-4.0.8.gem
+f22a0677d9151d1f31d109b1c0687b53e06a94f7  railties-4.0.8.gem
+</code></pre></div>
+<p>Here are the checksums for 4.1.4:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ shasum *4.1.4*
+5e6426134003a55e0f43ff371521f6d66c8881b7  actionmailer-4.1.4.gem
+79e84be29d961ef2c175cb5258b1d8c78ad6460f  actionpack-4.1.4.gem
+8ba89c7399b81e2727402806176de0db397732eb  actionview-4.1.4.gem
+9edc0b4e5c709ad11517a9f40ba50ee93e97e59b  activemodel-4.1.4.gem
+23851340221e38717a7159ebcd2eb398e8ebeacd  activerecord-4.1.4.gem
+388bd214252b34d22ec8bd1ca2445d7b53cd39bb  activesupport-4.1.4.gem
+0e050607bb8581dc756c5184a5920de9708398f1  rails-4.1.4.gem
+e1a75ea7161db14c953fce1e399c4e20b2eaa364  railties-4.1.4.gem
+</code></pre></div>
+<p>&lt;3&lt;3&lt;3&lt;3</p>
+]]></content>
+  </entry>
+  
+</feed>
+
+---
+
+feed.format:    atom
+feed.title:     Riding Rails
+feed.url:       http://weblog.rubyonrails.org/
+
+feed.items[0].title: This week in Rails: tokens migrations, method_source and more
+feed.items[0].url:   http://weblog.rubyonrails.org/2015/1/16/This-week-in-Rails-tokens-migrations-method-source-and-more/
+feed.items[0].guid:  http://weblog.rubyonrails.org/2015/1/16/This-week-in-Rails-tokens-migrations-method-source-and-more/
+

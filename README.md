@@ -9,11 +9,9 @@ Gem Familiy
 
 
 
-
-
-
-
 More
+
+[**feeds**](feeds) - tests, tests, tests - feeds (in Atom, RSS, JSON Feed, HTML h-entry, etc.) with test assertions
 
 [**awesome-feeds**](awesome-feeds) - a collection of awesome feeds (formats, readers, services & tools, templates 'n' more) - JSON Feed, RSS, Atom, HTML w/ Microformats, Feed.TXT
 

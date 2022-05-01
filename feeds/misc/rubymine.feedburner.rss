@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+	version="2.0">
+<channel>
+	<title>JetBrains RubyMine Blog</title>
+	<link>http://blog.jetbrains.com/ruby</link>
+	<description>The most Intelligent Ruby on Rails IDE</description>
+	<lastBuildDate>Wed, 17 Dec 2014 12:30:48 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.5</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/jetbrains_rubymine" /><feedburner:info uri="jetbrains_rubymine" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+	<item>
+		<title>RubyMine 7.0.2 is Here</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/5ZmfXfrgktY/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-2-is-here/#comments</comments>
+		<pubDate>Wed, 17 Dec 2014 12:30:48 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5901</guid>
+		<description><![CDATA[Hello everyone, Christmas Eve is just around the corner and we hope you&#8217;re in a good mood looking forward to the holidays. And while you&#8217;re hunting for gifts for your friends and relatives, we have prepared a small present for &#8230; <a href="http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-2-is-here/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>Christmas Eve is just around the corner and we hope you&#8217;re in a good mood looking forward to the holidays. And while you&#8217;re hunting for gifts for your friends and relatives, we have prepared a small present for you: the new <strong>RubyMine 7.0.2</strong>.</p>
+<p>This minor release is focused on fixing performance issues such as the <a href="https://youtrack.jetbrains.com/issue/RUBY-16055">problem with ruby-debug-ide-0.4.23.beta11</a> and <a href="https://youtrack.jetbrains.com/issue/WEB-14495">hanging on opening a project</a>. Please take a look at the <a href="https://youtrack.jetbrains.com/releaseNotes/RUBY?q=fixed+in%3A+%7BRubyMine+7.0.2%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+order+by%3A+Priority&amp;title=RubyMine+7.0.2">list of fixes</a> and use “Check for Updates…” to download and install the update as a patch to your existing installation. Or, <a href="http://www.jetbrains.com/ruby/download/">download RubyMine 7.0.2</a> from our website.</p>
+<p>Happy holidays!</p>
+<p><em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/5ZmfXfrgktY" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-2-is-here/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-2-is-here/</feedburner:origLink></item>
+		<item>
+		<title>RubyMine 7.0.1 is Out</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/gZZyzIGmJCQ/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-1-is-out/#comments</comments>
+		<pubDate>Tue, 02 Dec 2014 12:08:14 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5891</guid>
+		<description><![CDATA[Hello everyone, After the release of RubyMine 7 we were finally able to calm down a bit and catch our breath. And then, we course, we got right back to work, to sharpen RubyMine even more. Today we&#8217;re glad to &#8230; <a href="http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-1-is-out/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>After the release of RubyMine 7 we were finally able to calm down a bit and catch our breath. And then, we course, we got right back to work, to sharpen RubyMine even more. Today we&#8217;re glad to let you know <strong>RubyMine 7.0.1 is ready for download</strong>.</p>
+<p>An interactive console is now available when running tests in a debug mode. Bower components are resolved properly. We have also fixed some performance and Vagrant issues. Please take a look at the <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+7.0.1+%28build+139.631%29+Release+Notes">release notes and screenshots</a> and use “Check for Updates…” to download and install the update as a patch to your existing installation. Or, <a href="http://www.jetbrains.com/ruby/download/">download RubyMine 7.0.1</a> from our website.</p>
+<p><em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/gZZyzIGmJCQ" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-1-is-out/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/12/rubymine-7-0-1-is-out/</feedburner:origLink></item>
+		<item>
+		<title>Hone Your Craft with RubyMine 7!</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/fTqzeQCySho/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/11/hone-your-craft-with-rubymine-7/#comments</comments>
+		<pubDate>Wed, 12 Nov 2014 10:07:53 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Better Code]]></category>
+		<category><![CDATA[Cutting Edge]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5869</guid>
+		<description><![CDATA[&#8220;Give me six hours to chop down a tree, and I will spend the first four sharpening the axe.&#8221; Abraham Lincoln For all of us at JetBrains, being a developer means a lot more than everyday coding. It is also about being &#8230; <a href="http://blog.jetbrains.com/ruby/2014/11/hone-your-craft-with-rubymine-7/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p style="text-align: right; font-size: 16px;"><em>&#8220;Give me six hours to chop down a tree, and I will spend the first four sharpening the axe.&#8221; <em>Abraham Lincoln</em><br />
+</em></p>
+<p><a href="https://www.jetbrains.com/ruby/whatsnew/"><img class="alignright  wp-image-5885" alt="rm_axe" src="http://blog.jetbrains.com/ruby/files/2014/11/rm_axe1.png" width="266" height="193" /></a>For all of us at JetBrains, being a developer means a lot more than everyday coding. It is also about being at the edge of knowledge and honing our programming skills. We try to keep our tools as sharp as they can be, kind of like the <a href="http://www.pureinsight.org/node/5162">woodcutters from this poignant story</a>. So, if an IDE is for a developer what an axe is for a woodcutter, with the <a href="http://www.jetbrains.com/ruby/whatsnew/">latest RubyMine 7 update</a> we want to make it razor sharp for you.</p>
+<p>This major update polishes all of RubyMine&#8217;s subsystems, adding new features and enhancements to help you write and maintain your code:<br />
+<span id="more-5869"></span></p>
+<ul>
+<li><span style="color: #a60532;">Chef</span> is now supported via a <span style="color: #a60532;">special plugin</span> compatible with RubyMine 7 that introduces cookbooks, recipes and resources in the IDE.</li>
+<li><span style="color: #a60532;">Puppet language support</span> was improved significantly, with a plugin designed to analyze Puppet manifest files.</li>
+<li><span style="color: #a60532;">EditorConfig integration</span> now brings more code styling options.</li>
+<li><span style="color: #a60532;">Debugger was improved</span> including the option to run the console in the context of a debugging session, and the ability to view variable values next to their usages in the editor.</li>
+<li><span style="color: #a60532;">RVM-managed Ruby interpreters</span> can now be added as a <span style="color: #a60532;">remote SDK</span>; there are also improvements for <span style="color: #a60532;">vagrant-</span> and <span style="color: #a60532;">deployment-based remote SDK</span>.</li>
+<li>Lots of enhancements for web development, including <span style="color: #a60532;">Emmet preview action</span>; support for the latest <span style="color: #a60532;">CSS3</span>, <span style="color: #a60532;">Stylus</span> and <span style="color: #a60532;">Sass</span> versions; code reformat functionality for <span style="color: #a60532;">Slim</span> and <span style="color: #a60532;">HAML</span>; support for <span style="color: #a60532;">ReactJS</span> and <span style="color: #a60532;">JSX/ES6</span>; and more.</li>
+<li>You can now experiment and prototype right in the editor, without creating any new project files, thanks to RubyMine’s new feature called <span style="color: #a60532;">Scratch Files</span>.</li>
+<li><a href="http://www.jetbrains.com/ruby/whatsnew/">And more</a>.</li>
+</ul>
+<p>You can <a href="http://www.jetbrains.com/ruby/buy/">buy or renew your RubyMine license</a> on our website. RubyMine 7 is a free update for you if you purchased or renewed your license on or after November 13, 2013. As usual, a <strong>30-day trial</strong> is available if you want to try RubyMine as your new Ruby on Rails IDE.</p>
+<p>And last but not least…<br />
+<strong>We couldn&#8217;t have done it without help from all of our early adopters. A million thanks for your invaluable feedback!</strong><br />
+<em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/fTqzeQCySho" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/11/hone-your-craft-with-rubymine-7/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/11/hone-your-craft-with-rubymine-7/</feedburner:origLink></item>
+		<item>
+		<title>RubyMine 7 RC2 is Available</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/IP5kIKTuDBg/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/11/rubymine-7-rc2-is-available/#comments</comments>
+		<pubDate>Wed, 05 Nov 2014 10:38:31 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5867</guid>
+		<description><![CDATA[Hello everyone, RubyMine 7 is about to be released but we still want to be sure all the problems are fixed. So we decided to make one more release candidate you can now try. Check out the release notes and download RubyMine 7 &#8230; <a href="http://blog.jetbrains.com/ruby/2014/11/rubymine-7-rc2-is-available/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>RubyMine 7 is about to be released but we still want to be sure all the problems are fixed. So we decided to make one more release candidate you can now try.</p>
+<p>Check out the <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+Tsubaki+RC2+%28build+139.262%29+Release+Notes">release notes</a> and <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+EAP">download RubyMine 7 RC2</a> from the RubyMine EAP page to give it a try.</p>
+<p>If you find something critical — please let us know.</p>
+<p><em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/IP5kIKTuDBg" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/11/rubymine-7-rc2-is-available/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/11/rubymine-7-rc2-is-available/</feedburner:origLink></item>
+		<item>
+		<title>What’s Mining: Puppet Support Improvements</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/7bo3oH7fZxw/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/10/puppet-support-improvements/#comments</comments>
+		<pubDate>Wed, 29 Oct 2014 10:30:12 +0000</pubDate>
+		<dc:creator><![CDATA[Valentin Fondaratov]]></dc:creator>
+				<category><![CDATA[WhatsMining]]></category>
+		<category><![CDATA[Puppet]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5807</guid>
+		<description><![CDATA[Hello everyone, We would like to describe an update to the Puppet plugin for the IntelliJ-based products. It’s compatible with the RubyMine 7 RC and the IntelliJ IDEA 14 RC and provides a vast improvement in the Puppet language support: The &#8230; <a href="http://blog.jetbrains.com/ruby/2014/10/puppet-support-improvements/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>We would like to describe an update to the <a href="https://plugins.jetbrains.com/plugin/7180">Puppet plugin</a> for the IntelliJ-based products. It’s compatible with the <a href="https://www.jetbrains.com/ruby/nextversion/">RubyMine 7 RC</a> and the <a href="http://blog.jetbrains.com/idea/2014/10/intellij-idea-14-rc1-is-available/">IntelliJ IDEA 14 RC</a> and provides a vast improvement in the Puppet language support:</p>
+<p><a href="http://blog.jetbrains.com/ruby/files/2014/10/puppet_1.png"><img class="alignleft size-full wp-image-5840" alt="puppet_1" src="http://blog.jetbrains.com/ruby/files/2014/10/puppet_1.png" width="1720" height="770" /></a><br />
+<span id="more-5807"></span></p>
+<p>The plugin is specially designed to analyse <a title="Puppet manifests" href="https://docs.puppetlabs.com/learning/manifests.html">Puppet manifest files</a>. As the Puppet manifests consist of an extensive variety of declarations including <em>resources</em>, <em>classes</em>, <em>nodes</em>, <em>defined types</em>, and <em>variables</em>, it is crucial to provide a reliable navigation mechanism for them:</p>
+<p><a href="http://blog.jetbrains.com/ruby/files/2014/10/puppet_22.png"><img class="alignleft size-full wp-image-5860" alt="puppet_2" src="http://blog.jetbrains.com/ruby/files/2014/10/puppet_22.png" width="1720" height="578" /></a></p>
+<p>As any other language, Puppet encourages developers to make use of the existing libraries named modules. The plugin supplies the users of the Puppet Forge modules with navigation around them. The only thing one should ensure is that the modules are located in the proper directory (the default one or the one defined in the special puppet configuration files):</p>
+<p><a href="http://blog.jetbrains.com/ruby/files/2014/10/puppet_3.png"><img class="alignleft size-full wp-image-5854" alt="puppet_3" src="http://blog.jetbrains.com/ruby/files/2014/10/puppet_3.png" width="1720" height="690" /></a></p>
+<p>The plugin also enables traditional code insight features such as <em>rename refactoring</em>, <em>find usages</em> action, <em>code completion</em>; all based on the structure of the project and aware of the Puppet modules installed:</p>
+<p><a href="http://blog.jetbrains.com/ruby/files/2014/10/puppet_41.png"><img class="alignleft size-full wp-image-5862" alt="puppet_4" src="http://blog.jetbrains.com/ruby/files/2014/10/puppet_41.png" width="1720" height="650" /></a></p>
+<p>You will discover that the plugin comes with a little more traditional features: <em>a code formatter</em>, <em>quick documentation</em>, <em>inspections</em> checking unresolved symbols and others. However, there is still a lot to be implemented, so we would be glad if you shared your feedback, voted for the features and proposed new ones!</p>
+<p>You can <a href="http://plugins.jetbrains.com/plugin/7180" target="_blank">try the plugin</a> and share your ideas or ask some questions here in the comments, in <a href="http://youtrack.jetbrains.net/issues/RUBY" target="_blank">our tracker</a> or <a href="http://devnet.jetbrains.net/community/ruby" target="_blank">forum</a>.</p>
+<p><em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/7bo3oH7fZxw" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/10/puppet-support-improvements/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/10/puppet-support-improvements/</feedburner:origLink></item>
+		<item>
+		<title>RubyMine 7 Release Candidate is Out!</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/w8_MOsplo98/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/10/rubymine-7-release-candidate-is-out/#comments</comments>
+		<pubDate>Wed, 22 Oct 2014 14:02:39 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5829</guid>
+		<description><![CDATA[Hello everyone, The release date is coming closer and RubyMine is getting more and more stable. Today we&#8217;re glad to announce the RubyMine 7 Release Candidate which includes several fixes as well as performance improvements for AngularJS and code reformat &#8230; <a href="http://blog.jetbrains.com/ruby/2014/10/rubymine-7-release-candidate-is-out/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>The release date is coming closer and RubyMine is getting more and more stable. Today we&#8217;re glad to announce the <strong>RubyMine 7 Release Candidate</strong> which includes several fixes as well as performance improvements for AngularJS and code reformat functionality for HAML.</p>
+<p>Please download the RC build from our <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+EAP">EAP page</a>. You can find all major changes on <a href="http://www.jetbrains.com/ruby/nextversion/index.html">the RubyMine site</a> and take a look at the latest changes in <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+Tsubaki+RC+%28build+139.160%29+Release+Notes"> our release notes</a>.</p>
+<p>Stay tuned during these few days before the release! Your feedback is welcome more than ever.</p>
+<p><em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/w8_MOsplo98" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/10/rubymine-7-release-candidate-is-out/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/10/rubymine-7-release-candidate-is-out/</feedburner:origLink></item>
+		<item>
+		<title>RubyMine Tsubaki Goes Beta!</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/YAjYXh0hDYc/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/10/rubymine-tsubaki-goes-beta/#comments</comments>
+		<pubDate>Fri, 17 Oct 2014 10:11:28 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5806</guid>
+		<description><![CDATA[Hello everyone, People say an ideal is unattainable and that&#8217;s true. There is always room for improvement. But still we always try to get as close to perfection as we can and polish RubyMine with all our effort. Now we &#8230; <a href="http://blog.jetbrains.com/ruby/2014/10/rubymine-tsubaki-goes-beta/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>People say an ideal is unattainable and that&#8217;s true. There is always room for improvement. But still we always try to get as close to perfection as we can and polish RubyMine with all our effort. Now we can say RubyMine is on the verge of release and we&#8217;re glad to announce that <strong>RubyMine 7 Beta is ready for download and testing</strong>! Please <a href="http://www.jetbrains.com/ruby/nextversion/index.html">visit our site</a> to read about all the features and download, or go to <a href="https://youtrack.jetbrains.com/releaseNotes/RUBY?q=fixed+in%3A%7BRubyMine+7.0+%28Tsubaki%29+Beta+%28139.106%29%7D++state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&amp;title=RubyMine+7.0+%28Tsubaki%29+Beta+%28139.106%29&amp;token=3kmrbcflrtds13zxd674ski3a&amp;showDescription=false&amp;showComments=false">the list of fixes</a> to take a look at the latest changes.</p>
+<p>Stay tuned not to miss the release version!</p>
+<p><em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/YAjYXh0hDYc" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/10/rubymine-tsubaki-goes-beta/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/10/rubymine-tsubaki-goes-beta/</feedburner:origLink></item>
+		<item>
+		<title>RubyMine Tsubaki EAP: Cucumber 2.0 and bug-fixing</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/vGC8KZ7D3dI/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/09/rubymine-tsubaki-eap-cucumber-2-0-and-bug-fixing/#comments</comments>
+		<pubDate>Thu, 18 Sep 2014 11:55:01 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Tsubaki]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5782</guid>
+		<description><![CDATA[Hello everyone, Here is a new RubyMine Tsubaki EAP build for you. It will allow you to run the latest version of Cucumber (2.0.0.beta3 at this moment) and also fixes number of regressions we have introduced in previous EAPs (yes, &#8230; <a href="http://blog.jetbrains.com/ruby/2014/09/rubymine-tsubaki-eap-cucumber-2-0-and-bug-fixing/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>Here is a new RubyMine Tsubaki EAP build for you. It will allow you to run the latest version of Cucumber (2.0.0.beta3 at this moment) and also fixes number of regressions we have introduced in previous EAPs (yes, we also do this <img src="http://blog.jetbrains.com/ruby/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  ).  Some people were unhappy with our previous EAP (because of some instability it had) and we hope this one will bring more stability to your life <img src="http://blog.jetbrains.com/ruby/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p>Also we&#8217;re happy to introduce inline debugger functionality which will significantly reduce context switching:<br />
+<a href="http://blog.jetbrains.com/ruby/files/2014/09/inline_debugger.png"><img class="alignnone size-full wp-image-5797" alt="Inline Debugger" src="http://blog.jetbrains.com/ruby/files/2014/09/inline_debugger.png" width="497" height="170" /></a></p>
+<p>Please learn more in the <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+Tsubaki+EAP+%28build+138.2332%29+Release+Notes">release notes</a> and try the latest <a href="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+EAP">RubyMine Tsubaki EAP (build 138.2332)</a>.</p>
+<p>We’re looking forward for your feedback as usual.<br />
+<em>—<br />
+Develop with pleasure!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/vGC8KZ7D3dI" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/09/rubymine-tsubaki-eap-cucumber-2-0-and-bug-fixing/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/09/rubymine-tsubaki-eap-cucumber-2-0-and-bug-fixing/</feedburner:origLink></item>
+		<item>
+		<title>RubyConf Brasil 2014 License Winners Announcement</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/38jN1Gq-48U/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/#comments</comments>
+		<pubDate>Mon, 15 Sep 2014 14:12:11 +0000</pubDate>
+		<dc:creator><![CDATA[Tatiana Vasilyeva]]></dc:creator>
+				<category><![CDATA[Announcement]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Brasil]]></category>
+		<category><![CDATA[RubyConf]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5751</guid>
+		<description><![CDATA[Hello everyone, Our visit to Brazil was really great. It was definitely worth the 16-hour flight, crossing the floor of the globe. We were so heartily met with all the Brazilian hospitality and warmth! And we still remember the taste &#8230; <a href="http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hello everyone,</p>
+<p>Our <a href="http://blog.jetbrains.com/ruby/2014/08/team-preparing-for-rubyconf-brasil-2014-and-guru-sorocaba/">visit to Brazil</a> was really great. It was definitely worth the 16-hour flight, crossing the floor of the globe. We were so heartily met with all the Brazilian hospitality and warmth! And we still remember the taste of all the amazing local dishes we&#8217;ve tried.</p>
+<p><span id="more-5751"></span></p>
+<p>Everything started with a crazy <a href="http://www.devbeers.io/">devbeers</a> party where we&#8217;ve got a chance to talk to so many developers. That was really cool. <strong>Thanks everyone who was there and made the evening:</strong></p>
+
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0814/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0814.jpg" class="attachment-thumbnail" alt="IMG_0814" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0815/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0815.jpg" class="attachment-thumbnail" alt="IMG_0815" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0816/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0816.jpg" class="attachment-thumbnail" alt="IMG_0816" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0820/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0820.jpg" class="attachment-thumbnail" alt="IMG_0820" /></a>
+
+<p>The next day <a href="http://www.rubyconf.com.br/en/home">the conference</a> started, and it met all our expectations. We were very excited to meet the local Ruby community. There were lots of interesting talks and lots of RubyMine demos:</p>
+
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0795/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0795.jpg" class="attachment-thumbnail" alt="IMG_0795" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0797/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0797.jpg" class="attachment-thumbnail" alt="IMG_0797" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0796/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0796.jpg" class="attachment-thumbnail" alt="IMG_0796" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0813/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0813.jpg" class="attachment-thumbnail" alt="IMG_0813" /></a>
+
+<p>On Saturday we left to Sorocaba to take part in a <a href="https://www.facebook.com/events/1523605997868538/">DOJO session</a>. Everything seemed to go well, and the attendees were glad to try RubyMine as an IDE during the session:</p>
+
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0838/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0838.jpg" class="attachment-thumbnail" alt="IMG_0838" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0836/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0836.jpg" class="attachment-thumbnail" alt="IMG_0836" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0835/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0835.jpg" class="attachment-thumbnail" alt="IMG_0835" /></a>
+<a href='http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/img_0839/'><img width="150" height="100" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0839.jpg" class="attachment-thumbnail" alt="IMG_0839" /></a>
+
+<p>In Sorocaba we finally had some rest after the rough conference days and crazy São Paulo rhythm of life and all the traffic, you know. <strong><a href="https://github.com/guivinicius">Guilherme</a>, thank you and your family so much for the wonderful evening!</strong></p>
+<p>Now, let&#8217;s get back to the license raffle we ran during the conference and the Sorocaba meet-up. We’re finally ready to announce the 11 lucky personal license winners. The applicants’ names for the draw came from the contacts left on the tablet. Ten licenses were chosen among the conference attendees and one from the DOJO session members. As a representative of Fortune, there was a <a href="https://github.com/waggi/LuckyRandom">simple RubyMotion app</a> that randomly chose the following names:</p>
+<p><a style="color: #ff4b33; line-height: 24px; font-size: 16px;" href="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0863.png"><img class=" wp-image-5769 alignleft" alt="IMG_0863" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0863.png" width="230" height="302" /></a></p>
+<p><a href="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0864.png"><img class="wp-image-5770 alignleft" alt="IMG_0864" src="http://blog.jetbrains.com/ruby/files/2014/09/IMG_0864.png" width="230" height="302" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Congratulations!</strong></p>
+<p>If you left your contact on the tablet and didn&#8217;t win a license, you still get a <strong>60% discount</strong>. A personal message will be sent to each of the applicants with the details on how to obtain their free license or discount. If you do not get any email from us during the day, please ping us here in the comments.</p>
+<p><strong>We want to heartily thank all of you who came to our booth, talked to us during the party, or took part in the DOJO session to share your ideas and inspiration!</strong></p>
+<p><em>—<br />
+See you next time in Brazil!<br />
+JetBrains RubyMine Team</em></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/38jN1Gq-48U" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/09/rubyconf-brasil-2014-license-winners-announcement/</feedburner:origLink></item>
+		<item>
+		<title>Going to Barcelona Ruby Conference? Meet Our RubyMine Team There!</title>
+		<link>http://feedproxy.google.com/~r/jetbrains_rubymine/~3/LKDx3qwuims/</link>
+		<comments>http://blog.jetbrains.com/ruby/2014/09/going-to-barcelona-ruby-conference-meet-our-rubymine-team-there/#comments</comments>
+		<pubDate>Mon, 08 Sep 2014 11:11:58 +0000</pubDate>
+		<dc:creator><![CDATA[Robert Demmer]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Barcelona]]></category>
+		<category><![CDATA[Baruco]]></category>
+		<category><![CDATA[conference]]></category>
+
+		<guid isPermaLink="false">http://blog.jetbrains.com/ruby/?p=5741</guid>
+		<description><![CDATA[September 11th-13th, RubyMine team members Denis Ushakov, Anna Kutarba and Andrey Vokin (front left to right) will be attending Barcelona Ruby Conference. While there won&#8217;t be a JetBrains booth at the show, the team are going to be around and ready &#8230; <a href="http://blog.jetbrains.com/ruby/2014/09/going-to-barcelona-ruby-conference-meet-our-rubymine-team-there/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>September 11th-13th</strong>, RubyMine team members <strong>Denis Ushakov, </strong><strong>Anna Kutarba</strong> and <strong>Andrey Vokin</strong> (front left to right) will be attending <strong><a title="Barcelona Ruby Conference 2014" href="http://www.baruco.org/" target="_blank">Barcelona Ruby Conference</a></strong>.</p>
+<p><img class="alignnone size-full wp-image-5746" alt="RubyMine Team at Baruco" src="http://blog.jetbrains.com/ruby/files/2014/09/Team_Baruco.png" width="660" height="220" /></p>
+<p>While there won&#8217;t be a JetBrains booth at the show, the team are going to be around and ready to talk. <strong>Find them wearing their RubyMine t-shirts</strong> and don&#8217;t hesitate to strike up a conversation. Denis, Anna and Andrey hope to meet you there!</p>
+<p><a href="http://www.baruco.org/"><img class="alignnone size-full wp-image-5742" alt="Baruco 2014" src="http://blog.jetbrains.com/ruby/files/2014/09/Baruco.png" width="680" height="264" /></a></p>
+<img src="//feeds.feedburner.com/~r/jetbrains_rubymine/~4/LKDx3qwuims" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.jetbrains.com/ruby/2014/09/going-to-barcelona-ruby-conference-meet-our-rubymine-team-there/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.jetbrains.com/ruby/2014/09/going-to-barcelona-ruby-conference-meet-our-rubymine-team-there/</feedburner:origLink></item>
+	</channel>
+</rss>
+<!-- Dynamic page generated in 1.551 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-01-16 14:45:45 -->
+
+---
+
+feed.format:          rss 2.0
+feed.title:           JetBrains RubyMine Blog
+feed.url:             http://blog.jetbrains.com/ruby
+feed.summary:         The most Intelligent Ruby on Rails IDE
+feed.generator.text:  http://wordpress.org/?v=3.8.5
+
+feed.items[0].title:  RubyMine 7.0.2 is Here
+feed.items[0].url:    http://feedproxy.google.com/~r/jetbrains_rubymine/~3/5ZmfXfrgktY/
+feed.items[0].guid:   http://blog.jetbrains.com/ruby/?p=5901

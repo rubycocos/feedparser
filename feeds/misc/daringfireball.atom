@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Daring Fireball</title>
+<subtitle>By John Gruber</subtitle>
+<link rel="alternate" type="text/html" href="https://daringfireball.net/" />
+<link rel="self" type="application/atom+xml" href="https://daringfireball.net/feeds/main" />
+<id>https://daringfireball.net/feeds/main</id>
+
+
+<updated>2017-05-23T19:36:44Z</updated>
+  <rights>Copyright © 2017, John Gruber</rights>
+<entry>
+	<title>Feedbin, Too</title>
+	<link rel="alternate" type="text/html" href="https://feedbin.com/blog/2017/05/22/feedbin-supports-json-feed/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q10" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/23/feedbin-too" />
+	<id>tag:daringfireball.net,2017:/linked//6.33732</id>
+	<published>2017-05-23T18:50:36Z</published>
+	<updated>2017-05-23T19:03:33Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ben Ubois, announcing support for JSON Feed in Feedbin:</p>
+
+<blockquote>
+  <p>One of the criticisms I’ve seen of JSON Feed is that there’s no
+incentive for feed readers to support JSON Feed. This is not true.
+One of the largest-by-volume support questions I get is along the
+lines of “Why does this random feed not work?” And, 95% of the
+time, it’s because the feed is broken in some subtle way. JSON
+Feed will help alleviate these problems, because it’s easier to
+get right.</p>
+
+<p>I also want JSON Feed to succeed because I remember how daunting
+RSS/Atom parsing were when building Feedbin. If JSON Feed was the
+dominant format back then, it would have been a non-issue.</p>
+</blockquote>
+
+<p>Easier to generate <em>and</em> easier to parse &#8212; that&#8217;s the whole point of JSON Feed in a nut.</p>
+
+<div>
+<a  title="Permanent link to ‘Feedbin, Too’"  href="https://daringfireball.net/linked/2017/05/23/feedbin-too">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>NewsBlur Now Supports JSON Feed</title>
+	<link rel="alternate" type="text/html" href="http://blog.newsblur.com/post/160982162270/newsblur-now-supports-the-new-json-feed-spec" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0z" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/23/newsblur-json-feed" />
+	<id>tag:daringfireball.net,2017:/linked//6.33731</id>
+	<published>2017-05-23T18:44:42Z</published>
+	<updated>2017-05-23T18:44:43Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Samuel Clay, founder of NewsBlur:</p>
+
+<blockquote>
+  <p>Starting today, NewsBlur now officially supports the new JSON Feed
+spec. And there’s nothing extra you have to do. This means if a
+website syndicates their stories with the easy-to-write and
+easy-to-read JSON format, you can read it on NewsBlur. It should
+make no difference to you, since you’re reading the end product.
+But to website developers everywhere, supporting JSON Feeds is so
+much easier than supporting XML-based RSS/Atom.</p>
+</blockquote>
+
+<p>According to Clay, there are 15,000 NewsBlur users who subscribe to Daring Fireball. It&#8217;s very cool to see a feed reader that popular adopt JSON Feed so quickly.</p>
+
+<p>The DF RSS feed isn&#8217;t going anywhere, so if you&#8217;re already subscribed to it, there&#8217;s no need to switch. But JSON Feed&#8217;s spec makes it possible for me to specify both a <code>url</code> that points to the post on Daring Fireball (i.e. the permalink) and an <code>external_url</code> that points to the article I&#8217;m linking to. The way I&#8217;ve dealt with that in the RSS (technically Atom, but that&#8217;s sort of beside the point) is a bit of a hack that&#8217;s caused problems with numerous feed readers over the years.</p>
+
+<div>
+<a  title="Permanent link to ‘NewsBlur Now Supports JSON Feed’"  href="https://daringfireball.net/linked/2017/05/23/newsblur-json-feed">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Roger Moore’s Recipe for a Perfect Martini</title>
+	<link rel="alternate" type="text/html" href="https://www.theguardian.com/lifeandstyle/2015/mar/17/how-make-dry-martini-roger-moore-way-james-bond" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0y" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/23/moore-perfect" />
+	<id>tag:daringfireball.net,2017:/linked//6.33730</id>
+	<published>2017-05-23T18:24:49Z</published>
+	<updated>2017-05-23T18:24:50Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Worth <a href="https://daringfireball.net/linked/2015/11/01/moore-martini">a re-link</a> today: Roger Moore, two years ago, writing for The Guardian:</p>
+
+<blockquote>
+  <p>The sad fact is that I know exactly how to make a dry martini but I
+can’t drink them because, two years ago, I discovered I was
+diabetic. I prefer one with gin, but James Bond liked a vodka
+martini, “shaken not stirred” &#8212; which I never said, by the way.
+That was Sean Connery, remember him?</p>
+
+<p>The worst martini I’ve ever had was in a club in New Zealand,
+where the barman poured juice from a bottle of olives into the
+vodka. That’s called a dirty martini and it is a dirty, filthy,
+rotten martini, and should not be drunk by anybody except
+condemned prisoners.</p>
+
+<p>My dry martinis taste amazing and the day they tell me I’ve got 24
+hours to live I am going to have six. Here’s how I make them.</p>
+</blockquote>
+
+<p>I hope he had all six yesterday.</p>
+
+<div>
+<a  title="Permanent link to ‘Roger Moore&#8217;s Recipe for a Perfect Martini’"  href="https://daringfireball.net/linked/2017/05/23/moore-perfect">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2017/05/moore_spy_who_loved_me" />
+	<link rel="shorturl" href="http://df4.us/q0x" />
+	<id>tag:daringfireball.net,2017://1.33729</id>
+	<published>2017-05-23T18:11:54Z</published>
+	<updated>2017-05-23T18:22:01Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">In memory of Roger Moore, a brief look at his best Bond film.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Chris Murphy, <a href="http://www.cnn.com/2013/02/25/sport/alpine-bond-skiing-iconic/">writing for CNN back in 2013</a> on the &#8220;greatest James Bond scene of all time&#8221;:</p>
+
+<blockquote>
+  <p>Despite this wealth of choice, a series of Bond experts, and one
+of the film&#8217;s legendary producers, are in no doubt as to which
+scene should be anointed the best ever.</p>
+
+<p>And given the recurring role that skiing has played throughout the
+life of Bond, it should comes as no surprise our panel&#8217;s chosen
+encounter occurs on the slopes. &#8220;I would argue the most iconic
+sequence is in &#8216;The Spy Who Loved Me&#8217;, when Bond shot straight off
+the edge of a cliff at Baffin Island in Canada,&#8221; Ajay Chowdhury,
+editor of the James Bond International Fan Club, told CNN.</p>
+
+<p>&#8220;We saw him fall and fall, and when the Union Jack parachute
+opened up and the theme tune kicked in, the world cheered.</p>
+
+<p>&#8220;That was Britain&#8217;s Queen Elizabeth&#8217;s Jubilee Year in 1977 and I
+think to this day it was (famous Bond producer) Albert &#8216;Cubby&#8217;
+Broccoli&#8217;s favorite ever scene in a Bond movie.</p>
+
+<p>&#8220;When everything cleared it was him, on his own against the world.
+You play that sequence around the world and it is James Bond. And
+he did it on skis.&#8221;</p>
+</blockquote>
+
+<p><a href="https://www.youtube.com/watch?v=_kyQauA2udc">That opening scene in <em>The Spy Who Loved Me</em></a> is also the one <a href="https://daringfireball.net/2015/04/watch_apple_watch">where Bond is wearing a digital Seiko watch</a> that can receive secure text messages from MI6 &#8212; at the time, sheer fantasy; today, a feature many of you reading this now have on your own watch. (Albeit without the ticker tape.)</p>
+
+<p>I don&#8217;t know if it&#8217;s the single best Bond <em>scene</em> of all time, but it&#8217;s up there, and it&#8217;s almost certainly the best Bond <em>stunt</em> of all time &#8212; stuntman <a href="https://en.wikipedia.org/wiki/Rick_Sylvester">Rick Sylvester</a> actually skied off that cliff and parachuted to safety. I just love how the fall takes place in silence.</p>
+
+<p>Without hesitation I would put <em>The Spy Who Loved Me</em> at the top of my list of Roger Moore&#8217;s Bond films. It has everything: the aforementioned great opening, an iconic car (the submarine-convertible white Lotus Esprit<sup id="fnr1-2017-05-23"><a href="#fn1-2017-05-23">1</a></sup>), a great villian (Jaws), and a perfect theme song (Carly Simon&#8217;s &#8220;Nobody Does It Better&#8221;). Bernard Lee was still in the role as M. And at the center of it all, Roger Moore at his cool, suave, and assured best.</p>
+
+<p>Moore was quite self-aware of what he brought to the role. His take, <a href="http://www.npr.org/2014/11/15/364077265/roger-moore-the-man-with-the-golden-life">in a 2014 interview with NPR</a>, is exactly right:</p>
+
+<blockquote>
+  <p>I look like a comedic lover, and Sean [Connery] in particular, and
+Daniel Craig now, they are killers. They look like killers. I
+wouldn&#8217;t like to meet Daniel Craig on a dark night if I&#8217;d said
+anything bad about him.</p>
+</blockquote>
+
+<p>Moore&#8217;s Bond had fun doing his job.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2017-05-23">
+<p><a href="https://www.theguardian.com/technology/2013/oct/18/tesla-elon-musk-james-bond-lotus-submarine-car">Now owned by Elon Musk</a>.&nbsp;<a href="#fnr1-2017-05-23"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ ‘The Spy Who Loved Me’</title></entry><entry>
+	<title>Roger Moore Dies at 89</title>
+	<link rel="alternate" type="text/html" href="https://twitter.com/sirrogermoore/status/867005447018086400" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0v" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/23/moore" />
+	<id>tag:daringfireball.net,2017:/linked//6.33727</id>
+	<published>2017-05-23T17:28:44Z</published>
+	<updated>2017-05-23T19:36:44Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>A terrific and much-loved actor, but also by all accounts a good man.</p>
+
+<p>&#8220;Who&#8217;s your favorite James Bond?&#8221; is a fun game to play, because there&#8217;s no wrong answer. I have at least two friends who swear their answer is Lazenby. But one thing I would argue is undeniable about Moore&#8217;s run as Bond is that he was the <em>perfect</em> Bond for the 70s. He didn&#8217;t just keep the franchise going, he helped adapt it to the times. Sean Connery made Bond a sensation. Roger Moore turned it into a cinematic and pop-cultural institution.</p>
+
+<div>
+<a  title="Permanent link to ‘Roger Moore Dies at 89’"  href="https://daringfireball.net/linked/2017/05/23/moore">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Spotlight Performance Problems on iOS</title>
+	<link rel="alternate" type="text/html" href="https://pxlnv.com/linklog/slack-indexing-spotlight/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0t" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/heer-slack-spotlight" />
+	<id>tag:daringfireball.net,2017:/linked//6.33725</id>
+	<published>2017-05-22T19:57:15Z</published>
+	<updated>2017-05-23T00:53:33Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nick Heer:</p>
+
+<blockquote>
+  <p>I’ve generally had pretty good luck with Spotlight on iOS, but
+I’ve long noticed that results are delayed or nonexistent after
+not using it for a little while, particularly if I haven’t
+rebooted my phone recently. I thought I was losing my head a
+little bit, until I found a tip on Twitter from Anand Iyer :</p>
+
+<p>Settings > General > Spotlight Search > toggle Slack off</p>
+</blockquote>
+
+<p>A week or so ago I ran into this, where Spotlight was running so slowly on my iPhone that it was unusable. Restarting my phone fixed the problem, but I&#8217;ll bet it was this Slack problem.</p>
+
+<p><strong>Update:</strong> Sounds like there might widespread problems with Spotlight indexing on iOS 10, because a bunch of readers have written to say they have the same problem but don&#8217;t even have Slack installed.</p>
+
+<p><strong>Update 2:</strong> Several readers are saying this was a bug in iOS 10.3.1 but has been fixed in last week&#8217;s 10.3.2 update.</p>
+
+<div>
+<a  title="Permanent link to ‘Spotlight Performance Problems on iOS’"  href="https://daringfireball.net/linked/2017/05/22/heer-slack-spotlight">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>How Anker Is Beating Apple and Samsung at Their Own Accessory Game</title>
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/2017/5/22/15673712/anker-battery-charger-amazon-empire-steven-yang-interview" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0s" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/anker" />
+	<id>tag:daringfireball.net,2017:/linked//6.33724</id>
+	<published>2017-05-22T19:45:20Z</published>
+	<updated>2017-05-22T21:09:13Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nice profile of Anker by Nick Statt for The Verge:</p>
+
+<blockquote>
+  <p>So in airports, the back of cabs, and on city streets we’re
+plugging into lithium-ion slabs in our pockets and bags to stay
+connected. The market for portable battery packs generated $360
+million in the 12 months ending in March, 2017 in the US alone.
+The brands behind these packs are largely anonymous &#8212; Kmashi,
+Jackery, and iMuto &#8212; and they often stay that way.</p>
+
+<p>Except Anker. The steady rise of the company’s profile is proof
+that it’s possible to meet one very specific consumer need and
+ride that wave as it continues to ripple out to other markets. A
+majority of Anker’s sales come from cables and wall chargers, and
+it’s now moving into the smart home and auto market &#8212; anywhere a
+plug and a cable can solve a problem.</p>
+</blockquote>
+
+<p>It&#8217;s always satisfying to see a company thrive by focusing on making great products.</p>
+
+<div>
+<a  title="Permanent link to ‘How Anker Is Beating Apple and Samsung at Their Own Accessory Game’"  href="https://daringfireball.net/linked/2017/05/22/anker">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘On Margins’</title>
+	<link rel="alternate" type="text/html" href="https://craigmod.com/onmargins/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0r" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/on-margins" />
+	<id>tag:daringfireball.net,2017:/linked//6.33723</id>
+	<published>2017-05-22T19:02:20Z</published>
+	<updated>2017-05-22T19:02:22Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>New podcast from the inimitable Craig Mod about the art of making books. <a href="https://craigmod.com/onmargins/001/">The first episode is an interview with Jan Chipchase</a>:</p>
+
+<blockquote>
+  <p>Researcher and author Jan Chipchase has a new book &#8212; &#8220;The Field
+Study Handbook.&#8221; We discuss how he came to produce this 500+ page
+magnum opus &#8212; a distillation of his life&#8217;s work &#8212; and why he is
+self publishing.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘&#8216;On Margins&#8217;’"  href="https://daringfireball.net/linked/2017/05/22/on-margins">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Boring Google</title>
+	<link rel="alternate" type="text/html" href="https://stratechery.com/2017/boring-google/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0q" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/thompson-google-io" />
+	<id>tag:daringfireball.net,2017:/linked//6.33722</id>
+	<published>2017-05-22T18:45:37Z</published>
+	<updated>2017-05-22T18:45:39Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ben Thompson, in praise of Google&#8217;s &#8220;boring&#8221; I/O keynote:</p>
+
+<blockquote>
+  <p>Google Assistant has a long ways to go, but there is a clear
+picture of what success will look like: Google Photos. Launched
+only two years ago, Pichai bragged that Photos now has over 500
+million active users who upload 1.2 billion photos a day. This is
+a spectacular number for one very simple reason: Google Photos is
+<em>not</em> the default photo app for Android or iOS. Rather, Google has
+earned all of those photos simply by being better than the
+defaults, and the basis of that superiority is Google’s machine
+learning.</p>
+
+<p>Moreover, much like search, Photos gets better the more data it
+gets, creating a virtuous cycle: more photos means more data which
+means a better experience which means more users which means more
+photos. It is already hard to see other photo applications
+catching up.</p>
+</blockquote>
+
+<p>Google Photos is Google at its best. Their visual recognition is clearly the best in the world right now, and Thompson makes a good point that the &#8220;virtuous circle&#8221; makes it difficult for anyone to catch up.</p>
+
+<p>In addition to being a great product, technically, Google Photos also launched with <a href="http://daringfireball.net/linked/2016/08/08/google-photos-sick-burn">a terrific ad campaign</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘Boring Google’"  href="https://daringfireball.net/linked/2017/05/22/thompson-google-io">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Every Color of Cardigan Mister Rogers Wore From 1979–2001</title>
+	<link rel="alternate" type="text/html" href="https://theawl.com/every-color-of-cardigan-mister-rogers-wore-from-1979-2001-83c1faba2677" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0p" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/mr-rogers-sweaters" />
+	<id>tag:daringfireball.net,2017:/linked//6.33721</id>
+	<published>2017-05-22T17:53:29Z</published>
+	<updated>2017-05-22T17:53:31Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Owen Philips, writing for The Awl:</p>
+
+<blockquote>
+  <p>Fortunately, Tim Lybarger, a 40 year-old high school counselor
+from just outside of Champaign-Urbana, Illinois, wondered the same
+thing a few years ago. Back in 2011, on his blog devoted to all
+things Mister Rogers, neighborhoodarchive.com, Lybarger recorded
+the color of every sweater Rogers wore in each episode between
+1979 and 2001. “When I realized such a resource didn’t exist,”
+Lybarger told me over email, “I just felt like somebody needed to
+do it…might as well be me.”</p>
+
+<p>The chart below uses the data Lybarger meticulously collected to
+show how Rogers’ preferences for the color of his cardigan changed
+over time.</p>
+</blockquote>
+
+<p>When I was a kid I simply loved <em>Mister Rogers&#8217; Neighborhood</em>. (<a href="http://kottke.org/17/05/the-colors-of-mister-rogers-cardigan-sweaters-1979-2001">Via Kottke</a>, of course.)</p>
+
+<div>
+<a  title="Permanent link to ‘Every Color of Cardigan Mister Rogers Wore From 1979–2001’"  href="https://daringfireball.net/linked/2017/05/22/mr-rogers-sweaters">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Scrolling Is Going to Change in Mobile Safari</title>
+	<link rel="alternate" type="text/html" href="https://news.ycombinator.com/item?id=14384938" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0o" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/mobile-safari-scrolling" />
+	<id>tag:daringfireball.net,2017:/linked//6.33720</id>
+	<published>2017-05-22T17:29:44Z</published>
+	<updated>2017-05-23T00:56:48Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Here&#8217;s an interesting exchange in a Hacker News discussion about <a href="https://daringfireball.net/linked/2017/05/20/gilbertson-amp.php">my criticism of AMP</a> over the weekend. <a href="https://news.ycombinator.com/item?id=14384938">Malte Ubl, creator and tech lead of Google AMP</a>:</p>
+
+<blockquote>
+  <p>With respect to scrolling: We (AMP team) filed a bug with Apple
+about that (we didn&#8217;t implement scrolling ourselves, just use a
+div with overflow). We asked to make the scroll inertia for that
+case the same as the normal scrolling.</p>
+
+<p>Apple&#8217;s response was (surprisingly) to make the default scrolling
+like the overflow scrolling. So, with the next Safari release all
+pages will scroll like AMP pages. Hope Gruber is happy then :)</p>
+</blockquote>
+
+<p>&#8220;Om2&#8221;, who seemingly works on WebKit for Apple <a href="https://trac.webkit.org/changeset/211197/webkit">added</a>:</p>
+
+<blockquote>
+  <p>In current iOS Safari, webpage scrolling is inconsistent from all
+other scrolling on the system. This was an intentional decision
+made long ago. In addition, overflow areas are consistent with the
+rest of the system, and thus inconsistent with top-level webpage
+scrolling. This is semi-accidental. In reviewing scroll rates, we
+concluded that the original reason was no longer a good tradeoff.
+Thus this change, which removed all the inconsistencies:
+<a href="https://trac.webkit.org/changeset/211197/webkit">https://trac.webkit.org/changeset/211197/webkit</a></p>
+
+<p>Having all scrolling be consistent feels good once you get
+used to it.</p>
+
+<p>That doesn&#8217;t necessarily mean it was a good idea for Google&#8217;s
+hosted AMP pages to use overflow scroll all along. The
+inconsistency definitely did feel weird. And the way they do
+scrolling prevents Safari from auto-hiding its top and bottom
+bars. I believe all the desired scroll effects could have been
+achieved without the use of overflow scroll.</p>
+</blockquote>
+
+<p>That&#8217;s a pretty big change, but I&#8217;ll bet Om2 is right that it soon feels normal. Web views have had different scrolling inertia than other scrolling views ever since the original iPhone. (My beef with scrolling in AMP is not that AMP&#8217;s fast scrolling is bad and Mobile Safari&#8217;s current slower scrolling is good, but rather that scrolling in AMP pages should not feel totally different than regular web pages. And I forgot to complain about the fact that AMP&#8217;s weird implementation also breaks Mobile Safari&#8217;s ability to hide the bottom and top browser chrome toolbars. <strong>Update:</strong> One more complaint: AMP breaks Safari&#8217;s Reader mode.)</p>
+
+<div>
+<a  title="Permanent link to ‘Scrolling Is Going to Change in Mobile Safari’"  href="https://daringfireball.net/linked/2017/05/22/mobile-safari-scrolling">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>News Explorer 1.6 Supports JSON Feed</title>
+	<link rel="alternate" type="text/html" href="https://betamagic.nl/blog.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0n" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/news-explorer-1-6" />
+	<id>tag:daringfireball.net,2017:/linked//6.33719</id>
+	<published>2017-05-22T17:10:10Z</published>
+	<updated>2017-05-22T17:10:12Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>First native app I&#8217;ve seen with support for JSON Feed. Pretty interesting take on a modern Mac feed reader, including nice support for using the keyboard arrow keys to move around the UI.</p>
+
+<div>
+<a  title="Permanent link to ‘News Explorer 1.6 Supports JSON Feed’"  href="https://daringfireball.net/linked/2017/05/22/news-explorer-1-6">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+
+	<link rel="alternate" type="text/html" href="http://www.getflow.com/daringfireball" />
+	<link rel="shorturl" href="http://df4.us/q0u" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/feeds/sponsors/2017/05/flow_simple_project_management" />
+	<id>tag:daringfireball.net,2017:/feeds/sponsors//11.33726</id>
+	<author><name>Daring Fireball Department of Commerce</name></author>
+	<published>2017-05-22T17:00:49-04:00</published>
+	<updated>2017-05-22T17:01:04-04:00</updated>
+	<content type="html" xml:base="https://daringfireball.net/feeds/sponsors/" xml:lang="en"><![CDATA[
+<p>Flow is simple project management for busy teams. It’s the easiest way to run your team, manage projects, track tasks, and stay up to date with everything happening at work.</p>
+
+<p>Teams choose Flow when email, sticky notes, and to-do apps aren’t enough, but complex project management tools are overkill. Flow’s world-class design team has worked with companies like Apple, Slack, TED, and Starbucks, so it’s simple, beautiful, and easy to use. Your team will love using it, and pick it up in minutes — not weeks.</p>
+
+<p>Visit <a href="http://www.getflow.com/daringfireball">getflow.com/daringfireball</a> to start your free trial today, and save 20% on a monthly plan, or 30% on an annual plan at checkout. </p>
+
+<div>
+<a  title="Permanent link to ‘Flow: Simple Project Management’"  href="https://daringfireball.net/feeds/sponsors/2017/05/flow_simple_project_management">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+	<title>[Sponsor] Flow: Simple Project Management</title></entry><entry>
+	<title>‘Becoming Bond’</title>
+	<link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=rd9wdJIxqlo" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0m" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/22/becoming-bond" />
+	<id>tag:daringfireball.net,2017:/linked//6.33718</id>
+	<published>2017-05-22T16:35:26Z</published>
+	<updated>2017-05-22T16:41:57Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>New documentary from Hulu on George Lazenby, who played James Bond in 1969&#8217;s <em><a href="http://www.imdb.com/title/tt0064757/">On Her Majesty&#8217;s Secret Service</a></em> and then turned down an offer for a six-picture contract. Watched it over the weekend and thoroughly enjoyed it.</p>
+
+<div>
+<a  title="Permanent link to ‘&#8216;Becoming Bond&#8217;’"  href="https://daringfireball.net/linked/2017/05/22/becoming-bond">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Stashword</title>
+	<link rel="alternate" type="text/html" href="http://df.stashword.com/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0l" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/20/stashword" />
+	<id>tag:daringfireball.net,2017:/linked//6.33717</id>
+	<published>2017-05-20T19:23:06Z</published>
+	<updated>2017-05-20T19:23:08Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>My thanks to Stashword for sponsoring this week&#8217;s DF RSS feed. Stashword is simple but feature-rich password manager for iOS and the web. In addition to passwords, Stashword can securely save notes, financial information, and more. You can even scan and save documents like your drivers license, insurance documentation, and passport.</p>
+
+<p>Stashword is free to try for 15 days. Paid membership enables you to synchronize across all your devices and <a href="http://df.stashword.com/">their website</a>. As a special offer for Daring Fireball readers, through May 25 annual membership is just $7.99, which is 20 percent off the regular price.</p>
+
+<div>
+<a  title="Permanent link to ‘Stashword’"  href="https://daringfireball.net/linked/2017/05/20/stashword">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>MacStories’s iOS 11 iPad Wishes and Concept Video</title>
+	<link rel="alternate" type="text/html" href="https://www.macstories.net/stories/ios-11-ipad-wishes-and-concept-video/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0j" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/20/macstories-ios-11-concept" />
+	<id>tag:daringfireball.net,2017:/linked//6.33715</id>
+	<published>2017-05-20T19:10:48Z</published>
+	<updated>2017-05-20T19:10:50Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Federico Viticci:</p>
+
+<blockquote>
+  <p>I&#8217;ve been thinking about some of these ideas since iOS 9 (you can
+see a thread between <a href="https://youtube.com/watch?v=J2VcbT4Pgdk">my iOS 10 concept</a> and this year&#8217;s version),
+while others would be a natural evolution for iOS on the iPad.
+Once again, Sam was able to visualize everything with a fantastic
+concept that, I believe, captures the iPad&#8217;s big-picture potential
+more accurately than last year.</p>
+
+<p>Below, you&#8217;ll find our <a href="https://youtube.com/watch?v=UyFUDQ5LLZw">iOS 11 for iPad concept video</a>, followed by
+an analysis of my iPad wishes with static mockups. I focused on
+foundational changes to the iPad&#8217;s software &#8212; tentpole features
+that would affect the entire OS and app ecosystem.</p>
+
+<p>This isn&#8217;t a prediction of what Apple will announce at WWDC; it&#8217;s
+my vision for what the future of the iPad should be.</p>
+</blockquote>
+
+<p>Viticci and Beckett put months of work into this, and it shows. Some of the ideas they present: system-wide drag-and-drop, a Finder app, a redesigned App Store, and much more.</p>
+
+<p>The best part of this feature isn&#8217;t any specific idea, but rather Viticci&#8217;s profound enthusiasm for the iPad as a platform.</p>
+
+<div>
+<a  title="Permanent link to ‘MacStories&#8217;s iOS 11 iPad Wishes and Concept Video’"  href="https://daringfireball.net/linked/2017/05/20/macstories-ios-11-concept">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>10-Year-Old Open Letter Calling for Apple to Make Glucose Monitors</title>
+	<link rel="alternate" type="text/html" href="http://www.healthline.com/health/diabetesmine/innovation/open-letter-steve-jobs" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0i" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/20/open-letter-apple-glucose" />
+	<id>tag:daringfireball.net,2017:/linked//6.33714</id>
+	<published>2017-05-20T19:00:18Z</published>
+	<updated>2017-05-20T19:26:36Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Amy Tenderich, 10 years ago, in an open letter to Steve Jobs:</p>
+
+<blockquote>
+  <p>If insulin pumps or continuous monitors had the form of an iPod
+Nano, people wouldn&#8217;t have to wonder why we wear our &#8220;pagers&#8221; to
+our own weddings, or puzzle over that strange bulge under our
+clothes. If these devices wouldn&#8217;t start suddenly and incessantly
+beeping, strangers wouldn&#8217;t lecture us to turn off our &#8220;cell
+phones&#8221; at the movie theater.</p>
+
+<p>In short, medical device manufacturers are stuck in a bygone era;
+they continue to design these products in an engineering-driven,
+physician-centered bubble. They have not yet grasped the concept
+that medical devices are also life devices, and therefore need to
+feel good and look good for the patients using them 24/7, in
+addition to keeping us alive.</p>
+</blockquote>
+
+<p>(<a href="http://articles.chicagotribune.com/2010-10-22/features/sc-health-1020-diabetes-insulin-devic20101022_1_insulin-dependent-diabetics-high-blood-glucose-levels-blood-sugar">Follow-up here in 2010</a>.)</p>
+
+<p>This was incredibly prescient, given the rumors <a href="https://daringfireball.net/linked/2017/05/18/apple-watch-glucose">that Apple is working on continuous non-invasive glucose monitoring</a> for Apple Watch. Jobs didn&#8217;t live to see it, but I think it&#8217;s exactly the sort of thing he would be pushing for if he were still alive.</p>
+
+<p>From chapter 37 of <a href="https://itun.es/us/QyFUz.l">Walter Isaacson&#8217;s <em>Steve Jobs</em></a>:</p>
+
+<blockquote>
+  <p>Even when he was barely conscious, his strong personality came
+through. At one point the pulmonologist tried to put a mask over
+his face when he was deeply sedated. Jobs ripped it off and
+mumbled that he hated the design and refused to wear it. Though
+barely able to speak, he ordered them to bring five different
+options for the mask and he would pick a design he liked. The
+doctors looked at Powell, puzzled. She was finally able to
+distract him so they could put on the mask. He also hated the
+oxygen monitor they put on his finger. He told them it was ugly
+and too complex. He suggested ways it could be designed more
+simply. “He was very attuned to every nuance of the environment
+and objects around him, and that drained him,” Powell recalled.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘10-Year-Old Open Letter Calling for Apple to Make Glucose Monitors’"  href="https://daringfireball.net/linked/2017/05/20/open-letter-apple-glucose">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Scott Gilbertson: ‘Kill Google AMP Before It Kills the Web’</title>
+	<link rel="alternate" type="text/html" href="https://www.theregister.co.uk/2017/05/19/open_source_insider_google_amp_bad_bad_bad/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0h" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/20/gilbertson-amp" />
+	<id>tag:daringfireball.net,2017:/linked//6.33713</id>
+	<published>2017-05-20T18:18:19Z</published>
+	<updated>2017-05-20T19:28:43Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Scott Gilbertson, writing for The Register:</p>
+
+<blockquote>
+  <p>Quite a few high-profile web developers have this year weighted in
+with <a href="https://danielmiessler.com/blog/google-amp-not-good-thing/">criticism</a> and some, following a Google conference dedicated
+to AMP, have cautioned users about diving in with <a href="https://css-tricks.com/need-catch-amp-debate/">both feet</a>.</p>
+
+<p>These, in my view, don’t go far enough in stating the problem and
+I feel this needs to be said very clearly: Google&#8217;s AMP is bad &#8212;
+bad in a potentially web-destroying way. Google AMP is bad news
+for how the web is built, it&#8217;s bad news for publishers of credible
+online content, and it&#8217;s bad news for consumers of that content.
+Google AMP is only good for one party: Google. Google, and
+possibly, purveyors of fake news.</p>
+
+<p>It&#8217;s time for developers to wake up and, as Jason Scott <a href="http://ascii.textfiles.com/archives/3086">once said</a>
+of Facebook, stop: &#8220;Shoveling down the shit sherbet&#8221; Google is now
+serving with AMP.</p>
+</blockquote>
+
+<p><a href="http://daringfireball.net/linked/2017/01/17/schreiber-amp">I&#8217;m on the record</a> as being strongly opposed to AMP simply on the grounds of publication independence. I&#8217;d stand by that even if the implementation were great. But the implementation is not great &#8212; it&#8217;s terrible. Yes, AMP pages load fast, but you don&#8217;t need AMP for fast-loading web pages. If you are a publisher and your web pages don&#8217;t load fast, the sane solution is to <a href="http://idlewords.com/amp_static.html">fix your fucking website so that pages load fast</a>, not to throw your hands up in the air and implement AMP.</p>
+
+<p>But other than loading fast, AMP <em>sucks</em>. It implements its own scrolling behavior on iOS, which feels unnatural, and even worse, it breaks the decade-old system-wide iOS behavior of being able to tap the status bar to scroll to the top of any scrollable view. AMP also completely breaks Safari&#8217;s ability to search for text on a page (via the &#8220;Find on Page&#8221; action in the sharing sheet). Google has no respect for the platform. If I had my way, Mobile Safari would refuse to render AMP pages. It&#8217;s a deliberate effort by Google to break the open web.</p>
+
+<div>
+<a  title="Permanent link to ‘Scott Gilbertson: &#8216;Kill Google AMP Before It Kills the Web&#8217;’"  href="https://daringfireball.net/linked/2017/05/20/gilbertson-amp">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Arctic Stronghold of World’s Seeds Flooded After Permafrost Melts</title>
+	<link rel="alternate" type="text/html" href="https://www.theguardian.com/environment/2017/may/19/arctic-stronghold-of-worlds-seeds-flooded-after-permafrost-melts?CMP=twt_gu" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0g" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/20/global-seed-vault" />
+	<id>tag:daringfireball.net,2017:/linked//6.33712</id>
+	<published>2017-05-20T17:52:14Z</published>
+	<updated>2017-05-21T03:41:34Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Damian Carrington, reporting for The Guardian:</p>
+
+<blockquote>
+  <p>It was designed as an impregnable deep-freeze to protect the
+world’s most precious seeds from any global disaster and ensure
+humanity’s food supply forever. But the Global Seed Vault, buried
+in a mountain deep inside the Arctic circle, has been breached
+after global warming produced extraordinary temperatures over the
+winter, sending meltwater gushing into the entrance tunnel.</p>
+</blockquote>
+
+<p>The big takeaway from this should be that climate change truly is a threat to civilization. But, I have to say, that melting permafrost wasn&#8217;t taken into consideration during the design of this vault seems like a glaring oversight.</p>
+
+<p><strong>Update:</strong> Looks like The Guardian might have shamelessly sensationalized this story. <a href="http://www.popsci.com/seed-vault-flooding?src=SOC&amp;dom=tw#page-3">Mary Beth Griggs, reporting for Popular Science</a>:</p>
+
+<blockquote>
+  <p>“If there was a worst case scenario where there was so much water,
+or the pumping systems failed, that it made its way uphill to the
+seed vault, then it would encounter minus 18 [degrees celsius] and
+freeze again. Then there’s another barrier [the ice] for entry
+into the seed vault,” Fowler says. In other words, any water that
+floods into the tunnel has to make it 100 meters downhill, then
+back uphill, then overwhelm the pumping systems, and then manage
+not to freeze at well-below-freezing temperatures. Otherwise,
+there&#8217;s no way liquid is getting into the seed bank &#8212; so the
+seeds are probably safe. [&#8230;]</p>
+
+<p>Still worried? Maybe this will help you exhale: “We did this
+calculation; if all the ice in the world melted &#8212; Greenland,
+Arctic, Antarctic, everything &#8212; and then we had the world&#8217;s
+largest recorded tsunami right in front of the seed vault. So,
+very high sea levels and the worlds largest Tsunami. What would
+happen to the seed vault?” Fowler says. “We found that the seed
+vault was somewhere between a five and seven story building above
+that point. It might not help the road leading up to the seed
+vault, but the seeds themselves would be OK.&#8221;</p>
+</blockquote>
+
+<p>Sounds like the vault itself <em>is</em> designed to survive a climate apocalypse &#8212; it&#8217;s just the entry that isn&#8217;t.</p>
+
+<div>
+<a  title="Permanent link to ‘Arctic Stronghold of World’s Seeds Flooded After Permafrost Melts’"  href="https://daringfireball.net/linked/2017/05/20/global-seed-vault">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘It’s Borderline Stupid How Easy It Was’</title>
+	<link rel="alternate" type="text/html" href="https://ndarville.com/blog/2017/05/19/json-feed-for-jekyll/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0f" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/19/json-feed-jekyll" />
+	<id>tag:daringfireball.net,2017:/linked//6.33711</id>
+	<published>2017-05-19T20:07:02Z</published>
+	<updated>2017-05-19T20:13:21Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Niclas Darville, on creating a JSON Feed template for Jekyll:</p>
+
+<blockquote>
+  <p>It literally took me longer to write this blog post than the JSON
+feed code, because I couldn’t get Jekyll to escape the Liquid code
+example.</p>
+</blockquote>
+
+<p>On Twitter, <a href="https://twitter.com/pessimism/status/865574252182990848">Darville wrote</a>:</p>
+
+<blockquote>
+  <p>One of the best things about <a href="https://twitter.com/@jsonfeed">@jsonfeed</a> is how well it works as a
+Hello World kind of programming exercise.</p>
+
+<p>Sure beats to-do lists.</p>
+</blockquote>
+
+<p><a href="https://twitter.com/JmacDotOrg/status/865441060176121856">Jason McIntosh described</a> adding JSON Feed support to his home-grown blog engine as a &#8220;blowing-off-steam project&#8221;.</p>
+
+<p>These reactions are exactly what I mean about JSON Feed being <em>fun</em>. There&#8217;s a time and place for specs that are drop-dead serious, but I think it&#8217;s often overlooked just how important <em>fun</em> can be in having a new spec gain traction.</p>
+
+<div>
+<a  title="Permanent link to ‘&#8216;It’s Borderline Stupid How Easy It Was&#8217;’"  href="https://daringfireball.net/linked/2017/05/19/json-feed-jekyll">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Headline of the Week</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2017/05/19/us/politics/trump-russia-comey.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0e" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/19/trump-nut-job" />
+	<id>tag:daringfireball.net,2017:/linked//6.33710</id>
+	<published>2017-05-19T19:41:15Z</published>
+	<updated>2017-05-20T04:12:08Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Actual headline in the staid New York Times: &#8220;Trump Told Russians That Firing ‘Nut Job’ Comey Eased Pressure From Investigation&#8221;.</p>
+
+<div>
+<a  title="Permanent link to ‘Headline of the Week’"  href="https://daringfireball.net/linked/2017/05/19/trump-nut-job">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Requiring Facebook</title>
+	<link rel="alternate" type="text/html" href="https://thebolditalic.com/facebook-goes-full-black-mirror-how-facebook-is-making-membership-a-prerequisite-to-everyday-e88fb03b0eb9" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0d" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/requiring-facebook" />
+	<id>tag:daringfireball.net,2017:/linked//6.33709</id>
+	<published>2017-05-19T02:19:06Z</published>
+	<updated>2017-05-19T07:02:39Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jason Ditzian, writing for The Bold Italic on what happened when the car sharing service he&#8217;d been using for 10 years was acquired:</p>
+
+<blockquote>
+  <p>However, City CarShare was recently bought by a corporation,
+Getaround. And Getaround built its platform on top of Facebook. So
+when I went to migrate my account over to them, I found that
+there’s literally no way to do it as a non-Facebook user. If I
+want to share cars with my fellow city dwellers, I’m compelled to
+strike a Faustian bargain.</p>
+
+<p>To access the services of Getaround, one must authenticate their
+identity through Facebook. [&#8230;]</p>
+
+<p>I know that for you Facebook-having people, this is no big deal.
+You have resigned yourself to the idea of Facebook owning your
+data. But if you don’t, haven’t and/or won’t resign to this fate,
+you might end up left, like me, in a peculiar situation: the price
+of “sharing” a car equals money plus forking over a huge trove of
+personal data. Personal information is supplanting money as a form
+of currency.</p>
+</blockquote>
+
+<p>There&#8217;s clearly a problem here, but I don&#8217;t think it&#8217;s Facebook&#8217;s fault. I think the problem is that Getaround sucks.</p>
+
+<div>
+<a  title="Permanent link to ‘Requiring Facebook’"  href="https://daringfireball.net/linked/2017/05/18/requiring-facebook">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>FCC Votes to Begin Dismantling Net Neutrality</title>
+	<link rel="alternate" type="text/html" href="https://www.techdirt.com/articles/20170517/12241437395/fcc-ignores-will-public-votes-to-begin-dismantling-net-neutrality.shtml" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0c" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/net-neutrality" />
+	<id>tag:daringfireball.net,2017:/linked//6.33708</id>
+	<published>2017-05-18T22:30:58Z</published>
+	<updated>2017-05-18T22:31:00Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Karl Bode, writing for TechDirt:</p>
+
+<blockquote>
+  <p>Surprising absolutely nobody, the FCC today voted 2-1 along strict
+party lines to begin dismantling net neutrality protections for
+consumers. The move comes despite the fact that the <a href="https://www.techdirt.com/articles/20170516/06570237379/time-fcc-to-actually-listen-vast-majority-fcc-commenters-support-net-neutrality.shtml">vast
+majority</a> of non-bot comments filed with the FCC support
+keeping the rules intact. And while FCC boss Ajit Pai has
+breathlessly insisted he intended to listen to the concerns of all
+parties involved, there has been zero indication that this was a
+serious commitment as he begins <a href="https://www.techdirt.com/articles/20170206/06403236642/new-fcc-boss-ajit-pai-insists-hes-all-about-helping-poor-gets-right-to-work-harming-them-instead.shtml">dismantling all manner of
+broadband consumer protections</a>, not just net neutrality.</p>
+
+<p>As you might have expected, the FCC was quick to release a
+statement claiming that gutting the popular consumer protections
+would usher forth a magical age of connectivity, investment, and
+innovation.</p>
+</blockquote>
+
+<p>(<a href="https://pxlnv.com/linklog/fcc-vote-may-18/">Via Nick Heer</a>.)</p>
+
+<div>
+<a  title="Permanent link to ‘FCC Votes to Begin Dismantling Net Neutrality’"  href="https://daringfireball.net/linked/2017/05/18/net-neutrality">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘You Know My Name’</title>
+	<link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=A1AMUmkj-ck" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0b" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/cornell-casino-royale" />
+	<id>tag:daringfireball.net,2017:/linked//6.33707</id>
+	<published>2017-05-18T22:24:55Z</published>
+	<updated>2017-05-18T22:24:56Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>One of my very favorite songs from Chris Cornell &#8212; the opening credits theme to <em>Casino Royale</em>. A great song that just fits the movie so damn well.</p>
+
+<div>
+<a  title="Permanent link to ‘&#8216;You Know My Name&#8217;’"  href="https://daringfireball.net/linked/2017/05/18/cornell-casino-royale">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Chris Cornell of Soundgarden, Dead at 52</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2017/05/18/arts/music/chris-cornell-dead-soundgarden.html?_r=0" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q0a" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/cornell" />
+	<id>tag:daringfireball.net,2017:/linked//6.33706</id>
+	<published>2017-05-18T22:20:21Z</published>
+	<updated>2017-05-19T07:17:15Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>The New York Times:</p>
+
+<blockquote>
+  <p>Chris Cornell, the powerful, dynamic singer whose band Soundgarden
+was one of the architects of grunge music, died on Wednesday night
+in Detroit hours after the band had performed there. He was 52.</p>
+
+<p>The death was a suicide by hanging, the Wayne County Medical
+Examiner’s Office said in a statement released on Thursday
+afternoon. It said a full autopsy had not yet been completed.</p>
+</blockquote>
+
+<p>Fuck.</p>
+
+<div>
+<a  title="Permanent link to ‘Chris Cornell of Soundgarden, Dead at 52’"  href="https://daringfireball.net/linked/2017/05/18/cornell">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>jq</title>
+	<link rel="alternate" type="text/html" href="https://stedolan.github.io/jq/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q09" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/jq" />
+	<id>tag:daringfireball.net,2017:/linked//6.33705</id>
+	<published>2017-05-18T20:40:38Z</published>
+	<updated>2017-05-18T20:40:40Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>There&#8217;s a cool command-line JSON processor called <code>jq</code> &#8212; easily installed on a Mac via download or <a href="https://brew.sh/">Homebrew</a>, and even more easily tinkered with using <a href="https://jqplay.org/">the online playground</a>. Here&#8217;s how easy <code>jq</code> makes it to get, say, a list of the titles from DF&#8217;s <a href="https://jsonfeed.org/">JSON feed</a>:</p>
+
+<pre><code>curl -s https://daringfireball.net/feeds/json | jq '.items[].title'
+</code></pre>
+
+<div>
+<a  title="Permanent link to ‘jq’"  href="https://daringfireball.net/linked/2017/05/18/jq">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The World’s First JSON Feed Viewer</title>
+	<link rel="alternate" type="text/html" href="https://twitter.com/vaillancourtmax/status/865291487881383937" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q08" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/maxime-vaillancourt-json-feed-viewer" />
+	<id>tag:daringfireball.net,2017:/linked//6.33704</id>
+	<published>2017-05-18T20:32:06Z</published>
+	<updated>2017-05-18T20:39:47Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Maxime Vaillancourt:</p>
+
+<blockquote>
+  <p>Here&#8217;s a tiny proof of concept for a <a href="https://twitter.com/@jsonfeed">@jsonfeed</a> viewer, built in an
+hour: <a href="http://json-feed-viewer.herokuapp.com">http://json-feed-viewer.herokuapp.com</a></p>
+</blockquote>
+
+<p>One of the things I love about <a href="https://jsonfeed.org/">JSON Feed</a> is that it&#8217;s <em>fun</em>. JSON is so simple, and so well-supported by almost all programming languages, that you can build something interesting in just a few minutes, and something useful in an hour. There was <a href="https://news.ycombinator.com/item?id=14361178">a comment</a> on the Hacker News thread about JSON Feed that I loved:</p>
+
+<blockquote>
+  <p>It is very likely than I am an idiot, but I&#8217;ve always found
+parsing XML too hard, specially compared to JSON which is almost
+too easy.</p>
+</blockquote>
+
+<p>&#8220;Almost too easy&#8221; are three words no one has ever said about XML.</p>
+
+<div>
+<a  title="Permanent link to ‘The World&#8217;s First JSON Feed Viewer’"  href="https://daringfireball.net/linked/2017/05/18/maxime-vaillancourt-json-feed-viewer">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Is Testing an Apple Watch Glucose Monitor</title>
+	<link rel="alternate" type="text/html" href="http://www.cnbc.com/2017/05/18/apple-ceo-tim-cook-test-drove-glucose-monitor.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q07" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/apple-watch-glucose" />
+	<id>tag:daringfireball.net,2017:/linked//6.33703</id>
+	<published>2017-05-18T20:24:52Z</published>
+	<updated>2017-05-18T20:24:54Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Christina Farr, reporting for CNBC:</p>
+
+<blockquote>
+  <p>Tim Cook has been spotted at the Apple campus test-driving a
+device that tracks blood sugar, which was connected to his
+Apple Watch.</p>
+
+<p>A source said that Cook was wearing a prototype glucose-tracker on
+the Apple Watch, which points to future applications that would
+make the device a &#8220;must have&#8221; for millions of people with diabetes
+&#8212; or at risk for the disease.</p>
+
+<p><a href="http://www.cnbc.com/2017/04/12/apple-working-on-glucose-sensors-diabetes-treatment.html">As CNBC reported last month</a>, Apple has a team in Palo Alto
+working on the &#8220;holy grail&#8221; for diabetes: Non-invasive and
+continuous glucose monitoring. The current glucose trackers on the
+market rely on tiny sensors penetrating the skin. Sources said the
+company is already conducting feasibility trials in the Bay Area.</p>
+</blockquote>
+
+<p>Non-invasive continuous glucose monitoring would be a life-changer for anyone with diabetes. But I can&#8217;t even imagine how life-changing this will be for kids with diabetes and their parents.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Is Testing an Apple Watch Glucose Monitor’"  href="https://daringfireball.net/linked/2017/05/18/apple-watch-glucose">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>CMD-D: Masters of Automation Conference</title>
+	<link rel="alternate" type="text/html" href="https://www.cmddconf.com/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q06" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/cmd-d-conference" />
+	<id>tag:daringfireball.net,2017:/linked//6.33702</id>
+	<published>2017-05-18T19:53:32Z</published>
+	<updated>2017-05-18T19:53:34Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>This sounds very cool: a one-day conference in August devoted to Mac and iOS scripting and automation, hosted by Paul Kent, Naomi Pearce, and Sal Soghoian.</p>
+
+<div>
+<a  title="Permanent link to ‘CMD-D: Masters of Automation Conference’"  href="https://daringfireball.net/linked/2017/05/18/cmd-d-conference">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Final Cut Pro X and Closed Captions</title>
+	<link rel="alternate" type="text/html" href="http://hammonwry.com/forgotten-again/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q05" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/18/fcpx-closed-captions" />
+	<id>tag:daringfireball.net,2017:/linked//6.33701</id>
+	<published>2017-05-18T16:42:06Z</published>
+	<updated>2017-05-18T16:42:07Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Kevin Hamm:</p>
+
+<blockquote>
+  <p>Captions can be just text at timecode, which is simple. In their
+most complex, they are styled, located text at timecode. That’s
+it. Nothing more. I work in text and titles and timecode every day
+in every video I do, so there is no reason that this simple
+function isn’t baked in at this point. Words at timecode. That’s
+all it is.</p>
+
+<p>That Apple is making their systems and products accessible is
+great. Xcode grants programmers the ability to build accessible
+apps, and has from the beginning, which is even better as it makes
+a massive part of the ecosystem accessible.</p>
+
+<p>That Final Cut Pro hasn’t ever and still doesn’t create closed
+captions is a smudge on that image.</p>
+</blockquote>
+
+<p>It seems bonkers to me that Final Cut Pro X doesn&#8217;t have support for closed captions. Coming from Apple, you&#8217;d think it would have <em>excellent</em> support for them. How does Apple create closed captions for their own videos?</p>
+
+<div>
+<a  title="Permanent link to ‘Final Cut Pro X and Closed Captions’"  href="https://daringfireball.net/linked/2017/05/18/fcpx-closed-captions">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Source Code for Panic Apps Stolen By Malware Thieves</title>
+	<link rel="alternate" type="text/html" href="https://panic.com/blog/stolen-source-code/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q04" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/17/panic-handbrake-thieves" />
+	<id>tag:daringfireball.net,2017:/linked//6.33700</id>
+	<published>2017-05-17T18:26:52Z</published>
+	<updated>2017-05-18T00:08:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Steven Frank:</p>
+
+<blockquote>
+  <p>Last week, for about three days, <a href="https://blog.malwarebytes.com/threat-analysis/mac-threat-analysis/2017/05/handbrake-hacked-to-drop-new-variant-of-proton-malware/">the macOS video transcoding app
+HandBrake</a> was compromised. One of the two download servers for
+HandBrake was serving up a special malware-infested version of the
+app, that, when launched, would essentially give hackers remote
+control of your computer.</p>
+
+<p>In a case of extraordinarily bad luck, even for a guy that has a
+lot of bad computer luck, I happened to download HandBrake in that
+three day window, and my work Mac got pwned.</p>
+
+<p>Long story short, <em>somebody, somewhere, now has quite a bit of
+source code to several of our apps</em>.</p>
+</blockquote>
+
+<p>This is one hell of a story and quite a shock, but the crew at Panic kept their heads together and did the right thing: they&#8217;ve opened up completely and honestly, refused to deal with the blackmailer, and I think they are correctly unworried about their source code being leaked publicly.</p>
+
+<div>
+<a  title="Permanent link to ‘Source Code for Panic Apps Stolen By Malware Thieves’"  href="https://daringfireball.net/linked/2017/05/17/panic-handbrake-thieves">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Dave Itzkoff Profiles Jimmy Fallon for The New York Times</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2017/05/17/arts/television/jimmy-fallon-tonight-show-interview-trump.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q03" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/17/itzkoff-fallon" />
+	<id>tag:daringfireball.net,2017:/linked//6.33699</id>
+	<published>2017-05-17T17:33:40Z</published>
+	<updated>2017-05-17T17:33:41Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Fascinating behind-the-scenes look at The Tonight Show, including a look inside Fallon&#8217;s briefcase (he&#8217;s got a Nintendo Switch in there).</p>
+
+<div>
+<a  title="Permanent link to ‘Dave Itzkoff Profiles Jimmy Fallon for The New York Times’"  href="https://daringfireball.net/linked/2017/05/17/itzkoff-fallon">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Announcing JSON Feed</title>
+	<link rel="alternate" type="text/html" href="https://jsonfeed.org/2017/05/17/announcing_json_feed" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q02" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/17/json-feed" />
+	<id>tag:daringfireball.net,2017:/linked//6.33698</id>
+	<published>2017-05-17T17:24:53Z</published>
+	<updated>2017-05-17T17:56:42Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Brent Simmons and Manton Reece:</p>
+
+<blockquote>
+  <p>We &#8212; Manton Reece and Brent Simmons &#8212; have noticed that JSON has
+become the developers’ choice for APIs, and that developers will
+often go out of their way to avoid XML. JSON is simpler to read
+and write, and it’s less prone to bugs.</p>
+
+<p>So we developed JSON Feed, a format similar to <a href="http://cyber.harvard.edu/rss/rss.html">RSS</a> and <a href="https://tools.ietf.org/html/rfc4287">Atom</a> but in
+JSON. It reflects the lessons learned from our years of work
+reading and publishing feeds.</p>
+</blockquote>
+
+<p>I think this is a great idea, and a good spec. I even like the style in which <a href="https://jsonfeed.org/version/1">the spec</a> is written: for real humans (much like the RSS spec). If you want to see a real-life example, <a href="https://daringfireball.net/feeds/json">Daring Fireball has a JSON Feed</a>. I&#8217;ve got a good feeling about this project &#8212; the same sort of feeling I had <a href="https://daringfireball.net/2004/03/introducing_markdown">about Markdown</a> <a href="https://daringfireball.net/2004/03/dive_into_markdown">back in the day</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘Announcing JSON Feed’"  href="https://daringfireball.net/linked/2017/05/17/json-feed">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>New Apple Videos Highlight Real-World Accessibility</title>
+	<link rel="alternate" type="text/html" href="http://mashable.com/2017/05/17/apple-accessibility-videos-disability/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q01" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/17/accessibility-apple" />
+	<id>tag:daringfireball.net,2017:/linked//6.33697</id>
+	<published>2017-05-17T06:03:01Z</published>
+	<updated>2017-05-17T06:17:10Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nice piece for Mashable by Katie Dupere on <a href="https://www.youtube.com/user/Apple/videos">a bunch of new videos in Apple&#8217;s YouTube channel</a>, highlighting real-world usage of iOS and MacOS accessibility features. People who can&#8217;t move, people who can&#8217;t talk, people who can&#8217;t see or hear &#8212; doing amazing things. Apple&#8217;s commitment to accessibility is one of my very favorite things about the company. It&#8217;s not just the right thing to do for people who truly need these features &#8212; it makes the products better for everyone.</p>
+
+<p><strong>Update:</strong> <a href="http://www.loopinsight.com/2017/05/16/apple-videos-highlight-accessibility-achievements/?utm_source=loopinsight.com/">Jim Dalrymple has all 7 videos collected on one page</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘New Apple Videos Highlight Real-World Accessibility’"  href="https://daringfireball.net/linked/2017/05/17/accessibility-apple">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Lyft and Waymo Reach Deal to Collaborate on Self-Driving Cars</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2017/05/14/technology/lyft-waymo-self-driving-cars.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/q00" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/17/lyft-google" />
+	<id>tag:daringfireball.net,2017:/linked//6.33696</id>
+	<published>2017-05-17T05:20:45Z</published>
+	<updated>2017-05-17T05:20:47Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Mike Isaac, writing for The New York Times:</p>
+
+<blockquote>
+  <p>Waymo, the self-driving car unit that operates under Google’s
+parent company, has signed a deal with the ride-hailing start-up
+Lyft, according to two people familiar with the agreement who
+spoke on the condition of anonymity because they were not
+authorized to speak publicly. The deal calls for the companies to
+work together to bring autonomous vehicle technology into the
+mainstream through pilot projects and product development efforts,
+these people said.</p>
+
+<p>The deal was confirmed by Lyft and Waymo.</p>
+</blockquote>
+
+<p>Who knows, maybe Google would have made this same deal with Lyft even in the alternate universe where Uber didn&#8217;t steal Google&#8217;s tech. But it sure looks like Uber has made a powerful enemy.</p>
+
+<div>
+<a  title="Permanent link to ‘Lyft and Waymo Reach Deal to Collaborate on Self-Driving Cars’"  href="https://daringfireball.net/linked/2017/05/17/lyft-google">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Long Live MP3</title>
+	<link rel="alternate" type="text/html" href="https://marco.org/2017/05/15/mp3-isnt-dead" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzz" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/17/long-live-mp3" />
+	<id>tag:daringfireball.net,2017:/linked//6.33695</id>
+	<published>2017-05-17T05:03:28Z</published>
+	<updated>2017-05-17T16:28:11Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Marco Arment:</p>
+
+<blockquote>
+  <p>Until a few weeks ago, there had never been an audio format that
+was small enough to be practical, widely supported, and had no
+patent restrictions, forcing <a href="http://shaver.off.net/diary/2010/01/23/html5-video-and-codecs/">difficult choices</a> and <a href="http://stackoverflow.com/questions/4923136/why-doesnt-firefox-support-the-mp3-file-format-in-audio">needless
+friction</a> upon the computing world. Now, at least for audio,
+that friction has officially ended. There’s finally a great choice
+without asterisks.</p>
+
+<p><em>MP3 is supported by everything, everywhere, and is now
+patent-free.</em></p>
+</blockquote>
+
+<p>I wasn&#8217;t paying attention last week when <a href="http://gizmodo.com/developers-of-the-mp3-have-officially-killed-it-1795205540">Gizmodo</a>, <a href="https://www.engadget.com/2017/05/12/mp3-is-dead-long-live-aac/">Engadget</a>, and <a href="http://www.npr.org/sections/therecord/2017/05/11/527829909/the-mp3-is-officially-dead-according-to-its-creators">NPR</a> got hoodwinked into writing &#8220;MP3 Is Dead&#8221; stories by an announcement from Fraunhofer pushing people to switch from the now-open MP3 to the still-patent-encumbered AAC.</p>
+
+<p>On Twitter, Marco pointed to <a href="https://daringfireball.net/2007/04/some_facts_about_aac">this 10-year-old piece from yours truly</a>, describing the then-pipe-dream of Ogg Vorbis:</p>
+
+<blockquote>
+  <p>The ideal scenario would be for a genuinely open and free file
+format such as Ogg Vorbis to supplant MP3 as the de facto world
+standard. No patents, no licensing fees, a documented file format,
+open source libraries for encoding and decoding. That doesn’t seem
+to be in the cards, however. In the real world, major corporations
+only seem comfortable with multimedia formats backed by other
+large corporations.</p>
+</blockquote>
+
+<p>Now that the MP3 patents have expired, the situation is even better, because MP3 has been so thoroughly vetted, patent-wise. Idealism seldom wins out in these format battles. But time always wins.</p>
+
+<div>
+<a  title="Permanent link to ‘Long Live MP3’"  href="https://daringfireball.net/linked/2017/05/17/long-live-mp3">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Engadget: ‘The First Television With Amazon Fire TV Built in Is Just Fine’</title>
+	<link rel="alternate" type="text/html" href="https://www.engadget.com/2017/05/16/amazon-fire-tv-built-in-4k-tv/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzy" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/16/fire-tv" />
+	<id>tag:daringfireball.net,2017:/linked//6.33694</id>
+	<published>2017-05-17T03:52:36Z</published>
+	<updated>2017-05-17T03:52:38Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>I think the big news isn&#8217;t that there&#8217;s a cheap TV with Fire built-in &#8212; it&#8217;s that Amazon is promoting it heavily on their home page. Google&#8217;s home page is probably <a href="https://daringfireball.net/linked/2009/11/06/google-advertising">still</a> the most valuable advertising real estate on the Internet, but Amazon&#8217;s is almost certainly more valuable for selling consumer goods, because people visiting Amazon are ready to buy.</p>
+
+<div>
+<a  title="Permanent link to ‘Engadget: &#8216;The First Television With Amazon Fire TV Built in Is Just Fine&#8217;’"  href="https://daringfireball.net/linked/2017/05/16/fire-tv">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Loog Guitars</title>
+	<link rel="alternate" type="text/html" href="https://www.kickstarter.com/projects/loog/loog-pro-and-loog-mini-the-ultimate-beginners-guit" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzx" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/16/loog" />
+	<id>tag:daringfireball.net,2017:/linked//6.33693</id>
+	<published>2017-05-16T20:27:46Z</published>
+	<updated>2017-05-20T03:46:03Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Rafael Atijas, founder of Loog Guitars:</p>
+
+<blockquote>
+  <p>Loog Guitars are small, 3-string guitars designed to make it fun
+and easy for anyone to play music. They come with flashcards and
+an app that get you playing songs on day one.</p>
+</blockquote>
+
+<p>I don&#8217;t know much about guitars, but these look cool, the prices seem very reasonable, and <a href="https://itunes.apple.com/us/app/loog-academy/id1068590682?mt=8">the app</a> looks great. It&#8217;s a Kickstarter project, but it&#8217;s already fully-funded (several times over) and they expect to start shipping next month.</p>
+
+<div>
+<a  title="Permanent link to ‘Loog Guitars’"  href="https://daringfireball.net/linked/2017/05/16/loog">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Today at Apple Launches</title>
+	<link rel="alternate" type="text/html" href="https://www.apple.com/today/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzw" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/16/today-at-apple" />
+	<id>tag:daringfireball.net,2017:/linked//6.33692</id>
+	<published>2017-05-16T19:44:34Z</published>
+	<updated>2017-05-17T16:27:58Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Educational classes, photo walks, and more &#8212; from your local Apple Store. This, I think, is Angela Ahrendts&#8217;s biggest project at Apple to date. This is not just a program for the major flagship stores &#8212; it&#8217;s a program for every single Apple Store around the world. <a href="https://daringfireball.net/linked/2017/04/26/today-at-apple">As I wrote a few weeks ago</a>, Apple&#8217;s retail stores are one of the most overlooked / underestimated advantages in all of technology.</p>
+
+<p><a href="https://techcrunch.com/2017/05/16/apple-launches-a-new-website-for-its-expanded-set-of-educational-classes-now-open-for-sign-ups/">Via Sarah Perez</a>, whose TechCrunch story points out that &#8220;The launch kicking off this week includes 4,000 sessions per day across Apple’s stores.&#8221;</p>
+
+<div>
+<a  title="Permanent link to ‘Today at Apple Launches’"  href="https://daringfireball.net/linked/2017/05/16/today-at-apple">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Steven Levy Tours Apple Park</title>
+	<link rel="alternate" type="text/html" href="https://www.wired.com/2017/05/apple-park-new-silicon-valley-campus" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzv" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/16/levy-apple-park" />
+	<id>tag:daringfireball.net,2017:/linked//6.33691</id>
+	<published>2017-05-16T19:03:18Z</published>
+	<updated>2017-05-16T19:03:20Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Steven Levy, writing for Wired:</p>
+
+<blockquote>
+  <p>On a crisp and clear March day, more than five years after Jobs’
+death, I’m seated next to Jonathan Ive in the back of a Jeep
+Wrangler as we prepare to tour the nearly completed Apple Park,
+the name recently bestowed on the campus that Jobs pitched to the
+Cupertino City Council in 2011. At 50, Apple’s design chieftain
+still looks like the rugby player he once was, and he remains,
+despite fame, fortune, and a knighthood, the same soft-spoken Brit
+I met almost 20 years ago. We are both wearing white hard hats
+with a silver Apple logo above the brim; Ive’s is personalized
+with “Jony” underneath the iconic symbol. Dan Whisenhunt, the
+company’s head of facilities and a de facto manager of the
+project, comes with us. He too has a personalized hat. It is an
+active construction site on a tight deadline &#8212; the first
+occupants are supposedly moving in within 30 days of my visit,
+with 500 new employees arriving every week thereafter &#8212; and I
+felt a bit like one of the passengers on the first ride into
+Jurassic Park.</p>
+</blockquote>
+
+<p>Fantastic piece. Hard not to get a little choked up thinking about it as Steve Jobs&#8217;s final product:</p>
+
+<blockquote>
+  <p>“Could we have cut a corner here or there?” Cook asks
+rhetorically. “It wouldn’t have been Apple. And it wouldn’t have
+sent the message to everybody working here every day that detail
+matters, that care matters.” That was what Jobs wanted &#8212; what he
+always wanted. And the current leaders of Apple are determined
+not to disappoint him in what is arguably his biggest, and is
+certainly his last, product launch. “I revere him,” Cook says.
+“And this was clearly his vision, his concept. Our biggest
+project ever.”</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Steven Levy Tours Apple Park’"  href="https://daringfireball.net/linked/2017/05/16/levy-apple-park">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>When the World Is Led by a Child</title>
+	<link rel="alternate" type="text/html" href="https://mobile.nytimes.com/2017/05/15/opinion/trump-classified-data.html?referer=https://t.co/nBwtm1zsnd" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzu" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/16/trump-brooks" />
+	<id>tag:daringfireball.net,2017:/linked//6.33690</id>
+	<published>2017-05-16T16:40:49Z</published>
+	<updated>2017-05-16T16:40:51Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>David Brooks has the line of the day:</p>
+
+<blockquote>
+  <p>We’ve got this perverse situation in which the vast analytic
+powers of the entire world are being spent trying to understand a
+guy whose thoughts are often just six fireflies beeping randomly
+in a jar.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘When the World Is Led by a Child’"  href="https://daringfireball.net/linked/2017/05/16/trump-brooks">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Washington Post: ‘Trump Revealed Highly Classified Information to Russian Foreign Minister and Ambassador’</title>
+	<link rel="alternate" type="text/html" href="https://www.washingtonpost.com/world/national-security/trump-revealed-highly-classified-information-to-russian-foreign-minister-and-ambassador/2017/05/15/530c172a-3960-11e7-9e48-c4f199710b69_story.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/pzs" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2017/05/15/trump-russia" />
+	<id>tag:daringfireball.net,2017:/linked//6.33688</id>
+	<published>2017-05-15T22:13:00Z</published>
+	<updated>2017-05-15T22:15:57Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Greg Miller and Greg Jaffe, reporting for The Washington Post:</p>
+
+<blockquote>
+  <p>In his meeting with Lavrov, Trump seemed to be boasting about his
+inside knowledge of the looming threat. “I get great intel. I have
+people brief me on great intel every day,” the president said,
+according to an official with knowledge of the exchange.</p>
+
+<p>Trump went on to discuss aspects of the threat that the United
+States learned only through the espionage capabilities of a key
+partner. He did not reveal the specific intelligence-gathering
+method, but he described how the Islamic State was pursuing
+elements of a specific plot and how much harm such an attack could
+cause under varying circumstances. Most alarmingly, officials
+said, Trump revealed the city in the Islamic State’s territory
+where the U.S. intelligence partner detected the threat.</p>
+
+<p>The Washington Post is withholding most plot details, including
+the name of the city, at the urging of officials who warned that
+revealing them would jeopardize important intelligence
+capabilities.</p>
+</blockquote>
+
+<p>Is Trump a Russian collaborator? A bumbling idiot? Both? No matter what the answer is, he&#8217;s unfit to be president. This would be comical if the stakes weren&#8217;t so high. If a cabinet secretary had blabbed about this they&#8217;d be fired on the spot.</p>
+
+<div>
+<a  title="Permanent link to ‘The Washington Post: &#8216;Trump Revealed Highly Classified Information to Russian Foreign Minister and Ambassador&#8217;’"  href="https://daringfireball.net/linked/2017/05/15/trump-russia">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+
+	<link rel="alternate" type="text/html" href="http://df.stashword.com/" />
+	<link rel="shorturl" href="http://df4.us/pzt" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/feeds/sponsors/2017/05/stashword_ios_app_and_website" />
+	<id>tag:daringfireball.net,2017:/feeds/sponsors//11.33689</id>
+	<author><name>Daring Fireball Department of Commerce</name></author>
+	<published>2017-05-15T18:52:31-04:00</published>
+	<updated>2017-05-20T15:34:13-04:00</updated>
+	<content type="html" xml:base="https://daringfireball.net/feeds/sponsors/" xml:lang="en"><![CDATA[
+<p>Stashword&#8217;s iOS app is a simple yet feature rich password manager trusted by thousands of users. Stashword is not just an incredible password manager, it is also a secure digital vault where you can save, organize and share notes, codes, bank information, credit cards, and more. You can even scan and save documents such as your drivers license, insurance, passport etc.</p>
+
+<p>Stashword is free to try for 15 days. Paid membership enables you to synchronize across all your devices and use their full-featured website <a href="http://www.stashword.com/">www.stashword.com</a>. For this week only, yearly membership is $7.99, which is 20 percent off the regular price.</p>
+
+<div>
+<a  title="Permanent link to ‘Stashword iOS App and Website’"  href="https://daringfireball.net/feeds/sponsors/2017/05/stashword_ios_app_and_website">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+	<title>[Sponsor] Stashword iOS App and Website</title></entry><entry>
+
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2017/05/dropping_tech_giants" />
+	<link rel="shorturl" href="http://df4.us/pzj" />
+	<id>tag:daringfireball.net,2017://1.33679</id>
+	<published>2017-05-12T15:58:22Z</published>
+	<updated>2017-05-14T20:26:47Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">My answer to Farhad Manjoo’s question: “If an evil monarch forced you to choose, in what order would you give up these inescapable giants of tech?”</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://www.nytimes.com/interactive/2017/05/10/technology/Ranking-Apple-Amazon-Facebook-Microsoft-Google.html">Great interactive feature by Farhad Manjoo for The New York Times</a>:</p>
+
+<blockquote>
+  <p>Apple, Amazon, Facebook, Microsoft and Alphabet, the parent
+company of Google, are not just the largest technology companies
+in the world. As I’ve argued repeatedly in my column, they are
+also becoming the most powerful companies of any kind, essentially
+inescapable for any consumer or business that wants to participate
+in the modern world. But which of the Frightful Five is most
+unavoidable? I ponder the question in my column this week.</p>
+
+<p>But what about you? If an evil monarch forced you to choose, in
+what order would you give up these inescapable giants of tech?</p>
+</blockquote>
+
+<p>Great question. I love thought exercises.</p>
+
+<p>My order (from first dropped to last):</p>
+
+<ol>
+<li><p>Facebook. I love Instagram, but could live without it. I don&#8217;t use anything else Facebook offers.</p></li>
+<li><p>Microsoft. The only Microsoft product I use regularly is Skype, for podcasting, and I suspect I could find another solution. (If I couldn&#8217;t, I might have to rethink my answer here.)</p></li>
+<li><p>Amazon. I buy stuff from Amazon almost every week. I just counted &#8212; 11 orders so far in 2017. My wife buys stuff from Amazon even more frequently. But just about anything we buy at Amazon, we <em>could</em> buy elsewhere. It&#8217;d be painful to replace, but not irreplaceable. There are a couple of shows exclusive to Amazon Prime that I enjoy, but none that I love.</p></li>
+<li><p>Alphabet. I already use DuckDuckGo as my default search engine, so giving up Google search would be frustrating at times, but not a deal breaker. I use a few email accounts backed by Gmail, but I actually dislike Gmail, and have been procrastinating on moving all my mail to <a href="https://www.fastmail.com/">FastMail</a> for years. I despise Google Docs. I don&#8217;t use any Android devices other than as a curiosity. I greatly prefer Safari over Chrome. YouTube, however, is irreplaceable, and so essential that it pretty much singlehandedly catapults Alphabet to #4 in my list.</p></li>
+<li><p>Apple. I mean, come on. If not for Apple I&#8217;d be stuck using computers I don&#8217;t like and a phone that I consider a distant second-best. With all the other companies on the list, what I&#8217;d miss most are certain of their services &#8212; Instagram, Skype, Amazon&#8217;s store, YouTube &#8212; but Apple is the only company in the world whose hardware I consider irreplaceable. And you need the hardware to make best use of the services from any other companies. And that doesn&#8217;t even touch upon Apple&#8217;s crown jewels: the MacOS and iOS software platforms.</p></li>
+</ol>
+
+
+
+    ]]></content>
+  <title>★ Dropping Tech Giants</title></entry><entry>
+
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2017/05/apples_china_problem_wechat" />
+	<link rel="shorturl" href="http://df4.us/pz6" />
+	<id>tag:daringfireball.net,2017://1.33666</id>
+	<published>2017-05-05T18:37:24Z</published>
+	<updated>2017-05-06T01:58:08Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">Hardware differentiated by *superior, exclusive* software is the key to understanding Apple. And it might explain the iPhone’s sluggish sales in China.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://stratechery.com/2017/apples-china-problem/">Ben Thompson had a great column this week</a>, in the wake of Apple&#8217;s quarterly results and Microsoft&#8217;s announcement of the Surface Laptop:</p>
+
+<blockquote>
+  <p>Did you hear about the new Microsoft Surface Laptop? The <a href="https://twitter.com/reckless/status/859448810187235330">usual
+suspects</a> are claiming it’s a MacBook competitor, which is
+true insomuch as it is a laptop. In truth, though, the Surface
+Laptop isn’t a MacBook competitor at all for the rather obvious
+reason that it runs Windows, while the MacBook runs MacOS. This
+has always been the foundation of Apple’s business model:
+<a href="https://stratechery.com/2016/everything-as-a-service/">hardware differentiated by software</a> such that said hardware
+can be sold with a margin much greater than nominal competitors
+running a commodity operating system.</p>
+</blockquote>
+
+<p>Hardware differentiated by <em>superior, exclusive</em> software is the key to understanding Apple. It&#8217;s the reason the company was founded. Apple II&#8217;s were the best personal computer hardware <em>and</em> had the best software. Part of why Woz is so venerated is that he was unimaginably gifted at both hardware <em>and</em> <a href="http://gizmodo.com/how-steve-wozniak-wrote-basic-for-the-original-apple-fr-1570573636">software</a>. Hardware differentiated by software is how Apple survived in the late &#8217;90s, when the company was struggling. It explains all the company&#8217;s success after that: the iPod, the resurgence of the Mac, iPhone, iPad, and Apple Watch. Any comparison between Microsoft&#8217;s Surface Laptop and Apple&#8217;s MacBooks that doesn&#8217;t place heavy emphasis on the value of MacOS is vapid.</p>
+
+<p>Thompson then turns to Apple&#8217;s languishing iPhone sales in China:</p>
+
+<blockquote>
+  <p>But that is not what is going on in most of the world: plenty of
+folks &#8212; more than last year &#8212; are happy to buy the iPhone 7,
+even though it doesn’t look much different than the iPhone 6.
+After all, if you need a new phone, and you want iOS, you don’t
+have much choice! Except, again, for China: that is the country
+where the appearance of the iPhone matters most; Apple’s
+problem, though, is that in China that is the only thing that
+matters at all.</p>
+
+<p>The fundamental issue is this: unlike the rest of the world, in
+China the most important layer of the smartphone stack is not the
+phone’s operating system. Rather, it is WeChat. Connie Chan of
+Andreessen Horowitz <a href="http://a16z.com/2015/08/06/wechat-china-mobile-first/">tried to explain in 2015</a> just how integrated
+WeChat is into the daily lives of nearly <a href="http://mp.weixin.qq.com/s/5d6Th5wndmJT25cRHemZNg">900 million Chinese</a>, and
+that integration has only grown since then: every aspect of a
+typical Chinese person’s life, not just online but also off is
+conducted through a single app (and, to the extent other apps are
+used, they are often games promoted through WeChat).</p>
+
+<p>There is nothing in any other country that is comparable: not
+LINE, not WhatsApp, not Facebook. All of those are about
+communication or wasting time: WeChat is that, but it is also for
+reading news, for hailing taxis, for paying for lunch (try and pay
+with cash for lunch, and you’ll look like a luddite), for
+accessing government resources, for business. For all intents and
+purposes WeChat is your phone, and to a far greater extent in
+China than anywhere else, your phone is everything.</p>
+</blockquote>
+
+<p>As Thompson adds in a footnote, &#8220;Or, to put it another way, the operating system of China is WeChat, not iOS/Android.&#8221;</p>
+
+<p>Thompson cites a staggering statistic: among existing iPhone users in China who bought a new phone in 2016, only 50 percent of them bought another iPhone. That is an incredible statistical outlier compared to iPhone users in the rest of the world, where Apple&#8217;s retention rates hover around the mid-80s.</p>
+
+<p><a href="http://www.businessinsider.com/iphone-users-abandon-loyalty-to-apple-2016-11">Here&#8217;s a Business Insider report from November of last year</a>, with retention statistics from 2014 through 2016 from UBS analysts Steven Milunovich and Benjamin Wilson. Business Insider leads with the iPhone&#8217;s slowly declining retention rate globally, but the real story is halfway down the page, in <a href="http://static4.businessinsider.com/image/5818d4cbdd089533548b4991-1015/screen%20shot%202016-11-01%20at%2016.29.01.png">this chart</a>.</p>
+
+<p>According to that research from UBS, iPhone retention rates hover in the mid-to-high 80s in the U.S., U.K., and Germany. In Japan they&#8217;re in the mid-70s, but holding roughly steady. China&#8217;s numbers have plummeted &#8212; and these numbers from UBS (in the mid-50s for Q4 2016) are in line with the 50 percent number in the Chinese survey Thompson cited.</p>
+
+<p>So here&#8217;s Apple&#8217;s China problem: Chinese iPhone users aren&#8217;t nearly as loyal to the iPhone platform as iPhone users elsewhere are. This is already hurting Apple financially. Apple&#8217;s Q2 2017 financial results (announced this week) were, overall, OK. But other than China, they were actually good. The drop in iPhone sales in China was so severe, and China is so big, that it singlehandedly turned a good quarter into a so-so quarter.</p>
+
+<p>I subtly disagree with Ben Thompson on one point. Thompson attributes the iPhone&#8217;s slide in China to two factors:</p>
+
+<ol>
+<li>The whole &#8220;the operating system of China is WeChat, not iOS/Android&#8221; thing.</li>
+<li>The staleness of the iPhone 7 form factor.</li>
+</ol>
+
+<p>Thompson knows Chinese culture well &#8212; he lives in Taipei, visits China often, and speaks Mandarin. My grasp of Chinese culture is rudimentary at best, and I&#8217;ve never traveled to Asia. So I defer to him on the point that the iPhone as a status symbol is more important in China than it is elsewhere.</p>
+
+<p>Thompson, though, I think places too much weight on the fact that at a glance, some models of the iPhone 7 are indistinguishable from the iPhone 6 and 6S. Thompson argues that this is more of a problem in status-conscious China than it is elsewhere &#8212; that in China, there are many people who forego an upgrade to an iPhone 7 because other people won&#8217;t be able to tell that it isn&#8217;t, say, a boring two-year-old iPhone 6. I just don&#8217;t buy that. For one thing, the black and especially jet black iPhone 7 models <em>are</em> instantly recognizable as the latest and greatest.</p>
+
+<p>But more importantly, I just think the whole &#8220;<em>if it doesn&#8217;t have an altogether new form factor, it&#8217;s boring</em>&#8221; thing is hogwash. <a href="http://daringfireball.net/2016/09/design_as_branding">I wrote an entire column about this</a> when the iPhone 7 debuted, and won&#8217;t rehash the whole argument here. But I am convinced this viewpoint is mostly that of the tech and gadget obsessed.</p>
+
+<p>Again, I&#8217;ll concede that the status symbol aspect of a high-end smartphone may well be more important in China than anywhere else in the world. But even if I also concede that the iPhone 7&#8217;s mostly-like-the-iPhone-6 form factor is a problem for the Chinese market, if the iOS platform engendered the loyalty in China that it does elsewhere, the result would be Chinese iPhone owners waiting another year for the <em>next</em> iPhone. Instead, according to the market research cited above, half of the Chinese iPhone owners who bought a new phone in 2016 switched to an Android device. There are some fine looking Android phones at the high end of the market, but there are none that, based on form factor alone, would explain this. And none of them have anything close to the luxury brand prestige that Apple does.</p>
+
+<p>In Apple&#8217;s &#8220;hardware differentiated by software&#8221; formula, the software is more important than the hardware. That&#8217;s why gadget writers so often get Apple wrong: they&#8217;re focused solely on hardware &#8212; the object, not the experience of using the object. That&#8217;s also why the financial press so often gets Apple wrong: they focus only on the hardware because that&#8217;s where the money comes from.</p>
+
+<p>If forced to choose, I would much rather run iOS on a Google Pixel than Android on an iPhone 7. I would rather run MacOS on a ThinkPad than Windows on a MacBook Pro.<sup id="fnr1-2017-05-05"><a href="#fn1-2017-05-05">1</a></sup> Whenever I bring up this thought experiment &#8212; would you rather run Apple&#8217;s software platform on non-Apple hardware or run some other software platform on Apple hardware &#8212; I get email from readers who say they actually do choose Apple products, especially MacBooks, for the hardware. I believe them, but those are the sort of customers with the least loyalty to Apple. If all you depend on is, say, Chrome, a text editor, and a terminal, it&#8217;s easy to switch to another laptop brand. If you depend on native Mac and iOS apps, iCloud, and iMessage, it&#8217;s arduous, at best, to switch.</p>
+
+<p>If it really is true that &#8220;the operating system of China is WeChat, not iOS/Android&#8221;, that&#8217;s the whole ballgame right there. Again, my disagreement with Thompson here is subtle. He even describes WeChat&#8217;s centrality to the Chinese smartphone stack as &#8220;the fundamental issue&#8221;, leaving the supposed boringness of the iPhone 6S and 7 as a secondary issue. My difference with Thompson is that I don&#8217;t think the iPhone 6S/7 hardware is a problem at all. Personally, I think the iPhone 7 is such a great phone, and the 7 Plus in particular has such a great camera, that the quality of the latest iPhone hardware, including how it looks, shows just how much of a problem it is that WeChat, not iOS, is central to the iPhone experience in China.</p>
+
+<p>That&#8217;s a real problem for Apple, because even if Thompson is right (and I&#8217;m wrong) and Apple <em>does</em> have a boring-looking-hardware problem in China, they can (and seem poised to) remedy that by releasing exciting new iPhone hardware this year. But if the problem is that iOS engenders far less platform loyalty in China because of WeChat&#8217;s centrality &#8212; or even worse, if WeChat is central <em>and</em> better on Android than it is on iOS &#8212; there&#8217;s no easy fix for Apple.</p>
+
+<h2>Postscript</h2>
+
+<p>For those of you like me, who know very little about WeChat, this 2015 piece by Connie Chan (as linked to by Thompson) is a terrific introduction: &#8220;<a href="http://a16z.com/2015/08/06/wechat-china-mobile-first/">When One App Rules Them All: The Case of WeChat and Mobile in China</a>&#8221;.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2017-05-05">
+<p>I always use ThinkPads as my go-to example of high-quality PC hardware; perhaps I should start using Microsoft Surfaces?&nbsp;<a href="#fnr1-2017-05-05"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ Apple’s China Problem: WeChat</title></entry><entry>
+
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2017/04/apple_watch_success" />
+	<link rel="shorturl" href="http://df4.us/pxx" />
+	<id>tag:daringfireball.net,2017://1.33621</id>
+	<published>2017-04-24T22:28:32Z</published>
+	<updated>2017-04-25T01:47:44Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">These two facts are both true: Apple Watch sales are a rounding error compared to the iPhone, and Apple Watch is a smash hit compared to traditional watches and other wearable devices.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Mike Murphy, writing for Quartz, &#8220;<a href="https://qz.com/967256/two-years-after-its-launch-the-apple-watch-hasnt-made-a-difference-at-apples-revenue-streams-aapl/">Two Years After Its Launch, the Apple Watch Hasn’t Made a Difference at Apple</a>&#8221;:</p>
+
+<blockquote>
+  <p>Apple’s biggest launch since the iPad in 2010, the Apple Watch was
+expected to be a hit: Given the massive financial success of the
+iPhone, it stood to reason that a companion device might be
+something customers craved.</p>
+
+<p>Not so much. Apple has never shared hard numbers on how many
+wearables it has sold, and doesn’t even break out Watch sales in
+its quarterly earnings report. Instead, the device is bundled into
+Apple’s “Other products,” which the company says includes, “Apple
+TV, Apple Watch, Beats products, iPod and Apple-branded and
+third-party accessories.”</p>
+</blockquote>
+
+<p>These articles come out like clockwork every 3 months, as Apple&#8217;s earnings report draws near. Apple told us they were not going to report hard numbers on Apple Watch right from the start, six months before it shipped. They want to keep them secret for competitive reasons.</p>
+
+<blockquote>
+  <p>Two years and two iterations after its launch, the Apple Watch has
+not proven to be as indispensable as the iPhone, or even as
+lucrative as the Mac, the iPad, or Apple’s services businesses.
+It’s unclear whether an iPhone-like overhaul, or attempts to
+market the watch directly to athletes or millennials, will
+ultimately make a difference.</p>
+</blockquote>
+
+<p>(&#8220;Two years and two iterations after its launch&#8221; &#8212; I don&#8217;t know if that&#8217;s a mistake, if Murphy is counting WatchOS releases, or if he&#8217;s counting Series 1 as a full hardware iteration. But it&#8217;s sloppy writing. Most people would surely agree that there&#8217;s been only one iteration since launch, the Series 2 watches released last September.)</p>
+
+<p>The nut of every &#8220;Apple Watch is a dud&#8221; story is the fact that it&#8217;s clearly not an iPhone-size business. But that can&#8217;t be the only measure of success. The iPhone is the biggest and most successful consumer product in the history of the world. Nothing compares to the smartphone market, and it&#8217;s possible nothing else will in our lifetimes. You and I may never again see a product as profitable as the iPhone &#8212; not just from Apple, but from any company in any industry. Or maybe we will. It&#8217;s a complete unknown.</p>
+
+<p>But if Apple gets it into its head that they should only work on iPhone-sized opportunities, it would paralyze the company. In baseball terms, it&#8217;s fine for Apple to hit a bunch of singles while waiting for their next home run. According to Apple, <a href="https://www.wareable.com/apple/watch-sales-rolex-tim-cook-556">they had more watch sales by revenue in 2015 than any company other than Rolex</a>, and Apple&#8217;s &#8220;Other&#8221; category, which is where Watch sales are accounted for, <a href="https://images.apple.com/pr/pdf/q1fy17datasum.pdf">had a near record-breaking holiday quarter</a> three months ago, suggesting strongly that Watch sales were up over the year-ago holiday quarter.</p>
+
+<p>These two facts are both true: Apple Watch sales are a rounding error compared to the iPhone, and Apple Watch is a smash hit compared to traditional watches and other wearable devices.</p>
+
+
+
+    ]]></content>
+  <title>★ Judging Apple Watch’s Success</title></entry><entry>
+
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2017/04/uber_identifying_and_tagging_iphones" />
+	<link rel="shorturl" href="http://df4.us/pxr" />
+	<id>tag:daringfireball.net,2017://1.33615</id>
+	<published>2017-04-24T00:54:36Z</published>
+	<updated>2017-04-24T03:19:56Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">A lot of people are jumping to the conclusion that Uber was somehow tracking the location of users even after they deleted the Uber app, but the word “track” only appears in the article in the context of Kalanick having “excelled at running track and playing football” in high school.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://mobile.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html">Mike Isaac&#8217;s profile of Uber CEO Travis Kalanick for The New York Times</a> contains an accusation that, on its face, sounds outrageous:</p>
+
+<blockquote>
+  <p>For months, Mr. Kalanick had pulled a fast one on Apple by
+directing his employees to help camouflage the ride-hailing app
+from Apple’s engineers. The reason? So Apple would not find out
+that Uber had been secretly identifying and tagging iPhones even
+after its app had been deleted and the devices erased &#8212; a fraud
+detection maneuver that violated Apple’s privacy guidelines.</p>
+
+<p>But Apple was on to the deception, and when Mr. Kalanick arrived
+at the midafternoon meeting sporting his favorite pair of bright
+red sneakers and hot-pink socks, Mr. Cook was prepared. “So, I’ve
+heard you’ve been breaking some of our rules,” Mr. Cook said in
+his calm, Southern tone. Stop the trickery, Mr. Cook then
+demanded, or Uber’s app would be kicked out of Apple’s App Store.</p>
+
+<p>For Mr. Kalanick, the moment was fraught with tension. If Uber’s
+app was yanked from the App Store, it would lose access to
+millions of iPhone customers &#8212; essentially destroying the
+ride-hailing company’s business. So Mr. Kalanick acceded.</p>
+</blockquote>
+
+<p>&#8220;Secretly identifying and tagging iPhones even after its app had been deleted and the devices erased&#8221; is a rather startling accusation, because it sounds like it should be technically impossible. It&#8217;s also very much unclear what information Uber was able to glean from these &#8220;identified and tagged&#8221; iPhones other than some sort of unique device identifier. Unfortunately, the Times story is very short on details here. But note that the Times is <em>not</em> saying Uber was &#8220;tracking&#8221; these phones. A lot of people are jumping to the conclusion that Uber was somehow tracking the location of users even after they deleted the Uber app, but the word &#8220;track&#8221; only appears in the article in the context of Kalanick having &#8220;excelled at running track and playing football&#8221; in high school.</p>
+
+<p>[<strong>Update:</strong> This explains a lot, regarding the hubbub today over this story. <a href="http://newsdiffs.org/diff/1383350/1383404/https%3A/www.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html">When first published, the Times story <em>did</em> use the word &#8220;tracking&#8221;</a>, but a subsequent revision changed that word to &#8220;identifying and tagging&#8221;.]</p>
+
+<p>Reading between the lines, it is possible &#8212; and my gut says quite probable &#8212; that Uber wasn&#8217;t <em>doing</em> anything on these iPhones other than when its app was installed and running on them. From the end of the article:</p>
+
+<blockquote>
+  <p>The idea of fooling Apple, the main distributor of Uber’s app,
+began in 2014.</p>
+
+<p>At the time, Uber was dealing with widespread account fraud in
+places like China, where tricksters bought stolen iPhones that
+were erased of their memory and resold. Some Uber drivers there
+would then create dozens of fake email addresses to sign up for
+new Uber rider accounts attached to each phone, and request rides
+from those phones, which they would then accept. Since Uber was
+handing out incentives to drivers to take more rides, the drivers
+could earn more money this way.</p>
+
+<p>To halt the activity, Uber engineers assigned a persistent
+identity to iPhones with a small piece of code, a practice called
+“fingerprinting.” Uber could then identify an iPhone and prevent
+itself from being fooled even after the device was erased of its
+contents.</p>
+
+<p>There was one problem: Fingerprinting iPhones broke Apple’s rules.
+Mr. Cook believed that wiping an iPhone should ensure that no
+trace of the owner’s identity remained on the device.</p>
+</blockquote>
+
+<p>What Isaac is reporting here doesn&#8217;t require any code running on an iPhone other than when the Uber app is itself installed and launched. I&#8217;m speculating here, but it could be something like this:</p>
+
+<ol>
+<li><p>The Uber app, while installed, fingerprints the device somehow, and reports the fingerprint home to Uber&#8217;s servers, where it is tied to the user&#8217;s Uber account. (All iPhones have a Unique Device Identifier &#8212; &#8220;UDID&#8221; &#8212; but <a href="http://lifehacker.com/5898282/what-a-udid-is-and-why-apples-rejecting-apps-that-want-yours">Apple banned third-party apps from accessing it in 2012</a>. Uber either found a way to access UDIDs surreptitiously, or created some other way of uniquely identifying devices even after they&#8217;ve been wiped. It would be good to know exactly what they did, but for the sake of my argument here it doesn&#8217;t matter.)</p></li>
+<li><p>The Uber app is deleted from the device and/or device is wiped. At this point, Uber knows the fingerprint for the device, but can’t use it to track the device in any way, <em>and they don’t care</em>, because until someone reinstalls the Uber app on the phone it isn&#8217;t being used to book fraudulent rides.</p></li>
+<li><p>The Uber app is reinstalled on the iPhone. When it launches, it does the fingerprint check and phones home again. Uber now knows this is the same iPhone they’ve seen before, because the fingerprint matches. This is the violation of Apple&#8217;s privacy policy.</p></li>
+</ol>
+
+<p>But until step 3, when the Uber app is reinstalled, I don&#8217;t think Uber was &#8220;tracking&#8221; the phone in any way. And they didn’t care — the Times says the whole project was designed to counter fraud in China, which required the Uber app to be reinstalled on stolen iPhones.</p>
+
+<p>Repeating from the opening of the article, Isaac wrote:</p>
+
+<blockquote>
+  <p>So Apple would not find out that Uber had been secretly
+identifying and tagging iPhones even after its app had been
+deleted and the devices erased &#8212; a fraud detection maneuver that
+violated Apple’s privacy guidelines.</p>
+</blockquote>
+
+<p>That <em>sounds</em> like Uber was doing the identifying and &#8220;tagging&#8221; (whatever that is) after the app had been deleted and/or the device wiped, but I think what it might &#8212; <em>might</em> &#8212; actually mean is merely that the identification persisted after the app had been deleted and/or the device wiped. That&#8217;s not supposed to be technically possible &#8212; iOS APIs for things like the UDID and even the MAC address stopped reporting unique identifiers years ago, because they were being abused by privacy invasive ad trackers, analytics packages, and entitled shitbags like Uber. That&#8217;s wrong, and Apple was right to put an end to it, but it&#8217;s far less sensational than the prospect of Uber having been able to identify and &#8220;tag&#8221; an iPhone <em>after</em> the Uber app had been deleted. The latter scenario only seems technically possible if other third-party apps were executing surreptitious code that did this stuff through Uber&#8217;s SDK, or if the Uber app left behind malware outside the app&#8217;s sandbox. I don&#8217;t think that&#8217;s the case, if only because I don&#8217;t think Apple would have hesitated to remove Uber from the App Store if it was infecting iPhones with hidden phone-home malware.</p>
+
+<p>The article does raise some questions:</p>
+
+<ul>
+<li><p>What APIs and device info was Uber using to identify iPhones? Are these API loopholes now closed in iOS? If we don&#8217;t learn exactly what Uber was using to identify devices, we cannot know that the technique no longer works. iOS users should be able to feel confident that when they delete an app, all connections between their device and the developer of the app are disconnected, and that when they wipe a device, everything personally identifying has been removed from it.</p></li>
+<li><p>What exactly did Apple know about Uber&#8217;s actions in this regard when Tim Cook called Kalanick in for the meeting? Was Apple aware that Uber was specifically keeping a database of unique iPhone identifiers? If so, how?</p></li>
+<li><p>What prompted Apple to investigate Uber in this regard? And why did Uber suspect Apple was going to investigate, prompting them to geofence their fingerprinting so it wouldn&#8217;t trigger in Cupertino? (My theory: the Uber app was calling private APIs, and they used the geofence to avoid calling those private APIs while the app was in App Store review, assuming, perhaps incorrectly, that all App Store reviewers work in Cupertino. App Store review can identify apps that call private APIs.)</p></li>
+<li><p><strong>Update</strong>: Why didn&#8217;t Apple require Uber to disclose what they’d done as a condition for remaining in the store? Shouldn&#8217;t iPhone users who had Uber installed know about this?</p></li>
+</ul>
+
+<p>[<strong>Update 2:</strong> <a href="https://twitter.com/chronic/status/856250223777206273">Will Strafach examined a 2014 build of the Uber iOS app</a> and found them using private APIs to use IOKit to pull the device serial number from the device registry. There might be more, but this alone is a blatant violation of App Store policy. <a href="https://twitter.com/chronic/status/856333895050178560">Strafach confirms</a> that the technique Uber was using no longer works in iOS 10.]</p>
+
+<hr />
+
+<p>The article also contains this non-Apple-related tidbit:</p>
+
+<blockquote>
+  <p>Uber devoted teams to so-called competitive intelligence,
+purchasing data from an analytics service called Slice
+Intelligence. Using an email digest service it owns named
+Unroll.me, Slice collected its customers’ emailed Lyft receipts
+from their inboxes and sold the anonymized data to Uber. Uber used
+the data as a proxy for the health of Lyft’s business. (Lyft, too,
+operates a competitive intelligence team.)</p>
+
+<p>Slice confirmed that it sells anonymized data (meaning that
+customers’ names are not attached) based on ride receipts from
+Uber and Lyft, but declined to disclose who buys the information.</p>
+</blockquote>
+
+<p>This is, needless to say, super shitty. We expect it from Uber. But Slice should be ashamed of themselves. Their <a href="https://unroll.me/">Unroll.me</a> service is billed as a tool to &#8220;Clean up your inbox&#8221; by identifying subscription emails and allowing you to unsubscribe from them in bulk. It&#8217;s &#8220;free&#8221; in the sense that you don&#8217;t pay them money, but they&#8217;re selling your personal information to companies like Uber. Supposedly that information is anonymized, but wiped iPhones are supposed to be anonymized too, and Uber found at least one route around that. </p>
+
+
+
+    ]]></content>
+  <title>★ On Uber’s ‘Identifying and Tagging’ of iPhones</title></entry><entry>
+
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2017/04/double_down_on_mechanical_watches" />
+	<link rel="shorturl" href="http://df4.us/pwr" />
+	<id>tag:daringfireball.net,2017://1.33579</id>
+	<published>2017-04-11T00:15:08Z</published>
+	<updated>2017-04-12T03:38:06Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">Instead of getting into the computer business, traditional watch companies should focus on what they’ve always done: designing and making great mechanical watches — creating a breath of analog fresh air in an ever-more digitized world.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Jean-Louis Gassée penned a good column a few weeks ago <a href="https://mondaynote.com/swatchos-not-a-smart-decision-6b2cc883c99f#.rre6lnb1g">on the Swatch Group making their own watch OS</a>:</p>
+
+<blockquote>
+  <p>Nick Hayek’s father triumphed against Japanese quartz watch makers
+by playing on his own turf. Trying to defeat the established
+smartwatch players by playing their game won’t work. Is there
+something in Swatch Group’s culture that predisposes it to be
+competitive with Google and Apple software engineers?</p>
+
+<p>Just as Nokia should have embraced Android in 2010, riding on its
+proven combination of Design, Supply Chain, and Carrier
+Distribution prowess to keep a leading role in the smartphone
+revolution, Swatch could use its native &#8212; but circumscribed &#8212;
+cultural and technical skills to create beautiful, fun
+smartwatches … that run on Google’s software. But just like
+Nokia&#8217;s culture and success prevented it from seizing the Android
+moment, similar factors will keep Swatch from being a powerful
+player in the smartwatch world.</p>
+</blockquote>
+
+<p>I agree. <em>If</em> the Swatch Group wants to make smartwatches, they should almost certainly go with Android Wear, and they&#8217;re almost certainly doomed with their pre-announced homegrown OS. And it&#8217;s crazy that even if they succeed at creating their own OS, that they think it won&#8217;t need frequent updates and bug fixes. That&#8217;s not how computer platforms work, and make no mistake, smartwatches are computer platforms.</p>
+
+<p>But I think the Swiss watch industry would do well to stick to their mechanical guns. They should leave it to computerized gadgeteers to make smartwatches, and focus on making mechanical watches that stand the test of time (no pun intended). I love computers (duh), but I find mechanical watches to be a source of joy, a bulwark against the ever-encroaching computerization of everything.</p>
+
+<p>The bread and butter for high-end watch companies are aficionados who own multiple watches. Almost no one uses multiple smartwatches. People might have old ones in a drawer, but just as with with phones, it&#8217;s only convenient to have one smartwatch <em>in active use</em> at a time. Apple knows this: that&#8217;s why they made it so easy to swap straps &#8212; multiple looks for variety, but just one watch. For watch fans who actually do want multiple watches <em>and</em> a smartwatch, every watch other than their one smartwatch is likely to be a mechanical.</p>
+
+<p>I don&#8217;t think the Swiss watch industry has a chance of out-computer-engineering Apple. Instead they should focus on what they&#8217;ve always done: designing and making great mechanical watches &#8212; creating a breath of analog fresh air in an ever-more-digitized world.</p>
+
+
+
+    ]]></content>
+  <title>★ The Swiss Watch Industry Should Double Down on Mechanical Watches</title></entry></feed><!-- THE END -->
+
+---
+
+feed.format:        atom
+feed.title:         Daring Fireball
+feed.subtitle:      By John Gruber
+feed.url:           https://daringfireball.net/
+feed.feed_url:      https://daringfireball.net/feeds/main
+feed.updated:       >>> DateTime.new( 2017, 5, 23, 19, 36, 44 )
+
+feed.items[0].title:     Feedbin, Too
+feed.items[0].url:       https://feedbin.com/blog/2017/05/22/feedbin-supports-json-feed/
+feed.items[0].guid:      tag:daringfireball.net,2017:/linked//6.33732
+feed.items[0].updated:   >>> DateTime.new( 2017, 5, 23, 19, 03, 33 )
+feed.items[0].published: >>> DateTime.new( 2017, 5, 23, 18, 50, 36 )
+
+feed.items[0].authors.size:     >>> 1
+feed.items[0].authors[0].name:  John Gruber
+feed.items[0].authors[0].url:	  http://daringfireball.net/
+feed.items[0].authors[0].email:	>>> nil

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>RubyFlow</title>
+    <link>http://www.rubyflow.com/</link>
+    <description>Ruby Links</description>
+    <language>en-us</language>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Rubyflow" />
+    <feedburner:info uri="rubyflow" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Why does Ruby have blocks?</title>
+      <description>Newcomers to Ruby often have difficulty with the concept of blocks. &lt;a href="http://devblog.avdi.org/2015/01/16/why-does-ruby-have-blocks/"&gt;Here's how I like to explain them.&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=wnWT2gmeXxQ:koV92xL1Jvs:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=wnWT2gmeXxQ:koV92xL1Jvs:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/wnWT2gmeXxQ" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Fri, 16 Jan 2015 17:33:47 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/wnWT2gmeXxQ/12050-why-does-ruby-have-blocks</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12050-why-does-ruby-have-blocks</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12050-why-does-ruby-have-blocks</feedburner:origLink></item>
+    <item>
+      <title>Mongoid (MongoDB) has_many/belongs_to relation and wrong index being picked</title>
+      <description>If you have issues with your Mongoid relations and wrong indexes being picked, you may want to look here: &lt;a href="dev.mensfeld.pl/2015/01/mongoid-mongodb-has_many-belongs_to-relation-and-wrong-index-being-picked/"&gt;Mongoid (MongoDB) has_many/belongs_to relation and wrong index being picked&lt;/a&gt;.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=SJTA_7LGX4w:jHx3BWzfpPM:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=SJTA_7LGX4w:jHx3BWzfpPM:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/SJTA_7LGX4w" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Fri, 16 Jan 2015 09:33:57 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/SJTA_7LGX4w/12047-mongoid-mongodb-has_many-belongs_to-relation-and-wrong-index-</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12047-mongoid-mongodb-has_many-belongs_to-relation-and-wrong-index-</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12047-mongoid-mongodb-has_many-belongs_to-relation-and-wrong-index-</feedburner:origLink></item>
+    <item>
+      <title>Refactoring Controller Helper Methods</title>
+      <description>I just recorded a screencast where we take a look at &lt;a href="https://gorails.com/episodes/refactoring-controller-methods"&gt;refactoring controller methods&lt;/a&gt; into a much more organized format.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=21fZJRRTKXg:7Db1g3va0dE:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=21fZJRRTKXg:7Db1g3va0dE:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/21fZJRRTKXg" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Thu, 15 Jan 2015 17:37:16 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/21fZJRRTKXg/12045-refactoring-controller-helper-methods</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12045-refactoring-controller-helper-methods</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12045-refactoring-controller-helper-methods</feedburner:origLink></item>
+    <item>
+      <title>Debugging Super Methods with Ruby 2.2</title>
+      <description>Debug more, quicker with the new &lt;a href="http://engineering.heroku.com/blogs/2014-01-14-debugging-super-methods-ruby22"&gt;debugging super_method&lt;/a&gt; introduced in Ruby 2.2.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=ITHtHA0NdE8:nVycnzEZotY:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=ITHtHA0NdE8:nVycnzEZotY:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/ITHtHA0NdE8" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Wed, 14 Jan 2015 19:48:57 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/ITHtHA0NdE8/12043-debugging-super-methods-with-ruby-2-2</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12043-debugging-super-methods-with-ruby-2-2</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12043-debugging-super-methods-with-ruby-2-2</feedburner:origLink></item>
+    <item>
+      <title>When edge cases poke holes in your perfect solution</title>
+      <description>You found the perfect solution to your crazy testing problem. All you have to do is override  &lt;code&gt;DEFAULT_HOST&lt;/code&gt;, and you'll be in business. Except that you have to turn off warnings. And you have to figure out that one test where you don't want to override the host. And then... Except...
+&lt;br&gt;&lt;br&gt;And a few days later, when you get stuck for the twenty-seventh time and your app has become one giant ball of hacks, you'll sit back and wonder: &lt;a href="http://www.justinweiss.com/blog/2015/01/13/when-edge-cases-poke-holes-in-your-perfect-solution/"&gt;Why am I &lt;em&gt;doing&lt;/em&gt; all this? Isn't the solution worse than the problem?&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=hAxXj3zhkUA:8q296eaZPdc:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=hAxXj3zhkUA:8q296eaZPdc:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/hAxXj3zhkUA" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Tue, 13 Jan 2015 17:03:25 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/hAxXj3zhkUA/12040-when-edge-cases-poke-holes-in-your-perfect-solution</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12040-when-edge-cases-poke-holes-in-your-perfect-solution</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12040-when-edge-cases-poke-holes-in-your-perfect-solution</feedburner:origLink></item>
+    <item>
+      <title>Code Quality: Metrics That Matter</title>
+      <description>The Ruby ecosystem has dozens of tools for evaluating the quality of your code, but there's a lot of variability in their usefulness and ease of use.  Here are some that I've found to be both important and easy to integrate into my development workflow.  &lt;a href="http://chriskottom.com/blog/2015/01/code-quality-metrics-that-matter/"&gt;http://chriskottom.com/blog/2015/01/code-quality-metrics-that-matter/&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=1zciJQv_b9w:P2uxm8Ho3-8:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=1zciJQv_b9w:P2uxm8Ho3-8:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/1zciJQv_b9w" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Mon, 12 Jan 2015 13:39:30 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/1zciJQv_b9w/12034-code-quality-metrics-that-matter</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12034-code-quality-metrics-that-matter</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12034-code-quality-metrics-that-matter</feedburner:origLink></item>
+    <item>
+      <title>More than 101+ Ruby and Ruby on Rails Blogs 'n' News Sites (w/ Feeds) @ Planet Ruby's Sources Page</title>
+      <description>Hello, I've added a &lt;a href="http://planetruby.herokuapp.com/sources"&gt;sources page&lt;/a&gt; to the Planet Ruby that lists more than 101+ ruby blogs and news sites w/ feeds. Anything missing? Let us know. Happy planet. Cheers.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=uBPHPt_E1KU:hYqSl_8TrOw:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=uBPHPt_E1KU:hYqSl_8TrOw:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/uBPHPt_E1KU" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Mon, 12 Jan 2015 11:01:28 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/uBPHPt_E1KU/12033-more-than-101-ruby-and-ruby-on-rails-blogs-n-news-sites-w-fee</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12033-more-than-101-ruby-and-ruby-on-rails-blogs-n-news-sites-w-fee</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12033-more-than-101-ruby-and-ruby-on-rails-blogs-n-news-sites-w-fee</feedburner:origLink></item>
+    <item>
+      <title>loaf v0.4.0 release</title>
+      <description>&lt;a href="https://github.com/peter-murach/loaf"&gt;loaf&lt;/a&gt; manages breadcrumbs in Rails app. This release cleans up api as well as internals and gets tested on all major ruby and Rails versions. Enjoy!&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=dEmxUWYWMQ4:XWuBIyrE8Hs:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=dEmxUWYWMQ4:XWuBIyrE8Hs:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/dEmxUWYWMQ4" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Sat, 10 Jan 2015 18:00:46 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/dEmxUWYWMQ4/12028-loaf-v0-4-0-release</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12028-loaf-v0-4-0-release</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12028-loaf-v0-4-0-release</feedburner:origLink></item>
+    <item>
+      <title>ActiveRecord 4.2's Type Casting</title>
+      <description>&lt;a href="http://technology.customink.com/blog/2015/01/06/activerecord-42s-type-casting/"&gt;A close look at the new ActiveRecord::Type namespace and how these simple POROs are helping Rails and database adapters.&lt;/a&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=pzNbYOshCUs:wkAwpFMzHOg:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=pzNbYOshCUs:wkAwpFMzHOg:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/pzNbYOshCUs" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Fri, 09 Jan 2015 15:06:26 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/pzNbYOshCUs/12025-activerecord-4-2-s-type-casting</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12025-activerecord-4-2-s-type-casting</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12025-activerecord-4-2-s-type-casting</feedburner:origLink></item>
+    <item>
+      <title>Interview by The Changelog about Passenger 5 and the Raptor campaign</title>
+      <description>&lt;a href="http://thechangelog.com/136/"&gt;The Changelog&lt;/a&gt;, a weekly blog and podcast about open source projects, &lt;a href="http://thechangelog.com/136/"&gt;interviewed Phusion&lt;/a&gt; about Phusion’s history, what’s new in Passenger 5, how the Raptor campaign came to be and why, the challenges of open source, future Passenger developments, etc.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/Rubyflow?a=chsy48WZK5U:wyE1nuTPb-s:3H-1DwQop_U"&gt;&lt;img src="http://feeds.feedburner.com/~ff/Rubyflow?i=chsy48WZK5U:wyE1nuTPb-s:3H-1DwQop_U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="//feeds.feedburner.com/~r/Rubyflow/~4/chsy48WZK5U" height="1" width="1" alt=""/&gt;</description>
+      <pubDate>Thu, 08 Jan 2015 23:14:52 +0100</pubDate>
+      <link>http://feedproxy.google.com/~r/Rubyflow/~3/chsy48WZK5U/12020-interview-by-the-changelog-about-passenger-5-and-the-raptor-c</link>
+      <guid isPermaLink="false">http://www.rubyflow.com/items/12020-interview-by-the-changelog-about-passenger-5-and-the-raptor-c</guid>
+    <feedburner:origLink>http://www.rubyflow.com/items/12020-interview-by-the-changelog-about-passenger-5-and-the-raptor-c</feedburner:origLink></item>
+  </channel>
+</rss>
+
+---
+
+feed.format:     rss 2.0
+feed.title:      RubyFlow
+feed.url:        http://www.rubyflow.com/
+feed.summary:    Ruby Links
+
+feed.items[0].title:  Why does Ruby have blocks?
+feed.items[0].url:    http://feedproxy.google.com/~r/Rubyflow/~3/wnWT2gmeXxQ/12050-why-does-ruby-have-blocks
+feed.items[0].guid:   http://www.rubyflow.com/items/12050-why-does-ruby-have-blocks
+
+feed.items[1].title:  Mongoid (MongoDB) has_many/belongs_to relation and wrong index being picked
+feed.items[1].url:    http://feedproxy.google.com/~r/Rubyflow/~3/SJTA_7LGX4w/12047-mongoid-mongodb-has_many-belongs_to-relation-and-wrong-index-
+feed.items[1].guid:   http://www.rubyflow.com/items/12047-mongoid-mongodb-has_many-belongs_to-relation-and-wrong-index-

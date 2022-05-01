@@ -1,0 +1,37 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://groups.google.com/d/forum/beerdb</id>
+  <title type="text">Open Beer &amp; Brewery Database (beer.db)</title>
+  <subtitle>Free open public domain beer database &amp;amp; schema (beer.db) for use in any (programming) language (e.g. uses plain text fixtures/data sets). Questions? Comments?</subtitle>
+  <link rel="self" href="https://groups.google.com/forum/feed/beerdb/topics/atom_v1_0.xml" title="beerdb feed"></link>
+  <updated></updated>
+  <generator>Google Groups</generator>
+  <entry>
+    <author>
+      <name>Joe Sixpack</name>
+    </author>
+    <updated>2014-12-17T11:54:43Z</updated>
+    <id>https://groups.google.com/d/topic/beerdb/KpQOUDYJ3J8</id>
+    <link href="https://groups.google.com/d/topic/beerdb/KpQOUDYJ3J8"></link>
+    <title type="text">Planet Beer (Austria, Belgium) - Feeds Incl. Craft Fest Wien, Beer-A-Day, proBier n Friends</title>
+    <summary type="html">Hello, I&apos;ve started putting together a planet site for beer, that is, Planet Beer [1]. The first feed lists include: - Austria [2] - Belgium [3] You&apos;re welcome and invited to suggest new countries and feeds. Cheers. Prost. [1] http://planetbeer.herokuapp.com [2] http://github.com/openbeer/planet/blob/master/</summary>
+  </entry>
+</feed>
+
+---
+
+feed.format:    atom
+feed.title:     Open Beer & Brewery Database (beer.db)
+feed.url:       https://groups.google.com/d/forum/beerdb
+
+feed.generator.name: Google Groups
+
+feed.items[0].title: Planet Beer (Austria, Belgium) - Feeds Incl. Craft Fest Wien, Beer-A-Day, proBier n Friends
+feed.items[0].url:   https://groups.google.com/d/topic/beerdb/KpQOUDYJ3J8
+
+
+### todo: fix: &amp;amp;  => &amp;  -> always assume plain text? (by default) - auto-escape xml entities??
+feed.summary: Free open public domain beer database &amp; schema (beer.db) for use in any (programming) language (e.g. uses plain text fixtures/data sets). Questions? Comments?
+
+### todo: add check for datetime (use to_s ??)
+## feed.updated.to_s:  2014-12-31T15:33:00+00:00
+## feed.items[0].to_s: 2014-12-31T15:33:00+00:00

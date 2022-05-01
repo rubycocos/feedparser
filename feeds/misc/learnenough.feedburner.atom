@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+  <title><![CDATA[Learn Enough to Be Dangerous]]></title>
+
+  <link href="http://news.learnenough.com/" />
+  <updated>2017-02-01T23:38:00+00:00</updated>
+  <id>http://news.learnenough.com/</id>
+  <author>
+    <name />
+    <email><![CDATA[michael@learnenough.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/railstutorial" /><feedburner:info uri="railstutorial" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>railstutorial</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><entry>
+    <title type="html"><![CDATA[Learn Enough Dev Environment to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/m8fo_xA6gGI/learn-enough-dev-environment" />
+    <updated>2017-02-01T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-dev-environment</id>
+    <content type="html">
+
+      &lt;p&gt;We've just released &lt;em&gt;&lt;a href="https://www.learnenough.com/dev-environment-tutorial"&gt;Learn Enough Dev Environment to Be Dangerous&lt;/a&gt;&lt;/em&gt;&lt;a href="https://www.learnenough.com/dev-environment-tutorial"&gt;&lt;/a&gt;, a free tutorial on setting up a proper environment for doing software development.
+&lt;/p&gt;
+&lt;p&gt;In addition to being available &lt;a href="https://www.learnenough.com/dev-environment-tutorial"&gt;online&lt;/a&gt;, the &lt;a href="https://www.softcover.io/email-capture/28fdb94f/learn_enough_dev_environment"&gt;ebook downloads&lt;/a&gt; are free as well.
+&lt;/p&gt;
+&lt;p&gt;For those who prefer the convenience of direct delivery to their Kindle, we've made the tutorial available for Amazon's minimum $0.99 purchase price &lt;a href="https://www.amazon.com/Learn-Enough-Dev-Environment-Dangerous-ebook/dp/B01MTEQJ6E"&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href="https://www.learnenough.com/dev-environment-tutorial"&gt;&lt;img src="https://convertkit.s3.amazonaws.com/assets/pictures/288/388626/content_cover-web.png" style="display:block; margin: auto;" /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;At around 20 pages, &lt;em&gt;Learn Enough Dev Environment&lt;/em&gt;&lt;span style="background-color: initial;"&gt; is short and sweet—a great complement to the other &lt;/span&gt;&lt;a href="http://learnenough.com/tutorials"&gt;Learn Enough tutorials&lt;/a&gt;&lt;span style="background-color: initial;"&gt;, the &lt;/span&gt;&lt;a href="http://railstutorial.org/"&gt;Ruby on Rails Tutorial&lt;/a&gt;&lt;span style="background-color: initial;"&gt;, and the &lt;/span&gt;&lt;a href="http://learnenough.com/story"&gt;Learn Enough Society&lt;/a&gt;&lt;span style="background-color: initial;"&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: initial;"&gt;While &lt;em&gt;Learn Enough Dev Environment to Be Dangerous&lt;/em&gt; covers easier setup options like cloud IDEs and virtual machines, I especially recommend it for macOS and Linux users who are ready for the more challenging task of configuring their native environments.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Learn Enough Dev Environment to Be Dangerous&lt;/em&gt;&lt;span class="redactor-invisible-space"&gt;&lt;span class="redactor-invisible-space"&gt; is a living document, and we plan to keep it up-to-date as development environments evolve. &lt;/span&gt;&lt;/span&gt;&lt;span style="background-color: initial;"&gt;Please feel free to pass it around as a resource to any of your friends or colleagues who want to get started learning about software development. &lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: initial;"&gt;Finally, suggestions are welcome, so please let us know if you have any favorite dev environment tricks you'd like to see included!&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;P.S. For reference, here are the &lt;em&gt;Learn Enough Dev Environment to Be Dangerous&lt;/em&gt; links again: &lt;a href="https://www.learnenough.com/dev-environment-tutorial"&gt;online&lt;/a&gt;, &lt;a href="https://www.softcover.io/email-capture/28fdb94f/learn_enough_dev_environment"&gt;free downloads&lt;/a&gt;, &lt;a href="https://www.amazon.com/Learn-Enough-Dev-Environment-Dangerous-ebook/dp/B01MTEQJ6E"&gt;Amazon purchase&lt;/a&gt;. Enjoy!
+&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/m8fo_xA6gGI" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-dev-environment</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough HTML on Amazon.com]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/lIlH5vaKPyY/learn-enough-html-on-amazon" />
+    <updated>2017-01-19T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-html-on-amazon</id>
+    <content type="html">
+
+      &lt;p&gt;In preparation for the upcoming release of &lt;em&gt;Learn Enough CSS &amp;amp; Layout to Be Dangerous&lt;/em&gt;, which is going to be awesome, I've just published &lt;a href="https://www.amazon.com/dp/B01N3539VG"&gt;&lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt;&lt;/a&gt; on Amazon.com.
+&lt;/p&gt;
+&lt;p&gt;As with previous Amazon releases, for the first week you can &lt;a href="https://www.amazon.com/dp/B01N3539VG"&gt;get the Kindle edition&lt;/a&gt; of &lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; for &lt;strong&gt;20% off&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;With its sequel &lt;em&gt;Learn Enough CSS &amp;amp; Layout to Be Dangerous&lt;/em&gt; due out within a few weeks, now is the perfect time to brush up on your HTML, including full integration with Git and GitHub Pages.
+&lt;/p&gt;
+&lt;p&gt;If you've already read the &lt;a href="https://www.learnenough.com/html-tutorial"&gt;online version&lt;/a&gt; of the HTML tutorial, it would be much-appreciated if you could &lt;a href="https://www.amazon.com/dp/B01N3539VG"&gt;leave a review at Amazon&lt;/a&gt;. Thanks!
+&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/lIlH5vaKPyY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-html-on-amazon</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough Git on Amazon.com]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/9vnaA-qqPkI/learn-enough-git-on-amazon" />
+    <updated>2017-01-05T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-git-on-amazon</id>
+    <content type="html">
+
+      &lt;p&gt;Happy New Year, everyone!
+&lt;/p&gt;
+&lt;p&gt;Here at Learn Enough, we're hard at work on the next two titles in our nine-part intro sequence: &lt;em&gt;Learn Enough CSS &amp;amp; Layout&lt;/em&gt;&lt;em&gt; to Be Dangerous&lt;/em&gt; and &lt;em&gt;Learn Enough JavaScript to Be Dangerous&lt;/em&gt;.
+&lt;/p&gt;
+
+
+
+          &lt;a href="http://news.learnenough.com//learn-enough-git-on-amazon"&gt;read more&lt;/a&gt;
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/9vnaA-qqPkI" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-git-on-amazon</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Ruby on Rails Tutorial Print Edition + Amazon reviews]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/69M-vjeYWgE/2016-ruby-on-rails-tutorial-print-edition" />
+    <updated>2016-12-06T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/2016-ruby-on-rails-tutorial-print-edition</id>
+    <content type="html">
+
+      &lt;p&gt;I’ve got an exciting announcement and a big request (with a big offer) for you all.&lt;/p&gt;
+
+
+
+          &lt;a href="http://news.learnenough.com//2016-ruby-on-rails-tutorial-print-edition"&gt;read more&lt;/a&gt;
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/69M-vjeYWgE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/2016-ruby-on-rails-tutorial-print-edition</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough HTML to Be Dangerous Screencasts]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/mIsseqgjZps/learn-enough-html-screencasts" />
+    <updated>2016-11-15T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-html-screencasts</id>
+    <content type="html">
+
+      &lt;p&gt;The &lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; screencast videos are out! There are two main ways to get them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get the &lt;a href="https://www.learnenough.com/buy/234"&gt;&lt;strong&gt;screencast+ebook bundle&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.learnenough.com/subscriptions/new"&gt;&lt;strong&gt;Join the Learn Enough Society&lt;/strong&gt;&lt;/a&gt;. All Society memberships include streaming videos for &lt;em&gt;all&lt;/em&gt; the Learn Enough tutorials (Command Line, Text Editor, Git, HTML, Action Cable) as well as the full Ruby on Rails Tutorial, for a total of over 25 hours of video.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At just over 2 hours, the &lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; screencasts are the perfect length for getting started with HTML without having to slog through 10 hours of video just to learn the basics.&lt;/p&gt;
+
+&lt;p&gt;As always, the full written tutorial is available for free &lt;a href="http://learnenough.com/html-tutorial"&gt;online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Although there are lots of HTML tutorials out there, &lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; puts things together in a way you probably haven’t seen before:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You deploy a live website in the first section.&lt;/li&gt;
+  &lt;li&gt;You learn HTML tags in context, using real-world examples.&lt;/li&gt;
+  &lt;li&gt;You take the first steps toward Cascading Style Sheets using inline styles.&lt;/li&gt;
+  &lt;li&gt;You build a reference table of HTML tags, &lt;em&gt;using the HTML &lt;code class="highlighter-rouge"&gt;table&lt;/code&gt; tag&lt;/em&gt;. It’s totally &lt;code class="highlighter-rouge"&gt;meta&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; also has 200% more kittens than the average HTML tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="images/kitten.jpg" alt="An adorable kitten" /&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML is the fundamental language of the Web, and all developers, designers, and even managers should know the basics.&lt;/p&gt;
+
+&lt;p&gt;If tech is the new literacy, HTML is the alphabet.&lt;/p&gt;
+
+&lt;p&gt;You don’t have to know everything about HTML, of course—just enough to be &lt;em&gt;dangerous&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12961304"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/mIsseqgjZps" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-html-screencasts</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Screencast for Learn Enough Action Cable to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/14SKGq2rGFE/learn-enough-action-cable-screencast" />
+    <updated>2016-10-26T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-action-cable-screencast</id>
+    <content type="html">
+
+      &lt;p&gt;I’ve just released the screencast for &lt;em&gt;Learn Enough Action Cable to Be Dangerous&lt;/em&gt;, which teaches you how to make real-time web applications using Rails and the WebSocket Protocol.&lt;/p&gt;
+
+&lt;p&gt;This is cutting-edge web development, the kind of thing that gives you a leg up on the competition when landing a contract or getting a job.&lt;/p&gt;
+
+&lt;p&gt;The Action Cable sample app is a real-time chat application, and for this kind of app the screencast format really shines. It’s hard to completely capture the dynamic nature of Action Cable in a written tutorial, but with a screencast you can really see the app come to life.&lt;/p&gt;
+
+&lt;p&gt;Topics include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Upgrading a Rails app to Action Cable&lt;/li&gt;
+  &lt;li&gt;Message broadcasts using WebSockets&lt;/li&gt;
+  &lt;li&gt;Polishing the User Interface with CoffeeScript&lt;/li&gt;
+  &lt;li&gt;Advanced enhancements like Markdown support and @-mention notifications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anyone interested in building real-time apps will benefit from both the ebook and video versions of &lt;em&gt;Learn Enough Action Cable to Be Dangerous&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are two main ways to get it:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href="https://www.learnenough.com/buy/232?code=screencast-launch"&gt;&lt;strong&gt;Buy the downloadable ebooks &amp;amp; videos&lt;/strong&gt;&lt;/a&gt;: Get EPUB/MOBI/PDF ebooks &amp;amp; over 2 hours of MP4 videos.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.learnenough.com/subscriptions/new?discount_code=action-cable"&gt;&lt;strong&gt;Join the Learn Enough Society&lt;/strong&gt;&lt;/a&gt;: Get access to a special enhanced online version (with community answers to exercises) and free streaming versions of all 2+ hours of the Action Cable screencasts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Either way, I hope you enjoy learning enough Action Cable to be &lt;em&gt;dangerous&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12798414"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/14SKGq2rGFE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-action-cable-screencast</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough Text Editor on Amazon.com]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/eCjvI4uAvD0/learn-enough-text-editor-amazon" />
+    <updated>2016-10-05T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-text-editor-amazon</id>
+    <content type="html">
+
+      &lt;p&gt;I'm pleased to announce that &lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt; is &lt;a href="https://www.amazon.com/dp/B01M10FNYJ"&gt;now available at Amazon.com&lt;/a&gt;, where it joins &lt;em&gt;&lt;a href="https://www.amazon.com/Learn-Enough-Command-Line-Dangerous-ebook/dp/B01KG84X44"&gt;Learn Enough Command Line to Be Dangerous&lt;/a&gt;&lt;/em&gt; as part of the Learn Enough Developer Fundamentals series.
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt; is designed to help you learn
+to use what is arguably the most important item in the aspiring computer
+ magician’s bag of tricks: a text editor.
+&lt;/p&gt;
+&lt;p&gt;Unlike other text editor
+tutorials, which are typically tied to a specific editor,
+  &lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt; is designed to introduce the entire category of application. This includes Minimum Viable Vim, covering the ubiquitous Vim editor, and a thorough introduction to Atom, a powerful and easy-to-use editor from GitHub.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;The price of &lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt; at Amazon will eventually be $9.99, but I'm offering a &lt;a href="https://www.amazon.com/dp/B01M10FNYJ"&gt;30% launch discount&lt;/a&gt; for the first week, so it's only $6.99 if you buy now. In addition to the native Kindle format, each purchase includes a claim link for free copies of the PDF &amp;amp; EPUB formats as well.
+&lt;/p&gt;
+&lt;p&gt;If you previously read the &lt;a href="http://learnenough.com/text-editor-tutorial"&gt;free online version&lt;/a&gt;, it would also be much-appreciated if you could &lt;a href="https://www.amazon.com/dp/B01M10FNYJ#reviewsMedley"&gt;leave a review&lt;/a&gt; at Amazon.
+&lt;/p&gt;
+&lt;p&gt;As just noted above, &lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt; is available for free &lt;a href="http://learnenough.com/text-editor-tutorial"&gt;online&lt;/a&gt;, and for &lt;a href="https://www.learnenough.com/buy/183?option=html_ebooks_screencasts"&gt;direct purchase&lt;/a&gt; as well, but having the ebook up at Amazon means even more people can find the Learn Enough tutorials and start learning technical sophistication.
+&lt;/p&gt;
+&lt;p&gt;P.S. Get &lt;a href="https://www.amazon.com/dp/B01M10FNYJ"&gt;30% off&lt;/a&gt; &lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt; at Amazon.com through Wednesday 10/12.
+&lt;/p&gt;
+&lt;p&gt;P.P.S. If you could &lt;a href="https://www.amazon.com/dp/B01M10FNYJ#reviewsMedley"&gt;leave a review&lt;/a&gt; that would also be much-appreciated!
+&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/eCjvI4uAvD0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-text-editor-amazon</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough HTML to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/RoZjIVaSn5I/learn-enough-html" />
+    <updated>2016-09-21T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-html</id>
+    <content type="html">
+
+      &lt;p&gt;After launching a more advanced &lt;a href="http://learnenough.com/action-cable-tutorial"&gt;Action Cable tutorial&lt;/a&gt; a couple of weeks ago, Learn Enough is getting back to basics with one of the most important technologies on the Web: HTML.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://learnenough.com/html-tutorial"&gt;&lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt;&lt;/a&gt; by Michael Hartl &amp;amp; Lee Donahoe covers the basics of HyperText Markup Language, the language of the World Wide Web. As of today, the full tutorial is &lt;a href="http://learnenough.com/html-tutorial"&gt;online&lt;/a&gt; for free, and &lt;a href="https://www.learnenough.com/buy/234"&gt;available for purchase&lt;/a&gt; in EPUB/MOBI/PDF formats.&lt;/p&gt;
+
+&lt;p&gt;At around 130 pages, it’s the perfect length for getting started with HTML without having to slog through 500 pages just to learn the basics.&lt;/p&gt;
+
+&lt;p&gt;Although there are lots of HTML tutorials out there, &lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; puts things together in a way you haven’t seen before:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You deploy a live website in the first section.&lt;/li&gt;
+  &lt;li&gt;You learn HTML tags in context, using real-world examples.&lt;/li&gt;
+  &lt;li&gt;You take the first steps toward Cascading Style Sheets using inline styles.&lt;/li&gt;
+  &lt;li&gt;You build a reference table of HTML tags, &lt;em&gt;using the HTML &lt;code class="highlighter-rouge"&gt;table&lt;/code&gt; tag&lt;/em&gt;. It’s totally &lt;code class="highlighter-rouge"&gt;meta&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt; also has 200% more kittens than the average HTML tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="images/kitten.jpg" alt="An adorable kitten" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This new title is the first in a new trilogy of &lt;strong&gt;Web Basics&lt;/strong&gt;, which is both the perfect sequel to the &lt;a href="https://www.learnenough.com/courses"&gt;&lt;strong&gt;Developer Fundamentals&lt;/strong&gt;&lt;/a&gt; trilogy and a great supplement to the &lt;a href="http://railstutorial.org"&gt;Ruby on Rails Tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;HTML is the fundamental language of the Web, and every developer, designer, and even manager should know the basics. If tech is the new literacy, HTML is the alphabet.&lt;/p&gt;
+
+&lt;p&gt;You don’t have to know everything about HTML, of course—just enough to be &lt;em&gt;dangerous&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12550542"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/RoZjIVaSn5I" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-html</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough Action Cable to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/0uMef3n-bv8/learn-enough-action-cable" />
+    <updated>2016-09-08T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-action-cable</id>
+    <content type="html">
+
+      &lt;p&gt;One of the most exciting additions to the newly released Rails 5 is &lt;em&gt;Action Cable&lt;/em&gt;, which enables the creation of responsive, real-time web applications with Rails. For example, with Action Cable it’s possible to make a live chat app that updates every user’s chat window instantly, rather than waiting for a slow polling process in the background.&lt;/p&gt;
+
+&lt;p&gt;The secret to this amazing new capability is the &lt;em&gt;WebSockets Protocol&lt;/em&gt;, which supports real-time, persistent connections between client and server (unlike standard HTTP). With Action Cable, using WebSockets is a breeze, and we get all the power and flexibility of Rails for free.&lt;/p&gt;
+
+&lt;p&gt;Today I’m releasing a draft of &lt;a href="https://www.learnenough.com/action-cable-tutorial"&gt;&lt;em&gt;Learn Enough Action Cable to Be Dangerous&lt;/em&gt;&lt;/a&gt;, a new tutorial covering real-time web apps with Rails. It’s available for free online, and is available for purchase in the standard ebook formats &lt;a href="https://www.learnenough.com/buy/232"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;​&lt;em&gt;Learn Enough Action Cable to Be Dangerous&lt;/em&gt; is an especially good follow-on to the Ruby on Rails Tutorial, because it puts your Rails knowledge to work on one of the most cutting-edge web technologies out there.​&lt;/p&gt;
+
+&lt;p&gt;I’m calling this release a &lt;em&gt;draft&lt;/em&gt; because Action Cable is so new, and it’s entirely possible I may want to update it based on reader feedback. (Typo and bug reports are especially appreciated.) Any such updates will be available for free (including to ebook purchasers).&lt;/p&gt;
+
+&lt;p&gt;Progress tracking and community exercise answers will be available to all members of the &lt;a href="http://learnenough.com/story"&gt;Learn Enough Society&lt;/a&gt;. Exercise answers (currently in preparation)​ will also be available to all ebook purchasers.&lt;/p&gt;
+
+&lt;p&gt;I’d also like to take this opportunity to give a quick update on some of the products in the &lt;a href="https://www.learnenough.com/courses"&gt;Learn Enough introductory sequence&lt;/a&gt;. I’m hoping to release the next title, &lt;a href="https://www.learnenough.com/html-tutorial"&gt;&lt;em&gt;Learn Enough HTML to Be Dangerous&lt;/em&gt;&lt;/a&gt;, within a couple of weeks, with the other titles to follow as quickly as we can make them.&lt;/p&gt;
+
+&lt;p&gt;I’m especially excited for &lt;a href="https://www.learnenough.com/css-and-layout-tutorial"&gt;&lt;em&gt;Learn Enough CSS &amp;amp; Layout to Be Dangerous&lt;/em&gt;&lt;/a&gt;, which is being prepared in collaboration with Learn Enough designer Lee Donahoe. It’s going to be great!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12455199"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/0uMef3n-bv8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-action-cable</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough Command Line on Amazon.com]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/Fc_hbQdcKQs/learn-enough-command-line-on-amazon" />
+    <updated>2016-08-16T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-command-line-on-amazon</id>
+    <content type="html">
+
+      &lt;p&gt;I'm pleased to announce that &lt;em&gt;Learn Enough Command Line to Be Dangerous&lt;/em&gt; is &lt;a href="https://www.amazon.com/dp/B01KG84X44"&gt;now available at Amazon.com&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;The Unix command line is the single most important foundational skill for aspiring software developers, and &lt;em style="line-height: 1.6em; background-color: initial;"&gt;Learn Enough Command Line to Be Dangerous&lt;/em&gt;&lt;span style="line-height: 1.6em; background-color: initial;"&gt; has been &lt;/span&gt;&lt;a href="https://news.ycombinator.com/item?id=11037325" style="line-height: 1.6em;"&gt;called&lt;/a&gt;&lt;span style="line-height: 1.6em; background-color: initial;"&gt; "the best beginners guide to bash [the most popular command-line program]".&lt;/span&gt;&lt;span class="redactor-invisible-space" style="line-height: 1.6em; background-color: initial;"&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span class="redactor-invisible-space" style="line-height: 1.6em; background-color: initial;"&gt;The price of &lt;em&gt;Learn Enough Command Line&lt;/em&gt; at Amazon will eventually be $9.99, but I'm offering a 30% launch discount for the first week, so it's only $6.99 if you buy now. In addition to the native Kindle format, every purchase includes a claim link for free copies of the PDF &amp;amp; EPUB formats as well.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span class="redactor-invisible-space" style="line-height: 1.6em; background-color: initial;"&gt;Even if you don't want to buy a copy, it would be much-appreciated if you could &lt;a href="https://www.amazon.com/dp/B01KG84X44#reviewBucketHeader"&gt;leave a review&lt;/a&gt; of the tutorial at Amazon.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;As always, &lt;em&gt;Learn Enough Command Line to Be Dangerous&lt;/em&gt; is available for free &lt;a href="http://learnenough.com/command-line-tutorial"&gt;online&lt;/a&gt;, and for &lt;a href="https://www.learnenough.com/buy/164?option=html_ebooks_screencasts"&gt;direct purchase&lt;/a&gt; as well, but having the ebook up at Amazon means even more people can find the Learn Enough tutorials and start learning technical sophistication.
+
+&lt;p&gt;Get &lt;a href="https://www.amazon.com/dp/B01KG84X44"&gt;30% off&lt;/a&gt; &lt;em&gt;Learn Enough Command Line to Be Dangerous&lt;/em&gt; at Amazon.com through Tuesday 8/22.
+&lt;/p&gt;
+&lt;p&gt;If you could &lt;a href="https://www.amazon.com/dp/B01KG84X44#reviewBucketHeader"&gt;leave a review&lt;/a&gt; that would also be much-appreciated!
+&lt;/p&gt;
+&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/Fc_hbQdcKQs" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-command-line-on-amazon</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Launch of the new Rails Tutorial screencats]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/6xTF4RB4s2Y/rails-5-edition-of-rails-tutorial-screencasts" />
+    <updated>2016-08-02T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/rails-5-edition-of-rails-tutorial-screencasts</id>
+    <content type="html">
+
+      &lt;p&gt;Due to popular demand, I am pleased to announce the launch of the Rails Tutorial screencats! The art of web development procrastination has never been cuter:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/screencats.jpg" alt="Rails Tutorial screencats" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although they’re not nearly as adorable as the screencats (for obvious reasons), I’m also pleased to announce the launch of the Ruby on Rails Tutorial screencasts, updated for Rails 5!&lt;/p&gt;
+
+&lt;p&gt;The Rails Tutorial screencasts are the most up-to-date resource for learning web development with Ruby on Rails. They are available for free via the &lt;a href="https://www.learnenough.com/subscriptions/new"&gt;Learn Enough Society&lt;/a&gt;, as well as being available for &lt;a href="https://www.railstutorial.org/"&gt;purchase as direct downloads&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The best way to get the new screencasts is via the &lt;a href="https://www.learnenough.com/subscriptions/new"&gt;Learn Enough Society&lt;/a&gt;, which includes all 15+ hours as integrated streaming video:&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Q1eI0y7kWiU" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The Learn Enough Society also includes text and video for the three Developer Fundamentals tutorials (Command Line, Text Editor, Git), as well as immediate access to new tutorials as they’re released.&lt;/p&gt;
+
+&lt;p&gt;The Rails Tutorial screencasts are the ideal complement to the Rails Tutorial book, allowing you to see exactly how web applications are built in practice. There are video lessons corresponding to each chapter of the book, totaling over 15 hours of content. You can view a full sample lesson &lt;a href="https://www.youtube.com/watch?v=N-4NuoivKu0"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As with the 3rd edition of the tutorial, the new 4th edition covers every major aspect of web development:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating both static and dynamic pages with Rails templates&lt;/li&gt;
+  &lt;li&gt;Data modeling with a full database back-end&lt;/li&gt;
+  &lt;li&gt;Creating a working signup page from scratch&lt;/li&gt;
+  &lt;li&gt;Building a custom login and authentication system&lt;/li&gt;
+  &lt;li&gt;Learning to use cookies to make a working “remember me” checkbox&lt;/li&gt;
+  &lt;li&gt;Activating accounts and resetting passwords&lt;/li&gt;
+  &lt;li&gt;Sending email in Rails, both locally and in production&lt;/li&gt;
+  &lt;li&gt;Advanced data modeling to create a mini Twitter-like application&lt;/li&gt;
+  &lt;li&gt;Coverage of software best practices, including test-driven development and version control&lt;/li&gt;
+  &lt;li&gt;Emphasis on strong security throughout&lt;/li&gt;
+  &lt;li&gt;Deploying to production early and often&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those familiar with the previous edition will find the following main differences in the Rails 5 version:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;14 lessons instead of 12, due not to new material but to the two longest lessons being split in two (much more manageable)&lt;/li&gt;
+  &lt;li&gt;Full compatibility with Rails 5, including the use of the &lt;code class="highlighter-rouge"&gt;rails&lt;/code&gt; command in place of &lt;code class="highlighter-rouge"&gt;rake&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;A shift toward integration-style testing for controllers, together with a new convention for passing parameters in tests&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Because Rails 4.2 and Rails 5.0 are so similar, the new edition of the screencasts did not need to be created from scratch. Instead, the minor diffs mentioned above are highlighted as text notes in the videos themselves. The result is that it is immediately apparent which parts of the Rails framework have changed between versions.&lt;/p&gt;
+
+&lt;p&gt;Now that the Rails Tutorial screencasts are complete, my Learn Enough cofounders and I are hard at work on additional Learn Enough tutorials, with Action Cable, HTML, CSS &amp;amp; Layout, and JavaScript coming soon. Be sure to &lt;a href="http://news.learnenough.com/email-list/"&gt;sign up for the email list&lt;/a&gt; to get notifications.&lt;/p&gt;
+
+&lt;p&gt;Remember, all 15+ hours of the Rails Tutorial screencasts are available both via the &lt;a href="https://www.learnenough.com/subscriptions/new"&gt;Learn Enough Society&lt;/a&gt; and as &lt;a href="https://www.railstutorial.org/"&gt;direct purchase&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=12211974"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/6xTF4RB4s2Y" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/rails-5-edition-of-rails-tutorial-screencasts</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[The Ruby on Rails Tutorial book, updated for Rails 5]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/t636rpoK_1A/rails-5-edition-of-rails-tutorial" />
+    <updated>2016-06-28T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/rails-5-edition-of-rails-tutorial</id>
+    <content type="html">
+
+      &lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; &lt;a href="http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/"&gt;Rails 5 just launched&lt;/a&gt;, and the &lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt; has already been updated accordingly.&lt;/p&gt;
+
+&lt;p&gt;I’ve just launched the newest edition of the &lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt; book, updated for Rails 5! It’s available for free &lt;a href="http://railstutorial.org/book"&gt;online&lt;/a&gt;, for &lt;a href="http://www.railstutorial.org/"&gt;purchase&lt;/a&gt; as an ebook (PDF, EPUB, MOBI), and best of all via the &lt;a href="https://www.learnenough.com/subscribe"&gt;Learn Enough Society&lt;/a&gt; (details below).&lt;/p&gt;
+
+&lt;p&gt;(I’m especially pleased to be launching the new edition today because it’s also &lt;a href="http://tauday.com/"&gt;Tau Day&lt;/a&gt;, a math holiday I founded in 2010 with the publication of &lt;a href="http://tauday.com/tau-manifesto"&gt;&lt;em&gt;The Tau Manifesto&lt;/em&gt;&lt;/a&gt;. Happy Tau Day!)&lt;/p&gt;
+
+&lt;p&gt;With the release of this new edition, the Ruby on Rails Tutorial continues to be the most comprehensive and up-to-date resource for learning web development with Rails. As with previous editions, its focus is on the general principles of web development, not on Rails specifically, though of course it gives you a great foundation with Rails as well.&lt;/p&gt;
+
+&lt;p&gt;Although there are many alternatives in web development, I believe Rails is still the best overall choice for learning how to develop dynamic web applications. Rails has a combination of power and maturity that few frameworks can rival, and is used by companies as diverse as GitHub, Disney, and Airbnb.&lt;/p&gt;
+
+&lt;p&gt;While preferred development stacks in languages like JavaScript seem to change every six months, the core of Rails has remained stable for years, even as it has added innovations like Action Cable and Rails API to stay on the cutting edge. (For more information on coverage of these new technologies, see below.)&lt;/p&gt;
+
+&lt;p&gt;As with the 3rd edition of the tutorial, the new Rails 5 edition covers every major aspect of web development:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating both static and dynamic pages with Rails templates&lt;/li&gt;
+  &lt;li&gt;Data modeling with a full database back-end&lt;/li&gt;
+  &lt;li&gt;Creating a working signup page from scratch&lt;/li&gt;
+  &lt;li&gt;Building a custom login and authentication system&lt;/li&gt;
+  &lt;li&gt;Learning to use cookies to make a working “remember me” checkbox&lt;/li&gt;
+  &lt;li&gt;Activating accounts and resetting passwords&lt;/li&gt;
+  &lt;li&gt;Sending email in Rails, both locally and in production&lt;/li&gt;
+  &lt;li&gt;Advanced data modeling to create a mini Twitter-like application&lt;/li&gt;
+  &lt;li&gt;Coverage of software best practices, including test-driven development and version control&lt;/li&gt;
+  &lt;li&gt;Emphasis on strong security throughout&lt;/li&gt;
+  &lt;li&gt;Deploying to production early and often&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those familiar with the previous edition will find the following main differences in the Rails 5 version:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;14 chapters instead of 12, due not to new material but to the two longest chapters being split in two (much more manageable)&lt;/li&gt;
+  &lt;li&gt;Full compatibility with Rails 5, including the use of the &lt;code class="highlighter-rouge"&gt;rails&lt;/code&gt; command in place of &lt;code class="highlighter-rouge"&gt;rake&lt;/code&gt; and new default behavior for controller and integration tests&lt;/li&gt;
+  &lt;li&gt;A huge number of new exercises, spread throughout each chapter for maximum reinforcement of the material&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This last difference was probably the most time-consuming change for the new edition, but it was well worth the effort: many readers had requested more frequent exercises, rather than having them all collected at the end, and the new design makes the material much easier to absorb and retain.&lt;/p&gt;
+
+&lt;p&gt;Even if you’ve already read a previous edition of the Rails Tutorial, I think you’ll still get a lot out of going through the new edition and solving all the exercises.&lt;/p&gt;
+
+&lt;p&gt;By far the best way to do this is through the &lt;a href="https://www.learnenough.com/subscribe"&gt;Learn Enough Society&lt;/a&gt;, a subscription service that includes the full Ruby on Rails Tutorial. This is because the Learn Enough Society &lt;a href="https://youtu.be/JS6ed0KtCp0?t=1m20s"&gt;exercises interface&lt;/a&gt; lets you record your answers and see the answers of other Society members, which means you can work on your own but can always get a hint if you need one.&lt;/p&gt;
+
+&lt;p&gt;The Learn Enough Society is offered as part of Learn Enough to Be Dangerous, dedicated to teaching the essential skill of &lt;em&gt;technical sophistication&lt;/em&gt;, which gives you the seemingly magical ability to solve any technical problem.&lt;/p&gt;
+
+&lt;p&gt;In the modern technical landscape, there’s perhaps no more valuable example of technical sophistication than web development, so naturally the Ruby on Rails Tutorial is a perfect fit.&lt;/p&gt;
+
+&lt;p&gt;The Learn Enough Society currently includes the following products:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Learn Enough Command Line to Be Dangerous&lt;/em&gt;: Nearly 100 pages of content, dozens of exercises, and over an hour of video&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Learn Enough Text Editor to Be Dangerous&lt;/em&gt;: Over 100 pages of content, dozens of exercises, and over an hour of video&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Learn Enough Git to Be Dangerous&lt;/em&gt;: Over 100 pages of content, dozens of exercises, and over an hour of video&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt;: Over 700 pages of content, over 300 exercises, and—to be released soon—over 15 hours of video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My cofounders and I are also hard at work filling in the introductory Learn Enough tutorials, with HTML, CSS &amp;amp; Layout, and JavaScript coming soon.&lt;/p&gt;
+
+&lt;p&gt;For those who want to take their Rails development to the next level using the latest features in Rails 5, we’re planning to release standalone tutorials on Action Cable and Rails API as well. (Be sure to &lt;a href="http://news.learnenough.com/email-list/"&gt;sign up for the email list&lt;/a&gt; to get notifications.)&lt;/p&gt;
+
+&lt;p&gt;Finally, for members who stay in the Learn Enough Society for at least two months, we’ll be offering the full Rails Tutorial ebook download (PDF, EPUB, MOBI) as a free bonus!&lt;/p&gt;
+
+&lt;p&gt;As always, the Ruby on Rails Tutorial is available for free &lt;a href="http://railstutorial.org/book"&gt;online&lt;/a&gt;, and the ebook is also available for &lt;a href="http://www.railstutorial.org/"&gt;direct purchase&lt;/a&gt;. As indicated above, the best way to get the Rails Tutorial is via the &lt;a href="https://www.learnenough.com/subscribe"&gt;Learn Enough Society&lt;/a&gt;, which gets you the full book as well as priority access to the Rails Tutorial screencast videos (with the first videos launching next week!). Plus you get access to all the other Learn Enough tutorials as well.&lt;/p&gt;
+
+&lt;p&gt;I’m really excited about how the Learn Enough tutorials are coming together, and I’m especially pleased with how well the Rails Tutorial fits in. We’ve got a great group going in the private Learn Enough Society Slack, and enterprising Society members have already shared the answers to hundreds of exercises.&lt;/p&gt;
+
+&lt;p&gt;Adding the Rails Tutorial is taking things to a whole new level, so I hope you’ll &lt;a href="https://www.learnenough.com/subscribe"&gt;join us there&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=11995896"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/t636rpoK_1A" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/rails-5-edition-of-rails-tutorial</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[It begins: Updating the Ruby on Rails Tutorial for Rails 5]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/mSh5yXlilpQ/it-begins-updating-the-ruby-on-rails-tutorial-for-rails-5" />
+    <updated>2016-05-18T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/it-begins-updating-the-ruby-on-rails-tutorial-for-rails-5</id>
+    <content type="html">
+
+      &lt;p&gt;Good news, everyone! I’ve just started updating the Ruby on Rails Tutorial for Rails 5. This new 4th edition of the Rails Tutorial will be fully compatible with the latest version of Rails while adding a large number of instructive new exercises (optimized for use with the &lt;a href="https://youtu.be/JS6ed0KtCp0?t=1m20s"&gt;Learn Enough answers UI&lt;/a&gt;​).&lt;/p&gt;
+
+&lt;p&gt;The final version of Rails 5 isn’t even out yet, so this is a chance to really
+be on the cutting edge.&lt;/p&gt;
+
+&lt;p&gt;Once the new edition is finished, I think it’ll be the absolute best
+resource for learning web development with Rails. It will also be fully
+integrated with &lt;a href="http://learnenough.com/story"&gt;Learn Enough to Be
+Dangerous&lt;/a&gt; and the &lt;a href="http://learnenough.com/puzzle"&gt;Learn Enough Society&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The initial availability of new Ruby on Rails Tutorial chapters is
+exclusive to members of the Learn Enough
+Society. The free online version and
+ebook sales will launch for everyone once all 12 chapters are updated. My plan is to publish a couple of chapters a week until it’s finished.&lt;/p&gt;
+
+&lt;p&gt;Today I’m releasing drafts of &lt;a href="https://www.learnenough.com/course/ruby_on_rails_tutorial_4th_edition/beginning"&gt;Chapter 1: From zero to
+deploy&lt;/a&gt;
+and &lt;a href="https://www.learnenough.com/course/ruby_on_rails_tutorial_4th_edition/toy_app"&gt;Chapter 2: A toy
+app&lt;/a&gt;.
+Learn Enough Society members can follow those links directly or go to
+&lt;a href="http://learnenough.com/courses"&gt;learnenough.com/courses&lt;/a&gt; and scroll to the bottom of the page. Of course,
+&lt;a href="http://learnenough.com/puzzle"&gt;joining the Learn Enough Society now&lt;/a&gt;
+gets you instant access.&lt;/p&gt;
+
+&lt;p&gt;After the book is finished, I’ll be updating and releasing the
+screencast videos as well, both for sale and for free to Learn Enough
+Society members.&lt;/p&gt;
+
+&lt;p&gt;The current update focuses on the core subject of web development, but I
+also plan to cover topics specific to Rails 5 (such as Action Cable and
+Rails API) in separate follow-on products.&lt;/p&gt;
+
+&lt;p&gt;This release is a major milestone for Ruby on Rails, and likewise for
+the Ruby on Rails Tutorial. Looking forward to seeing what you do with
+it!&lt;/p&gt;
+
+&lt;p&gt;P.S. You can get instant access to all Rails Tutorial updates by &lt;a href="http://learnenough.com/puzzle"&gt;joining the Learn Enough Society now&lt;/a&gt;.&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/mSh5yXlilpQ" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/it-begins-updating-the-ruby-on-rails-tutorial-for-rails-5</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[The Learn Enough Story]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/t577kcbpYQs/learn-enough-story" />
+    <updated>2016-04-19T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-story</id>
+    <content type="html">
+
+      &lt;p&gt;This is just a short post announcing an exciting new service to help you develop the single most valuable skill in the 21st century. I’m not going to say what it is here, though—to find out more, you’ll have to read the &lt;a href="http://www.learnenough.com/story"&gt;Learn Enough Story&lt;/a&gt;. Hope you’ll check it out!&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/t577kcbpYQs" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-story</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Video Screencasts for Learn Enough Git to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/5LNuRJKComw/learn-enough-git-screencasts" />
+    <updated>2016-03-24T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-git-screencasts</id>
+    <content type="html">
+
+      &lt;p&gt;Last month’s launch of the &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; ebook clearly struck a chord, generating a ton of great feedback and ending up as one of the top 10 most-upvoted daily stories on Hacker News. Today I’m pleased to announce the availability of the companion screencast series, with more than an hour and a half of videos that bring the written tutorial to life.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; screencasts cover the essential Git commands used every day by software developers and those who work with them, including &lt;code class="highlighter-rouge"&gt;git status&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;add&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;commit&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;diff&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;push&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;pull&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;checkout&lt;/code&gt;, &lt;code class="highlighter-rouge"&gt;branch&lt;/code&gt;, and &lt;code class="highlighter-rouge"&gt;merge&lt;/code&gt;. The videos also walk through several extended developer scenarios based on real-life best practices, including branching and merging, recovering from errors, pushing branches, and handling merge conflicts.&lt;/p&gt;
+
+&lt;p&gt;This last scenario serves as the main example for the &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; preview video, which shows how developers Alice and Bob deal with an incompatible change made to their project, a small website:&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/U4HQSKZL6rU" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The full price of the &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; screencasts is $12, and you can also buy them bundled with the ebooks for $19, but I’m offering a &lt;strong&gt;20% launch discount through Thursday, March 31&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get &lt;a href="https://www.learnenough.com/buy/191?code=screencast_launch&amp;amp;option=screencasts"&gt;&lt;strong&gt;20% launch discount on Learn Enough Git screencasts&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Get &lt;a href="https://www.learnenough.com/buy/191?code=screencast_launch&amp;amp;option=html_screencasts_ebooks"&gt;&lt;strong&gt;20% launch discount on screencasts + ebooks (PDF/EPUB/MOBI)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to covering the most important and useful Git commands, &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; includes a special section on advanced Git setup, and also includes an amazing surprise bonus at the end that you won’t want to miss.&lt;/p&gt;
+
+&lt;p&gt;P.S. Remember, &lt;a href="https://www.learnenough.com/buy/191?code=screencast_launch&amp;amp;option=html_screencasts_ebooks"&gt;buy before Thursday, March 31 to get the 20% launch discount&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=11354624"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/5LNuRJKComw" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-git-screencasts</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Video Screencasts for Learn Enough Text Editor to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/_MhNdfEIKvU/learn-enough-text-editor-video-screencasts" />
+    <updated>2016-03-15T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-text-editor-video-screencasts</id>
+    <content type="html">
+
+      &lt;p&gt;The humble yet essential &lt;em&gt;text editor&lt;/em&gt; is perhaps the most important item in every computer magician’s bag of tricks. Although this subject is well-served by a written tutorial, there’s nothing like video screencasts to really bring text editors to life. Today I’m pleased to announce the availability of the &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; video screencasts.&lt;/p&gt;
+
+&lt;p&gt;The full &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; video series includes &lt;strong&gt;almost an hour and a half of video&lt;/strong&gt;, covering not only all the subjects in the written tutorial but also the kind of tips &amp;amp; tricks that are hard to capture in print form.&lt;/p&gt;
+
+&lt;p&gt;To get an idea of what the screencasts include, I’ve uploaded a short preview to YouTube here:&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kW0RsE3YA7Y" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Topics include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Minimum Viable Vim&lt;/li&gt;
+  &lt;li&gt;The Most Important Vim Command™&lt;/li&gt;
+  &lt;li&gt;Basics of the Atom, Sublime Text, and Cloud9 editors&lt;/li&gt;
+  &lt;li&gt;Worked examples of moving around, selecting text, and cut/copy/paste&lt;/li&gt;
+  &lt;li&gt;Saving your bacon with Undo&lt;/li&gt;
+  &lt;li&gt;Finding and replacing, both in single files and project-wide&lt;/li&gt;
+  &lt;li&gt;Autocomplete and tab triggers&lt;/li&gt;
+  &lt;li&gt;Writing source code&lt;/li&gt;
+  &lt;li&gt;How to extend your shell with a real executable Bash script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The full price for the &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; screencasts is $12, which you can also buy bundled with the ebooks for $19:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.learnenough.com/buy/183?option=ebooks"&gt;Buy the screencasts for only $12&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.learnenough.com/buy/183?option=html_screencasts_ebooks"&gt;Buy the screencasts + ebooks for only $19&lt;/a&gt;  (a 10% savings)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although the &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; screencasts are designed for complete beginners, in the nearly 90 minutes of content there’s also lots of material that even more experienced users will find valuable, including coverage of Minimum Viable Vim and a thorough introduction to “modern” text editors like Atom and Sublime. Enjoy!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=11291476"&gt;Discuss on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/_MhNdfEIKvU" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-text-editor-video-screencasts</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Video Screencasts for Learn Enough Command Line to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/P10-9JW4wGk/learn-enough-command-line-video-screencasts" />
+    <updated>2016-03-03T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-command-line-video-screencasts</id>
+    <content type="html">
+
+      &lt;p&gt;Learn Enough to Be Dangerous is designed to teach you &lt;a href="https://www.learnenough.com/command-line-tutorial#aside-technical_sophistication"&gt;technical sophistication&lt;/a&gt;, and the foundation of technical sophistication is an understanding of the Unix command line. Even though some aspects of the command line are covered in the &lt;a href="http://railstutorial.org/"&gt;Ruby on Rails Tutorial&lt;/a&gt;, it’s undoubtedly a subject that deserves its own tutorial, which is why the Learn Enough introductory sequence starts with &lt;em&gt;Learn Enough™ Command Line to Be Dangerous&lt;/em&gt;. It’s also why, as I’m pleased to announce today, the first set of videos released under the Learn Enough umbrella is the &lt;a href="https://www.learnenough.com/buy/164"&gt;Learn Enough Command Line to Be Dangerous screencast series&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Written tutorials are great, but there’s nothing like screencasts to bring &lt;a href="https://www.learnenough.com/command-line-tutorial#aside-computer_magic"&gt;computer magic&lt;/a&gt; to life. Screencasts let you “look over the shoulder” of an experienced developer, watching in real time as computer spells are cast and the machine comes to life to do our bidding. The Learn Enough Command Line to Be Dangerous screencasts show you command-line magic in action, as you can see in the teaser video below:&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/d5apkVTTkrA" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The full Learn Enough Command Line to Be Dangerous video series includes &lt;strong&gt;more than an hour of video&lt;/strong&gt;, covering not only all the subjects in the written tutorial but also the kind of tips &amp;amp; tricks that are hard to capture in print form. Topics include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The important and deceptively powerful &lt;code class="highlighter-rouge"&gt;echo&lt;/code&gt; command&lt;/li&gt;
+  &lt;li&gt;Redirects, appending, and pipes&lt;/li&gt;
+  &lt;li&gt;Keyboard shortcuts for moving around and clearing the line&lt;/li&gt;
+  &lt;li&gt;Listing files and directories, including the all-powerful &lt;code class="highlighter-rouge"&gt;-hartl&lt;/code&gt; option&lt;/li&gt;
+  &lt;li&gt;Viewing small files with &lt;code class="highlighter-rouge"&gt;cat&lt;/code&gt; and large files with &lt;code class="highlighter-rouge"&gt;less&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Downloading files at the command line with &lt;code class="highlighter-rouge"&gt;curl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Making, navigating, and removing directories&lt;/li&gt;
+  &lt;li&gt;Using &lt;code class="highlighter-rouge"&gt;grep&lt;/code&gt; to search files and &lt;code class="highlighter-rouge"&gt;grep -r&lt;/code&gt; to search directories&lt;/li&gt;
+  &lt;li&gt;Understanding that the great power of &lt;code class="highlighter-rouge"&gt;rm -rf&lt;/code&gt; comes with &lt;a href="https://www.learnenough.com/command-line-tutorial#fig-spider_man"&gt;great responsibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The full price for the &lt;a href="https://www.learnenough.com/buy/164"&gt;Learn Enough Command Line to Be Dangerous screencasts&lt;/a&gt; is $24, which includes the &lt;strong&gt;full video series&lt;/strong&gt; as well as a &lt;strong&gt;free copy of the tutorial ebooks&lt;/strong&gt; (PDF/EPUB/MOBI).&lt;/p&gt;
+
+&lt;p&gt;One reader recently &lt;a href="https://news.ycombinator.com/item?id=11037325"&gt;wrote&lt;/a&gt; this about &lt;em&gt;Learn Enough™ Command Line to Be Dangerous&lt;/em&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Learn Enough Command Line to Be Dangerous is the best beginner’s guide to bash [the most common Unix command-line program] I’ve seen, and it really made me a lot more comfortable working with CLI [command-line interface] programs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Watching and studying the &lt;a href="https://www.learnenough.com/buy/164"&gt;Learn Enough Command Line to Be Dangerous screencasts&lt;/a&gt; will help you take these essential command-line skills to the next level.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=11219911"&gt;Discuss this post on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;UPDATE: &lt;a href="http://www.learnenough.com/9fe7c0c9cd5e67a27b8a77201ee4d54e3bc5b284"&gt;9fe7c0c9cd5e67a27b8a77201ee4d54e3bc5b284&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/P10-9JW4wGk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-command-line-video-screencasts</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough Git to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/ZfRPuOI-40M/learn-enough-git-ebooks" />
+    <updated>2016-02-04T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-git-ebooks</id>
+    <content type="html">
+
+      &lt;p&gt;There may be no more powerful (but mysterious) modern software tool than &lt;em&gt;Git&lt;/em&gt;, a version control system that helps developers track a project’s changes while dramatically improving collaboration. Learning Git is important enough that it’s integrated into the &lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt;, but many people have asked me for a standalone introduction to this important technology.&lt;/p&gt;
+
+&lt;p&gt;I’m pleased to announce that it’s here: &lt;a href="http://learnenough.com/git-tutorial"&gt;&lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt;&lt;/a&gt;. Unlike the integrated material in the &lt;em&gt;Rails Tutorial&lt;/em&gt;, the material in &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; is completely self-contained, and its only prerequisites are familiarity with the &lt;a href="http://learnenough.com/command-line-tutorial"&gt;Unix command line&lt;/a&gt; and a &lt;a href="http://learnenough.com/text-editor-tutorial"&gt;text editor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; focuses on Git essentials without getting bogged down in lots of heavy theory. It includes many concrete examples of how to use the most important Git commands, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git status&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git add&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git commit&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git diff&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git push&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git pull&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git checkout&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git branch&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;git merge&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; also includes an extended example of collaboration with Git, showing you how to use Git in the context of two developers working together on the same project.&lt;/p&gt;
+
+&lt;p&gt;Finally, &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt; includes an amazing surprise bonus at the end of the tutorial that you won’t want to miss.&lt;/p&gt;
+
+&lt;p&gt;As usual, there’s a &lt;a href="http://learnenough.com/git-tutorial"&gt;free online version of &lt;em&gt;Learn Enough™ Git to Be Dangerous&lt;/em&gt;&lt;/a&gt;, so you can check it out and see in detail what it covers. The ebook versions (EPUB, MOBI, PDF) are &lt;a href="https://www.softcover.io/buy/28fdb94f/learn_enough_git"&gt;available for purchase for $9&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I appreciate any feedback or suggestions you may have, whether you’re a relative beginner or an expert. &lt;strong&gt;I especially appreciate bug and typo reports (no matter how small).&lt;/strong&gt; With the streamlined publication process made possible by the &lt;a href="http://softcover.io/"&gt;Softcover&lt;/a&gt; toolchain, I can usually deploy corrections within minutes of receiving them. Please email any feedback to michael@learnenough.com.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=11036767"&gt;Discuss this post on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/ZfRPuOI-40M" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-git-ebooks</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Learn Enough Text Editor to Be Dangerous ebooks]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/5-yEIa8nBcA/learn-enough-text-editor-ebooks" />
+    <updated>2015-12-07T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-text-editor-ebooks</id>
+    <content type="html">
+
+      &lt;p&gt;Having incorporated helpful reader feedback (thanks!) on the &lt;a href="http://news.railstutorial.org/learn-enough-text-editor-draft/"&gt;draft&lt;/a&gt; of &lt;a href="http://www.learnenough.com/text-editor-tutorial"&gt;&lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt;&lt;/a&gt;, I’ve just released the final version, including PDF, EPUB, and MOBI ebooks. The price is just $9, and with a PDF that runs to well over 100 pages, that’s less than ten cents per page!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; is part of a series of &lt;a href="http://learnenough.com/"&gt;Learn Enough™ to Be Dangerous&lt;/a&gt; tutorials designed to complement and expand on the prerequisites to the &lt;a href="http://railstutorial.org/"&gt;Ruby on Rails Tutorial&lt;/a&gt;. As &lt;a href="http://news.railstutorial.org/learn-enough-text-editor-draft/"&gt;noted before&lt;/a&gt;, &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; is an introduction to text editors that assumes no prerequisites other than a familiarity with the Unix command line (such as that provided by &lt;a href="http://www.learnenough.com/command-line-tutorial"&gt;&lt;em&gt;Learn Enough™ Command Line to Be Dangerous&lt;/em&gt;&lt;/a&gt;). Topics include Minimum Viable Vim, an introduction to “modern” text editors like &lt;a href="http://atom.io/"&gt;Atom&lt;/a&gt; and &lt;a href="http://www.sublimetext.com"&gt;Sublime Text&lt;/a&gt;, and more advanced features like editing source code and global find and replace.&lt;/p&gt;
+
+&lt;p&gt;As always, I appreciate any feedback or suggestions you may have, whether you’re a relative beginner or an expert. &lt;strong&gt;I especially appreciate bug and typo reports (no matter how small).&lt;/strong&gt; With the streamlined publication process made possible by the &lt;a href="http://softcover.io/"&gt;Softcover&lt;/a&gt; toolchain, I can usually deploy corrections within minutes of receiving them. Please email any feedback to michael@learnenough.com. And remember that you can get a &lt;a href="https://www.softcover.io/buy/28fdb94f/learn_enough_text_editor?code=launch"&gt;33% launch discount&lt;/a&gt; on the &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; ebooks through Monday, December 14.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=10692585"&gt;Discuss this post on Hacker News&lt;/a&gt;&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/5-yEIa8nBcA" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-text-editor-ebooks</feedburner:origLink></entry>
+
+  <entry>
+    <title type="html"><![CDATA[Draft of Learn Enough™ Text Editor to Be Dangerous]]></title>
+    <link href="http://feedproxy.google.com/~r/railstutorial/~3/-43-3DexvhY/learn-enough-text-editor-draft" />
+    <updated>2015-11-13T00:00:00+00:00</updated>
+    <id>http://news.learnenough.com/learn-enough-text-editor-draft</id>
+    <content type="html">
+
+      &lt;p&gt;I’m pleased to announce the availability of a &lt;a href="http://www.learnenough.com/text-editor-tutorial"&gt;draft of &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt;&lt;/a&gt;, an introduction to text editors that assumes no prerequisites other than a familiarity with the Unix command line (such as that provided by &lt;a href="http://www.learnenough.com/command-line-tutorial"&gt;&lt;em&gt;Learn Enough™ Command Line to Be Dangerous&lt;/em&gt;&lt;/a&gt;). Topics include Minimum Viable Vim, an introduction to “modern” text editors like &lt;a href="http://atom.io/"&gt;Atom&lt;/a&gt; and &lt;a href="http://www.sublimetext.com"&gt;Sublime Text&lt;/a&gt;, and more advanced features like editing source code and global find and replace.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.learnenough.com/text-editor-tutorial"&gt;&lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt;&lt;/a&gt; is the second in a series of &lt;a href="http://learnenough.com/"&gt;Learn Enough™ to Be Dangerous&lt;/a&gt; tutorials designed to fulfill the prerequisites of the &lt;a href="http://railstutorial.org/"&gt;&lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt;&lt;/a&gt;. As with the &lt;a href="http://railstutorial.org/book"&gt;&lt;em&gt;Ruby on Rails Tutorial&lt;/em&gt; book&lt;/a&gt;, the &lt;em&gt;Learn Enough™ Text Editor to Be Dangerous&lt;/em&gt; draft is available in a &lt;a href="http://www.learnenough.com/text-editor-tutorial"&gt;free online version&lt;/a&gt;, and I appreciate any feedback or suggestions you may have, whether you’re a relative beginner or an expert. &lt;strong&gt;I especially appreciate bug and typo reports (no matter how small).&lt;/strong&gt; Please email any feedback to admin@railstutorial.org. After getting feedback on the draft, I expect to incorporate the changes and release a more polished version some time in the next few weeks.&lt;/p&gt;
+
+
+
+    &lt;img src="http://feeds.feedburner.com/~r/railstutorial/~4/-43-3DexvhY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>http://news.learnenough.com/learn-enough-text-editor-draft</feedburner:origLink></entry>
+
+</feed>
+
+---
+
+feed.format:          atom
+feed.title:           Learn Enough to Be Dangerous
+feed.url:             http://news.learnenough.com/
+feed.feed_url:        http://feeds.feedburner.com/railstutorial
+feed.updated:         >>> DateTime.new( 2017, 2, 1, 23,38 )
+feed.generator.name:  Octopress
+feed.generator.url:   http://octopress.org/
+
+feed.items[0].title:   Learn Enough Dev Environment to Be Dangerous
+feed.items[0].url:     http://feedproxy.google.com/~r/railstutorial/~3/m8fo_xA6gGI/learn-enough-dev-environment
+feed.items[0].id:      http://news.learnenough.com/learn-enough-dev-environment
+feed.items[0].updated: >>> DateTime.new( 2017, 2, 1 )
