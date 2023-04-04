@@ -5,7 +5,10 @@ Gem Familiy
 
 [**feedparser**](feedparser) - web feed parser and normalizer (Atom, RSS, JSON Feed, HTML h-entry, etc.)
 
-[feedfilter](feedfilter) - feed filter and rules for easy (re)use
+[**feedfilter**](feedfilter) - feed filter and rules for easy (re)use
+
+[**feedtxt**](feedtxt)  - reads Feed.TXT - feeds in text (unicode) - publish & share posts, articles, podcasts, 'n' more
+
 
 
 
