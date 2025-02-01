@@ -15,7 +15,7 @@ require 'microformats'
 
 
 
-class TestMicroformats < MiniTest::Test
+class TestMicroformats < Minitest::Test
 
   def test_hentry
 

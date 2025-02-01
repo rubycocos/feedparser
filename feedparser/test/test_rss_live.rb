@@ -6,7 +6,7 @@
 
 require 'helper'
 
-class TestRssLive < MiniTest::Test
+class TestRssLive < Minitest::Test
 
 
   def test_rubyflow

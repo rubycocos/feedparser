@@ -8,7 +8,7 @@
 
 require 'helper'
 
-class TestAtomLive < MiniTest::Test
+class TestAtomLive < Minitest::Test
 
   def test_rubyonrails
     feed = fetch_and_parse_feed( 'http://weblog.rubyonrails.org/feed/atom.xml' )

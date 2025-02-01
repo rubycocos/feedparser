@@ -8,10 +8,10 @@ Hoe.spec 'feedparser' do
   self.summary = 'feedparser - web feed parser and normalizer (RSS, Atom, JSON Feed, HTML h-entry, etc.)'
   self.description = summary
 
-  self.urls    = ['https://github.com/feedparser/feedparser']
+  self.urls    = { home: 'https://github.com/feedparser/feedparser' }
 
   self.author  = 'Gerald Bauer'
-  self.email   = 'wwwmake@googlegroups.com'
+  self.email   = 'gerald.bauer@gmail.com'
 
   # switch extension to .markdown for gihub formatting
   self.readme_file  = 'README.md'

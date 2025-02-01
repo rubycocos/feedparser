@@ -28,7 +28,8 @@ class Parser
     ## check if starts with knownn xml prologs
     @head.start_with?( '<?xml' )  ||
     @head.start_with?( '<feed' ) ||
-    @head.start_with?( '<rss' )
+    @head.start_with?( '<rss' )  ||
+    @head.start_with?( '<rdf' )       # note - add support for rss 1.0 (aka rdf)
   end
   alias_method :xml?, :is_xml?
 

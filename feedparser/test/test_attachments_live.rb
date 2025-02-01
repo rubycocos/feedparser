@@ -14,7 +14,7 @@ require 'oga'
 
 
 
-class TestAttachmentsLive < MiniTest::Test
+class TestAttachmentsLive < Minitest::Test
 
   def test_atom_enclose
     feed = fetch_and_parse_feed( 'http://www.lse.ac.uk/assets/richmedia/webFeeds/publicLecturesAndEvents_AtomAllMediaTypesLatest100.xml' )

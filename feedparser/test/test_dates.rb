@@ -7,7 +7,7 @@
 require 'helper'
 
 
-class TestDates < MiniTest::Test
+class TestDates < Minitest::Test
 
   def test_iso8601   # used by atom, json feed
 
