@@ -240,7 +240,9 @@ class RssFeedBuilder
       contentElement = xml_item.at_xpath('media:content') || xml_item.at_xpath('media:group/media:content')
       if contentElement
         feed_item.attachments.first.url = contentElement.get('url')
-        feed_item.attachments.first.length = contentElement.get('duration')
+        # The media:content element sometimes have no duration set, but enclosures do and would be
+        # parsed first. We need to avoid overwriting a set length with nil
+        feed_item.attachments.first.length = contentElement.get('duration') if contentElement.get('duration')
       end
 
       thumbnailElement = xml_item.at_xpath('media:thumbnail') || xml_item.at_xpath('media:content/media:thumbnail') || xml_item.at_xpath('media:group/media:thumbnail')
