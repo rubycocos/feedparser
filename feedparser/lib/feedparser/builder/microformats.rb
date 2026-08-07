@@ -34,14 +34,11 @@ class HyFeedBuilder
 
     feed = Feed.new
     feed.format = 'html'
-
-    ### todo: add
-    ## - feed.title
-    ## - feed.url
-    ## - feed.feed_url
-    ## - feed.summary
-    ## - feed.authors
-    ## etc.
+    feed.title = hy.title
+    feed.url = hy.url
+    feed.feed_url = hy.feed_url
+    feed.summary = hy.summary
+    feed.authors = hy.authors
 
     hy.entries.each do |entry|
       feed.items << build_item( entry )
@@ -55,9 +52,7 @@ class HyFeedBuilder
     author = Author.new
 
     author.name     = hy.name
-
-    ## todo - add:
-    ## author.url
+    author.url      = hy.url
 
     author
   end
@@ -91,10 +86,25 @@ end # class HyFeedBuilder
 
 
 class HyFeed
+  attr_accessor :name
+  attr_accessor :summary
+
+  attr_accessor :url
+
+  attr_accessor :authors
   attr_accessor :entries
 
+  # note: title is an alias for name
+  alias :title  :name
+  alias :title= :name=
+
+  # note: in h-feeds, the feed url is the same as the site url
+  alias :feed_url  :url
+  alias :feed_url= :url=
+  
   def initialize
-     @entries = []
+    @entries = []
+    @authors = []
   end
 end # class HyFeed
 
@@ -178,6 +188,28 @@ class HyBuilder
 
      feed = HyFeed.new
 
+     props = h['properties']
+
+     if props['name']
+       feed.name = props['name'].join( '  ')
+     end
+
+     url_str = props.fetch( 'url', [] )[0]
+     if url_str
+       entry.url = url_str
+     end
+
+     if props['summary']
+       entry.summary = props['summary'].join( '  ' )
+     end
+
+     if props['author']
+       props['author'].each do |author_hash|
+         pp author_hash
+         entry.authors << build_author( author_hash )
+       end
+     end
+
      h['children'].each_with_index do |item_hash,i|
       puts "item #{i+1}:"
       pp item_hash
@@ -252,6 +284,7 @@ class HyBuilder
 
     author.name = h['value']
 
+    ## todo: read author url
     ## todo/fix: -- note: for now skip possible embedded h-card
     author
   end  # method build_author
